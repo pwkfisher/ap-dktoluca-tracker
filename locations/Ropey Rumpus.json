@@ -1,0 +1,660 @@
+[
+    {
+        "name": "Ropey Rumpus",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+            " "
+        ],
+        "children": [
+            {
+                "name": "Ropey Rumpus - Clear",
+                "chest_opened_img": "/images/checks/LevelClear.png",
+                "chest_unopened_img": "/images/checks/LevelClear_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Clear",
+                        "access_rules": ["EASY, $CanClimb", "NORMAL, $CanClimb", "HARD, $CanClimb"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Ropey Rumpus",
+                        "x": 5047,
+                        "y": 395,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Ropey Rumpus - KONG",
+                "chest_opened_img": "/images/checks/kong.png",
+                "chest_unopened_img": "/images/checks/kong_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "KONG",
+                        "access_rules": ["EASY, $HasBarrelCannon, $CanTeamAttack, $CanClimb", "EASY, $HasParry, $HasBarrelCannon, $CanClimb", "NORMAL, $HasBarrelCannon, $CanTeamAttack, $CanClimb", "NORMAL, $HasParry, $HasBarrelCannon, $CanClimb", "HARD, $CanClimb"],
+                        "visibility_rules": ["kongchecks"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Ropey Rumpus",
+                        "shape": "diamond",
+                        "x": 2193,
+                        "y": 688,
+                        "size": 30
+                    },
+                    {
+                        "map": "Ropey Rumpus",
+                        "shape": "diamond",
+                        "x": 1138,
+                        "y": 799,
+                        "size": 30
+                    },
+                    {
+                        "map": "Ropey Rumpus",
+                        "shape": "diamond",
+                        "x": 3020,
+                        "y": 1086,
+                        "size": 30
+                    },
+                    {
+                        "map": "Ropey Rumpus",
+                        "shape": "diamond",
+                        "x": 4747,
+                        "y": 401,
+                        "size": 30
+                    } 
+                ]
+            },
+            {
+                "name": "Ropey Rumpus - DK Coin",
+                "chest_opened_img": "/images/checks/dkcoin.png",
+                "chest_unopened_img": "/images/checks/dkcoin_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "DK Coin",
+                        "access_rules": ["EASY, $HasBarrelCannon, $CanCarry, $CanClimb", "NORMAL, $HasBarrelCannon, $CanCarry, $CanClimb", "HARD, $CanCarry, $CanClimb"],
+                        "visibility_rules": ["dkcoinchecks"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Ropey Rumpus",
+                        "x": 2193,
+                        "y": 688,
+                        "size": 30
+                    }             
+                ]
+            },
+            {
+                "name": "Ropey Rumpus - Balloon #1",
+                "chest_opened_img": "/images/checks/balloon1.png",
+                "chest_unopened_img": "/images/checks/balloon1_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Balloon #1 (In branching path)",
+                        "access_rules": ["EASY, $CanClimb", "NORMAL, $CanClimb", "HARD, $CanClimb"],
+                        "visibility_rules": ["balloonsanity"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Ropey Rumpus",
+                        "x": 3974,
+                        "y": 1463,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Ropey Rumpus - Balloon #2",
+                "chest_opened_img": "/images/checks/balloon1.png",
+                "chest_unopened_img": "/images/checks/balloon1_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Balloon #2 (In hidden upper path)",
+                        "access_rules": ["EASY, $HasBarrelCannon, $CanTeamAttack, $CanClimb", "EASY, $HasParry, $HasBarrelCannon, $CanClimb", "NORMAL, $HasBarrelCannon, $CanTeamAttack, $CanClimb", "NORMAL, $HasParry, $HasBarrelCannon, $CanClimb", "HARD, $HasBarrelCannon, $CanTeamAttack, $CanClimb", "HARD, $HasParry, $HasBarrelCannon, $CanClimb"],
+                        "visibility_rules": ["balloonsanity"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Ropey Rumpus",
+                        "x": 4009,
+                        "y": 113,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Ropey Rumpus - Bonus #1",
+                "chest_opened_img": "/images/checks/Bonus.png",
+                "chest_unopened_img": "/images/checks/Bonus_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Bonus #1",
+                        "access_rules": ["EASY, $CanCarry, $CanClimb", "NORMAL, $CanCarry, $CanClimb", "HARD, $CanCarry, $CanClimb"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Ropey Rumpus",
+                        "x": 2545,
+                        "y": 1203,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Ropey Rumpus - Bonus #2",
+                "chest_opened_img": "/images/checks/Bonus.png",
+                "chest_unopened_img": "/images/checks/Bonus_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Bonus #2",
+                        "access_rules": ["EASY, $HasParry, $CanClimb", "NORMAL, $HasParry, $CanClimb", "HARD, $HasParry, $CanClimb"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Ropey Rumpus",
+                        "x": 4917,
+                        "y": 436,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Ropey Rumpus - Banana Bunch #1",
+                "chest_opened_img": "/images/checks/bananabunch.png",
+                "chest_unopened_img": "/images/checks/bananabunch_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Banana Bunch #1 (At start)",
+                        "access_rules": ["EASY, $CanCarry, $CanClimb", "NORMAL, $CanCarry, $CanClimb", "HARD, $CanCarry, $CanClimb", "HARD, $CanCarry, $CanHover, $CanTeamAttack", "HARD, $CanSpin, $CanCarry, $CanTeamAttack"],
+                        "visibility_rules": ["bananasanity"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Ropey Rumpus",
+                        "x": 759,
+                        "y": 1124,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Ropey Rumpus - Banana Bunch #2",
+                "chest_opened_img": "/images/checks/bananabunch.png",
+                "chest_unopened_img": "/images/checks/bananabunch_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Banana Bunch #2 (Above green Buzz near K)",
+                        "access_rules": ["EASY, $CanClimb", "NORMAL, $CanClimb", "HARD, $CanClimb"],
+                        "visibility_rules": ["bananasanity"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Ropey Rumpus",
+                        "x": 1900,
+                        "y": 634,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Ropey Rumpus - Banana Bunch #3",
+                "chest_opened_img": "/images/checks/bananabunch.png",
+                "chest_unopened_img": "/images/checks/bananabunch_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Banana Bunch #3 (Next to red & green Buzz pair)",
+                        "access_rules": ["EASY, $CanClimb", "NORMAL, $CanClimb", "HARD, $CanClimb"],
+                        "visibility_rules": ["bananasanity"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Ropey Rumpus",
+                        "x": 187,
+                        "y": 512,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Ropey Rumpus - Banana Bunch #4",
+                "chest_opened_img": "/images/checks/bananabunch.png",
+                "chest_unopened_img": "/images/checks/bananabunch_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Banana Bunch #4 (Next to a pair of circling green Buzzes)",
+                        "access_rules": ["EASY, $CanClimb", "NORMAL, $CanClimb", "HARD, $CanClimb"],
+                        "visibility_rules": ["bananasanity"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Ropey Rumpus",
+                        "x": 1187,
+                        "y": 279,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Ropey Rumpus - Banana Bunch #5",
+                "chest_opened_img": "/images/checks/bananabunch.png",
+                "chest_unopened_img": "/images/checks/bananabunch_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Banana Bunch #5 (Above branching path)",
+                        "access_rules": ["EASY, $CanClimb", "NORMAL, $CanClimb", "HARD, $CanClimb"],
+                        "visibility_rules": ["bananasanity"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Ropey Rumpus",
+                        "x": 4812,
+                        "y": 1146,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Ropey Rumpus - Banana Bunch #6",
+                "chest_opened_img": "/images/checks/bananabunch.png",
+                "chest_unopened_img": "/images/checks/bananabunch_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Banana Bunch #6 (Above branching path)",
+                        "access_rules": ["EASY, $CanClimb", "NORMAL, $CanClimb", "HARD, $CanClimb"],
+                        "visibility_rules": ["bananasanity"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Ropey Rumpus",
+                        "x": 4847,
+                        "y": 1146,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Ropey Rumpus - Banana Bunch #7",
+                "chest_opened_img": "/images/checks/bananabunch.png",
+                "chest_unopened_img": "/images/checks/bananabunch_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Banana Bunch #7 (Next to circling green Buzzes after N)",
+                        "access_rules": ["EASY, $CanClimb", "NORMAL, $CanClimb", "HARD, $CanClimb"],
+                        "visibility_rules": ["bananasanity"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Ropey Rumpus",
+                        "x": 2651,
+                        "y": 902,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Ropey Rumpus - Banana Bunch #8",
+                "chest_opened_img": "/images/checks/bananabunch.png",
+                "chest_unopened_img": "/images/checks/bananabunch_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Banana Bunch #8 (Next to circling green Buzzes after N)",
+                        "access_rules": ["EASY, $CanClimb", "NORMAL, $CanClimb", "HARD, $CanClimb"],
+                        "visibility_rules": ["bananasanity"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Ropey Rumpus",
+                        "x": 2789,
+                        "y": 902,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Ropey Rumpus - Banana Bunch #9",
+                "chest_opened_img": "/images/checks/bananabunch.png",
+                "chest_unopened_img": "/images/checks/bananabunch_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Banana Bunch #9 (In hidden upper path)",
+                        "access_rules": ["EASY, $HasBarrelCannon, $CanTeamAttack, $CanClimb", "EASY, $HasParry, $HasBarrelCannon, $CanClimb", "NORMAL, $HasBarrelCannon, $CanTeamAttack, $CanClimb", "NORMAL, $HasParry, $HasBarrelCannon, $CanClimb", "HARD, $HasBarrelCannon, $CanTeamAttack, $CanClimb", "HARD, $HasParry, $HasBarrelCannon, $CanClimb"],
+                        "visibility_rules": ["bananasanity"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Ropey Rumpus",
+                        "x": 3917,
+                        "y": 113,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Ropey Rumpus - Banana Bunch #10",
+                "chest_opened_img": "/images/checks/bananabunch.png",
+                "chest_unopened_img": "/images/checks/bananabunch_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Banana Bunch #10 (Below hidden upper path)",
+                        "access_rules": ["EASY, $HasParry, $CanClimb", "NORMAL, $HasParry, $CanClimb", "HARD, $HasBothKongs, $CanClimb", "HARD, $HasParry, $CanClimb"],
+                        "visibility_rules": ["bananasanity"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Ropey Rumpus",
+                        "x": 3901,
+                        "y": 449,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Ropey Rumpus - Bear Coin #1",
+                "chest_opened_img": "/images/checks/bearcoin.png",
+                "chest_unopened_img": "/images/checks/bearcoin_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Bear Coin #1 (Cache at start)",
+                        "access_rules": ["EASY, $CanTeamAttack", "NORMAL, $CanTeamAttack", "HARD, $CanTeamAttack"],
+                        "visibility_rules": ["coinsanity"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Ropey Rumpus",
+                        "x": 235,
+                        "y": 1279,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Ropey Rumpus - Bear Coin #2",
+                "chest_opened_img": "/images/checks/bearcoin.png",
+                "chest_unopened_img": "/images/checks/bearcoin_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Bear Coin #2 (At start)",
+                        "access_rules": ["EASY, $CanTeamAttack", "NORMAL, $CanTeamAttack", "HARD, $CanTeamAttack"],
+                        "visibility_rules": ["coinsanity"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Ropey Rumpus",
+                        "x": 173,
+                        "y": 1140,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Ropey Rumpus - Bear Coin #3",
+                "chest_opened_img": "/images/checks/bearcoin.png",
+                "chest_unopened_img": "/images/checks/bearcoin_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Bear Coin #3 (Next to K)",
+                        "access_rules": ["EASY, $CanClimb", "NORMAL, $CanClimb", "HARD, $CanClimb"],
+                        "visibility_rules": ["coinsanity"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Ropey Rumpus",
+                        "x": 2345,
+                        "y": 709,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Ropey Rumpus - Bear Coin #4",
+                "chest_opened_img": "/images/checks/bearcoin.png",
+                "chest_unopened_img": "/images/checks/bearcoin_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Bear Coin #4 (Next to O)",
+                        "access_rules": ["EASY, $HasBarrelCannon, $CanClimb", "NORMAL, $HasBarrelCannon, $CanClimb", "HARD, $CanClimb"],
+                        "visibility_rules": ["coinsanity"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Ropey Rumpus",
+                        "x": 1312,
+                        "y": 804,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Ropey Rumpus - Bear Coin #5",
+                "chest_opened_img": "/images/checks/bearcoin.png",
+                "chest_unopened_img": "/images/checks/bearcoin_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Bear Coin #5 (Next to O)",
+                        "access_rules": ["EASY, $HasBarrelCannon, $CanClimb", "NORMAL, $HasBarrelCannon, $CanClimb", "HARD, $CanClimb"],
+                        "visibility_rules": ["coinsanity"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Ropey Rumpus",
+                        "x": 1312,
+                        "y": 840,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Ropey Rumpus - Bear Coin #6",
+                "chest_opened_img": "/images/checks/bearcoin.png",
+                "chest_unopened_img": "/images/checks/bearcoin_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Bear Coin #6 (Next to red & green Buzz pair)",
+                        "access_rules": ["EASY, $CanClimb", "NORMAL, $CanClimb", "HARD, $CanClimb"],
+                        "visibility_rules": ["coinsanity"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Ropey Rumpus",
+                        "x": 184,
+                        "y": 441,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Ropey Rumpus - Bear Coin #7",
+                "chest_opened_img": "/images/checks/bearcoin.png",
+                "chest_unopened_img": "/images/checks/bearcoin_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Bear Coin #7 (Next to red Buzz with a circling green Buzz)",
+                        "access_rules": ["EASY, $CanClimb", "NORMAL, $CanClimb", "HARD, $CanClimb"],
+                        "visibility_rules": ["coinsanity"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Ropey Rumpus",
+                        "x": 685,
+                        "y": 346,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Ropey Rumpus - Bear Coin #8",
+                "chest_opened_img": "/images/checks/bearcoin.png",
+                "chest_unopened_img": "/images/checks/bearcoin_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Bear Coin #8 (In hidden upper path)",
+                        "access_rules": ["EASY, $HasBarrelCannon, $CanTeamAttack, $CanClimb", "EASY, $HasParry, $HasBarrelCannon, $CanClimb", "NORMAL, $HasBarrelCannon, $CanTeamAttack, $CanClimb", "NORMAL, $HasParry, $HasBarrelCannon, $CanClimb", "HARD, $HasBarrelCannon, $CanTeamAttack, $CanClimb", "HARD, $HasParry, $HasBarrelCannon, $CanClimb"],
+                        "visibility_rules": ["coinsanity"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Ropey Rumpus",
+                        "x": 4107,
+                        "y": 113,
+                        "size": 30
+                    }
+                ]
+            }
+        ]
+    }
+]

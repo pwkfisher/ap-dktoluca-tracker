@@ -1,0 +1,385 @@
+[
+    {
+        "name": "Squeals on Wheels",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+            " "
+        ],
+        "children": [
+            {
+                "name": "Squeals on Wheels - Clear",
+                "chest_opened_img": "/images/checks/LevelClear.png",
+                "chest_unopened_img": "/images/checks/LevelClear_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Clear",
+                        "access_rules": ["EASY, $HasBarrelCannon, $CanCarry, $CanClimb", "NORMAL, $HasBarrelCannon, $CanCarry, $CanClimb", "HARD, $HasBarrelCannon, $CanCarry, $CanClimb"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Squeals on Wheels",
+                        "x": 2399,
+                        "y": 2562,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Squeals on Wheels - KONG",
+                "chest_opened_img": "/images/checks/kong.png",
+                "chest_unopened_img": "/images/checks/kong_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "KONG",
+                        "access_rules": ["EASY, $HasParry, $HasBarrelCannon, $CanCarry, $CanClimb", "NORMAL, $HasParry, $HasBarrelCannon, $CanCarry, $CanClimb", "HARD, $HasBarrelCannon, $CanCarry, $CanClimb"],
+                        "visibility_rules": ["kongchecks"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Squeals on Wheels",
+                        "shape": "diamond",
+                        "x": 1647,
+                        "y": 2335,
+                        "size": 30
+                    },
+                    {
+                        "map": "Squeals on Wheels",
+                        "shape": "diamond",
+                        "x": 559,
+                        "y": 1866,
+                        "size": 30
+                    },
+                    {
+                        "map": "Squeals on Wheels",
+                        "shape": "diamond",
+                        "x": 1744,
+                        "y": 1035,
+                        "size": 30
+                    },
+                    {
+                        "map": "Squeals on Wheels",
+                        "shape": "diamond",
+                        "x": 1676,
+                        "y": 2591,
+                        "size": 30
+                    }                                                           
+                ]
+            },
+            {
+                "name": "Squeals on Wheels - DK Coin",
+                "chest_opened_img": "/images/checks/dkcoin.png",
+                "chest_unopened_img": "/images/checks/dkcoin_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "DK Coin",
+                        "access_rules": ["EASY, $CanCarry, $CanTeamAttack, $CanClimb", "NORMAL, $CanCarry, $CanClimb", "HARD, $CanCarry, $CanClimb"],
+                        "visibility_rules": ["dkcoinchecks"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Squeals on Wheels",
+                        "x": 2350,
+                        "y": 921,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Squeals on Wheels - Balloon #1",
+                "chest_opened_img": "/images/checks/balloon3.png",
+                "chest_unopened_img": "/images/checks/balloon3_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Balloon #1 (No animal sign)",
+                        "access_rules": ["EASY, $HasParry, $HasBarrelCannon, $CanCarry, $CanClimb", "NORMAL, $HasParry, $HasBarrelCannon, $CanCarry, $CanClimb", "HARD, $HasParry, $HasBarrelCannon, $CanCarry, $CanClimb"],
+                        "visibility_rules": ["balloonsanity"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Squeals on Wheels",
+                        "x": 2198,
+                        "y": 2640,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Squeals on Wheels - Bonus #1",
+                "chest_opened_img": "/images/checks/Bonus.png",
+                "chest_unopened_img": "/images/checks/Bonus_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Bonus #1",
+                        "access_rules": ["EASY, $CanHover, $CanCarry, $CanClimb", "NORMAL, $CanHover, $CanCarry, $CanClimb", "HARD, $CanCarry, $CanClimb"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Squeals on Wheels",
+                        "x": 95,
+                        "y": 1642,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Squeals on Wheels - Bonus #2",
+                "chest_opened_img": "/images/checks/Bonus.png",
+                "chest_unopened_img": "/images/checks/Bonus_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Bonus #2",
+                        "access_rules": ["EASY, $CanCarry, $CanHover, $CanTeamAttack, $CanClimb", "NORMAL, $CanCarry, $CanHover, $CanTeamAttack, $CanClimb", "HARD, $CanCarry, $CanTeamAttack, $CanClimb"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Squeals on Wheels",
+                        "x": 1937,
+                        "y": 1267,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Squeals on Wheels - Banana Bunch #1",
+                "chest_opened_img": "/images/checks/bananabunch.png",
+                "chest_unopened_img": "/images/checks/bananabunch_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Banana Bunch #1 (At start)",
+                        "access_rules": ["EASY", "NORMAL", "HARD"],
+                        "visibility_rules": ["bananasanity"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Squeals on Wheels",
+                        "x": 522,
+                        "y": 2559,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Squeals on Wheels - Banana Bunch #2",
+                "chest_opened_img": "/images/checks/bananabunch.png",
+                "chest_unopened_img": "/images/checks/bananabunch_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Banana Bunch #2 (At end of first rope)",
+                        "access_rules": ["EASY, $CanCarry, $CanClimb", "NORMAL, $CanCarry, $CanClimb", "HARD, $CanCarry, $CanClimb"],
+                        "visibility_rules": ["bananasanity"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Squeals on Wheels",
+                        "x": 928,
+                        "y": 2222,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Squeals on Wheels - Banana Bunch #3",
+                "chest_opened_img": "/images/checks/bananabunch.png",
+                "chest_unopened_img": "/images/checks/bananabunch_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Banana Bunch #3 (At end of first rope)",
+                        "access_rules": ["EASY, $CanCarry, $CanClimb", "NORMAL, $CanCarry, $CanClimb", "HARD, $CanCarry, $CanClimb"],
+                        "visibility_rules": ["bananasanity"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Squeals on Wheels",
+                        "x": 1043,
+                        "y": 2222,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Squeals on Wheels - Banana Bunch #4",
+                "chest_opened_img": "/images/checks/bananabunch.png",
+                "chest_unopened_img": "/images/checks/bananabunch_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Banana Bunch #4 (Above steel keg after N)",
+                        "access_rules": ["EASY, $CanCarry, $CanClimb", "NORMAL, $CanCarry, $CanClimb", "HARD, $CanCarry, $CanClimb"],
+                        "visibility_rules": ["bananasanity"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Squeals on Wheels",
+                        "x": 1602,
+                        "y": 990,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Squeals on Wheels - Banana Bunch #5",
+                "chest_opened_img": "/images/checks/bananabunch.png",
+                "chest_unopened_img": "/images/checks/bananabunch_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Banana Bunch #5 (Above steel keg after N)",
+                        "access_rules": ["EASY, $CanCarry, $CanClimb", "NORMAL, $CanCarry, $CanClimb", "HARD, $CanCarry, $CanClimb"],
+                        "visibility_rules": ["bananasanity"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Squeals on Wheels",
+                        "x": 1570,
+                        "y": 990,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Squeals on Wheels - Banana Bunch #6",
+                "chest_opened_img": "/images/checks/bananabunch.png",
+                "chest_unopened_img": "/images/checks/bananabunch_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Banana Bunch #6 (In corner near Barrel Kannon)",
+                        "access_rules": ["EASY, $CanCarry, $CanClimb", "NORMAL, $CanCarry, $CanClimb", "HARD, $CanCarry, $CanClimb"],
+                        "visibility_rules": ["bananasanity"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Squeals on Wheels",
+                        "x": 226,
+                        "y": 1173,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Squeals on Wheels - Banana Bunch #7",
+                "chest_opened_img": "/images/checks/bananabunch.png",
+                "chest_unopened_img": "/images/checks/bananabunch_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Banana Bunch #7 (Near top of the level)",
+                        "access_rules": ["EASY, $HasBarrelCannon, $CanCarry, $CanClimb", "NORMAL, $HasBarrelCannon, $CanCarry, $CanClimb", "HARD, $HasBarrelCannon, $CanCarry, $CanClimb"],
+                        "visibility_rules": ["bananasanity"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Squeals on Wheels",
+                        "x": 1153,
+                        "y": 566,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Squeals on Wheels - Bear Coin #1",
+                "chest_opened_img": "/images/checks/bearcoin.png",
+                "chest_unopened_img": "/images/checks/bearcoin_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Bear Coin #1 (Above Booty Bird)",
+                        "access_rules": ["EASY, $HasBarrelCannon, $CanCarry, $CanTeamAttack, $CanClimb", "EASY, $HasParry, $HasBarrelCannon, $CanCarry, $CanClimb", "NORMAL, $HasParry, $HasBarrelCannon, $CanCarry, $CanClimb", "HARD, $HasBarrelCannon, $CanCarry, $CanTeamAttack, $CanClimb", "HARD, $HasParry, $HasBarrelCannon, $CanCarry, $CanClimb"],
+                        "visibility_rules": ["coinsanity"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Squeals on Wheels",
+                        "x": 1680,
+                        "y": 2516,
+                        "size": 30
+                    }
+                ]
+            }
+        ]
+    }
+]

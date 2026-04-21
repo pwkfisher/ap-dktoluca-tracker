@@ -1,0 +1,310 @@
+[
+    {
+        "name": "Tracker Barrel Trek",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+            " "
+        ],
+        "children": [
+            {
+                "name": "Tracker Barrel Trek - Clear",
+                "chest_opened_img": "/images/checks/LevelClear.png",
+                "chest_unopened_img": "/images/checks/LevelClear_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Clear",
+                        "access_rules": ["EASY, $HasBarrelTracker, $HasBarrelCannon", "NORMAL, $HasBarrelTracker, $HasBarrelCannon", "HARD, $HasBarrelTracker, $HasBarrelCannon"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Tracker Barrel Trek",
+                        "x": 2444,
+                        "y": 55,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Tracker Barrel Trek - KONG",
+                "chest_opened_img": "/images/checks/kong.png",
+                "chest_unopened_img": "/images/checks/kong_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "KONG",
+                        "access_rules": ["EASY, $CanSpin, $HasBarrelTracker, $HasBarrelCannon", "NORMAL, $CanSpin, $HasBarrelTracker, $HasBarrelCannon", "HARD, $HasBarrelTracker, $HasBarrelCannon"],
+                        "visibility_rules": ["kongchecks"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Tracker Barrel Trek",
+                        "shape": "diamond",
+                        "x": 1005,
+                        "y": 1872,
+                        "size": 30
+                    },
+                    {
+                        "map": "Tracker Barrel Trek",
+                        "shape": "diamond",
+                        "x": 1596,
+                        "y": 1472,
+                        "size": 30
+                    },
+                    {
+                        "map": "Tracker Barrel Trek",
+                        "shape": "diamond",
+                        "x": 1792,
+                        "y": 1035,
+                        "size": 30
+                    },
+                    {
+                        "map": "Tracker Barrel Trek",
+                        "shape": "diamond",
+                        "x": 406,
+                        "y": 406,
+                        "size": 30
+                    }                                                            
+                ]
+            },
+            {
+                "name": "Tracker Barrel Trek - DK Coin",
+                "chest_opened_img": "/images/checks/dkcoin.png",
+                "chest_unopened_img": "/images/checks/dkcoin_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "DK Coin",
+                        "access_rules": ["EASY, $HasBarrelTracker, $HasBarrelCannon, $HasEllie, $CanCarry", "NORMAL, $HasBarrelTracker, $HasBarrelCannon, $HasEllie, $CanCarry", "HARD, $HasBarrelTracker, $HasBarrelCannon, $HasEllie, $CanCarry"],
+                        "visibility_rules": ["dkcoinchecks"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Tracker Barrel Trek",
+                        "x": 1531,
+                        "y": 283,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Tracker Barrel Trek - Balloon #1",
+                "chest_opened_img": "/images/checks/balloon3.png",
+                "chest_unopened_img": "/images/checks/balloon3_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Balloon #1 (Near checkpoint)",
+                        "access_rules": ["EASY, $HasBarrelTracker, $HasBarrelCannon", "NORMAL, $HasBarrelTracker, $HasBarrelCannon", "HARD, $HasBarrelTracker, $HasBarrelCannon"],
+                        "visibility_rules": ["balloonsanity"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Tracker Barrel Trek",
+                        "x": 157,
+                        "y": 1444,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Tracker Barrel Trek - Bonus #1",
+                "chest_opened_img": "/images/checks/Bonus.png",
+                "chest_unopened_img": "/images/checks/Bonus_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Bonus #1",
+                        "access_rules": ["EASY, $HasBarrelTracker, $HasBarrelCannon, $CanHover", "NORMAL, $HasBarrelTracker, $HasBarrelCannon, $CanHover", "HARD, $HasBarrelTracker, $HasBarrelCannon, $CanHover"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Tracker Barrel Trek",
+                        "x": 2238,
+                        "y": 1544,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Tracker Barrel Trek - Bonus #2",
+                "chest_opened_img": "/images/checks/Bonus.png",
+                "chest_unopened_img": "/images/checks/Bonus_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Bonus #2",
+                        "access_rules": ["EASY, $HasBarrelTracker, $HasBarrelCannon, $HasEllie", "NORMAL, $HasBarrelTracker, $HasBarrelCannon, $HasEllie", "HARD, $HasBarrelTracker, $HasBarrelCannon, $HasBothKongs", "HARD, $HasBarrelTracker, $HasBarrelCannon, $HasEllie"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Tracker Barrel Trek",
+                        "x": 861,
+                        "y": 985,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Tracker Barrel Trek - Banana Bunch #1",
+                "chest_opened_img": "/images/checks/bananabunch.png",
+                "chest_unopened_img": "/images/checks/bananabunch_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Banana Bunch #1 (Above Tracker Barrel)",
+                        "access_rules": ["EASY, $HasBarrelTracker", "NORMAL, $HasBarrelTracker", "HARD, $HasBarrelTracker", "HARD, $HasBarrelCannon, $CanHover", "HARD, $CanSpin, $HasBothKongs, $HasBarrelCannon"],
+                        "visibility_rules": ["bananasanity"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Tracker Barrel Trek",
+                        "x": 2208,
+                        "y": 1676,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Tracker Barrel Trek - Bear Coin #1",
+                "chest_opened_img": "/images/checks/bearcoin.png",
+                "chest_unopened_img": "/images/checks/bearcoin_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Bear Coin #1 (Near start above DK Barrel)",
+                        "access_rules": ["EASY", "NORMAL", "HARD"],
+                        "visibility_rules": ["coinsanity"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Tracker Barrel Trek",
+                        "x": 478,
+                        "y": 1957,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Tracker Barrel Trek - Bear Coin #2",
+                "chest_opened_img": "/images/checks/bearcoin.png",
+                "chest_unopened_img": "/images/checks/bearcoin_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Bear Coin #2 (Between Krumples)",
+                        "access_rules": ["EASY, $HasBarrelTracker, $HasKiddy", "NORMAL, $CanHover", "NORMAL, $HasBarrelTracker", "HARD, $CanHover", "HARD, $CanSpin", "HARD, $HasBarrelTracker"],
+                        "visibility_rules": ["coinsanity"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Tracker Barrel Trek",
+                        "x": 1598,
+                        "y": 1930,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Tracker Barrel Trek - Bear Coin #3",
+                "chest_opened_img": "/images/checks/bearcoin.png",
+                "chest_unopened_img": "/images/checks/bearcoin_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Bear Coin #3 (Behind waterffal above two Re-Koils)",
+                        "access_rules": ["EASY, $HasBarrelTracker, $HasBarrelCannon", "NORMAL, $HasBarrelTracker, $HasBarrelCannon", "HARD, $HasBarrelTracker, $HasBarrelCannon"],
+                        "visibility_rules": ["coinsanity"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Tracker Barrel Trek",
+                        "x": 1679,
+                        "y": 1009,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Tracker Barrel Trek - Bear Coin #4",
+                "chest_opened_img": "/images/checks/bearcoin.png",
+                "chest_unopened_img": "/images/checks/bearcoin_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Bear Coin #4 (Before Koin)",
+                        "access_rules": ["EASY, $HasBarrelTracker, $HasBarrelCannon", "NORMAL, $HasBarrelTracker, $HasBarrelCannon", "HARD, $HasBarrelTracker, $HasBarrelCannon"],
+                        "visibility_rules": ["coinsanity"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Tracker Barrel Trek",
+                        "x": 990,
+                        "y": 169,
+                        "size": 30
+                    }
+                ]
+            }
+        ]
+    }
+]

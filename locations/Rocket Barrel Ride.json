@@ -1,0 +1,535 @@
+[
+    {
+        "name": "Rocket Barrel Ride",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+            " "
+        ],
+        "children": [
+            {
+                "name": "Rocket Barrel Ride - Clear",
+                "chest_opened_img": "/images/checks/LevelClear.png",
+                "chest_unopened_img": "/images/checks/LevelClear_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Clear",
+                        "access_rules": ["EASY, $HasBarrelCannon, $HasBarrelRocket", "NORMAL, $HasBarrelCannon, $HasBarrelRocket", "HARD, $HasBarrelCannon, $HasBarrelRocket"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Rocket Barrel Ride",
+                        "x": 4469,
+                        "y": 126,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Rocket Barrel Ride - KONG",
+                "chest_opened_img": "/images/checks/kong.png",
+                "chest_unopened_img": "/images/checks/kong_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "KONG",
+                        "access_rules": ["EASY, $HasBarrelCannon, $CanTeamAttack, $HasBarrelRocket", "EASY, $HasParry, $HasBarrelCannon, $HasBarrelRocket", "NORMAL, $HasBarrelCannon, $CanTeamAttack, $HasBarrelRocket", "NORMAL, $HasParry, $HasBarrelCannon, $HasBarrelRocket", "HARD, $CanSpin, $HasBarrelCannon, $HasBarrelRocket", "HARD, $HasBarrelCannon, $CanTeamAttack, $HasBarrelRocket", "HARD, $HasParry, $HasBarrelCannon, $HasBarrelRocket"],
+                        "visibility_rules": ["kongchecks"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Rocket Barrel Ride",
+                        "shape": "diamond",
+                        "x": 1198,
+                        "y": 1250,
+                        "size": 30
+                    },
+                    {
+                        "map": "Rocket Barrel Ride",
+                        "shape": "diamond",
+                        "x": 2619,
+                        "y": 1042,
+                        "size": 30
+                    },
+                    {
+                        "map": "Rocket Barrel Ride",
+                        "shape": "diamond",
+                        "x": 3299,
+                        "y": 374,
+                        "size": 30
+                    },
+                    {
+                        "map": "Rocket Barrel Ride",
+                        "shape": "diamond",
+                        "x": 4316,
+                        "y": 558,
+                        "size": 30
+                    }                                                            
+                ]
+            },
+            {
+                "name": "Rocket Barrel Ride - DK Coin",
+                "chest_opened_img": "/images/checks/dkcoin.png",
+                "chest_unopened_img": "/images/checks/dkcoin_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "DK Coin",
+                        "access_rules": ["EASY, $HasBarrelCannon, $CanCarry, $HasBarrelRocket", "NORMAL, $HasBarrelCannon, $CanCarry, $HasBarrelRocket", "HARD, $HasBarrelCannon, $CanCarry, $HasBarrelRocket"],
+                        "visibility_rules": ["dkcoinchecks"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Rocket Barrel Ride",
+                        "x": 3736,
+                        "y": 224,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Rocket Barrel Ride - Balloon #1",
+                "chest_opened_img": "/images/checks/balloon1.png",
+                "chest_unopened_img": "/images/checks/balloon1_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Balloon #1 (After Krumple pair)",
+                        "access_rules": ["EASY, $HasBarrelCannon, $CanTeamAttack, $HasBarrelRocket", "EASY, $HasParry, $HasBarrelCannon, $HasBarrelRocket", "NORMAL, $HasBarrelCannon, $CanTeamAttack, $HasBarrelRocket", "NORMAL, $HasParry, $HasBarrelCannon, $HasBarrelRocket", "HARD, $CanSpin, $HasBarrelCannon, $HasBarrelRocket", "HARD, $HasBarrelCannon, $CanTeamAttack, $HasBarrelRocket", "HARD, $HasParry, $HasBarrelCannon, $HasBarrelRocket"],
+                        "visibility_rules": ["balloonsanity"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Rocket Barrel Ride",
+                        "x": 4417,
+                        "y": 1240,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Rocket Barrel Ride - Balloon #2",
+                "chest_opened_img": "/images/checks/balloon3.png",
+                "chest_unopened_img": "/images/checks/balloon3_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Balloon #2 (No animal sign)",
+                        "access_rules": ["EASY, $HasParry, $HasBarrelCannon, $HasBarrelRocket", "NORMAL, $HasParry, $HasBarrelCannon, $HasBarrelRocket", "HARD, $HasParry, $HasBarrelCannon, $HasBarrelRocket"],
+                        "visibility_rules": ["balloonsanity"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Rocket Barrel Ride",
+                        "x": 4054,
+                        "y": 1007,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Rocket Barrel Ride - Bonus #1",
+                "chest_opened_img": "/images/checks/Bonus.png",
+                "chest_unopened_img": "/images/checks/Bonus_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Bonus #1",
+                        "access_rules": ["EASY, $HasBarrelCannon, $HasBarrelRocket", "NORMAL, $HasBarrelCannon, $HasBarrelRocket", "HARD, $HasBarrelCannon, $HasBarrelRocket"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Rocket Barrel Ride",
+                        "x": 2043,
+                        "y": 952,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Rocket Barrel Ride - Bonus #2",
+                "chest_opened_img": "/images/checks/Bonus.png",
+                "chest_unopened_img": "/images/checks/Bonus_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Bonus #2",
+                        "access_rules": ["EASY, $HasBarrelCannon, $HasBarrelRocket", "NORMAL, $HasBarrelCannon, $HasBarrelRocket", "HARD, $HasBarrelCannon, $HasBarrelRocket"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Rocket Barrel Ride",
+                        "x": 4269,
+                        "y": 1202,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Rocket Barrel Ride - Banana Bunch #1",
+                "chest_opened_img": "/images/checks/bananabunch.png",
+                "chest_unopened_img": "/images/checks/bananabunch_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Banana Bunch #1 (After first rocket)",
+                        "access_rules": ["EASY, $HasBarrelRocket", "NORMAL, $HasBarrelRocket", "HARD, $HasBarrelRocket"],
+                        "visibility_rules": ["bananasanity"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Rocket Barrel Ride",
+                        "x": 849,
+                        "y": 811,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Rocket Barrel Ride - Banana Bunch #2",
+                "chest_opened_img": "/images/checks/bananabunch.png",
+                "chest_unopened_img": "/images/checks/bananabunch_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Banana Bunch #2 (Behind waterfall near start)",
+                        "access_rules": ["EASY, $HasBarrelRocket", "NORMAL, $HasBarrelRocket", "HARD, $HasBarrelRocket"],
+                        "visibility_rules": ["bananasanity"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Rocket Barrel Ride",
+                        "x": 575,
+                        "y": 596,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Rocket Barrel Ride - Banana Bunch #3",
+                "chest_opened_img": "/images/checks/bananabunch.png",
+                "chest_unopened_img": "/images/checks/bananabunch_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Banana Bunch #3 (Near Barrel Kannons)",
+                        "access_rules": ["EASY, $CanHover, $HasBarrelRocket", "NORMAL, $CanHover, $HasBarrelRocket", "HARD, $CanHover, $HasBarrelRocket"],
+                        "visibility_rules": ["bananasanity"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Rocket Barrel Ride",
+                        "x": 742,
+                        "y": 97,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Rocket Barrel Ride - Banana Bunch #4",
+                "chest_opened_img": "/images/checks/bananabunch.png",
+                "chest_unopened_img": "/images/checks/bananabunch_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Banana Bunch #4 (After Barrel Kannons)",
+                        "access_rules": ["EASY, $HasBarrelRocket", "NORMAL, $HasBarrelRocket", "HARD, $HasBarrelRocket"],
+                        "visibility_rules": ["bananasanity"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Rocket Barrel Ride",
+                        "x": 66,
+                        "y": 42,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Rocket Barrel Ride - Banana Bunch #5",
+                "chest_opened_img": "/images/checks/bananabunch.png",
+                "chest_unopened_img": "/images/checks/bananabunch_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Banana Bunch #5 (Near checkpoint)",
+                        "access_rules": ["EASY, $HasBarrelCannon, $HasBarrelRocket", "NORMAL, $HasBarrelCannon, $HasBarrelRocket", "HARD, $HasBarrelCannon, $HasBarrelRocket"],
+                        "visibility_rules": ["bananasanity"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Rocket Barrel Ride",
+                        "x": 2444,
+                        "y": 496,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Rocket Barrel Ride - Banana Bunch #6",
+                "chest_opened_img": "/images/checks/bananabunch.png",
+                "chest_unopened_img": "/images/checks/bananabunch_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Banana Bunch #6 (After Krumple pair)",
+                        "access_rules": ["EASY, $HasBarrelCannon, $HasBarrelRocket", "NORMAL, $HasBarrelCannon, $HasBarrelRocket", "HARD, $HasBarrelCannon, $HasBarrelRocket"],
+                        "visibility_rules": ["bananasanity"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Rocket Barrel Ride",
+                        "x": 4419,
+                        "y": 1329,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Rocket Barrel Ride - Banana Bunch #7",
+                "chest_opened_img": "/images/checks/bananabunch.png",
+                "chest_unopened_img": "/images/checks/bananabunch_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Banana Bunch #7 (After Krumple pair)",
+                        "access_rules": ["EASY, $HasBarrelCannon, $HasBarrelRocket", "NORMAL, $HasBarrelCannon, $HasBarrelRocket", "HARD, $HasBarrelCannon, $HasBarrelRocket"],
+                        "visibility_rules": ["bananasanity"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Rocket Barrel Ride",
+                        "x": 4455,
+                        "y": 1329,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Rocket Barrel Ride - Bear Coin #1",
+                "chest_opened_img": "/images/checks/bearcoin.png",
+                "chest_unopened_img": "/images/checks/bearcoin_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Bear Coin #1 (Behind waterfall near start)",
+                        "access_rules": ["EASY, $HasBarrelRocket", "NORMAL, $HasBarrelRocket", "HARD, $HasBarrelRocket"],
+                        "visibility_rules": ["coinsanity"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Rocket Barrel Ride",
+                        "x": 687,
+                        "y": 560,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Rocket Barrel Ride - Bear Coin #2",
+                "chest_opened_img": "/images/checks/bearcoin.png",
+                "chest_unopened_img": "/images/checks/bearcoin_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Bear Coin #2 (Before third rocket)",
+                        "access_rules": ["EASY, $HasBarrelRocket", "NORMAL, $HasBarrelRocket", "HARD, $HasBarrelRocket"],
+                        "visibility_rules": ["coinsanity"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Rocket Barrel Ride",
+                        "x": 69,
+                        "y": 818,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Rocket Barrel Ride - Bear Coin #3",
+                "chest_opened_img": "/images/checks/bearcoin.png",
+                "chest_unopened_img": "/images/checks/bearcoin_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Bear Coin #3 (Near Barrel Kannons)",
+                        "access_rules": ["EASY, $HasBarrelCannon, $HasBarrelRocket", "NORMAL, $HasBarrelCannon, $HasBarrelRocket", "HARD, $HasBarrelCannon, $HasBarrelRocket"],
+                        "visibility_rules": ["coinsanity"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Rocket Barrel Ride",
+                        "x": 847,
+                        "y": 26,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Rocket Barrel Ride - Bear Coin #4",
+                "chest_opened_img": "/images/checks/bearcoin.png",
+                "chest_unopened_img": "/images/checks/bearcoin_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Bear Coin #4 (Behind waterfall above K)",
+                        "access_rules": ["EASY, $HasBarrelRocket", "NORMAL, $HasBarrelRocket", "HARD, $HasBarrelRocket"],
+                        "visibility_rules": ["coinsanity"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Rocket Barrel Ride",
+                        "x": 1157,
+                        "y": 773,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Rocket Barrel Ride - Bear Coin #5",
+                "chest_opened_img": "/images/checks/bearcoin.png",
+                "chest_unopened_img": "/images/checks/bearcoin_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Bear Coin #5 (Next to a rotating barrel)",
+                        "access_rules": ["EASY, $HasBarrelCannon, $HasBarrelRocket", "NORMAL, $HasBarrelCannon, $HasBarrelRocket", "HARD, $HasBarrelCannon, $HasBarrelRocket"],
+                        "visibility_rules": ["coinsanity"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Rocket Barrel Ride",
+                        "x": 2669,
+                        "y": 1443,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Rocket Barrel Ride - Bear Coin #6",
+                "chest_opened_img": "/images/checks/bearcoin.png",
+                "chest_unopened_img": "/images/checks/bearcoin_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Bear Coin #6 (Above Krimp behind waterfall)",
+                        "access_rules": ["EASY, $HasBarrelCannon, $HasBarrelRocket", "NORMAL, $HasBarrelCannon, $HasBarrelRocket", "HARD, $HasBarrelCannon, $HasBarrelRocket"],
+                        "visibility_rules": ["coinsanity"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Rocket Barrel Ride",
+                        "x": 2442,
+                        "y": 4,
+                        "size": 30
+                    }
+                ]
+            }
+        ]
+    }
+]

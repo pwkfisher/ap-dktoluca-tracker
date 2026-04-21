@@ -1,0 +1,335 @@
+[
+    {
+        "name": "Ripsaw Rage",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+            " "
+        ],
+        "children": [
+            {
+                "name": "Ripsaw Rage - Clear",
+                "chest_opened_img": "/images/checks/LevelClear.png",
+                "chest_unopened_img": "/images/checks/LevelClear_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Clear",
+                        "access_rules": ["EASY", "NORMAL", "HARD"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Ripsaw Rage",
+                        "x": 3653,
+                        "y": 169,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Ripsaw Rage - KONG",
+                "chest_opened_img": "/images/checks/kong.png",
+                "chest_unopened_img": "/images/checks/kong_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "KONG",
+                        "access_rules": ["EASY", "NORMAL", "HARD"],
+                        "visibility_rules": ["kongchecks"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Ripsaw Rage",
+                        "shape": "diamond",
+                        "x": 414,
+                        "y": 749,
+                        "size": 30
+                    },
+                    {
+                        "map": "Ripsaw Rage",
+                        "shape": "diamond",
+                        "x": 1016,
+                        "y": 783,
+                        "size": 30
+                    },
+                    {
+                        "map": "Ripsaw Rage",
+                        "shape": "diamond",
+                        "x": 1925,
+                        "y": 294,
+                        "size": 30
+                    },
+                    {
+                        "map": "Ripsaw Rage",
+                        "shape": "diamond",
+                        "x": 3318,
+                        "y": 704,
+                        "size": 30
+                    }                                                            
+                ]
+            },
+            {
+                "name": "Ripsaw Rage - DK Coin",
+                "chest_opened_img": "/images/checks/dkcoin.png",
+                "chest_unopened_img": "/images/checks/dkcoin_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "DK Coin",
+                        "access_rules": ["EASY, $HasBarrelCannon, $CanCarry, $HasBarrelInvincible", "NORMAL, $HasBarrelCannon, $CanCarry, $HasBarrelInvincible", "HARD, $HasBarrelCannon, $CanCarry, $HasBarrelInvincible"],
+                        "visibility_rules": ["dkcoinchecks"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Ripsaw Rage",
+                        "x": 3641,
+                        "y": 197,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Ripsaw Rage - Bonus #1",
+                "chest_opened_img": "/images/checks/Bonus.png",
+                "chest_unopened_img": "/images/checks/Bonus_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Bonus #1",
+                        "access_rules": ["EASY, $CanCarry", "NORMAL, $CanCarry", "HARD, $CanCarry", "HARD, $HasBothKongs"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Ripsaw Rage",
+                        "x": 932,
+                        "y": 519,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Ripsaw Rage - Bonus #2",
+                "chest_opened_img": "/images/checks/Bonus.png",
+                "chest_unopened_img": "/images/checks/Bonus_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Bonus #2",
+                        "access_rules": ["EASY, $CanCarry, $HasBarrelInvincible", "NORMAL, $CanCarry, $HasBarrelInvincible", "HARD, $CanCarry, $HasBarrelInvincible"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Ripsaw Rage",
+                        "x": 2694,
+                        "y": 112,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Ripsaw Rage - Banana Bunch #1",
+                "chest_opened_img": "/images/checks/bananabunch.png",
+                "chest_unopened_img": "/images/checks/bananabunch_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Banana Bunch #1 (Below branch)",
+                        "access_rules": ["EASY", "NORMAL", "HARD"],
+                        "visibility_rules": ["bananasanity"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Ripsaw Rage",
+                        "x": 432,
+                        "y": 50,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Ripsaw Rage - Banana Bunch #2",
+                "chest_opened_img": "/images/checks/bananabunch.png",
+                "chest_unopened_img": "/images/checks/bananabunch_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Banana Bunch #2 (Below Sneek)",
+                        "access_rules": ["EASY", "NORMAL", "HARD"],
+                        "visibility_rules": ["bananasanity"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Ripsaw Rage",
+                        "x": 2166,
+                        "y": 618,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Ripsaw Rage - Banana Bunch #3",
+                "chest_opened_img": "/images/checks/bananabunch.png",
+                "chest_unopened_img": "/images/checks/bananabunch_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Banana Bunch #3 (Between branches before steel keg)",
+                        "access_rules": ["EASY", "NORMAL", "HARD"],
+                        "visibility_rules": ["bananasanity"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Ripsaw Rage",
+                        "x": 2696,
+                        "y": 358,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Ripsaw Rage - Banana Bunch #4",
+                "chest_opened_img": "/images/checks/bananabunch.png",
+                "chest_unopened_img": "/images/checks/bananabunch_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Banana Bunch #4 (Below branch near Koin)",
+                        "access_rules": ["EASY", "NORMAL", "HARD"],
+                        "visibility_rules": ["bananasanity"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Ripsaw Rage",
+                        "x": 3401,
+                        "y": 386,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Ripsaw Rage - Bear Coin #1",
+                "chest_opened_img": "/images/checks/bearcoin.png",
+                "chest_unopened_img": "/images/checks/bearcoin_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Bear Coin #1 (After exiting second tree at start)",
+                        "access_rules": ["EASY, $HasBothKongs, $CanCarry", "NORMAL, $HasBothKongs, $CanCarry", "HARD, $CanCarry", "HARD, $HasBothKongs"],
+                        "visibility_rules": ["coinsanity"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Ripsaw Rage",
+                        "x": 439,
+                        "y": 402,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Ripsaw Rage - Bear Coin #2",
+                "chest_opened_img": "/images/checks/bearcoin.png",
+                "chest_unopened_img": "/images/checks/bearcoin_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Bear Coin #2 (Below wooden barrel for bonus 1)",
+                        "access_rules": ["EASY", "NORMAL", "HARD"],
+                        "visibility_rules": ["coinsanity"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Ripsaw Rage",
+                        "x": 1196,
+                        "y": 702,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Ripsaw Rage - Bear Coin #3",
+                "chest_opened_img": "/images/checks/bearcoin.png",
+                "chest_unopened_img": "/images/checks/bearcoin_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Bear Coin #3 (Between branches)",
+                        "access_rules": ["EASY, $CanSpin", "NORMAL, $CanSpin", "HARD, $CanSpin", "HARD, $HasBothKongs"],
+                        "visibility_rules": ["coinsanity"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Ripsaw Rage",
+                        "x": 1923,
+                        "y": 128,
+                        "size": 30
+                    }
+                ]
+            }
+        ]
+    }
+]

@@ -1,0 +1,235 @@
+[
+    {
+        "name": "Stampede Sprint",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+            " "
+        ],
+        "children": [
+            {
+                "name": "Stampede Sprint - Clear",
+                "chest_opened_img": "/images/checks/LevelClear.png",
+                "chest_unopened_img": "/images/checks/LevelClear_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Clear",
+                        "access_rules": ["EASY, $HasBarrelCannon, $CanHover, $HasEllie", "NORMAL, $HasBarrelCannon, $CanHover, $HasEllie", "HARD, $HasBarrelCannon, $CanHover, $HasEllie"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Stampede Sprint",
+                        "x": 3273,
+                        "y": 1371,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Stampede Sprint - KONG",
+                "chest_opened_img": "/images/checks/kong.png",
+                "chest_unopened_img": "/images/checks/kong_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "KONG",
+                        "access_rules": ["EASY, $HasBarrelCannon, $CanHover, $HasEllie, $HasSquitter, $CanTeamAttack", "NORMAL, $HasBarrelCannon, $CanHover, $HasEllie, $HasSquitter, $CanTeamAttack", "HARD, $HasBarrelCannon, $CanHover, $HasEllie, $HasSquitter, $CanTeamAttack"],
+                        "visibility_rules": ["kongchecks"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Stampede Sprint",
+                        "shape": "diamond",
+                        "x": 381,
+                        "y": 202,
+                        "size": 30
+                    },
+                    {
+                        "map": "Stampede Sprint",
+                        "shape": "diamond",
+                        "x": 1999,
+                        "y": 246,
+                        "size": 30
+                    },
+                    {
+                        "map": "Stampede Sprint",
+                        "shape": "diamond",
+                        "x": 1098,
+                        "y": 867,
+                        "size": 30
+                    },
+                    {
+                        "map": "Stampede Sprint",
+                        "shape": "diamond",
+                        "x": 1834,
+                        "y": 1448,
+                        "size": 30
+                    }                                                            
+                ]
+            },
+            {
+                "name": "Stampede Sprint - DK Coin",
+                "chest_opened_img": "/images/checks/dkcoin.png",
+                "chest_unopened_img": "/images/checks/dkcoin_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "DK Coin",
+                        "access_rules": ["EASY, $HasBarrelCannon, $CanHover, $HasEllie, $CanCarry", "NORMAL, $HasBarrelCannon, $CanHover, $HasEllie, $CanCarry", "HARD, $HasBarrelCannon, $CanHover, $HasEllie, $CanCarry"],
+                        "visibility_rules": ["dkcoinchecks"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Stampede Sprint",
+                        "x": 3476,
+                        "y": 1462,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Stampede Sprint - Bonus #1",
+                "chest_opened_img": "/images/checks/Bonus.png",
+                "chest_unopened_img": "/images/checks/Bonus_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Bonus #1",
+                        "access_rules": ["EASY, $CanTeamAttack, $HasSquitter", "NORMAL, $CanTeamAttack, $HasSquitter", "HARD, $CanTeamAttack, $HasSquitter"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Stampede Sprint",
+                        "x": 38,
+                        "y": 97,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Stampede Sprint - Bonus #2",
+                "chest_opened_img": "/images/checks/Bonus.png",
+                "chest_unopened_img": "/images/checks/Bonus_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Bonus #2",
+                        "access_rules": ["EASY, $CanTeamAttack, $HasSquawks", "NORMAL, $CanTeamAttack, $HasSquawks", "HARD, $CanTeamAttack, $HasSquawks"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Stampede Sprint",
+                        "x": 168,
+                        "y": 68,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Stampede Sprint - Bonus #3",
+                "chest_opened_img": "/images/checks/Bonus.png",
+                "chest_unopened_img": "/images/checks/Bonus_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Bonus #3",
+                        "access_rules": ["EASY, $HasParry, $HasBarrelCannon, $CanHover, $HasEllie", "NORMAL, $HasParry, $HasBarrelCannon, $CanHover, $HasEllie", "HARD, $HasParry, $HasBarrelCannon, $CanHover, $HasEllie"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Stampede Sprint",
+                        "x": 2757,
+                        "y": 1402,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Stampede Sprint - Bear Coin #1",
+                "chest_opened_img": "/images/checks/bearcoin.png",
+                "chest_unopened_img": "/images/checks/bearcoin_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Bear Coin #1 (During sprint)",
+                        "access_rules": ["EASY, $HasParry, $HasBarrelCannon, $CanHover, $HasEllie", "NORMAL, $HasParry, $HasBarrelCannon, $CanHover, $HasEllie", "HARD, $HasParry, $HasBarrelCannon, $CanHover, $HasEllie"],
+                        "visibility_rules": ["coinsanity"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Stampede Sprint",
+                        "x": 2225,
+                        "y": 902,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Stampede Sprint - Bear Coin #2",
+                "chest_opened_img": "/images/checks/bearcoin.png",
+                "chest_unopened_img": "/images/checks/bearcoin_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Bear Coin #2 (Before no Ellie sign)",
+                        "access_rules": ["EASY, $HasParry, $HasBarrelCannon, $CanHover, $HasEllie", "NORMAL, $HasParry, $HasBarrelCannon, $CanHover, $HasEllie", "HARD, $HasBarrelCannon, $CanHover, $HasEllie, $CanTeamAttack", "HARD, $HasParry, $HasBarrelCannon, $CanHover, $HasEllie"],
+                        "visibility_rules": ["coinsanity"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Stampede Sprint",
+                        "x": 2571,
+                        "y": 1289,
+                        "size": 30
+                    }
+                ]
+            }
+        ]
+    }
+]

@@ -1,0 +1,360 @@
+[
+    {
+        "name": "Blazing Bazukas",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+            " "
+        ],
+        "children": [
+            {
+                "name": "Blazing Bazukas - Clear",
+                "chest_opened_img": "/images/checks/LevelClear.png",
+                "chest_unopened_img": "/images/checks/LevelClear_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Clear",
+                        "access_rules": ["EASY, $HasBarrelCannon, $CanClimb, $HasSquitter", "EASY, $HasBarrelCannon, $CanClimb, $HasBarrelSwitch", "NORMAL, $HasBarrelCannon, $CanClimb, $HasSquitter", "NORMAL, $HasBarrelCannon, $CanClimb, $HasBarrelSwitch", "HARD, $HasBarrelCannon, $CanClimb, $HasSquitter", "HARD, $HasBarrelCannon, $CanClimb, $HasBarrelSwitch", "HARD, $HasBarrelCannon, $CanClimb, $CanTeamAttack", "HARD, $HasBarrelCannon, $CanClimb, $CanHover"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Blazing Bazukas",
+                        "x": 5038,
+                        "y": 164,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Blazing Bazukas - KONG",
+                "chest_opened_img": "/images/checks/kong.png",
+                "chest_unopened_img": "/images/checks/kong_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "KONG",
+                        "access_rules": ["EASY, $HasBarrelCannon, $CanClimb, $HasSquitter", "EASY, $HasBarrelCannon, $CanClimb, $CanTeamAttack, $HasBarrelSwitch", "NORMAL, $HasBarrelCannon, $CanClimb, $HasSquitter", "NORMAL, $HasBarrelCannon, $CanClimb, $CanTeamAttack, $HasBarrelSwitch", "HARD, $HasBarrelCannon, $CanClimb, $HasSquitter", "HARD, $HasBarrelCannon, $CanClimb, $CanTeamAttack"],
+                        "visibility_rules": ["kongchecks"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Blazing Bazukas",
+                        "shape": "diamond",
+                        "x": 1736,
+                        "y": 1190,
+                        "size": 30
+                    },
+                    {
+                        "map": "Blazing Bazukas",
+                        "shape": "diamond",
+                        "x": 912,
+                        "y": 613,
+                        "size": 30
+                    },
+                    {
+                        "map": "Blazing Bazukas",
+                        "shape": "diamond",
+                        "x": 3869,
+                        "y": 1147,
+                        "size": 30
+                    },
+                    {
+                        "map": "Blazing Bazukas",
+                        "shape": "diamond",
+                        "x": 4558,
+                        "y": 517,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Blazing Bazukas - DK Coin",
+                "chest_opened_img": "/images/checks/dkcoin.png",
+                "chest_unopened_img": "/images/checks/dkcoin_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "DK Coin",
+                        "access_rules": ["EASY, $HasBarrelCannon, $CanClimb, $HasSquitter, $HasBarrelSwitch", "NORMAL, $HasBarrelCannon, $CanClimb, $HasSquitter, $HasBarrelSwitch", "HARD, $HasBarrelCannon, $CanClimb, $HasBarrelSwitch, $HasSquitter", "HARD, $HasBarrelCannon, $CanClimb, $HasBarrelSwitch, $CanHover"],
+                        "visibility_rules": ["dkcoinchecks"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Blazing Bazukas",
+                        "x": 395,
+                        "y": 546,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Blazing Bazukas - Balloon #1",
+                "chest_opened_img": "/images/checks/balloon3.png",
+                "chest_unopened_img": "/images/checks/balloon3_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Balloon #1 (Near end)",
+                        "access_rules": ["EASY, $HasBarrelCannon, $CanClimb, $HasSquitter", "EASY, $HasBarrelCannon, $CanClimb, $HasBarrelSwitch", "NORMAL, $HasBarrelCannon, $CanClimb, $HasSquitter", "NORMAL, $HasBarrelCannon, $CanClimb, $HasBarrelSwitch", "HARD, $HasBarrelCannon, $CanClimb, $HasSquitter", "HARD, $HasBarrelCannon, $CanClimb, $HasBarrelSwitch", "HARD, $HasBarrelCannon, $CanClimb, $CanHover", "HARD, $HasBarrelCannon, $CanClimb, $CanTeamAttack"],
+                        "visibility_rules": ["balloonsanity"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Blazing Bazukas",
+                        "x": 4749,
+                        "y": 568,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Blazing Bazukas - Bonus #1",
+                "chest_opened_img": "/images/checks/Bonus.png",
+                "chest_unopened_img": "/images/checks/Bonus_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Bonus #1",
+                        "access_rules": ["EASY, $HasBarrelCannon, $CanClimb, $HasSquitter", "NORMAL, $HasBarrelCannon, $CanClimb, $HasSquitter", "HARD, $HasBarrelCannon, $CanClimb, $HasSquitter"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Blazing Bazukas",
+                        "x": 1936,
+                        "y": 368,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Blazing Bazukas - Bonus #2",
+                "chest_opened_img": "/images/checks/Bonus.png",
+                "chest_unopened_img": "/images/checks/Bonus_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Bonus #2",
+                        "access_rules": ["EASY, $HasBarrelCannon, $CanClimb, $HasSquitter, $CanHover", "EASY, $HasBarrelCannon, $CanClimb, $HasBarrelSwitch, $CanHover", "NORMAL, $HasBarrelCannon, $CanClimb, $HasSquitter, $CanHover", "NORMAL, $HasBarrelCannon, $CanClimb, $HasBarrelSwitch, $CanHover", "HARD, $HasBarrelCannon, $CanClimb, $HasSquitter, $CanHover", "HARD, $HasBarrelCannon, $CanClimb, $HasBarrelSwitch, $CanHover", "HARD, $HasBarrelCannon, $CanClimb, $CanTeamAttack, $CanHover"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Blazing Bazukas",
+                        "x": 2652,
+                        "y": 495,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Blazing Bazukas - Banana Bunch #1",
+                "chest_opened_img": "/images/checks/bananabunch.png",
+                "chest_unopened_img": "/images/checks/bananabunch_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Banana Bunch #1 (No animal sign)",
+                        "access_rules": ["EASY, $HasBarrelCannon, $CanClimb, $HasSquitter", "NORMAL, $HasBarrelCannon, $CanClimb, $HasSquitter", "HARD, $HasBarrelCannon, $CanClimb, $HasSquitter"],
+                        "visibility_rules": ["bananasanity"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Blazing Bazukas",
+                        "x": 2059,
+                        "y": 713,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Blazing Bazukas - Banana Bunch #2",
+                "chest_opened_img": "/images/checks/bananabunch.png",
+                "chest_unopened_img": "/images/checks/bananabunch_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Banana Bunch #2 (Before pair of Krimps)",
+                        "access_rules": ["EASY, $HasBarrelCannon, $CanClimb, $HasSquitter", "EASY, $HasBarrelCannon, $CanClimb, $HasBarrelSwitch", "NORMAL, $HasBarrelCannon, $CanClimb, $HasSquitter", "NORMAL, $HasBarrelCannon, $CanClimb, $HasBarrelSwitch", "HARD, $HasBarrelCannon, $CanClimb, $HasSquitter", "HARD, $HasBarrelCannon, $CanClimb, $HasBarrelSwitch", "HARD, $HasBarrelCannon, $CanClimb, $CanHover", "HARD, $HasBarrelCannon, $CanClimb, $CanTeamAttack"],
+                        "visibility_rules": ["bananasanity"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Blazing Bazukas",
+                        "x": 549,
+                        "y": 137,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Blazing Bazukas - Banana Bunch #3",
+                "chest_opened_img": "/images/checks/bananabunch.png",
+                "chest_unopened_img": "/images/checks/bananabunch_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Banana Bunch #3 (Above Bazuka)",
+                        "access_rules": ["EASY, $HasBarrelCannon, $CanClimb, $HasSquitter", "EASY, $HasBarrelCannon, $CanClimb, $HasBarrelSwitch", "NORMAL, $HasBarrelCannon, $CanClimb, $HasSquitter", "NORMAL, $HasBarrelCannon, $CanClimb, $HasBarrelSwitch", "HARD, $HasBarrelCannon, $CanClimb, $HasSquitter", "HARD, $HasBarrelCannon, $CanClimb, $HasBarrelSwitch", "HARD, $HasBarrelCannon, $CanClimb, $CanHover", "HARD, $HasBarrelCannon, $CanClimb, $CanTeamAttack"],
+                        "visibility_rules": ["bananasanity"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Blazing Bazukas",
+                        "x": 3750,
+                        "y": 387,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Blazing Bazukas - Bear Coin #1",
+                "chest_opened_img": "/images/checks/bearcoin.png",
+                "chest_unopened_img": "/images/checks/bearcoin_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Bear Coin #1 (In rope near start)",
+                        "access_rules": ["EASY, $HasBarrelCannon, $CanClimb", "NORMAL, $HasBarrelCannon, $CanClimb", "HARD, $HasBarrelCannon, $CanClimb"],
+                        "visibility_rules": ["coinsanity"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Blazing Bazukas",
+                        "x": 158,
+                        "y": 1047,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Blazing Bazukas - Bear Coin #2",
+                "chest_opened_img": "/images/checks/bearcoin.png",
+                "chest_unopened_img": "/images/checks/bearcoin_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Bear Coin #2 (Next to Barrel Cannon before No animal sign)",
+                        "access_rules": ["EASY, $HasBarrelCannon, $CanClimb", "NORMAL, $HasBarrelCannon, $CanClimb", "HARD, $HasBarrelCannon, $CanClimb"],
+                        "visibility_rules": ["coinsanity"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Blazing Bazukas",
+                        "x": 2229,
+                        "y": 893,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Blazing Bazukas - Bear Coin #3",
+                "chest_opened_img": "/images/checks/bearcoin.png",
+                "chest_unopened_img": "/images/checks/bearcoin_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Bear Coin #3 (No animal sign)",
+                        "access_rules": ["EASY, $HasBarrelCannon, $CanClimb, $HasSquitter", "NORMAL, $HasBarrelCannon, $CanClimb, $HasSquitter", "HARD, $HasBarrelCannon, $CanClimb, $HasSquitter"],
+                        "visibility_rules": ["coinsanity"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Blazing Bazukas",
+                        "x": 1470,
+                        "y": 166,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Blazing Bazukas - Bear Coin #4",
+                "chest_opened_img": "/images/checks/bearcoin.png",
+                "chest_unopened_img": "/images/checks/bearcoin_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Bear Coin #4 (Above Bazuka)",
+                        "access_rules": ["EASY, $HasBarrelCannon, $CanClimb, $HasSquitter", "EASY, $HasBarrelCannon, $CanClimb, $HasBarrelSwitch", "NORMAL, $HasBarrelCannon, $CanClimb, $HasSquitter", "NORMAL, $HasBarrelCannon, $CanClimb, $HasBarrelSwitch", "HARD, $HasBarrelCannon, $CanClimb, $HasSquitter", "HARD, $HasBarrelCannon, $CanClimb, $HasBarrelSwitch", "HARD, $HasBarrelCannon, $CanClimb, $CanHover", "HARD, $HasBarrelCannon, $CanClimb, $CanTeamAttack"],
+                        "visibility_rules": ["coinsanity"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Blazing Bazukas",
+                        "x": 3823,
+                        "y": 417,
+                        "size": 30
+                    }
+                ]
+            }
+        ]
+    }
+]

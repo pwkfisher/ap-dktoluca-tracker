@@ -1,0 +1,259 @@
+[
+    {
+        "name": "Barrel Shield Bust-Up",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+            " "
+        ],
+        "children": [
+            {
+                "name": "Barrel Shield Bust-Up - Clear",
+                "chest_opened_img": "/images/checks/LevelClear.png",
+                "chest_unopened_img": "/images/checks/LevelClear_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Clear",
+                        "access_rules": ["EASY, $CanClimb, $HasBarrelShield", "NORMAL, $CanClimb, $HasBarrelShield", "HARD, $CanClimb, $HasBarrelShield", "HARD, $CanClimb, $CanHover"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Barrel Shield Bust-Up",
+                        "x": 3537,
+                        "y": 320
+                    }
+                ]
+            },
+            {
+                "name": "Barrel Shield Bust-Up - KONG",
+                "chest_opened_img": "/images/checks/kong.png",
+                "chest_unopened_img": "/images/checks/kong_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "KONG",
+                        "access_rules": ["EASY, $CanClimb, $HasBarrelShield", "NORMAL, $CanClimb, $HasBarrelShield", "HARD, $CanClimb, $HasBarrelShield", "HARD, $CanClimb, $CanHover"],
+                        "visibility_rules": ["kongchecks"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Barrel Shield Bust-Up",
+                        "shape": "diamond",
+                        "x": 527,
+                        "y": 959,
+                        "size": 30
+                    },
+                    {
+                        "map": "Barrel Shield Bust-Up",
+                        "shape": "diamond",
+                        "x": 193,
+                        "y": 25,
+                        "size": 30
+                    },
+                    {
+                        "map": "Barrel Shield Bust-Up",
+                        "shape": "diamond",
+                        "x": 2449,
+                        "y": 619,
+                        "size": 30
+                    },
+                    {
+                        "map": "Barrel Shield Bust-Up",
+                        "shape": "diamond",
+                        "x": 3539,
+                        "y": 1594,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Barrel Shield Bust-Up - DK Coin",
+                "chest_opened_img": "/images/checks/dkcoin.png",
+                "chest_unopened_img": "/images/checks/dkcoin_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "DK Coin",
+                        "access_rules": ["EASY, $CanClimb, $HasBarrelShield, $CanCarry, $CanTeamAttack", "NORMAL, $CanClimb, $HasBarrelShield, $CanCarry, $CanTeamAttack", "HARD, $CanClimb, $CanCarry, $CanTeamAttack, $HasBarrelShield", "HARD, $CanClimb, $CanCarry, $CanTeamAttack, $CanHover"],
+                        "visibility_rules": ["dkcoinchecks"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Barrel Shield Bust-Up",
+                        "x": 2424,
+                        "y": 513,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Barrel Shield Bust-Up - Bonus #1",
+                "chest_opened_img": "/images/checks/Bonus.png",
+                "chest_unopened_img": "/images/checks/Bonus_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Bonus #1",
+                        "access_rules": ["EASY, $CanClimb, $HasBarrelShield, $CanCarry", "NORMAL, $CanClimb, $HasBarrelShield, $CanCarry", "HARD, $CanClimb, $CanCarry, $HasBarrelShield", "HARD, $CanClimb, $CanCarry, $HasDixie"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Barrel Shield Bust-Up",
+                        "x": 1119,
+                        "y": 42,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Barrel Shield Bust-Up - Bonus #2",
+                "chest_opened_img": "/images/checks/Bonus.png",
+                "chest_unopened_img": "/images/checks/Bonus_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Bonus #2",
+                        "access_rules": ["EASY, $CanClimb, $HasBarrelShield, $CanHover, $CanCarry", "NORMAL, $CanClimb, $HasBarrelShield, $CanHover, $CanCarry", "HARD, $CanClimb, $HasBarrelShield, $CanTeamAttack", "HARD, $CanClimb, $HasBarrelShield, $CanCarry, $CanSpin", "HARD, $CanClimb, $HasBarrelShield, $CanCarry, $CanHover", "HARD, $CanClimb, $CanHover, $CanTeamAttack", "HARD, $CanClimb, $CanHover, $CanCarry, $CanSpin", "HARD, $CanClimb, $CanHover, $CanCarry"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Barrel Shield Bust-Up",
+                        "x": 3672,
+                        "y": 234,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Barrel Shield Bust-Up - Banana Bunch #1",
+                "chest_opened_img": "/images/checks/bananabunch.png",
+                "chest_unopened_img": "/images/checks/bananabunch_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Banana Bunch #1 (At start behind Buzz)",
+                        "access_rules": ["EASY, $CanCarry, $HasBothKongs", "NORMAL, $CanCarry, $HasBothKongs", "HARD, $CanCarry", "HARD, $HasBothKongs"],
+                        "visibility_rules": ["bananasanity"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Barrel Shield Bust-Up",
+                        "x": 632,
+                        "y": 1471,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Barrel Shield Bust-Up - Banana Bunch #2",
+                "chest_opened_img": "/images/checks/bananabunch.png",
+                "chest_unopened_img": "/images/checks/bananabunch_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Banana Bunch #2 (Between trees)",
+                        "access_rules": ["EASY, $CanClimb, $HasBarrelShield", "NORMAL, $CanClimb, $HasBarrelShield", "HARD, $CanClimb, $HasBarrelShield", "HARD, $CanClimb, $HasDixie"],
+                        "visibility_rules": ["bananasanity"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Barrel Shield Bust-Up",
+                        "x": 1119,
+                        "y": 652,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Barrel Shield Bust-Up - Bear Coin #1",
+                "chest_opened_img": "/images/checks/bearcoin.png",
+                "chest_unopened_img": "/images/checks/bearcoin_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Bear Coin #1 (In hole above Barrel Kannon)",
+                        "access_rules": ["EASY, $CanClimb, $HasBarrelShield", "NORMAL, $CanClimb, $HasBarrelShield", "HARD, $CanClimb, $HasBarrelShield"],
+                        "visibility_rules": ["coinsanity"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Barrel Shield Bust-Up",
+                        "x": 1312,
+                        "y": 823,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Barrel Shield Bust-Up - Bear Coin #2",
+                "chest_opened_img": "/images/checks/bearcoin.png",
+                "chest_unopened_img": "/images/checks/bearcoin_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Bear Coin #2 (In ledge)",
+                        "access_rules": ["EASY, $CanClimb, $HasBarrelShield", "NORMAL, $CanClimb, $HasBarrelShield", "HARD, $CanClimb, $HasBarrelShield", "HARD, $CanClimb, $CanHover"],
+                        "visibility_rules": ["coinsanity"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Barrel Shield Bust-Up",
+                        "x": 2119,
+                        "y": 474,
+                        "size": 30
+                    }
+                ]
+            }
+        ]
+    }
+]

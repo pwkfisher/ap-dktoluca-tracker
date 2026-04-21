@@ -1,0 +1,310 @@
+[
+    {
+        "name": "Kreeping Klasps",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+            " "
+        ],
+        "children": [
+            {
+                "name": "Kreeping Klasps - Clear",
+                "chest_opened_img": "/images/checks/LevelClear.png",
+                "chest_unopened_img": "/images/checks/LevelClear_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Clear",
+                        "access_rules": ["EASY, $CanClimb, $CanHover", "NORMAL, $CanClimb", "HARD, $CanSwim", "HARD, $CanClimb"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Kreeping Klasps",
+                        "x": 2289,
+                        "y": 1694,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Kreeping Klasps - KONG",
+                "chest_opened_img": "/images/checks/kong.png",
+                "chest_unopened_img": "/images/checks/kong_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "KONG",
+                        "access_rules": ["EASY, $CanClimb, $CanHover", "NORMAL, $CanClimb", "HARD, $CanClimb", "HARD, $HasBothKongs, $CanTeamAttack"],
+                        "visibility_rules": ["kongchecks"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Kreeping Klasps",
+                        "shape": "diamond",
+                        "x": 862,
+                        "y": 219,
+                        "size": 30
+                    },
+                    {
+                        "map": "Kreeping Klasps",
+                        "shape": "diamond",
+                        "x": 1511,
+                        "y": 819,
+                        "size": 30
+                    },
+                    {
+                        "map": "Kreeping Klasps",
+                        "shape": "diamond",
+                        "x": 1394,
+                        "y": 1310,
+                        "size": 30
+                    },
+                    {
+                        "map": "Kreeping Klasps",
+                        "shape": "diamond",
+                        "x": 2176,
+                        "y": 1232,
+                        "size": 30
+                    }                                                            
+                ]
+            },
+            {
+                "name": "Kreeping Klasps - DK Coin",
+                "chest_opened_img": "/images/checks/dkcoin.png",
+                "chest_unopened_img": "/images/checks/dkcoin_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "DK Coin",
+                        "access_rules": ["EASY, $CanClimb, $CanHover, $CanCarry", "NORMAL, $CanClimb, $CanCarry", "HARD, $CanSwim, $CanCarry", "HARD, $CanClimb, $CanCarry"],
+                        "visibility_rules": ["dkcoinchecks"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Kreeping Klasps",
+                        "x": 1945,
+                        "y": 1858,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Kreeping Klasps - Balloon #1",
+                "chest_opened_img": "/images/checks/balloon1.png",
+                "chest_unopened_img": "/images/checks/balloon1_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Balloon #1 (Near start)",
+                        "access_rules": ["EASY, $CanTeamAttack", "NORMAL, $CanTeamAttack", "HARD, $CanTeamAttack", "HARD, $CanSpin"],
+                        "visibility_rules": ["balloonsanity"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Kreeping Klasps",
+                        "x": 27,
+                        "y": 159,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Kreeping Klasps - Balloon #2",
+                "chest_opened_img": "/images/checks/balloon1.png",
+                "chest_unopened_img": "/images/checks/balloon1_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Balloon #2 (After bonus #1)",
+                        "access_rules": ["EASY, $CanClimb, $CanHover", "NORMAL, $CanClimb", "HARD, $CanClimb", "HARD, $CanSwim, $HasBothKongs"],
+                        "visibility_rules": ["balloonsanity"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Kreeping Klasps",
+                        "x": 598,
+                        "y": 649,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Kreeping Klasps - Bonus #1",
+                "chest_opened_img": "/images/checks/Bonus.png",
+                "chest_unopened_img": "/images/checks/Bonus_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Bonus #1",
+                        "access_rules": ["EASY, $CanClimb, $CanHover", "NORMAL, $CanClimb", "HARD, $CanClimb"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Kreeping Klasps",
+                        "x": 2429,
+                        "y": 162,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Kreeping Klasps - Bonus #2",
+                "chest_opened_img": "/images/checks/Bonus.png",
+                "chest_unopened_img": "/images/checks/Bonus_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Bonus #2",
+                        "access_rules": ["EASY, $CanClimb, $CanHover, $HasBarrelCannon", "NORMAL, $CanClimb, $HasBarrelCannon", "HARD, $CanSwim", "HARD, $CanClimb, $HasBarrelCannon"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Kreeping Klasps",
+                        "x": 912,
+                        "y": 1396,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Kreeping Klasps - Banana Bunch #1",
+                "chest_opened_img": "/images/checks/bananabunch.png",
+                "chest_unopened_img": "/images/checks/bananabunch_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Banana Bunch #1 (After bonus #1)",
+                        "access_rules": ["EASY, $CanClimb, $CanHover", "NORMAL, $CanClimb", "HARD, $CanSwim", "HARD, $CanClimb"],
+                        "visibility_rules": ["bananasanity"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Kreeping Klasps",
+                        "x": 264,
+                        "y": 855,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Kreeping Klasps - Banana Bunch #2",
+                "chest_opened_img": "/images/checks/bananabunch.png",
+                "chest_unopened_img": "/images/checks/bananabunch_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Banana Bunch #2 (Before checkpoint)",
+                        "access_rules": ["EASY, $CanClimb, $CanHover", "NORMAL, $CanClimb", "HARD, $CanSwim", "HARD, $CanClimb"],
+                        "visibility_rules": ["bananasanity"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Kreeping Klasps",
+                        "x": 1849,
+                        "y": 806,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Kreeping Klasps - Bear Coin #1",
+                "chest_opened_img": "/images/checks/bearcoin.png",
+                "chest_unopened_img": "/images/checks/bearcoin_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Bear Coin #1 (Near start below cracked ground)",
+                        "access_rules": ["EASY, $CanTeamAttack, $CanSwim", "EASY, $CanTeamAttack, $HasBarrelCannon", "NORMAL, $CanTeamAttack, $CanSwim", "NORMAL, $CanTeamAttack, $HasBarrelCannon", "HARD, $CanTeamAttack"],
+                        "visibility_rules": ["coinsanity"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Kreeping Klasps",
+                        "x": 237,
+                        "y": 368,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Kreeping Klasps - Bear Coin #2",
+                "chest_opened_img": "/images/checks/bearcoin.png",
+                "chest_unopened_img": "/images/checks/bearcoin_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Bear Coin #2 (After checkpoint)",
+                        "access_rules": ["EASY, $CanClimb, $CanHover", "NORMAL, $CanClimb, $CanHover", "HARD, $CanClimb, $CanHover"],
+                        "visibility_rules": ["coinsanity"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Kreeping Klasps",
+                        "x": 178,
+                        "y": 1191,
+                        "size": 30
+                    }
+                ]
+            }
+        ]
+    }
+]

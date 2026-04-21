@@ -1,0 +1,335 @@
+[
+    {
+        "name": "Kong-Fused Cliffs",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+            " "
+        ],
+        "children": [
+            {
+                "name": "Kong-Fused Cliffs - Clear",
+                "chest_opened_img": "/images/checks/LevelClear.png",
+                "chest_unopened_img": "/images/checks/LevelClear_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Clear",
+                        "access_rules": ["EASY, $CanClimb, $HasBarrelCannon", "NORMAL, $CanClimb, $HasBarrelCannon", "HARD, $CanClimb, $HasBarrelCannon", "HARD, $CanClimb, $HasBothKongs, $CanHover"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Kong-Fused Cliffs",
+                        "x": 2600,
+                        "y": 562,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Kong-Fused Cliffs - KONG",
+                "chest_opened_img": "/images/checks/kong.png",
+                "chest_unopened_img": "/images/checks/kong_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "KONG",
+                        "access_rules": ["EASY, $CanClimb, $HasBarrelCannon", "NORMAL, $CanClimb, $HasBarrelCannon", "HARD, $CanClimb, $HasBarrelCannon", "HARD, $CanClimb, $HasBothKongs, $CanHover"],
+                        "visibility_rules": ["kongchecks"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Kong-Fused Cliffs",
+                        "shape": "diamond",
+                        "x": 362,
+                        "y": 1269,
+                        "size": 30
+                    },
+                    {
+                        "map": "Kong-Fused Cliffs",
+                        "shape": "diamond",
+                        "x": 684,
+                        "y": 1690,
+                        "size": 30
+                    },
+                    {
+                        "map": "Kong-Fused Cliffs",
+                        "shape": "diamond",
+                        "x": 1467,
+                        "y": 1348,
+                        "size": 30
+                    },
+                    {
+                        "map": "Kong-Fused Cliffs",
+                        "shape": "diamond",
+                        "x": 2122,
+                        "y": 1125,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Kong-Fused Cliffs - DK Coin",
+                "chest_opened_img": "/images/checks/dkcoin.png",
+                "chest_unopened_img": "/images/checks/dkcoin_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "DK Coin",
+                        "access_rules": ["EASY, $CanClimb, $HasBarrelCannon, $CanCarry", "NORMAL, $CanClimb, $HasBarrelCannon, $CanCarry", "HARD, $CanClimb, $CanCarry, $HasBarrelCannon", "HARD, $CanClimb, $CanCarry, $HasBothKongs, $CanHover"],
+                        "visibility_rules": ["dkcoinchecks"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Kong-Fused Cliffs",
+                        "x": 2218,
+                        "y": 695,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Kong-Fused Cliffs - Bonus #1",
+                "chest_opened_img": "/images/checks/Bonus.png",
+                "chest_unopened_img": "/images/checks/Bonus_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Bonus #1",
+                        "access_rules": ["EASY, $CanClimb, $CanHover, $HasBarrelCannon", "NORMAL, $CanClimb, $CanHover, $HasBarrelCannon", "HARD, $CanClimb, $HasBarrelCannon"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Kong-Fused Cliffs",
+                        "x": 987,
+                        "y": 1792,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Kong-Fused Cliffs - Bonus #2",
+                "chest_opened_img": "/images/checks/Bonus.png",
+                "chest_unopened_img": "/images/checks/Bonus_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Bonus #2",
+                        "access_rules": ["EASY, $CanClimb, $HasBarrelCannon", "NORMAL, $CanClimb, $HasBarrelCannon", "HARD, $CanClimb, $HasBarrelCannon", "HARD, $CanClimb, $HasBothKongs, $CanHover"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Kong-Fused Cliffs",
+                        "x": 1897,
+                        "y": 488,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Kong-Fused Cliffs - Banana Bunch #1",
+                "chest_opened_img": "/images/checks/bananabunch.png",
+                "chest_unopened_img": "/images/checks/bananabunch_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Banana Bunch #1 (Near G)",
+                        "access_rules": ["EASY, $CanClimb, $HasBarrelCannon", "NORMAL, $CanClimb, $HasBarrelCannon", "HARD, $CanClimb, $HasBarrelCannon", "HARD, $CanClimb, $HasBothKongs, $CanHover"],
+                        "visibility_rules": ["bananasanity"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Kong-Fused Cliffs",
+                        "x": 2122,
+                        "y": 1166,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Kong-Fused Cliffs - Banana Bunch #2",
+                "chest_opened_img": "/images/checks/bananabunch.png",
+                "chest_unopened_img": "/images/checks/bananabunch_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Banana Bunch #2 (Near G)",
+                        "access_rules": ["EASY, $CanClimb, $HasBarrelCannon", "NORMAL, $CanClimb, $HasBarrelCannon", "HARD, $CanClimb, $HasBarrelCannon", "HARD, $CanClimb, $HasBothKongs, $CanHover"],
+                        "visibility_rules": ["bananasanity"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Kong-Fused Cliffs",
+                        "x": 2122,
+                        "y": 1073,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Kong-Fused Cliffs - Bear Coin #1",
+                "chest_opened_img": "/images/checks/bearcoin.png",
+                "chest_unopened_img": "/images/checks/bearcoin_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Bear Coin #1 (Next to K)",
+                        "access_rules": ["EASY, $CanClimb, $CanHover", "NORMAL, $CanClimb, $CanHover", "HARD, $CanClimb"],
+                        "visibility_rules": ["coinsanity"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Kong-Fused Cliffs",
+                        "x": 236,
+                        "y": 1371,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Kong-Fused Cliffs - Bear Coin #2",
+                "chest_opened_img": "/images/checks/bearcoin.png",
+                "chest_unopened_img": "/images/checks/bearcoin_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Bear Coin #2 (Above Barrel Kannon)",
+                        "access_rules": ["EASY, $CanClimb, $HasBarrelCannon", "NORMAL, $CanClimb, $HasBarrelCannon", "HARD, $CanClimb"],
+                        "visibility_rules": ["coinsanity"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Kong-Fused Cliffs",
+                        "x": 924,
+                        "y": 1149,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Kong-Fused Cliffs - Bear Coin #3",
+                "chest_opened_img": "/images/checks/bearcoin.png",
+                "chest_unopened_img": "/images/checks/bearcoin_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Bear Coin #3 (In hidden passage)",
+                        "access_rules": ["EASY, $CanClimb, $HasBarrelCannon", "NORMAL, $CanClimb, $HasBarrelCannon", "HARD, $CanClimb"],
+                        "visibility_rules": ["coinsanity"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Kong-Fused Cliffs",
+                        "x": 1067,
+                        "y": 582,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Kong-Fused Cliffs - Bear Coin #4",
+                "chest_opened_img": "/images/checks/bearcoin.png",
+                "chest_unopened_img": "/images/checks/bearcoin_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Bear Coin #4 (In a detour before N)",
+                        "access_rules": ["EASY, $CanClimb, $HasBarrelCannon", "NORMAL, $CanClimb, $HasBarrelCannon", "HARD, $CanClimb, $HasBarrelCannon", "HARD, $CanClimb, $HasBothKongs, $CanHover", "HARD, $CanClimb, $HasBothKongs, $CanSpin"],
+                        "visibility_rules": ["coinsanity"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Kong-Fused Cliffs",
+                        "x": 1339,
+                        "y": 1567,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Kong-Fused Cliffs - Bear Coin #5",
+                "chest_opened_img": "/images/checks/bearcoin.png",
+                "chest_unopened_img": "/images/checks/bearcoin_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Bear Coin #5 (In a detour before N)",
+                        "access_rules": ["EASY, $CanClimb, $HasBarrelCannon", "NORMAL, $CanClimb, $HasBarrelCannon", "HARD, $CanClimb, $HasBarrelCannon", "HARD, $CanClimb, $HasBothKongs, $CanHover", "HARD, $CanClimb, $HasBothKongs, $CanSpin"],
+                        "visibility_rules": ["coinsanity"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Kong-Fused Cliffs",
+                        "x": 1434,
+                        "y": 1567,
+                        "size": 30
+                    }
+                ]
+            }
+        ]
+    }
+]

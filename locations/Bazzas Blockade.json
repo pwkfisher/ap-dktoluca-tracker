@@ -1,0 +1,293 @@
+[
+    {
+        "name": "Bazza's Blockade",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+            " "
+        ],
+        "children": [
+            {
+                "name": "Bazza's Blockade - End Level",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Clear",
+                        "chest_opened_img": "/images/checks/LevelClear.png",
+                        "chest_unopened_img": "/images/checks/LevelClear_disabled.png",
+                        "access_rules": ["EASY, $CanSwim", "NORMAL, $CanSwim", "HARD, $CanSwim"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "DK Coin",
+                        "chest_opened_img": "/images/checks/dkcoin.png",
+                        "chest_unopened_img": "/images/checks/dkcoin_disabled.png",
+                        "access_rules": ["EASY, $CanSwim, $CanCarry", "NORMAL, $CanSwim, $CanCarry", "HARD, $CanSwim, $CanCarry"],
+                        "visibility_rules": ["dkcoinchecks"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Bazza's Blockade",
+                        "x": 2249,
+                        "y": 1645,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Bazza's Blockade - KONG",
+                "chest_opened_img": "/images/checks/kong.png",
+                "chest_unopened_img": "/images/checks/kong_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "KONG",
+                        "access_rules": ["EASY, $CanSwim, $HasEnguarde", "NORMAL, $CanSwim, $HasEnguarde", "HARD, $CanSwim, $HasEnguarde"],
+                        "visibility_rules": ["kongchecks"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Bazza's Blockade",
+                        "shape": "diamond",
+                        "x": 605,
+                        "y": 1612,
+                        "size": 30
+                    },
+                    {
+                        "map": "Bazza's Blockade",
+                        "shape": "diamond",
+                        "x": 877,
+                        "y": 822,
+                        "size": 30
+                    },
+                    {
+                        "map": "Bazza's Blockade",
+                        "shape": "diamond",
+                        "x": 1661,
+                        "y": 492,
+                        "size": 30
+                    },
+                    {
+                        "map": "Bazza's Blockade",
+                        "shape": "diamond",
+                        "x": 2009,
+                        "y": 1542,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Bazza's Blockade - Bonus #1",
+                "chest_opened_img": "/images/checks/Bonus.png",
+                "chest_unopened_img": "/images/checks/Bonus_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Bonus #1",
+                        "access_rules": ["EASY, $CanSwim", "NORMAL, $CanSwim", "HARD, $CanSwim"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Bazza's Blockade",
+                        "x": 1533,
+                        "y": 1765,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Bazza's Blockade - Bonus #2",
+                "chest_opened_img": "/images/checks/Bonus.png",
+                "chest_unopened_img": "/images/checks/Bonus_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Bonus #2",
+                        "access_rules": ["EASY, $CanSwim, $HasEnguarde", "NORMAL, $CanSwim, $HasEnguarde", "HARD, $CanSwim, $HasEnguarde"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Bazza's Blockade",
+                        "x": 701,
+                        "y": 210,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Bazza's Blockade - Banana Bunch #1",
+                "chest_opened_img": "/images/checks/bananabunch.png",
+                "chest_unopened_img": "/images/checks/bananabunch_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Banana Bunch #1 (Near start)",
+                        "access_rules": ["EASY, $CanSwim", "NORMAL, $CanSwim", "HARD, $CanSwim"],
+                        "visibility_rules": ["bananasanity"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Bazza's Blockade",
+                        "x": 832,
+                        "y": 1392,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Bazza's Blockade - Banana Bunch #2",
+                "chest_opened_img": "/images/checks/bananabunch.png",
+                "chest_unopened_img": "/images/checks/bananabunch_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Banana Bunch #2 (Near start)",
+                        "access_rules": ["EASY, $CanSwim", "NORMAL, $CanSwim", "HARD, $CanSwim"],
+                        "visibility_rules": ["bananasanity"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Bazza's Blockade",
+                        "x": 671,
+                        "y": 1392,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Bazza's Blockade - Bear Coin #1",
+                "chest_opened_img": "/images/checks/bearcoin.png",
+                "chest_unopened_img": "/images/checks/bearcoin_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Bear Coin #1 (In small passage)",
+                        "access_rules": ["EASY, $CanSwim", "NORMAL, $CanSwim", "HARD, $CanSwim"],
+                        "visibility_rules": ["coinsanity"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Bazza's Blockade",
+                        "x": 322,
+                        "y": 1200,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Bazza's Blockade - Bear Coin #2",
+                "chest_opened_img": "/images/checks/bearcoin.png",
+                "chest_unopened_img": "/images/checks/bearcoin_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Bear Coin #2 (In small passage)",
+                        "access_rules": ["EASY, $CanSwim", "NORMAL, $CanSwim", "HARD, $CanSwim"],
+                        "visibility_rules": ["coinsanity"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Bazza's Blockade",
+                        "x": 284,
+                        "y": 1200,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Bazza's Blockade - Bear Coin #3",
+                "chest_opened_img": "/images/checks/bearcoin.png",
+                "chest_unopened_img": "/images/checks/bearcoin_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Bear Coin #3 (Below Bazza's exit)",
+                        "access_rules": ["EASY, $CanSwim", "NORMAL, $CanSwim", "HARD, $CanSwim"],
+                        "visibility_rules": ["coinsanity"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Bazza's Blockade",
+                        "x": 1102,
+                        "y": 584,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Bazza's Blockade - Bear Coin #4",
+                "chest_opened_img": "/images/checks/bearcoin.png",
+                "chest_unopened_img": "/images/checks/bearcoin_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Bear Coin #4 (In Bounty Bass near end)",
+                        "access_rules": ["EASY, $CanSwim", "NORMAL, $CanSwim", "HARD, $CanSwim"],
+                        "visibility_rules": ["coinsanity"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Bazza's Blockade",
+                        "x": 1839,
+                        "y": 864,
+                        "size": 30
+                    }
+                ]
+            }
+        ]
+    }
+]

@@ -1,0 +1,218 @@
+[
+    {
+        "name": "Fish Food Frenzy",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+            " "
+        ],
+        "children": [
+            {
+                "name": "Fish Food Frenzy - Clear",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Clear",
+                        "chest_opened_img": "/images/checks/LevelClear.png",
+                        "chest_unopened_img": "/images/checks/LevelClear_disabled.png",
+                        "access_rules": ["EASY, $CanSwim", "NORMAL, $CanSwim", "HARD, $CanSwim"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "DK Coin",
+                        "chest_unopened_img": "/images/items/close.png",
+                        "chest_opened_img": "/images/items/open.png",
+                        "access_rules": ["EASY, $CanSwim, $CanTeamAttack, $CanCarry", "NORMAL, $CanSwim, $CanTeamAttack, $CanCarry", "HARD, $CanSwim, $CanTeamAttack, $CanCarry"],
+                        "visibility_rules": ["dkcoinchecks"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Fish Food Frenzy",
+                        "x": 2469,
+                        "y": 1720,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Fish Food Frenzy - KONG",
+                "chest_opened_img": "/images/checks/kong.png",
+                "chest_unopened_img": "/images/checks/kong_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "KONG",
+                        "access_rules": ["EASY, $CanSwim", "NORMAL, $CanSwim", "HARD, $CanSwim"],
+                        "visibility_rules": ["kongchecks"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Fish Food Frenzy",
+                        "shape": "diamond",
+                        "x": 1754,
+                        "y": 57,
+                        "size": 30
+                    },
+                    {
+                        "map": "Fish Food Frenzy",
+                        "shape": "diamond",
+                        "x": 153,
+                        "y": 698,
+                        "size": 30
+                    },
+                    {
+                        "map": "Fish Food Frenzy",
+                        "shape": "diamond",
+                        "x": 2332,
+                        "y": 1211,
+                        "size": 30
+                    },
+                    {
+                        "map": "Fish Food Frenzy",
+                        "shape": "diamond",
+                        "x": 428,
+                        "y": 1506,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Fish Food Frenzy - Bonus #1",
+                "chest_opened_img": "/images/checks/Bonus.png",
+                "chest_unopened_img": "/images/checks/Bonus_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Bonus #1",
+                        "access_rules": ["EASY, $CanSwim", "NORMAL, $CanSwim", "HARD, $CanSwim"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Fish Food Frenzy",
+                        "x": 2078,
+                        "y": 561,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Fish Food Frenzy - Bonus #2",
+                "chest_opened_img": "/images/checks/Bonus.png",
+                "chest_unopened_img": "/images/checks/Bonus_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Bonus #2",
+                        "access_rules": ["EASY, $CanSwim", "NORMAL, $CanSwim", "HARD, $CanSwim"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Fish Food Frenzy",
+                        "x": 1974,
+                        "y": 1503,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Fish Food Frenzy - Banana Bunch #1",
+                "chest_opened_img": "/images/checks/bananabunch.png",
+                "chest_unopened_img": "/images/checks/bananabunch_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Banana Bunch #1 (Above Lurchin before O)",
+                        "access_rules": ["EASY, $CanSwim", "NORMAL, $CanSwim", "HARD, $CanSwim"],
+                        "visibility_rules": ["bananasanity"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Fish Food Frenzy",
+                        "x": 381,
+                        "y": 492,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Fish Food Frenzy - Bear Coin #1",
+                "chest_opened_img": "/images/checks/bearcoin.png",
+                "chest_unopened_img": "/images/checks/bearcoin_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Bear Coin #1 (Near start)",
+                        "access_rules": ["EASY, $CanSwim", "NORMAL, $CanSwim", "HARD"],
+                        "visibility_rules": ["coinsanity"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Fish Food Frenzy",
+                        "x": 1757,
+                        "y": 307,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Fish Food Frenzy - Bear Coin #2",
+                "chest_opened_img": "/images/checks/bearcoin.png",
+                "chest_unopened_img": "/images/checks/bearcoin_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Bear Coin #2 (Below Lurchin)",
+                        "access_rules": ["EASY, $CanSwim", "NORMAL, $CanSwim", "HARD, $CanSwim"],
+                        "visibility_rules": ["coinsanity"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Fish Food Frenzy",
+                        "x": 1421,
+                        "y": 1521,
+                        "size": 30
+                    }
+                ]
+            }
+        ]
+    }
+]

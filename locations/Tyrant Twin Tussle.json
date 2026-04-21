@@ -1,0 +1,460 @@
+[
+    {
+        "name": "Tyrant Twin Tussle",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+            " "
+        ],
+        "children": [
+            {
+                "name": "Tyrant Twin Tussle - Clear",
+                "chest_opened_img": "/images/checks/LevelClear.png",
+                "chest_unopened_img": "/images/checks/LevelClear_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Clear",
+                        "access_rules": ["EASY", "NORMAL", "HARD"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Tyrant Twin Tussle",
+                        "x": 2638,
+                        "y": 2069,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Tyrant Twin Tussle - KONG",
+                "chest_opened_img": "/images/checks/kong.png",
+                "chest_unopened_img": "/images/checks/kong_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "KONG",
+                        "access_rules": ["EASY, $CanTeamAttack", "NORMAL", "HARD"],
+                        "visibility_rules": ["kongchecks"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Tyrant Twin Tussle",
+                        "shape": "diamond",
+                        "x": 1775,
+                        "y": 504,
+                        "size": 30
+                    },
+                    {
+                        "map": "Tyrant Twin Tussle",
+                        "shape": "diamond",
+                        "x": 402,
+                        "y": 1371,
+                        "size": 30
+                    },
+                    {
+                        "map": "Tyrant Twin Tussle",
+                        "shape": "diamond",
+                        "x": 98,
+                        "y": 1943,
+                        "size": 30
+                    },
+                    {
+                        "map": "Tyrant Twin Tussle",
+                        "shape": "diamond",
+                        "x": 1871,
+                        "y": 2063,
+                        "size": 30
+                    }                                                            
+                ]
+            },
+            {
+                "name": "Tyrant Twin Tussle - DK Coin",
+                "chest_opened_img": "/images/checks/dkcoin.png",
+                "chest_unopened_img": "/images/checks/dkcoin_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "DK Coin",
+                        "access_rules": ["EASY, $CanTeamAttack, $HasSquitter", "NORMAL, $CanTeamAttack, $HasSquitter", "HARD, $CanTeamAttack, $HasSquitter"],
+                        "visibility_rules": ["dkcoinchecks"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Tyrant Twin Tussle",
+                        "x": 905,
+                        "y": 952,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Tyrant Twin Tussle - Balloon #1",
+                "chest_opened_img": "/images/checks/balloon2.png",
+                "chest_unopened_img": "/images/checks/balloon2_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Balloon #1 (Near K)",
+                        "access_rules": ["EASY, $CanTeamAttack", "NORMAL, $CanSpin", "NORMAL, $CanTeamAttack", "HARD, $CanSpin", "HARD, $HasBothKongs"],
+                        "visibility_rules": ["balloonsanity"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Tyrant Twin Tussle",
+                        "x": 1735,
+                        "y": 471,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Tyrant Twin Tussle - Balloon #2",
+                "chest_opened_img": "/images/checks/balloon1.png",
+                "chest_unopened_img": "/images/checks/balloon1_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Balloon #2 (Cache in bottom path)",
+                        "access_rules": ["EASY, $CanTeamAttack", "NORMAL, $CanTeamAttack", "HARD, $CanTeamAttack"],
+                        "visibility_rules": ["balloonsanity"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Tyrant Twin Tussle",
+                        "x": 1015,
+                        "y": 2269,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Tyrant Twin Tussle - Bonus #1",
+                "chest_opened_img": "/images/checks/Bonus.png",
+                "chest_unopened_img": "/images/checks/Bonus_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Bonus #1",
+                        "access_rules": ["EASY, $CanHover, $CanTeamAttack", "EASY, $CanTeamAttack, $HasSquitter", "NORMAL, $CanHover, $CanTeamAttack", "NORMAL, $CanTeamAttack, $HasSquitter", "HARD, $CanTeamAttack"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Tyrant Twin Tussle",
+                        "x": 1100,
+                        "y": 1229,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Tyrant Twin Tussle - Bonus #2",
+                "chest_opened_img": "/images/checks/Bonus.png",
+                "chest_unopened_img": "/images/checks/Bonus_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Bonus #2",
+                        "access_rules": ["EASY, $CanCarry, $HasBarrelCannon, $CanHover, $CanTeamAttack", "NORMAL, $CanCarry, $HasBarrelCannon, $CanHover, $CanTeamAttack", "HARD, $HasBarrelCannon, $CanTeamAttack"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Tyrant Twin Tussle",
+                        "x": 163,
+                        "y": 1640,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Tyrant Twin Tussle - Bonus #3",
+                "chest_opened_img": "/images/checks/Bonus.png",
+                "chest_unopened_img": "/images/checks/Bonus_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Bonus #3",
+                        "access_rules": ["EASY, $CanHover", "NORMAL, $CanHover", "HARD"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Tyrant Twin Tussle",
+                        "x": 2680,
+                        "y": 2092,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Tyrant Twin Tussle - Banana Bunch #1",
+                "chest_opened_img": "/images/checks/bananabunch.png",
+                "chest_unopened_img": "/images/checks/bananabunch_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Banana Bunch #1 (In top path)",
+                        "access_rules": ["EASY, $CanTeamAttack, $HasSquitter", "NORMAL, $CanTeamAttack, $HasSquitter", "HARD, $CanTeamAttack, $HasSquitter"],
+                        "visibility_rules": ["bananasanity"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Tyrant Twin Tussle",
+                        "x": 2657,
+                        "y": 178,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Tyrant Twin Tussle - Banana Bunch #2",
+                "chest_opened_img": "/images/checks/bananabunch.png",
+                "chest_unopened_img": "/images/checks/bananabunch_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Banana Bunch #2 (Left to DK Barrel after checkpoint)",
+                        "access_rules": ["EASY, $CanTeamAttack", "NORMAL, $CanTeamAttack", "HARD, $CanTeamAttack", "HARD, $HasBothKongs"],
+                        "visibility_rules": ["bananasanity"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Tyrant Twin Tussle",
+                        "x": 1998,
+                        "y": 1191,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Tyrant Twin Tussle - Banana Bunch #3",
+                "chest_opened_img": "/images/checks/bananabunch.png",
+                "chest_unopened_img": "/images/checks/bananabunch_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Banana Bunch #3 (In top path near end)",
+                        "access_rules": ["EASY, $HasBarrelCannon", "NORMAL, $HasBarrelCannon", "HARD, $HasBarrelCannon"],
+                        "visibility_rules": ["bananasanity"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Tyrant Twin Tussle",
+                        "x": 1388,
+                        "y": 1899,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Tyrant Twin Tussle - Bear Coin #1",
+                "chest_opened_img": "/images/checks/bearcoin.png",
+                "chest_unopened_img": "/images/checks/bearcoin_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Bear Coin #1 (In Booty Bird near Squitter barrel)",
+                        "access_rules": ["EASY, $CanTeamAttack", "NORMAL, $CanTeamAttack", "HARD, $CanTeamAttack"],
+                        "visibility_rules": ["coinsanity"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Tyrant Twin Tussle",
+                        "x": 1322,
+                        "y": 222,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Tyrant Twin Tussle - Bear Coin #2",
+                "chest_opened_img": "/images/checks/bearcoin.png",
+                "chest_unopened_img": "/images/checks/bearcoin_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Bear Coin #2 (In top path)",
+                        "access_rules": ["EASY, $CanTeamAttack, $HasSquitter", "NORMAL, $CanTeamAttack, $HasSquitter", "HARD, $CanTeamAttack, $HasSquitter"],
+                        "visibility_rules": ["coinsanity"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Tyrant Twin Tussle",
+                        "x": 2623,
+                        "y": 83,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Tyrant Twin Tussle - Bear Coin #3",
+                "chest_opened_img": "/images/checks/bearcoin.png",
+                "chest_unopened_img": "/images/checks/bearcoin_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Bear Coin #3 (In top path)",
+                        "access_rules": ["EASY, $CanTeamAttack, $HasSquitter", "NORMAL, $CanTeamAttack, $HasSquitter", "HARD, $CanTeamAttack, $HasSquitter"],
+                        "visibility_rules": ["coinsanity"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Tyrant Twin Tussle",
+                        "x": 2657,
+                        "y": 203,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Tyrant Twin Tussle - Bear Coin #4",
+                "chest_opened_img": "/images/checks/bearcoin.png",
+                "chest_unopened_img": "/images/checks/bearcoin_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Bear Coin #4 (No animal sign)",
+                        "access_rules": ["EASY, $CanTeamAttack, $HasSquitter", "NORMAL, $CanTeamAttack, $HasSquitter", "HARD, $CanTeamAttack, $HasSquitter"],
+                        "visibility_rules": ["coinsanity"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Tyrant Twin Tussle",
+                        "x": 1178,
+                        "y": 1375,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Tyrant Twin Tussle - Bear Coin #5",
+                "chest_opened_img": "/images/checks/bearcoin.png",
+                "chest_unopened_img": "/images/checks/bearcoin_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Bear Coin #5 (In top path near end)",
+                        "access_rules": ["EASY, $HasBarrelCannon", "NORMAL, $HasBarrelCannon", "HARD, $HasBarrelCannon"],
+                        "visibility_rules": ["coinsanity"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Tyrant Twin Tussle",
+                        "x": 1388,
+                        "y": 1826,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Tyrant Twin Tussle - Bear Coin #6",
+                "chest_opened_img": "/images/checks/bearcoin.png",
+                "chest_unopened_img": "/images/checks/bearcoin_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Bear Coin #6 (In top path near end)",
+                        "access_rules": ["EASY, $HasBarrelCannon", "NORMAL, $HasBarrelCannon", "HARD, $HasBarrelCannon"],
+                        "visibility_rules": ["coinsanity"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Tyrant Twin Tussle",
+                        "x": 1388,
+                        "y": 1855,
+                        "size": 30
+                    }
+                ]
+            }
+        ]
+    }
+]

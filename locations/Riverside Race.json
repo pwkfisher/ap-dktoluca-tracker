@@ -1,0 +1,435 @@
+[
+    {
+        "name": "Riverside Race",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+            " "
+        ],
+        "children": [
+            {
+                "name": "Riverside Race - Clear",
+                "chest_opened_img": "/images/checks/LevelClear.png",
+                "chest_unopened_img": "/images/checks/LevelClear_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Clear",
+                        "access_rules": ["EASY, $CanSwim", "NORMAL, $CanSwim", "HARD, $CanSwim"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Riverside Race",
+                        "x": 3598,
+                        "y": 1013,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Riverside Race - KONG",
+                "chest_opened_img": "/images/checks/kong.png",
+                "chest_unopened_img": "/images/checks/kong_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "KONG",
+                        "access_rules": ["EASY, $CanSwim", "NORMAL, $CanSwim", "HARD, $CanSwim"],
+                        "visibility_rules": ["kongchecks"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Riverside Race",
+                        "shape": "diamond",
+                        "x": 2175,
+                        "y": 56,
+                        "size": 30
+                    },
+                    {
+                        "map": "Riverside Race",
+                        "shape": "diamond",
+                        "x": 288,
+                        "y": 572,
+                        "size": 30
+                    },
+                    {
+                        "map": "Riverside Race",
+                        "shape": "diamond",
+                        "x": 3585,
+                        "y": 586,
+                        "size": 30
+                    },
+                    {
+                        "map": "Riverside Race",
+                        "shape": "diamond",
+                        "x": 2386,
+                        "y": 1273,
+                        "size": 30
+                    }                                                            
+                ]
+            },
+            {
+                "name": "Riverside Race - DK Coin",
+                "chest_opened_img": "/images/checks/dkcoin.png",
+                "chest_unopened_img": "/images/checks/dkcoin_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "DK Coin",
+                        "access_rules": ["EASY, $CanSwim, $CanWaterBounce, $CanCarry", "NORMAL, $CanSwim, $CanWaterBounce, $CanCarry", "HARD, $CanSwim, $CanWaterBounce, $CanCarry", "HARD, $HasBothKongs, $CanSwim, $CanCarry"],
+                        "visibility_rules": ["dkcoinchecks"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Riverside Race",
+                        "x": 2380,
+                        "y": 1029,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Riverside Race - Balloon #1",
+                "chest_opened_img": "/images/checks/balloon1.png",
+                "chest_unopened_img": "/images/checks/balloon1_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Balloon #1 (On detour)",
+                        "access_rules": ["EASY, $CanSwim", "NORMAL, $CanSwim", "HARD, $CanSwim"],
+                        "visibility_rules": ["balloonsanity"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Riverside Race",
+                        "x": 1790,
+                        "y": 462,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Riverside Race - Bonus #1",
+                "chest_opened_img": "/images/checks/Bonus.png",
+                "chest_unopened_img": "/images/checks/Bonus_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Bonus #1",
+                        "access_rules": ["EASY, $CanSwim, $CanWaterBounce", "NORMAL, $CanSwim, $CanWaterBounce", "HARD, $CanSwim, $CanWaterBounce", "HARD, $HasBothKongs, $CanSwim"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Riverside Race",
+                        "x": 3123,
+                        "y": 48,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Riverside Race - Bonus #2",
+                "chest_opened_img": "/images/checks/Bonus.png",
+                "chest_unopened_img": "/images/checks/Bonus_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Bonus #2",
+                        "access_rules": ["EASY, $CanSwim, $HasBarrelInvincible", "NORMAL, $CanSwim, $HasBarrelInvincible", "HARD, $CanSwim, $HasBarrelInvincible", "HARD, $HasBothKongs, $CanSwim"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Riverside Race",
+                        "x": 672,
+                        "y": 936,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Riverside Race - Banana Bunch #1",
+                "chest_opened_img": "/images/checks/bananabunch.png",
+                "chest_unopened_img": "/images/checks/bananabunch_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Banana Bunch #1 (At start)",
+                        "access_rules": ["EASY", "NORMAL", "HARD"],
+                        "visibility_rules": ["bananasanity"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Riverside Race",
+                        "x": 576,
+                        "y": 100,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Riverside Race - Banana Bunch #2",
+                "chest_opened_img": "/images/checks/bananabunch.png",
+                "chest_unopened_img": "/images/checks/bananabunch_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Banana Bunch #2 (In water below bonus #1)",
+                        "access_rules": ["EASY, $CanSwim", "NORMAL, $CanSwim", "HARD, $CanHover", "HARD, $CanSwim", "HARD, $CanWaterBounce"],
+                        "visibility_rules": ["bananasanity"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Riverside Race",
+                        "x": 3393,
+                        "y": 383,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Riverside Race - Banana Bunch #3",
+                "chest_opened_img": "/images/checks/bananabunch.png",
+                "chest_unopened_img": "/images/checks/bananabunch_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Banana Bunch #3 (In pond with single Red Koco)",
+                        "access_rules": ["EASY, $CanSwim", "NORMAL, $CanSwim", "HARD, $CanSwim"],
+                        "visibility_rules": ["bananasanity"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Riverside Race",
+                        "x": 3169,
+                        "y": 777,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Riverside Race - Banana Bunch #4",
+                "chest_opened_img": "/images/checks/bananabunch.png",
+                "chest_unopened_img": "/images/checks/bananabunch_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Banana Bunch #4 (In pond with single Red Koco)",
+                        "access_rules": ["EASY, $CanSwim", "NORMAL, $CanSwim", "HARD, $CanSwim"],
+                        "visibility_rules": ["bananasanity"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Riverside Race",
+                        "x": 3090,
+                        "y": 835,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Riverside Race - Banana Bunch #5",
+                "chest_opened_img": "/images/checks/bananabunch.png",
+                "chest_unopened_img": "/images/checks/bananabunch_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Banana Bunch #5 (In pond with single Red Koco)",
+                        "access_rules": ["EASY, $CanSwim", "NORMAL, $CanSwim", "HARD, $CanSwim"],
+                        "visibility_rules": ["bananasanity"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Riverside Race",
+                        "x": 3252,
+                        "y": 835,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Riverside Race - Banana Bunch #6",
+                "chest_opened_img": "/images/checks/bananabunch.png",
+                "chest_unopened_img": "/images/checks/bananabunch_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Banana Bunch #6 (Between two Re-Koils)",
+                        "access_rules": ["EASY, $CanSwim", "NORMAL, $CanSwim", "HARD, $CanSwim"],
+                        "visibility_rules": ["bananasanity"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Riverside Race",
+                        "x": 1572,
+                        "y": 1052,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Riverside Race - Bear Coin #1",
+                "chest_opened_img": "/images/checks/bearcoin.png",
+                "chest_unopened_img": "/images/checks/bearcoin_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Bear Coin #1 (Before second pond)",
+                        "access_rules": ["EASY, $CanSwim", "NORMAL, $CanHover", "NORMAL, $CanSwim", "HARD, $CanHover", "HARD, $CanSwim", "HARD, $CanWaterBounce"],
+                        "visibility_rules": ["coinsanity"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Riverside Race",
+                        "x": 2560,
+                        "y": 83,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Riverside Race - Bear Coin #2",
+                "chest_opened_img": "/images/checks/bearcoin.png",
+                "chest_unopened_img": "/images/checks/bearcoin_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Bear Coin #2 (In second pond)",
+                        "access_rules": ["EASY, $CanSwim", "NORMAL, $CanSwim", "HARD, $CanSwim"],
+                        "visibility_rules": ["coinsanity"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Riverside Race",
+                        "x": 2743,
+                        "y": 369,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Riverside Race - Bear Coin #3",
+                "chest_opened_img": "/images/checks/bearcoin.png",
+                "chest_unopened_img": "/images/checks/bearcoin_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Bear Coin #3 (In pond after bonus #2)",
+                        "access_rules": ["EASY, $CanSwim", "NORMAL, $CanSwim", "HARD, $CanSwim"],
+                        "visibility_rules": ["coinsanity"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Riverside Race",
+                        "x": 1071,
+                        "y": 1290,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Riverside Race - Bear Coin #4",
+                "chest_opened_img": "/images/checks/bearcoin.png",
+                "chest_unopened_img": "/images/checks/bearcoin_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Bear Coin #4 (In last pond)",
+                        "access_rules": ["EASY, $CanSwim", "NORMAL, $CanSwim", "HARD, $CanSwim"],
+                        "visibility_rules": ["coinsanity"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Riverside Race",
+                        "x": 2800,
+                        "y": 1277,
+                        "size": 30
+                    }
+                ]
+            }
+        ]
+    }
+]

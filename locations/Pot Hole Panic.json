@@ -1,0 +1,535 @@
+[
+    {
+        "name": "Pot Hole Panic",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+            " "
+        ],
+        "children": [
+            {
+                "name": "Pot Hole Panic - Clear",
+                "chest_opened_img": "/images/checks/LevelClear.png",
+                "chest_unopened_img": "/images/checks/LevelClear_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Clear",
+                        "access_rules": ["EASY, $HasBarrelCannon, $CanSwim, $CanTeamAttack, $HasSquawks", "EASY, $HasBarrelCannon, $CanSwim, $HasEllie, $HasSquawks", "NORMAL, $CanSpin, $HasBarrelCannon, $CanSwim, $HasSquawks", "NORMAL, $HasBarrelCannon, $CanSwim, $CanTeamAttack, $HasSquawks", "NORMAL, $HasBarrelCannon, $CanSwim, $HasEllie, $HasSquawks", "HARD, $CanSpin, $HasBarrelCannon, $CanSwim, $CanHover", "HARD, $CanSpin, $HasBarrelCannon, $CanSwim, $HasSquawks", "HARD, $HasBarrelCannon, $CanSwim, $CanTeamAttack, $HasSquawks", "HARD, $HasBarrelCannon, $CanSwim, $HasEllie, $HasSquawks"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Pot Hole Panic",
+                        "x": 4070,
+                        "y": 1493,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Pot Hole Panic - KONG",
+                "chest_opened_img": "/images/checks/kong.png",
+                "chest_unopened_img": "/images/checks/kong_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "KONG",
+                        "access_rules": ["EASY, $CanSwim, $HasSquawks, $HasBarrelCannon, $CanHover, $HasEllie", "EASY, $CanSwim, $HasSquawks, $HasBarrelCannon, $HasEllie, $HasSquitter", "NORMAL, $CanSwim, $HasSquawks, $HasBarrelCannon, $CanHover, $HasEllie", "NORMAL, $CanSpin, $CanSwim, $HasSquawks, $HasBarrelCannon, $HasEllie", "NORMAL, $CanSwim, $HasSquawks, $HasBarrelCannon, $HasEllie, $HasSquitter", "HARD, $HasBarrelCannon, $CanSwim, $HasEllie, $HasSquawks", "HARD, $CanSpin, $CanSwim, $HasBarrelCannon, $CanHover, $HasEllie, $CanTeamAttack"],
+                        "visibility_rules": ["kongchecks"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Pot Hole Panic",
+                        "shape": "diamond",
+                        "x": 202,
+                        "y": 280,
+                        "size": 30
+                    },
+                    {
+                        "map": "Pot Hole Panic",
+                        "shape": "diamond",
+                        "x": 1976,
+                        "y": 599,
+                        "size": 30
+                    },
+                    {
+                        "map": "Pot Hole Panic",
+                        "shape": "diamond",
+                        "x": 2042,
+                        "y": 1522,
+                        "size": 30
+                    },
+                    {
+                        "map": "Pot Hole Panic",
+                        "shape": "diamond",
+                        "x": 3098,
+                        "y": 1360,
+                        "size": 30
+                    }                                                            
+                ]
+            },
+            {
+                "name": "Pot Hole Panic - DK Coin",
+                "chest_opened_img": "/images/checks/dkcoin.png",
+                "chest_unopened_img": "/images/checks/dkcoin_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "DK Coin",
+                        "access_rules": ["EASY, $CanSwim, $CanCarry, $HasSquawks, $HasBarrelCannon, $CanTeamAttack", "NORMAL, $CanSwim, $CanCarry, $HasSquawks, $HasBarrelCannon, $CanTeamAttack", "HARD, $CanSwim, $CanCarry, $HasSquawks, $HasBarrelCannon, $CanTeamAttack", "HARD, $CanSpin, $CanTeamAttack, $CanSwim, $HasBarrelCannon, $CanHover, $CanCarry"],
+                        "visibility_rules": ["dkcoinchecks"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Pot Hole Panic",
+                        "x": 4037,
+                        "y": 1334,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Pot Hole Panic - Bonus #1",
+                "chest_opened_img": "/images/checks/Bonus.png",
+                "chest_unopened_img": "/images/checks/Bonus_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Bonus #1",
+                        "access_rules": ["EASY, $CanSwim, $HasEllie, $HasSquawks", "NORMAL, $CanSwim, $HasEllie, $HasSquawks", "HARD, $CanSwim, $HasEllie, $HasSquawks", "HARD, $CanSpin, $CanSwim, $CanHover, $HasEllie"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Pot Hole Panic",
+                        "x": 2042,
+                        "y": 1479,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Pot Hole Panic - Bonus #2",
+                "chest_opened_img": "/images/checks/Bonus.png",
+                "chest_unopened_img": "/images/checks/Bonus_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Bonus #2",
+                        "access_rules": ["EASY, $CanSwim, $HasSquawks, $HasBarrelCannon, $HasSquitter, $CanTeamAttack", "EASY, $CanSwim, $HasSquawks, $HasBarrelCannon, $HasEllie, $HasSquitter", "NORMAL, $CanSpin, $CanSwim, $HasSquawks, $HasBarrelCannon, $HasSquitter", "NORMAL, $CanSwim, $HasSquawks, $HasBarrelCannon, $HasSquitter, $CanTeamAttack", "NORMAL, $CanSwim, $HasSquawks, $HasBarrelCannon, $HasEllie, $HasSquitter", "HARD, $CanSpin, $CanSwim, $HasBarrelCannon, $CanHover, $HasSquitter", "HARD, $CanSpin, $CanSwim, $HasSquawks, $HasBarrelCannon, $HasSquitter", "HARD, $CanSwim, $HasSquawks, $HasBarrelCannon, $HasSquitter, $CanTeamAttack", "HARD, $CanSwim, $HasSquawks, $HasBarrelCannon, $HasEllie, $HasSquitter"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Pot Hole Panic",
+                        "x": 3562,
+                        "y": 1160,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Pot Hole Panic - Banana Bunch #1",
+                "chest_opened_img": "/images/checks/bananabunch.png",
+                "chest_unopened_img": "/images/checks/bananabunch_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Banana Bunch #1 (In dead end near start)",
+                        "access_rules": ["EASY, $HasSquawks", "NORMAL, $HasSquawks", "HARD, $HasSquawks", "HARD, $CanSpin, $CanHover, $CanTeamAttack"],
+                        "visibility_rules": ["bananasanity"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Pot Hole Panic",
+                        "x": 592,
+                        "y": 73,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Pot Hole Panic - Banana Bunch #2",
+                "chest_opened_img": "/images/checks/bananabunch.png",
+                "chest_unopened_img": "/images/checks/bananabunch_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Banana Bunch #2 (In dead end near start)",
+                        "access_rules": ["EASY, $HasSquawks", "NORMAL, $HasSquawks", "HARD, $HasSquawks", "HARD, $CanSpin, $CanHover, $CanTeamAttack"],
+                        "visibility_rules": ["bananasanity"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Pot Hole Panic",
+                        "x": 637,
+                        "y": 73,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Pot Hole Panic - Banana Bunch #3",
+                "chest_opened_img": "/images/checks/bananabunch.png",
+                "chest_unopened_img": "/images/checks/bananabunch_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Banana Bunch #3 (Near Enguarde box)",
+                        "access_rules": ["EASY, $CanSwim, $HasSquawks", "NORMAL, $CanSwim, $HasSquawks", "HARD, $HasSquawks", "HARD, $CanSpin, $CanHover"],
+                        "visibility_rules": ["bananasanity"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Pot Hole Panic",
+                        "x": 1928,
+                        "y": 937,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Pot Hole Panic - Banana Bunch #4",
+                "chest_opened_img": "/images/checks/bananabunch.png",
+                "chest_unopened_img": "/images/checks/bananabunch_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Banana Bunch #4 (In Bounty Bass near Enguarde box)",
+                        "access_rules": ["EASY, $CanSwim, $HasEnguarde, $HasSquawks", "NORMAL, $CanSwim, $HasEnguarde, $HasSquawks", "HARD, $CanSwim, $HasEnguarde, $HasSquawks", "HARD, $CanSpin, $CanSwim, $CanHover, $HasEnguarde"],
+                        "visibility_rules": ["bananasanity"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Pot Hole Panic",
+                        "x": 2358,
+                        "y": 903,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Pot Hole Panic - Banana Bunch #5",
+                "chest_opened_img": "/images/checks/bananabunch.png",
+                "chest_unopened_img": "/images/checks/bananabunch_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Banana Bunch #5 (Above Bounty Bass)",
+                        "access_rules": ["EASY, $CanSwim, $HasSquawks", "NORMAL, $CanSwim, $HasSquawks", "HARD, $CanSwim, $HasSquawks", "HARD, $CanSpin, $CanSwim, $CanHover"],
+                        "visibility_rules": ["bananasanity"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Pot Hole Panic",
+                        "x": 3233,
+                        "y": 775,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Pot Hole Panic - Banana Bunch #6",
+                "chest_opened_img": "/images/checks/bananabunch.png",
+                "chest_unopened_img": "/images/checks/bananabunch_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Banana Bunch #6 (Near Lurchin cluster)",
+                        "access_rules": ["EASY, $CanSwim, $HasSquawks", "NORMAL, $CanSwim, $HasSquawks", "HARD, $CanSwim, $HasSquawks", "HARD, $CanSpin, $CanSwim, $CanHover"],
+                        "visibility_rules": ["bananasanity"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Pot Hole Panic",
+                        "x": 3426,
+                        "y": 585,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Pot Hole Panic - Banana Bunch #7",
+                "chest_opened_img": "/images/checks/bananabunch.png",
+                "chest_unopened_img": "/images/checks/bananabunch_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Banana Bunch #7 (Behind Ellie Box)",
+                        "access_rules": ["EASY, $CanSwim, $HasSquawks", "NORMAL, $CanSwim, $HasSquawks", "HARD, $CanSwim, $HasSquawks", "HARD, $CanSpin, $CanSwim, $CanHover"],
+                        "visibility_rules": ["bananasanity"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Pot Hole Panic",
+                        "x": 3911,
+                        "y": 506,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Pot Hole Panic - Banana Bunch #8",
+                "chest_opened_img": "/images/checks/bananabunch.png",
+                "chest_unopened_img": "/images/checks/bananabunch_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Banana Bunch #8 (Behind Ellie Box)",
+                        "access_rules": ["EASY, $CanSwim, $HasSquawks", "NORMAL, $CanSwim, $HasSquawks", "HARD, $CanSwim, $HasSquawks", "HARD, $CanSpin, $CanSwim, $CanHover"],
+                        "visibility_rules": ["bananasanity"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Pot Hole Panic",
+                        "x": 3961,
+                        "y": 506,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Pot Hole Panic - Banana Bunch #9",
+                "chest_opened_img": "/images/checks/bananabunch.png",
+                "chest_unopened_img": "/images/checks/bananabunch_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Banana Bunch #9 (Below N)",
+                        "access_rules": ["EASY, $CanSwim, $HasSquawks", "NORMAL, $CanSwim, $HasSquawks", "HARD, $CanSwim, $HasSquawks", "HARD, $CanSpin, $CanSwim, $CanHover"],
+                        "visibility_rules": ["bananasanity"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Pot Hole Panic",
+                        "x": 2297,
+                        "y": 1793,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Pot Hole Panic - Banana Bunch #10",
+                "chest_opened_img": "/images/checks/bananabunch.png",
+                "chest_unopened_img": "/images/checks/bananabunch_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Banana Bunch #10 (In Booty Bird after Squitter box)",
+                        "access_rules": ["EASY, $HasBarrelCannon, $CanSwim, $CanTeamAttack, $HasSquawks", "EASY, $HasBarrelCannon, $CanSwim, $HasEllie, $HasSquawks", "NORMAL, $CanSpin, $HasBarrelCannon, $CanSwim, $HasSquawks", "NORMAL, $HasBarrelCannon, $CanSwim, $CanTeamAttack, $HasSquawks", "NORMAL, $HasBarrelCannon, $CanSwim, $HasEllie, $HasSquawks", "HARD, $CanSpin, $HasBarrelCannon, $CanSwim, $CanHover", "HARD, $CanSpin, $HasBarrelCannon, $CanSwim, $HasSquawks", "HARD, $HasBarrelCannon, $CanSwim, $CanTeamAttack, $HasSquawks", "HARD, $HasBarrelCannon, $CanSwim, $HasEllie, $HasSquawks"],
+                        "visibility_rules": ["bananasanity"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Pot Hole Panic",
+                        "x": 3257,
+                        "y": 1372,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Pot Hole Panic - Banana Bunch #11",
+                "chest_opened_img": "/images/checks/bananabunch.png",
+                "chest_unopened_img": "/images/checks/bananabunch_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Banana Bunch #11 (No animal sign)",
+                        "access_rules": ["EASY, $CanSwim, $HasSquawks, $HasBarrelCannon, $HasSquitter, $CanTeamAttack", "EASY, $CanSwim, $HasSquawks, $HasBarrelCannon, $HasEllie, $HasSquitter", "NORMAL, $CanSpin, $CanSwim, $HasSquawks, $HasBarrelCannon, $HasSquitter", "NORMAL, $CanSwim, $HasSquawks, $HasBarrelCannon, $HasSquitter, $CanTeamAttack", "NORMAL, $CanSwim, $HasSquawks, $HasBarrelCannon, $HasEllie, $HasSquitter", "HARD, $CanSpin, $CanSwim, $HasBarrelCannon, $CanHover, $HasSquitter", "HARD, $CanSpin, $CanSwim, $HasSquawks, $HasBarrelCannon, $HasSquitter", "HARD, $CanSwim, $HasSquawks, $HasBarrelCannon, $HasSquitter, $CanTeamAttack", "HARD, $CanSwim, $HasSquawks, $HasBarrelCannon, $HasEllie, $HasSquitter"],
+                        "visibility_rules": ["bananasanity"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Pot Hole Panic",
+                        "x": 3723,
+                        "y": 1498,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Pot Hole Panic - Bear Coin #1",
+                "chest_opened_img": "/images/checks/bearcoin.png",
+                "chest_unopened_img": "/images/checks/bearcoin_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Bear Coin #1 (Near circling Kopters)",
+                        "access_rules": ["EASY, $HasSquawks", "NORMAL, $HasSquawks", "HARD, $HasSquawks", "HARD, $CanSpin, $CanHover"],
+                        "visibility_rules": ["coinsanity"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Pot Hole Panic",
+                        "x": 1631,
+                        "y": 513,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Pot Hole Panic - Bear Coin #2",
+                "chest_opened_img": "/images/checks/bearcoin.png",
+                "chest_unopened_img": "/images/checks/bearcoin_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Bear Coin #2 (Above Kopter)",
+                        "access_rules": ["EASY, $CanSwim, $HasSquawks", "NORMAL, $CanSwim, $HasSquawks", "HARD, $CanSwim, $HasSquawks", "HARD, $CanSpin, $CanSwim, $CanHover"],
+                        "visibility_rules": ["coinsanity"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Pot Hole Panic",
+                        "x": 1060,
+                        "y": 1298,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Pot Hole Panic - Bear Coin #3",
+                "chest_opened_img": "/images/checks/bearcoin.png",
+                "chest_unopened_img": "/images/checks/bearcoin_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Bear Coin #3 (Below N)",
+                        "access_rules": ["EASY, $CanSwim, $HasSquawks", "NORMAL, $CanSwim, $HasSquawks", "HARD, $CanSwim, $HasSquawks", "HARD, $CanSpin, $CanSwim, $CanHover"],
+                        "visibility_rules": ["coinsanity"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Pot Hole Panic",
+                        "x": 2040,
+                        "y": 1817,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Pot Hole Panic - Bear Coin #4",
+                "chest_opened_img": "/images/checks/bearcoin.png",
+                "chest_unopened_img": "/images/checks/bearcoin_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Bear Coin #4 (Below N)",
+                        "access_rules": ["EASY, $CanSwim, $HasSquawks", "NORMAL, $CanSwim, $HasSquawks", "HARD, $CanSwim, $HasSquawks", "HARD, $CanSpin, $CanSwim, $CanHover"],
+                        "visibility_rules": ["coinsanity"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Pot Hole Panic",
+                        "x": 2492,
+                        "y": 1817,
+                        "size": 30
+                    }
+                ]
+            }
+        ]
+    }
+]

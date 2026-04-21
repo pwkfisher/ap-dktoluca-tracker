@@ -1,0 +1,510 @@
+[
+    {
+        "name": "Demolition Drain-Pipe",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+            " "
+        ],
+        "children": [
+            {
+                "name": "Demolition Drain-Pipe - Clear",
+                "chest_opened_img": "/images/checks/LevelClear.png",
+                "chest_unopened_img": "/images/checks/LevelClear_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Clear",
+                        "access_rules": ["EASY, $HasBarrelCannon", "NORMAL, $HasBarrelCannon", "HARD, $HasBarrelCannon"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Demolition Drain-Pipe",
+                        "x": 4254,
+                        "y": 1634,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Demolition Drain-Pipe - KONG",
+                "chest_opened_img": "/images/checks/kong.png",
+                "chest_unopened_img": "/images/checks/kong_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "KONG",
+                        "access_rules": ["EASY", "NORMAL", "HARD"],
+                        "visibility_rules": ["kongchecks"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Demolition Drain-Pipe",
+                        "shape": "diamond",
+                        "x": 1438,
+                        "y": 197,
+                        "size": 30
+                    },
+                    {
+                        "map": "Demolition Drain-Pipe",
+                        "shape": "diamond",
+                        "x": 2738,
+                        "y": 935,
+                        "size": 30
+                    },
+                    {
+                        "map": "Demolition Drain-Pipe",
+                        "shape": "diamond",
+                        "x": 2272,
+                        "y": 1331,
+                        "size": 30
+                    },
+                    {
+                        "map": "Demolition Drain-Pipe",
+                        "shape": "diamond",
+                        "x": 2893,
+                        "y": 1946,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Demolition Drain-Pipe - DK Coin",
+                "chest_opened_img": "/images/checks/dkcoin.png",
+                "chest_unopened_img": "/images/checks/dkcoin_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "DK Coin",
+                        "access_rules": ["EASY, $HasBarrelCannon, $CanCarry", "NORMAL, $HasBarrelCannon, $CanCarry", "HARD, $HasBarrelCannon, $CanCarry"],
+                        "visibility_rules": ["dkcoinchecks"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Demolition Drain-Pipe",
+                        "x": 3787,
+                        "y": 1730,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Demolition Drain-Pipe - Bonus #1",
+                "chest_opened_img": "/images/checks/Bonus.png",
+                "chest_unopened_img": "/images/checks/Bonus_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Bonus #1",
+                        "access_rules": ["EASY", "NORMAL", "HARD"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Demolition Drain-Pipe",
+                        "x": 238,
+                        "y": 708,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Demolition Drain-Pipe - Bonus #2",
+                "chest_opened_img": "/images/checks/Bonus.png",
+                "chest_unopened_img": "/images/checks/Bonus_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Bonus #2",
+                        "access_rules": ["EASY, $HasBarrelCannon", "NORMAL, $HasBarrelCannon", "HARD, $HasBarrelCannon"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Demolition Drain-Pipe",
+                        "x": 813,
+                        "y": 1992,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Demolition Drain-Pipe - Banana Bunch #1",
+                "chest_opened_img": "/images/checks/bananabunch.png",
+                "chest_unopened_img": "/images/checks/bananabunch_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Banana Bunch #1",
+                        "access_rules": ["EASY", "NORMAL", "HARD"],
+                        "visibility_rules": ["bananasanity"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Demolition Drain-Pipe",
+                        "x": 797,
+                        "y": 339,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Demolition Drain-Pipe - Banana Bunch #2",
+                "chest_opened_img": "/images/checks/bananabunch.png",
+                "chest_unopened_img": "/images/checks/bananabunch_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Banana Bunch #2",
+                        "access_rules": ["EASY", "NORMAL", "HARD"],
+                        "visibility_rules": ["bananasanity"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Demolition Drain-Pipe",
+                        "x": 3006,
+                        "y": 261,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Demolition Drain-Pipe - Banana Bunch #3",
+                "chest_opened_img": "/images/checks/bananabunch.png",
+                "chest_unopened_img": "/images/checks/bananabunch_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Banana Bunch #3",
+                        "access_rules": ["EASY", "NORMAL", "HARD"],
+                        "visibility_rules": ["bananasanity"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Demolition Drain-Pipe",
+                        "x": 3320,
+                        "y": 206,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Demolition Drain-Pipe - Banana Bunch #4",
+                "chest_opened_img": "/images/checks/bananabunch.png",
+                "chest_unopened_img": "/images/checks/bananabunch_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Banana Bunch #4",
+                        "access_rules": ["EASY", "NORMAL", "HARD"],
+                        "visibility_rules": ["bananasanity"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Demolition Drain-Pipe",
+                        "x": 1633,
+                        "y": 827,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Demolition Drain-Pipe - Banana Bunch #5",
+                "chest_opened_img": "/images/checks/bananabunch.png",
+                "chest_unopened_img": "/images/checks/bananabunch_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Banana Bunch #5",
+                        "access_rules": ["EASY", "NORMAL", "HARD"],
+                        "visibility_rules": ["bananasanity"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Demolition Drain-Pipe",
+                        "x": 2946,
+                        "y": 937,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Demolition Drain-Pipe - Banana Bunch #6",
+                "chest_opened_img": "/images/checks/bananabunch.png",
+                "chest_unopened_img": "/images/checks/bananabunch_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Banana Bunch #6",
+                        "access_rules": ["EASY", "NORMAL", "HARD"],
+                        "visibility_rules": ["bananasanity"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Demolition Drain-Pipe",
+                        "x": 2740,
+                        "y": 1295,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Demolition Drain-Pipe - Banana Bunch #7",
+                "chest_opened_img": "/images/checks/bananabunch.png",
+                "chest_unopened_img": "/images/checks/bananabunch_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Banana Bunch #7",
+                        "access_rules": ["EASY", "NORMAL", "HARD"],
+                        "visibility_rules": ["bananasanity"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Demolition Drain-Pipe",
+                        "x": 2722,
+                        "y": 1847,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Demolition Drain-Pipe - Bear Coin #1",
+                "chest_opened_img": "/images/checks/bearcoin.png",
+                "chest_unopened_img": "/images/checks/bearcoin_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Bear Coin #1",
+                        "access_rules": ["EASY", "NORMAL", "HARD"],
+                        "visibility_rules": ["coinsanity"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Demolition Drain-Pipe",
+                        "x": 636,
+                        "y": 419,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Demolition Drain-Pipe - Bear Coin #2",
+                "chest_opened_img": "/images/checks/bearcoin.png",
+                "chest_unopened_img": "/images/checks/bearcoin_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Bear Coin #2",
+                        "access_rules": ["EASY", "NORMAL", "HARD"],
+                        "visibility_rules": ["coinsanity"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Demolition Drain-Pipe",
+                        "x": 2529,
+                        "y": 288,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Demolition Drain-Pipe - Bear Coin #3",
+                "chest_opened_img": "/images/checks/bearcoin.png",
+                "chest_unopened_img": "/images/checks/bearcoin_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Bear Coin #3",
+                        "access_rules": ["EASY", "NORMAL", "HARD"],
+                        "visibility_rules": ["coinsanity"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Demolition Drain-Pipe",
+                        "x": 3038,
+                        "y": 353,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Demolition Drain-Pipe - Bear Coin #4",
+                "chest_opened_img": "/images/checks/bearcoin.png",
+                "chest_unopened_img": "/images/checks/bearcoin_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Bear Coin #4",
+                        "access_rules": ["EASY", "NORMAL", "HARD"],
+                        "visibility_rules": ["coinsanity"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Demolition Drain-Pipe",
+                        "x": 4014,
+                        "y": 320,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Demolition Drain-Pipe - Bear Coin #5",
+                "chest_opened_img": "/images/checks/bearcoin.png",
+                "chest_unopened_img": "/images/checks/bearcoin_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Bear Coin #5",
+                        "access_rules": ["EASY", "NORMAL", "HARD"],
+                        "visibility_rules": ["coinsanity"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Demolition Drain-Pipe",
+                        "x": 158,
+                        "y": 1886,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Demolition Drain-Pipe - Bear Coin #6",
+                "chest_opened_img": "/images/checks/bearcoin.png",
+                "chest_unopened_img": "/images/checks/bearcoin_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Bear Coin #6",
+                        "access_rules": ["EASY", "NORMAL", "HARD"],
+                        "visibility_rules": ["coinsanity"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Demolition Drain-Pipe",
+                        "x": 1869,
+                        "y": 1852,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Demolition Drain-Pipe - Bear Coin #7",
+                "chest_opened_img": "/images/checks/bearcoin.png",
+                "chest_unopened_img": "/images/checks/bearcoin_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Bear Coin #7",
+                        "access_rules": ["EASY", "NORMAL", "HARD"],
+                        "visibility_rules": ["coinsanity"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Demolition Drain-Pipe",
+                        "x": 2142,
+                        "y": 1950,
+                        "size": 30
+                    }
+                ]
+            }
+        ]
+    }
+]

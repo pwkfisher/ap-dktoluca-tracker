@@ -1,0 +1,535 @@
+[
+    {
+        "name": "Tearaway Toboggan",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+            " "
+        ],
+        "children": [
+            {
+                "name": "Tearaway Toboggan - Clear",
+                "chest_opened_img": "/images/checks/LevelClear.png",
+                "chest_unopened_img": "/images/checks/LevelClear_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Clear",
+                        "access_rules": ["EASY, $HasBarrelCannon", "NORMAL, $HasBarrelCannon", "HARD, $CanHover", "HARD, $HasBarrelCannon"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Tearaway Toboggan",
+                        "x": 3685,
+                        "y": 1788,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Tearaway Toboggan - KONG",
+                "chest_opened_img": "/images/checks/kong.png",
+                "chest_unopened_img": "/images/checks/kong_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "KONG",
+                        "access_rules": ["EASY, $HasBarrelCannon", "NORMAL, $HasBarrelCannon", "HARD, $CanHover", "HARD, $HasBarrelCannon"],
+                        "visibility_rules": ["kongchecks"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Tearaway Toboggan",
+                        "shape": "diamond",
+                        "x": 3615,
+                        "y": 121,
+                        "size": 30
+                    },
+                    {
+                        "map": "Tearaway Toboggan",
+                        "shape": "diamond",
+                        "x": 3126,
+                        "y": 787,
+                        "size": 30
+                    },
+                    {
+                        "map": "Tearaway Toboggan",
+                        "shape": "diamond",
+                        "x": 3440,
+                        "y": 1142,
+                        "size": 30
+                    },
+                    {
+                        "map": "Tearaway Toboggan",
+                        "shape": "diamond",
+                        "x": 886,
+                        "y": 1829,
+                        "size": 30
+                    }                                                        
+                ]
+            },
+            {
+                "name": "Tearaway Toboggan - DK Coin",
+                "chest_opened_img": "/images/checks/dkcoin.png",
+                "chest_unopened_img": "/images/checks/dkcoin_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "DK Coin",
+                        "access_rules": ["EASY, $HasBarrelCannon, $CanCarry", "NORMAL, $HasBarrelCannon, $CanCarry", "HARD, $CanHover, $CanCarry", "HARD, $HasBarrelCannon, $CanCarry"],
+                        "visibility_rules": ["dkcoinchecks"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Tearaway Toboggan",
+                        "x": 4021,
+                        "y": 1815,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Tearaway Toboggan - Balloon #1",
+                "chest_opened_img": "/images/checks/balloon1.png",
+                "chest_unopened_img": "/images/checks/balloon1_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Balloon #1 (Below a Knik-Knak)",
+                        "access_rules": ["EASY, $HasBarrelCannon", "NORMAL, $HasBarrelCannon", "HARD, $CanHover", "HARD, $HasBarrelCannon"],
+                        "visibility_rules": ["balloonsanity"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Tearaway Toboggan",
+                        "x": 713,
+                        "y": 1387,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Tearaway Toboggan - Balloon #2",
+                "chest_opened_img": "/images/checks/balloon2.png",
+                "chest_unopened_img": "/images/checks/balloon2_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Balloon #2 (At the end)",
+                        "access_rules": ["EASY, $HasBarrelCannon, $CanTeamAttack", "NORMAL, $HasBarrelCannon, $CanTeamAttack", "HARD, $CanSpin, $CanHover", "HARD, $CanHover, $CanTeamAttack", "HARD, $CanSpin, $HasBarrelCannon", "HARD, $HasBarrelCannon, $CanTeamAttack"],
+                        "visibility_rules": ["balloonsanity"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Tearaway Toboggan",
+                        "x": 4181,
+                        "y": 1667,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Tearaway Toboggan - Bonus #1",
+                "chest_opened_img": "/images/checks/Bonus.png",
+                "chest_unopened_img": "/images/checks/Bonus_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Bonus #1",
+                        "access_rules": ["EASY, $HasBarrelCannon, $CanTeamAttack", "NORMAL, $HasBarrelCannon, $CanTeamAttack", "HARD, $CanHover", "HARD, $HasBarrelCannon"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Tearaway Toboggan",
+                        "x": 381,
+                        "y": 289,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Tearaway Toboggan - Bonus #2",
+                "chest_opened_img": "/images/checks/Bonus.png",
+                "chest_unopened_img": "/images/checks/Bonus_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Bonus #2",
+                        "access_rules": ["EASY, $HasBarrelCannon", "NORMAL, $HasBarrelCannon", "HARD, $CanHover", "HARD, $HasBarrelCannon"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Tearaway Toboggan",
+                        "x": 1519,
+                        "y": 1860,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Tearaway Toboggan - Banana Bunch #1",
+                "chest_opened_img": "/images/checks/bananabunch.png",
+                "chest_unopened_img": "/images/checks/bananabunch_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Banana Bunch #1 (After banana arc)",
+                        "access_rules": ["EASY, $HasBarrelCannon", "NORMAL, $HasBarrelCannon", "HARD, $CanHover", "HARD, $HasBarrelCannon"],
+                        "visibility_rules": ["bananasanity"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Tearaway Toboggan",
+                        "x": 121,
+                        "y": 749,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Tearaway Toboggan - Banana Bunch #2",
+                "chest_opened_img": "/images/checks/bananabunch.png",
+                "chest_unopened_img": "/images/checks/bananabunch_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Banana Bunch #2 (In a hill)",
+                        "access_rules": ["EASY, $HasBarrelCannon", "NORMAL, $HasBarrelCannon", "HARD, $CanHover", "HARD, $HasBarrelCannon"],
+                        "visibility_rules": ["bananasanity"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Tearaway Toboggan",
+                        "x": 3653,
+                        "y": 632,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Tearaway Toboggan - Banana Bunch #3",
+                "chest_opened_img": "/images/checks/bananabunch.png",
+                "chest_unopened_img": "/images/checks/bananabunch_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Banana Bunch #3 (Above a Knik-Knak)",
+                        "access_rules": ["EASY, $HasBarrelCannon", "NORMAL, $HasBarrelCannon", "HARD, $CanHover", "HARD, $HasBarrelCannon"],
+                        "visibility_rules": ["bananasanity"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Tearaway Toboggan",
+                        "x": 713,
+                        "y": 1290,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Tearaway Toboggan - Banana Bunch #4",
+                "chest_opened_img": "/images/checks/bananabunch.png",
+                "chest_unopened_img": "/images/checks/bananabunch_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Banana Bunch #4 (Next to a Knik-Knak)",
+                        "access_rules": ["EASY, $HasBarrelCannon", "NORMAL, $HasBarrelCannon", "HARD, $CanHover", "HARD, $HasBarrelCannon"],
+                        "visibility_rules": ["bananasanity"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Tearaway Toboggan",
+                        "x": 3025,
+                        "y": 1402,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Tearaway Toboggan - Banana Bunch #5",
+                "chest_opened_img": "/images/checks/bananabunch.png",
+                "chest_unopened_img": "/images/checks/bananabunch_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Banana Bunch #5 (At the end of a big hill)",
+                        "access_rules": ["EASY, $HasBarrelCannon", "NORMAL, $HasBarrelCannon", "HARD, $CanHover", "HARD, $HasBarrelCannon"],
+                        "visibility_rules": ["bananasanity"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Tearaway Toboggan",
+                        "x": 2257,
+                        "y": 1817,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Tearaway Toboggan - Banana Bunch #6",
+                "chest_opened_img": "/images/checks/bananabunch.png",
+                "chest_unopened_img": "/images/checks/bananabunch_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Banana Bunch #6 (After a big hill)",
+                        "access_rules": ["EASY, $HasBarrelCannon", "NORMAL, $HasBarrelCannon", "HARD, $CanHover", "HARD, $HasBarrelCannon"],
+                        "visibility_rules": ["bananasanity"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Tearaway Toboggan",
+                        "x": 2569,
+                        "y": 1786,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Tearaway Toboggan - Banana Bunch #7",
+                "chest_opened_img": "/images/checks/bananabunch.png",
+                "chest_unopened_img": "/images/checks/bananabunch_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Banana Bunch #7 (Inside Booty Bird)",
+                        "access_rules": ["EASY, $HasBarrelCannon, $CanCarry", "EASY, $HasBarrelCannon, $CanHover", "EASY, $HasBarrelCannon, $CanTeamAttack", "NORMAL, $HasBarrelCannon, $CanCarry", "NORMAL, $HasBarrelCannon, $CanHover", "NORMAL, $HasBarrelCannon, $CanTeamAttack", "HARD, $CanHover", "HARD, $HasBarrelCannon"],
+                        "visibility_rules": ["bananasanity"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Tearaway Toboggan",
+                        "x": 3604,
+                        "y": 1784,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Tearaway Toboggan - Bear Coin #1",
+                "chest_opened_img": "/images/checks/bearcoin.png",
+                "chest_unopened_img": "/images/checks/bearcoin_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Bear Coin #1 (Above green Buzz in house)",
+                        "access_rules": ["EASY, $HasBarrelCannon", "NORMAL, $HasBarrelCannon", "HARD, $CanHover", "HARD, $HasBarrelCannon"],
+                        "visibility_rules": ["coinsanity"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Tearaway Toboggan",
+                        "x": 2334,
+                        "y": 282,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Tearaway Toboggan - Bear Coin #2",
+                "chest_opened_img": "/images/checks/bearcoin.png",
+                "chest_unopened_img": "/images/checks/bearcoin_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Bear Coin #2 (After a Skidda)",
+                        "access_rules": ["EASY, $HasBarrelCannon", "NORMAL, $HasBarrelCannon", "HARD, $CanHover", "HARD, $HasBarrelCannon"],
+                        "visibility_rules": ["coinsanity"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Tearaway Toboggan",
+                        "x": 2100,
+                        "y": 657,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Tearaway Toboggan - Bear Coin #3",
+                "chest_opened_img": "/images/checks/bearcoin.png",
+                "chest_unopened_img": "/images/checks/bearcoin_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Bear Coin #3 (Inside house)",
+                        "access_rules": ["EASY, $HasBarrelCannon", "NORMAL, $HasBarrelCannon", "HARD, $CanHover", "HARD, $HasBarrelCannon"],
+                        "visibility_rules": ["coinsanity"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Tearaway Toboggan",
+                        "x": 2392,
+                        "y": 781,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Tearaway Toboggan - Bear Coin #4",
+                "chest_opened_img": "/images/checks/bearcoin.png",
+                "chest_unopened_img": "/images/checks/bearcoin_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Bear Coin #4 (Above house)",
+                        "access_rules": ["EASY, $HasBarrelCannon", "NORMAL, $HasBarrelCannon", "HARD, $CanHover", "HARD, $HasBarrelCannon"],
+                        "visibility_rules": ["coinsanity"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Tearaway Toboggan",
+                        "x": 430,
+                        "y": 1155,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Tearaway Toboggan - Bear Coin #5",
+                "chest_opened_img": "/images/checks/bearcoin.png",
+                "chest_unopened_img": "/images/checks/bearcoin_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Bear Coin #5 (Below a Knik-Knak)",
+                        "access_rules": ["EASY, $HasBarrelCannon", "NORMAL, $HasBarrelCannon", "HARD, $CanHover", "HARD, $HasBarrelCannon"],
+                        "visibility_rules": ["coinsanity"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Tearaway Toboggan",
+                        "x": 2672,
+                        "y": 1198,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Tearaway Toboggan - Bear Coin #6",
+                "chest_opened_img": "/images/checks/bearcoin.png",
+                "chest_unopened_img": "/images/checks/bearcoin_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Bear Coin #6 (Above house)",
+                        "access_rules": ["EASY, $HasBarrelCannon", "NORMAL, $HasBarrelCannon", "HARD, $CanHover", "HARD, $HasBarrelCannon"],
+                        "visibility_rules": ["coinsanity"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Tearaway Toboggan",
+                        "x": 2031,
+                        "y": 1326,
+                        "size": 30
+                    }
+                ]
+            }
+        ]
+    }
+]

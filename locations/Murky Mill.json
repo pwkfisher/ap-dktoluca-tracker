@@ -1,0 +1,310 @@
+[
+    {
+        "name": "Murky Mill",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+            " "
+        ],
+        "children": [
+            {
+                "name": "Murky Mill - Clear",
+                "chest_opened_img": "/images/checks/LevelClear.png",
+                "chest_unopened_img": "/images/checks/LevelClear_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Clear",
+                        "access_rules": ["EASY", "NORMAL", "HARD"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Murky Mill",
+                        "x": 2430,
+                        "y": 1924,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Murky Mill - KONG",
+                "chest_opened_img": "/images/checks/kong.png",
+                "chest_unopened_img": "/images/checks/kong_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "KONG",
+                        "access_rules": ["EASY", "NORMAL", "HARD"],
+                        "visibility_rules": ["kongchecks"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Murky Mill",
+                        "shape": "diamond",
+                        "x": 1410,
+                        "y": 123,
+                        "size": 30
+                    },
+                    {
+                        "map": "Murky Mill",
+                        "shape": "diamond",
+                        "x": 768,
+                        "y": 474,
+                        "size": 30
+                    },
+                    {
+                        "map": "Murky Mill",
+                        "shape": "diamond",
+                        "x": 1328,
+                        "y": 1458,
+                        "size": 30
+                    },
+                    {
+                        "map": "Murky Mill",
+                        "shape": "diamond",
+                        "x": 1808,
+                        "y": 1802,
+                        "size": 30
+                    }                                                            
+                ]
+            },
+            {
+                "name": "Murky Mill - DK Coin",
+                "chest_opened_img": "/images/checks/dkcoin.png",
+                "chest_unopened_img": "/images/checks/dkcoin_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "DK Coin",
+                        "access_rules": ["EASY, $CanCarry", "EASY, $HasEllie", "NORMAL, $CanCarry", "NORMAL, $HasEllie", "HARD, $CanCarry", "HARD, $HasEllie"],
+                        "visibility_rules": ["dkcoinchecks"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Murky Mill",
+                        "x": 2109,
+                        "y": 1181,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Murky Mill - Balloon #1",
+                "chest_opened_img": "/images/checks/balloon2.png",
+                "chest_unopened_img": "/images/checks/balloon2_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Balloon #1 (Above Sneek)",
+                        "access_rules": ["EASY", "NORMAL", "HARD"],
+                        "visibility_rules": ["balloonsanity"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Murky Mill",
+                        "x": 1311,
+                        "y": 463,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Murky Mill - Bonus #1",
+                "chest_opened_img": "/images/checks/Bonus.png",
+                "chest_unopened_img": "/images/checks/Bonus_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Bonus #1",
+                        "access_rules": ["EASY, $CanCarry", "EASY, $HasEllie", "NORMAL, $CanCarry", "NORMAL, $HasEllie", "HARD, $CanCarry", "HARD, $HasEllie"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Murky Mill",
+                        "x": 1085,
+                        "y": 1110,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Murky Mill - Bonus #2",
+                "chest_opened_img": "/images/checks/Bonus.png",
+                "chest_unopened_img": "/images/checks/Bonus_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Bonus #2",
+                        "access_rules": ["EASY, $HasBarrelCannon, $HasEllie", "NORMAL, $HasBarrelCannon, $CanCarry", "NORMAL, $HasBarrelCannon, $HasEllie", "HARD, $HasBarrelCannon, $CanCarry", "HARD, $HasBothKongs, $HasBarrelCannon", "HARD, $HasBarrelCannon, $HasEllie"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Murky Mill",
+                        "x": 574,
+                        "y": 1679,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Murky Mill - Banana Bunch #1",
+                "chest_opened_img": "/images/checks/bananabunch.png",
+                "chest_unopened_img": "/images/checks/bananabunch_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Banana Bunch #1 (After getting Ellie)",
+                        "access_rules": ["EASY", "NORMAL", "HARD"],
+                        "visibility_rules": ["bananasanity"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Murky Mill",
+                        "x": 1652,
+                        "y": 83,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Murky Mill - Banana Bunch #2",
+                "chest_opened_img": "/images/checks/bananabunch.png",
+                "chest_unopened_img": "/images/checks/bananabunch_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Banana Bunch #2 (Above second lift)",
+                        "access_rules": ["EASY", "NORMAL", "HARD"],
+                        "visibility_rules": ["bananasanity"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Murky Mill",
+                        "x": 2444,
+                        "y": 132,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Murky Mill - Bear Coin #1",
+                "chest_opened_img": "/images/checks/bearcoin.png",
+                "chest_unopened_img": "/images/checks/bearcoin_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Bear Coin #1 (Above Re-Koil)",
+                        "access_rules": ["EASY", "NORMAL", "HARD"],
+                        "visibility_rules": ["coinsanity"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Murky Mill",
+                        "x": 1812,
+                        "y": 422,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Murky Mill - Bear Coin #2",
+                "chest_opened_img": "/images/checks/bearcoin.png",
+                "chest_unopened_img": "/images/checks/bearcoin_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Bear Coin #2 (In corner after falling section with red Buzzes)",
+                        "access_rules": ["EASY", "NORMAL", "HARD"],
+                        "visibility_rules": ["coinsanity"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Murky Mill",
+                        "x": 2446,
+                        "y": 1568,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Murky Mill - Bear Coin #3",
+                "chest_opened_img": "/images/checks/bearcoin.png",
+                "chest_unopened_img": "/images/checks/bearcoin_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Bear Coin #3 (No animal sign)",
+                        "access_rules": ["EASY, $HasEllie", "NORMAL, $HasEllie", "HARD, $HasEllie"],
+                        "visibility_rules": ["coinsanity"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Murky Mill",
+                        "x": 2252,
+                        "y": 1984,
+                        "size": 30
+                    }
+                ]
+            }
+        ]
+    }
+]

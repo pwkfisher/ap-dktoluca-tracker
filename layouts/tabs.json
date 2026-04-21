@@ -1,0 +1,485 @@
+{
+    "tabbed_maps_horizontal": {
+        "type": "tabbed",
+        "tabs": [
+            {
+                "title": "Lake Orangutanga",
+                "content": {
+                    "type": "tabbed",
+                    "tabs": [
+                        {
+                        "title": "Lakeside Limbo",
+                        "content": {
+                        "type": "map",
+                        "maps": [
+                            "Lakeside Limbo"
+                                ]
+                        }
+                        },
+                        {
+                            "title": "Doorstop Dash",
+                            "content": {
+                            "type": "map",
+                            "maps": [
+                                "Doorstop Dash"
+                                    ]
+                        }
+                        },
+                        {
+                            "title": "Tidal Trouble",
+                            "content": {
+                            "type": "map",
+                            "maps": [
+                                "Tidal Trouble"
+                                    ]
+                        }
+                        },
+                        {
+                            "title": "Skidda's Row",
+                            "content": {
+                            "type": "map",
+                            "maps": [
+                                "Skidda's Row"
+                                    ]
+                        }
+                        },
+                        {
+                            "title": "Murky Mill",
+                            "content": {
+                            "type": "map",
+                            "maps": [
+                                "Murky Mill"
+                                    ]
+                        }
+                        },
+                        {
+                            "title": "Belcha's Barn",
+                            "content": {
+                            "type": "map",
+                            "maps": [
+                                "Belcha's Barn"
+                                    ]
+                        }
+                        }
+                    ]
+                }
+            },
+            {
+                "title": "Kremwood Forest",
+                "content": {
+                    "type": "tabbed",
+                    "tabs": [
+                        {
+                        "title": "Barrel Shield Bust-Up",
+                        "content": {
+                        "type": "map",
+                        "maps": [
+                            "Barrel Shield Bust-Up"
+                                ]
+                        }
+                        },
+                        {
+                            "title": "Riverside Race",
+                            "content": {
+                            "type": "map",
+                            "maps": [
+                                "Riverside Race"
+                                    ]
+                        }
+                        },
+                                                {
+                            "title": "Squeals on Wheels",
+                            "content": {
+                            "type": "map",
+                            "maps": [
+                                "Squeals on Wheels"
+                                    ]
+                        }
+                        },
+                        {
+                            "title": "Springin' Spiders",
+                            "content": {
+                            "type": "map",
+                            "maps": [
+                                "Springin' Spiders"
+                                    ]
+                        }
+                        },
+                        {
+                            "title": "Bobbing Barrel Brawl",
+                            "content": {
+                            "type": "map",
+                            "maps": [
+                                "Bobbing Barrel Brawl"
+                                    ]
+                        }
+                        },
+                        {
+                            "title": "Arich's Ambush",
+                            "content": {
+                            "type": "map",
+                            "maps": [
+                                "Arich's Ambush"
+                                    ]
+                        }
+                        }
+                    ]
+                }
+            },
+            {
+                "title": "Cotton-Top Cove",
+                "content": {
+                    "type": "tabbed",
+                    "tabs": [
+                        {
+                            "title": "Bazza's Blockade",
+                            "content": {
+                            "type": "map",
+                            "maps": [
+                                "Bazza's Blockade"
+                                    ]
+                        }
+                        },
+                        {
+                            "title": "Rocket Barrel Ride",
+                            "content": {
+                            "type": "map",
+                            "maps": [
+                                "Rocket Barrel Ride"
+                                    ]
+                        }
+                        },
+                        {
+                            "title": "Kreeping Klasps",
+                            "content": {
+                            "type": "map",
+                            "maps": [
+                                "Kreeping Klasps"
+                                    ]
+                        }
+                        },
+                        {
+                            "title": "Tracker Barrel Trek",
+                            "content": {
+                            "type": "map",
+                            "maps": [
+                                "Tracker Barrel Trek"
+                                    ]
+                        }
+                        },
+                        {
+                            "title": "Fish Food Frenzy",
+                            "content": {
+                            "type": "map",
+                            "maps": [
+                                "Fish Food Frenzy"
+                                    ]
+                        }
+                        },
+                        {
+                            "title": "Squirt's Showdown",
+                            "content": {
+                            "type": "map",
+                            "maps": [
+                                "Squirt's Showdown"
+                                    ]
+                        }
+                        }
+                    ]
+                }
+            },
+            {
+                "title": "Mekanos",
+                "content": {
+                    "type": "tabbed",
+                    "tabs": [
+                        {
+                        "title": "Fire-Ball Frenzy",
+                        "content": {
+                        "type": "map",
+                        "maps": [
+                            "Fire-Ball Frenzy"
+                                ]
+                        }
+                        },
+                        {
+                            "title": "Demolition Drain-Pipe",
+                            "content": {
+                            "type": "map",
+                            "maps": [
+                                "Demolition Drain-Pipe"
+                                    ]
+                        }
+                        },
+                        {
+                            "title": "Ripsaw Rage",
+                            "content": {
+                            "type": "map",
+                            "maps": [
+                                "Ripsaw Rage"
+                                    ]
+                        }
+                        },
+                        {
+                            "title": "Blazing Bazukas",
+                            "content": {
+                            "type": "map",
+                            "maps": [
+                                "Blazing Bazukas"
+                                    ]
+                        }
+                        },
+                        {
+                            "title": "Low-G Labyrinth",
+                            "content": {
+                            "type": "map",
+                            "maps": [
+                                "Low-G Labyrinth"
+                                    ]
+                        }
+                        },
+                        {
+                            "title": "KAOS Karnage",
+                            "content": {
+                            "type": "map",
+                            "maps": [
+                                "KAOS Karnage"
+                                    ]
+                        }
+                        }
+                    ]
+                }
+            },
+            {
+                "title": "K3",
+                "content": {
+                    "type": "tabbed",
+                    "tabs": [
+                        {
+                        "title": "Krevice Kreepers",
+                        "content": {
+                        "type": "map",
+                        "maps": [
+                            "Krevice Kreepers"
+                                ]
+                        }
+                        },
+                        {
+                            "title": "Tearaway Toboggan",
+                            "content": {
+                            "type": "map",
+                            "maps": [
+                                "Tearaway Toboggan"
+                                    ]
+                        }
+                        },
+                        {
+                            "title": "Barrel Drop Bounce",
+                            "content": {
+                            "type": "map",
+                            "maps": [
+                                "Barrel Drop Bounce"
+                                    ]
+                        }
+                        },
+                        {
+                            "title": "Krac-Shot Krock",
+                            "content": {
+                            "type": "map",
+                            "maps": [
+                                "Krac-Shot Krock"
+                                    ]
+                        }
+                        },
+                        {
+                            "title": "Lemguin Lunge",
+                            "content": {
+                            "type": "map",
+                            "maps": [
+                                "Lemguin Lunge"
+                                    ]
+                        }
+                        },
+                        {
+                            "title": "Bleak's House",
+                            "content": {
+                            "type": "map",
+                            "maps": [
+                                "Bleak's House"
+                                    ]
+                        }
+                        }
+                    ]
+                }
+            },
+            {
+                "title": "Razor Ridge",
+                "content": {
+                    "type": "tabbed",
+                    "tabs": [
+                        {
+                        "title": "Buzzer Barrage",
+                        "content": {
+                        "type": "map",
+                        "maps": [
+                            "Buzzer Barrage"
+                                ]
+                        }
+                        },
+                        {
+                            "title": "Kong-Fused Cliffs",
+                            "content": {
+                            "type": "map",
+                            "maps": [
+                                "Kong-Fused Cliffs"
+                                    ]
+                        }
+                        },
+                        {
+                            "title": "Floodlit Fish",
+                            "content": {
+                            "type": "map",
+                            "maps": [
+                                "Floodlit Fish"
+                                    ]
+                        }
+                        },
+                        {
+                            "title": "Pot Hole Panic",
+                            "content": {
+                            "type": "map",
+                            "maps": [
+                                "Pot Hole Panic"
+                                    ]
+                        }
+                        },
+                        {
+                            "title": "Ropey Rumpus",
+                            "content": {
+                            "type": "map",
+                            "maps": [
+                                "Ropey Rumpus"
+                                    ]
+                        }
+                        },
+                        {
+                            "title": "Barbos' Barrier",
+                            "content": {
+                            "type": "map",
+                            "maps": [
+                                "Barbos' Barrier"
+                                    ]
+                        }
+                        }
+                    ]
+                }
+            },
+            {
+                "title": "Kaos Core",
+                "content": {
+                    "type": "tabbed",
+                    "tabs": [
+                        {
+                        "title": "Konveyor Rope Klash",
+                        "content": {
+                        "type": "map",
+                        "maps": [
+                            "Konveyor Rope Klash"
+                                ]
+                        }
+                        },
+                        {
+                        "title": "Creepy Caverns",
+                        "content": {
+                        "type": "map",
+                        "maps": [
+                            "Creepy Caverns"
+                                ]
+                        }
+                        },
+                        {
+                        "title": "Lightning Look-Out",
+                        "content": {
+                        "type": "map",
+                        "maps": [
+                            "Lightning Look-Out"
+                                ]
+                        }
+                        },
+                        {
+                        "title": "Koindozer Klamber",
+                        "content": {
+                        "type": "map",
+                        "maps": [
+                            "Koindozer Klamber"
+                                ]
+                        }
+                        },
+                        {
+                        "title": "Poisonous Pipeline",
+                        "content": {
+                        "type": "map",
+                        "maps": [
+                            "Poisonous Pipeline"
+                                ]
+                        }
+                        }
+                    ]
+                }
+            },
+            {
+                "title": "Krematoa",
+                "content": {
+                    "type": "tabbed",
+                    "tabs": [
+                        {
+                        "title": "Stampede Sprint",
+                        "content": {
+                        "type": "map",
+                        "maps": [
+                            "Stampede Sprint"
+                                ]
+                        }
+                        },
+                        {
+                            "title": "Criss Kross Cliffs",
+                            "content": {
+                            "type": "map",
+                            "maps": [
+                                "Criss Kross Cliffs"
+                                    ]
+                        }
+                        },
+                        {
+                            "title": "Tyrant Twin Tussle",
+                            "content": {
+                            "type": "map",
+                            "maps": [
+                                "Tyrant Twin Tussle"
+                                    ]
+                        }
+                        },
+                        {
+                            "title": "Swoopy Salvo",
+                            "content": {
+                            "type": "map",
+                            "maps": [
+                                "Swoopy Salvo"
+                                    ]
+                        }
+                        },
+                        {
+                            "title": "Rocket Rush",
+                            "content": {
+                            "type": "map",
+                            "maps": [
+                                "Rocket Rush"
+                                    ]
+                        }
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}

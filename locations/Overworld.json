@@ -1,0 +1,3166 @@
+[
+    {
+        "name": "Overworld",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+            " "
+        ],
+        "children": [
+            {
+                "name": "Arichs Ambush",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Arichs Ambush - Clear - Clear",
+                        "ref": "Arichs Ambush/Arichs Ambush - Clear/Clear"
+                    },
+                    {
+                        "name": "Arichs Ambush - Clear - Defeated Arich",
+                        "ref": "Arichs Ambush/Arichs Ambush - Clear/Defeated Arich"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 187,
+                        "y": 893,
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "Banana Bird",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Banana Bird - Bounty Beach - Bounty Beach",
+                        "ref": "Banana Bird/Banana Bird - Bounty Beach/Bounty Beach"
+                    },
+                    {
+                        "name": "Banana Bird - Kong Cave - Kong Cave",
+                        "ref": "Banana Bird/Banana Bird - Kong Cave/Kong Cave"
+                    },
+                    {
+                        "name": "Banana Bird - Undercover Cove - Undercover Cove",
+                        "ref": "Banana Bird/Banana Bird - Undercover Cove/Undercover Cove"
+                    },
+                    {
+                        "name": "Banana Bird - Belchas Burrow - Belchas Burrow",
+                        "ref": "Banana Bird/Banana Bird - Belchas Burrow/Belchas Burrow"
+                    },
+                    {
+                        "name": "Banana Bird - Ks Kache - Ks Kache",
+                        "ref": "Banana Bird/Banana Bird - Ks Kache/Ks Kache"
+                    },
+                    {
+                        "name": "Banana Bird - Hill-Top Hoard - Hill-Top Hoard",
+                        "ref": "Banana Bird/Banana Bird - Hill-Top Hoard/Hill-Top Hoard"
+                    },
+                    {
+                        "name": "Banana Bird - Smugglers Cove - Smugglers Cove",
+                        "ref": "Banana Bird/Banana Bird - Smugglers Cove/Smugglers Cove"
+                    },
+                    {
+                        "name": "Banana Bird - Arichs Hoard - Arichs Hoard",
+                        "ref": "Banana Bird/Banana Bird - Arichs Hoard/Arichs Hoard"
+                    },
+                    {
+                        "name": "Banana Bird - Bounty Bay - Bounty Bay",
+                        "ref": "Banana Bird/Banana Bird - Bounty Bay/Bounty Bay"
+                    },
+                    {
+                        "name": "Banana Bird - Glacial Grotto - Glacial Grotto",
+                        "ref": "Banana Bird/Banana Bird - Glacial Grotto/Glacial Grotto"
+                    },
+                    {
+                        "name": "Banana Bird - Sewer Stockpile - Sewer Stockpile",
+                        "ref": "Banana Bird/Banana Bird - Sewer Stockpile/Sewer Stockpile"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 1822,
+                        "y": 2377,
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "Barboss Barrier",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Barboss Barrier - Clear - Clear",
+                        "ref": "Barboss Barrier/Barboss Barrier - Clear/Clear"
+                    },
+                    {
+                        "name": "Barboss Barrier - Clear - Defeated Barbos",
+                        "ref": "Barboss Barrier/Barboss Barrier - Clear/Defeated Barbos"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 99,
+                        "y": 318,
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "Barrel Drop Bounce",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Barrel Drop Bounce - Clear - Clear",
+                        "ref": "Barrel Drop Bounce/Barrel Drop Bounce - Clear/Clear"
+                    },
+                    {
+                        "name": "Barrel Drop Bounce - KONG - KONG",
+                        "ref": "Barrel Drop Bounce/Barrel Drop Bounce - KONG/KONG"
+                    },
+                    {
+                        "name": "Barrel Drop Bounce - DK Coin - DK Coin",
+                        "ref": "Barrel Drop Bounce/Barrel Drop Bounce - DK Coin/DK Coin"
+                    },
+                    {
+                        "name": "Barrel Drop Bounce - Balloon #1 - Balloon #1 (No animal sign)",
+                        "ref": "Barrel Drop Bounce/Barrel Drop Bounce - Balloon #1/Balloon #1 (No animal sign)"
+                    },
+                    {
+                        "name": "Barrel Drop Bounce - Bonus #1 - Bonus #1",
+                        "ref": "Barrel Drop Bounce/Barrel Drop Bounce - Bonus #1/Bonus #1"
+                    },
+                    {
+                        "name": "Barrel Drop Bounce - Bonus #2 - Bonus #2",
+                        "ref": "Barrel Drop Bounce/Barrel Drop Bounce - Bonus #2/Bonus #2"
+                    },
+                    {
+                        "name": "Barrel Drop Bounce - Bear Coin #1 - Bear Coin #1 (At start)",
+                        "ref": "Barrel Drop Bounce/Barrel Drop Bounce - Bear Coin #1/Bear Coin #1 (At start)"
+                    },
+                    {
+                        "name": "Barrel Drop Bounce - Bear Coin #2 - Bear Coin #2 (In Hidden Booty Bird above 10 banana set)",
+                        "ref": "Barrel Drop Bounce/Barrel Drop Bounce - Bear Coin #2/Bear Coin #2 (In Hidden Booty Bird above 10 banana set)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 1994,
+                        "y": 1124,
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "Barrel Shield Bust-Up",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Barrel Shield Bust-Up - Clear - Clear",
+                        "ref": "Barrel Shield Bust-Up/Barrel Shield Bust-Up - Clear/Clear"
+                    },
+                    {
+                        "name": "Barrel Shield Bust-Up - KONG - KONG",
+                        "ref": "Barrel Shield Bust-Up/Barrel Shield Bust-Up - KONG/KONG"
+                    },
+                    {
+                        "name": "Barrel Shield Bust-Up - DK Coin - DK Coin",
+                        "ref": "Barrel Shield Bust-Up/Barrel Shield Bust-Up - DK Coin/DK Coin"
+                    },
+                    {
+                        "name": "Barrel Shield Bust-Up - Bonus #1 - Bonus #1",
+                        "ref": "Barrel Shield Bust-Up/Barrel Shield Bust-Up - Bonus #1/Bonus #1"
+                    },
+                    {
+                        "name": "Barrel Shield Bust-Up - Bonus #2 - Bonus #2",
+                        "ref": "Barrel Shield Bust-Up/Barrel Shield Bust-Up - Bonus #2/Bonus #2"
+                    },
+                    {
+                        "name": "Barrel Shield Bust-Up - Banana Bunch #1 - Banana Bunch #1 (At start behind Buzz)",
+                        "ref": "Barrel Shield Bust-Up/Barrel Shield Bust-Up - Banana Bunch #1/Banana Bunch #1 (At start behind Buzz)"
+                    },
+                    {
+                        "name": "Barrel Shield Bust-Up - Banana Bunch #2 - Banana Bunch #2 (Between trees)",
+                        "ref": "Barrel Shield Bust-Up/Barrel Shield Bust-Up - Banana Bunch #2/Banana Bunch #2 (Between trees)"
+                    },
+                    {
+                        "name": "Barrel Shield Bust-Up - Bear Coin #1 - Bear Coin #1 (In hole above Barrel Kannon)",
+                        "ref": "Barrel Shield Bust-Up/Barrel Shield Bust-Up - Bear Coin #1/Bear Coin #1 (In hole above Barrel Kannon)"
+                    },
+                    {
+                        "name": "Barrel Shield Bust-Up - Bear Coin #2 - Bear Coin #2 (In ledge)",
+                        "ref": "Barrel Shield Bust-Up/Barrel Shield Bust-Up - Bear Coin #2/Bear Coin #2 (In ledge)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 1774,
+                        "y": 2378,
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "Bazzas Blockade",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Bazzas Blockade - Clear - Clear",
+                        "ref": "Bazzas Blockade/Bazzas Blockade - Clear/Clear"
+                    },
+                    {
+                        "name": "Bazzas Blockade - KONG - KONG",
+                        "ref": "Bazzas Blockade/Bazzas Blockade - KONG/KONG"
+                    },
+                    {
+                        "name": "Bazzas Blockade - DK Coin - DK Coin",
+                        "ref": "Bazzas Blockade/Bazzas Blockade - DK Coin/DK Coin"
+                    },
+                    {
+                        "name": "Bazzas Blockade - Bonus #1 - Bonus #1",
+                        "ref": "Bazzas Blockade/Bazzas Blockade - Bonus #1/Bonus #1"
+                    },
+                    {
+                        "name": "Bazzas Blockade - Bonus #2 - Bonus #2",
+                        "ref": "Bazzas Blockade/Bazzas Blockade - Bonus #2/Bonus #2"
+                    },
+                    {
+                        "name": "Bazzas Blockade - Banana Bunch #1 - Banana Bunch #1 (Near start)",
+                        "ref": "Bazzas Blockade/Bazzas Blockade - Banana Bunch #1/Banana Bunch #1 (Near start)"
+                    },
+                    {
+                        "name": "Bazzas Blockade - Banana Bunch #2 - Banana Bunch #2 (Near start)",
+                        "ref": "Bazzas Blockade/Bazzas Blockade - Banana Bunch #2/Banana Bunch #2 (Near start)"
+                    },
+                    {
+                        "name": "Bazzas Blockade - Bear Coin #1 - Bear Coin #1 (In small passage)",
+                        "ref": "Bazzas Blockade/Bazzas Blockade - Bear Coin #1/Bear Coin #1 (In small passage)"
+                    },
+                    {
+                        "name": "Bazzas Blockade - Bear Coin #2 - Bear Coin #2 (In small passage)",
+                        "ref": "Bazzas Blockade/Bazzas Blockade - Bear Coin #2/Bear Coin #2 (In small passage)"
+                    },
+                    {
+                        "name": "Bazzas Blockade - Bear Coin #3 - Bear Coin #3 (Below Bazzas exit)",
+                        "ref": "Bazzas Blockade/Bazzas Blockade - Bear Coin #3/Bear Coin #3 (Below Bazzas exit)"
+                    },
+                    {
+                        "name": "Bazzas Blockade - Bear Coin #4 - Bear Coin #4 (In Bounty Bass near end)",
+                        "ref": "Bazzas Blockade/Bazzas Blockade - Bear Coin #4/Bear Coin #4 (In Bounty Bass near end)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 873,
+                        "y": 498,
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "Belchas Barn",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Belchas Barn - Clear - Clear",
+                        "ref": "Belchas Barn/Belchas Barn - Clear/Clear"
+                    },
+                    {
+                        "name": "Belchas Barn - Clear - Defeated Belcha",
+                        "ref": "Belchas Barn/Belchas Barn - Clear/Defeated Belcha"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 227,
+                        "y": 1234,
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "Blazing Bazukas",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Blazing Bazukas - Clear - Clear",
+                        "ref": "Blazing Bazukas/Blazing Bazukas - Clear/Clear"
+                    },
+                    {
+                        "name": "Blazing Bazukas - KONG - KONG",
+                        "ref": "Blazing Bazukas/Blazing Bazukas - KONG/KONG"
+                    },
+                    {
+                        "name": "Blazing Bazukas - DK Coin - DK Coin",
+                        "ref": "Blazing Bazukas/Blazing Bazukas - DK Coin/DK Coin"
+                    },
+                    {
+                        "name": "Blazing Bazukas - Balloon #1 - Balloon #1 (Near end)",
+                        "ref": "Blazing Bazukas/Blazing Bazukas - Balloon #1/Balloon #1 (Near end)"
+                    },
+                    {
+                        "name": "Blazing Bazukas - Bonus #1 - Bonus #1",
+                        "ref": "Blazing Bazukas/Blazing Bazukas - Bonus #1/Bonus #1"
+                    },
+                    {
+                        "name": "Blazing Bazukas - Bonus #2 - Bonus #2",
+                        "ref": "Blazing Bazukas/Blazing Bazukas - Bonus #2/Bonus #2"
+                    },
+                    {
+                        "name": "Blazing Bazukas - Banana Bunch #1 - Banana Bunch #1 (No animal sign)",
+                        "ref": "Blazing Bazukas/Blazing Bazukas - Banana Bunch #1/Banana Bunch #1 (No animal sign)"
+                    },
+                    {
+                        "name": "Blazing Bazukas - Banana Bunch #2 - Banana Bunch #2 (Before pair of Krimps)",
+                        "ref": "Blazing Bazukas/Blazing Bazukas - Banana Bunch #2/Banana Bunch #2 (Before pair of Krimps)"
+                    },
+                    {
+                        "name": "Blazing Bazukas - Banana Bunch #3 - Banana Bunch #3 (Above Bazuka)",
+                        "ref": "Blazing Bazukas/Blazing Bazukas - Banana Bunch #3/Banana Bunch #3 (Above Bazuka)"
+                    },
+                    {
+                        "name": "Blazing Bazukas - Bear Coin #1 - Bear Coin #1 (In rope near start)",
+                        "ref": "Blazing Bazukas/Blazing Bazukas - Bear Coin #1/Bear Coin #1 (In rope near start)"
+                    },
+                    {
+                        "name": "Blazing Bazukas - Bear Coin #2 - Bear Coin #2 (Next to Barrel Cannon before No animal sign)",
+                        "ref": "Blazing Bazukas/Blazing Bazukas - Bear Coin #2/Bear Coin #2 (Next to Barrel Cannon before No animal sign)"
+                    },
+                    {
+                        "name": "Blazing Bazukas - Bear Coin #3 - Bear Coin #3 (No animal sign)",
+                        "ref": "Blazing Bazukas/Blazing Bazukas - Bear Coin #3/Bear Coin #3 (No animal sign)"
+                    },
+                    {
+                        "name": "Blazing Bazukas - Bear Coin #4 - Bear Coin #4 (Above Bazuka)",
+                        "ref": "Blazing Bazukas/Blazing Bazukas - Bear Coin #4/Bear Coin #4 (Above Bazuka)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 1768,
+                        "y": 2445,
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "Bleaks House",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Bleaks House - Clear - Clear",
+                        "ref": "Bleaks House/Bleaks House - Clear/Clear"
+                    },
+                    {
+                        "name": "Bleaks House - Clear - Defeated Bleak",
+                        "ref": "Bleaks House/Bleaks House - Clear/Defeated Bleak"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 637,
+                        "y": 492,
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "Bobbing Barrel Brawl",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Bobbing Barrel Brawl - Clear - Clear",
+                        "ref": "Bobbing Barrel Brawl/Bobbing Barrel Brawl - Clear/Clear"
+                    },
+                    {
+                        "name": "Bobbing Barrel Brawl - KONG - KONG",
+                        "ref": "Bobbing Barrel Brawl/Bobbing Barrel Brawl - KONG/KONG"
+                    },
+                    {
+                        "name": "Bobbing Barrel Brawl - DK Coin - DK Coin",
+                        "ref": "Bobbing Barrel Brawl/Bobbing Barrel Brawl - DK Coin/DK Coin"
+                    },
+                    {
+                        "name": "Bobbing Barrel Brawl - Balloon #1 - Balloon #1 (Cache below Koin)",
+                        "ref": "Bobbing Barrel Brawl/Bobbing Barrel Brawl - Balloon #1/Balloon #1 (Cache below Koin)"
+                    },
+                    {
+                        "name": "Bobbing Barrel Brawl - Bonus #1 - Bonus #1",
+                        "ref": "Bobbing Barrel Brawl/Bobbing Barrel Brawl - Bonus #1/Bonus #1"
+                    },
+                    {
+                        "name": "Bobbing Barrel Brawl - Bonus #2 - Bonus #2",
+                        "ref": "Bobbing Barrel Brawl/Bobbing Barrel Brawl - Bonus #2/Bonus #2"
+                    },
+                    {
+                        "name": "Bobbing Barrel Brawl - Banana Bunch #1 - Banana Bunch #1 (No animal sign)",
+                        "ref": "Bobbing Barrel Brawl/Bobbing Barrel Brawl - Banana Bunch #1/Banana Bunch #1 (No animal sign)"
+                    },
+                    {
+                        "name": "Bobbing Barrel Brawl - Bear Coin #1 - Bear Coin #1 (Above Knik-Knak)",
+                        "ref": "Bobbing Barrel Brawl/Bobbing Barrel Brawl - Bear Coin #1/Bear Coin #1 (Above Knik-Knak)"
+                    },
+                    {
+                        "name": "Bobbing Barrel Brawl - Bear Coin #2 - Bear Coin #2 (Before Green-Red Buzz combo)",
+                        "ref": "Bobbing Barrel Brawl/Bobbing Barrel Brawl - Bear Coin #2/Bear Coin #2 (Before Green-Red Buzz combo)"
+                    },
+                    {
+                        "name": "Bobbing Barrel Brawl - Bear Coin #3 - Bear Coin #3 (Cache below no animal sign)",
+                        "ref": "Bobbing Barrel Brawl/Bobbing Barrel Brawl - Bear Coin #3/Bear Coin #3 (Cache below no animal sign)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 2372,
+                        "y": 2346,
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "Buzzer Barrage",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Buzzer Barrage - Clear - Clear",
+                        "ref": "Buzzer Barrage/Buzzer Barrage - Clear/Clear"
+                    },
+                    {
+                        "name": "Buzzer Barrage - KONG - KONG",
+                        "ref": "Buzzer Barrage/Buzzer Barrage - KONG/KONG"
+                    },
+                    {
+                        "name": "Buzzer Barrage - DK Coin - DK Coin",
+                        "ref": "Buzzer Barrage/Buzzer Barrage - DK Coin/DK Coin"
+                    },
+                    {
+                        "name": "Buzzer Barrage - Balloon #1 - Balloon #1 (Cache at start)",
+                        "ref": "Buzzer Barrage/Buzzer Barrage - Balloon #1/Balloon #1 (Cache at start)"
+                    },
+                    {
+                        "name": "Buzzer Barrage - Balloon #2 - Balloon #2 (Above exit)",
+                        "ref": "Buzzer Barrage/Buzzer Barrage - Balloon #2/Balloon #2 (Above exit)"
+                    },
+                    {
+                        "name": "Buzzer Barrage - Balloon #3 - Balloon #3 (Cache below no animal sign)",
+                        "ref": "Buzzer Barrage/Buzzer Barrage - Balloon #3/Balloon #3 (Cache below no animal sign)"
+                    },
+                    {
+                        "name": "Buzzer Barrage - Bonus #1 - Bonus #1",
+                        "ref": "Buzzer Barrage/Buzzer Barrage - Bonus #1/Bonus #1"
+                    },
+                    {
+                        "name": "Buzzer Barrage - Bonus #2 - Bonus #2",
+                        "ref": "Buzzer Barrage/Buzzer Barrage - Bonus #2/Bonus #2"
+                    },
+                    {
+                        "name": "Buzzer Barrage - Banana Bunch #1 - Banana Bunch #1 (Near bonus #1 exit)",
+                        "ref": "Buzzer Barrage/Buzzer Barrage - Banana Bunch #1/Banana Bunch #1 (Near bonus #1 exit)"
+                    },
+                    {
+                        "name": "Buzzer Barrage - Banana Bunch #2 - Banana Bunch #2 (Below Kopter)",
+                        "ref": "Buzzer Barrage/Buzzer Barrage - Banana Bunch #2/Banana Bunch #2 (Below Kopter)"
+                    },
+                    {
+                        "name": "Buzzer Barrage - Banana Bunch #3 - Banana Bunch #3 (In a dead end after triple Buzzes)",
+                        "ref": "Buzzer Barrage/Buzzer Barrage - Banana Bunch #3/Banana Bunch #3 (In a dead end after triple Buzzes)"
+                    },
+                    {
+                        "name": "Buzzer Barrage - Banana Bunch #4 - Banana Bunch #4 (In a dead end after triple Buzzes)",
+                        "ref": "Buzzer Barrage/Buzzer Barrage - Banana Bunch #4/Banana Bunch #4 (In a dead end after triple Buzzes)"
+                    },
+                    {
+                        "name": "Buzzer Barrage - Banana Bunch #5 - Banana Bunch #5 (In a dead end after circling Buzzes)",
+                        "ref": "Buzzer Barrage/Buzzer Barrage - Banana Bunch #5/Banana Bunch #5 (In a dead end after circling Buzzes)"
+                    },
+                    {
+                        "name": "Buzzer Barrage - Banana Bunch #6 - Banana Bunch #6 (In a dead end after circling Buzzes)",
+                        "ref": "Buzzer Barrage/Buzzer Barrage - Banana Bunch #6/Banana Bunch #6 (In a dead end after circling Buzzes)"
+                    },
+                    {
+                        "name": "Buzzer Barrage - Banana Bunch #7 - Banana Bunch #7 (Before red buzz trio before G)",
+                        "ref": "Buzzer Barrage/Buzzer Barrage - Banana Bunch #7/Banana Bunch #7 (Before red buzz trio before G)"
+                    },
+                    {
+                        "name": "Buzzer Barrage - Bear Coin #1 - Bear Coin #1 (In a Booty Bird at the start)",
+                        "ref": "Buzzer Barrage/Buzzer Barrage - Bear Coin #1/Bear Coin #1 (In a Booty Bird at the start)"
+                    },
+                    {
+                        "name": "Buzzer Barrage - Bear Coin #2 - Bear Coin #2 (In a corner near circling Buzzes)",
+                        "ref": "Buzzer Barrage/Buzzer Barrage - Bear Coin #2/Bear Coin #2 (In a corner near circling Buzzes)"
+                    },
+                    {
+                        "name": "Buzzer Barrage - Bear Coin #3 - Bear Coin #3 (Between two Buzzes)",
+                        "ref": "Buzzer Barrage/Buzzer Barrage - Bear Coin #3/Bear Coin #3 (Between two Buzzes)"
+                    },
+                    {
+                        "name": "Buzzer Barrage - Bear Coin #4 - Bear Coin #4 (Below Kopter)",
+                        "ref": "Buzzer Barrage/Buzzer Barrage - Bear Coin #4/Bear Coin #4 (Below Kopter)"
+                    },
+                    {
+                        "name": "Buzzer Barrage - Bear Coin #5 - Bear Coin #5 (No animal sign)",
+                        "ref": "Buzzer Barrage/Buzzer Barrage - Bear Coin #5/Bear Coin #5 (No animal sign)"
+                    },
+                    {
+                        "name": "Buzzer Barrage - Bear Coin #6 - Bear Coin #6 (Above exit)",
+                        "ref": "Buzzer Barrage/Buzzer Barrage - Bear Coin #6/Bear Coin #6 (Above exit)"
+                    },
+                    {
+                        "name": "Buzzer Barrage - Bear Coin #6 - Bear Coin #6 (Cache near exit)",
+                        "ref": "Buzzer Barrage/Buzzer Barrage - Bear Coin #6/Bear Coin #6 (Cache near exit)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 1954,
+                        "y": 2115,
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "Creepy Caverns",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Creepy Caverns - Clear - Clear",
+                        "ref": "Creepy Caverns/Creepy Caverns - Clear/Clear"
+                    },
+                    {
+                        "name": "Creepy Caverns - KONG - KONG",
+                        "ref": "Creepy Caverns/Creepy Caverns - KONG/KONG"
+                    },
+                    {
+                        "name": "Creepy Caverns - DK Coin - DK Coin",
+                        "ref": "Creepy Caverns/Creepy Caverns - DK Coin/DK Coin"
+                    },
+                    {
+                        "name": "Creepy Caverns - Balloon #1 - Balloon #1 (Cache next to Krumples pair)",
+                        "ref": "Creepy Caverns/Creepy Caverns - Balloon #1/Balloon #1 (Cache next to Krumples pair)"
+                    },
+                    {
+                        "name": "Creepy Caverns - Bonus #1 - Bonus #1",
+                        "ref": "Creepy Caverns/Creepy Caverns - Bonus #1/Bonus #1"
+                    },
+                    {
+                        "name": "Creepy Caverns - Bonus #2 - Bonus #2",
+                        "ref": "Creepy Caverns/Creepy Caverns - Bonus #2/Bonus #2"
+                    },
+                    {
+                        "name": "Creepy Caverns - Banana Bunch #1 - Banana Bunch #1 (In Booty Bird at the start)",
+                        "ref": "Creepy Caverns/Creepy Caverns - Banana Bunch #1/Banana Bunch #1 (In Booty Bird at the start)"
+                    },
+                    {
+                        "name": "Creepy Caverns - Banana Bunch #2 - Banana Bunch #2 (Near bonus #1 exit)",
+                        "ref": "Creepy Caverns/Creepy Caverns - Banana Bunch #2/Banana Bunch #2 (Near bonus #1 exit)"
+                    },
+                    {
+                        "name": "Creepy Caverns - Bear Coin #1 - Bear Coin #1 (Cache near first ascent)",
+                        "ref": "Creepy Caverns/Creepy Caverns - Bear Coin #1/Bear Coin #1 (Cache near first ascent)"
+                    },
+                    {
+                        "name": "Creepy Caverns - Bear Coin #2 - Bear Coin #2 (In secret ghost barrel trap before O)",
+                        "ref": "Creepy Caverns/Creepy Caverns - Bear Coin #2/Bear Coin #2 (In secret ghost barrel trap before O)"
+                    },
+                    {
+                        "name": "Creepy Caverns - Bear Coin #3 - Bear Coin #3 (In secret ghost barrel trap before O)",
+                        "ref": "Creepy Caverns/Creepy Caverns - Bear Coin #3/Bear Coin #3 (In secret ghost barrel trap before O)"
+                    },
+                    {
+                        "name": "Creepy Caverns - Bear Coin #4 - Bear Coin #4 (No animal sign)",
+                        "ref": "Creepy Caverns/Creepy Caverns - Bear Coin #4/Bear Coin #4 (No animal sign)"
+                    },
+                    {
+                        "name": "Creepy Caverns - Bear Coin #5 - Bear Coin #5 (Next to Krumples pair)",
+                        "ref": "Creepy Caverns/Creepy Caverns - Bear Coin #5/Bear Coin #5 (Next to Krumples pair)"
+                    },
+                    {
+                        "name": "Creepy Caverns - Bear Coin #6 - Bear Coin #6 (Above G)",
+                        "ref": "Creepy Caverns/Creepy Caverns - Bear Coin #6/Bear Coin #6 (Above G)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 1832,
+                        "y": 479,
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "Criss Kross Cliffs",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Criss Kross Cliffs - Clear - Clear",
+                        "ref": "Criss Kross Cliffs/Criss Kross Cliffs - Clear/Clear"
+                    },
+                    {
+                        "name": "Criss Kross Cliffs - KONG - KONG",
+                        "ref": "Criss Kross Cliffs/Criss Kross Cliffs - KONG/KONG"
+                    },
+                    {
+                        "name": "Criss Kross Cliffs - DK Coin - DK Coin",
+                        "ref": "Criss Kross Cliffs/Criss Kross Cliffs - DK Coin/DK Coin"
+                    },
+                    {
+                        "name": "Criss Kross Cliffs - Balloon #1 - Balloon #1 (Near end)",
+                        "ref": "Criss Kross Cliffs/Criss Kross Cliffs - Balloon #1/Balloon #1 (Near end)"
+                    },
+                    {
+                        "name": "Criss Kross Cliffs - Balloon #2 - Balloon #2 (Cache below goal)",
+                        "ref": "Criss Kross Cliffs/Criss Kross Cliffs - Balloon #2/Balloon #2 (Cache below goal)"
+                    },
+                    {
+                        "name": "Criss Kross Cliffs - Bonus #1 - Bonus #1",
+                        "ref": "Criss Kross Cliffs/Criss Kross Cliffs - Bonus #1/Bonus #1"
+                    },
+                    {
+                        "name": "Criss Kross Cliffs - Bonus #2 - Bonus #2",
+                        "ref": "Criss Kross Cliffs/Criss Kross Cliffs - Bonus #2/Bonus #2"
+                    },
+                    {
+                        "name": "Criss Kross Cliffs - Banana Bunch #1 - Banana Bunch #1 (At start)",
+                        "ref": "Criss Kross Cliffs/Criss Kross Cliffs - Banana Bunch #1/Banana Bunch #1 (At start)"
+                    },
+                    {
+                        "name": "Criss Kross Cliffs - Banana Bunch #2 - Banana Bunch #2 (In open area after O)",
+                        "ref": "Criss Kross Cliffs/Criss Kross Cliffs - Banana Bunch #2/Banana Bunch #2 (In open area after O)"
+                    },
+                    {
+                        "name": "Criss Kross Cliffs - Banana Bunch #3 - Banana Bunch #3 (Upper left after Bonus #2 exit)",
+                        "ref": "Criss Kross Cliffs/Criss Kross Cliffs - Banana Bunch #3/Banana Bunch #3 (Upper left after Bonus #2 exit)"
+                    },
+                    {
+                        "name": "Criss Kross Cliffs - Bear Coin #1 - Bear Coin #1 (In open area after O)",
+                        "ref": "Criss Kross Cliffs/Criss Kross Cliffs - Bear Coin #1/Bear Coin #1 (In open area after O)"
+                    },
+                    {
+                        "name": "Criss Kross Cliffs - Bear Coin #2 - Bear Coin #2 (Below N)",
+                        "ref": "Criss Kross Cliffs/Criss Kross Cliffs - Bear Coin #2/Bear Coin #2 (Below N)"
+                    },
+                    {
+                        "name": "Criss Kross Cliffs - Bear Coin #3 - Bear Coin #3 (Cache near bonus #2)",
+                        "ref": "Criss Kross Cliffs/Criss Kross Cliffs - Bear Coin #3/Bear Coin #3 (Cache near bonus #2)"
+                    },
+                    {
+                        "name": "Criss Kross Cliffs - Bear Coin #4 - Bear Coin #4 (Cache near bonus #2)",
+                        "ref": "Criss Kross Cliffs/Criss Kross Cliffs - Bear Coin #4/Bear Coin #4 (Cache near bonus #2)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 2079,
+                        "y": 968,
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "Demolition Drain-Pipe",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Demolition Drain-Pipe - Clear - Clear",
+                        "ref": "Demolition Drain-Pipe/Demolition Drain-Pipe - Clear/Clear"
+                    },
+                    {
+                        "name": "Demolition Drain-Pipe - KONG - KONG",
+                        "ref": "Demolition Drain-Pipe/Demolition Drain-Pipe - KONG/KONG"
+                    },
+                    {
+                        "name": "Demolition Drain-Pipe - DK Coin - DK Coin",
+                        "ref": "Demolition Drain-Pipe/Demolition Drain-Pipe - DK Coin/DK Coin"
+                    },
+                    {
+                        "name": "Demolition Drain-Pipe - Bonus #1 - Bonus #1",
+                        "ref": "Demolition Drain-Pipe/Demolition Drain-Pipe - Bonus #1/Bonus #1"
+                    },
+                    {
+                        "name": "Demolition Drain-Pipe - Bonus #2 - Bonus #2",
+                        "ref": "Demolition Drain-Pipe/Demolition Drain-Pipe - Bonus #2/Bonus #2"
+                    },
+                    {
+                        "name": "Demolition Drain-Pipe - Banana Bunch #1 - Banana Bunch #1",
+                        "ref": "Demolition Drain-Pipe/Demolition Drain-Pipe - Banana Bunch #1/Banana Bunch #1"
+                    },
+                    {
+                        "name": "Demolition Drain-Pipe - Banana Bunch #2 - Banana Bunch #2",
+                        "ref": "Demolition Drain-Pipe/Demolition Drain-Pipe - Banana Bunch #2/Banana Bunch #2"
+                    },
+                    {
+                        "name": "Demolition Drain-Pipe - Banana Bunch #3 - Banana Bunch #3",
+                        "ref": "Demolition Drain-Pipe/Demolition Drain-Pipe - Banana Bunch #3/Banana Bunch #3"
+                    },
+                    {
+                        "name": "Demolition Drain-Pipe - Banana Bunch #4 - Banana Bunch #4",
+                        "ref": "Demolition Drain-Pipe/Demolition Drain-Pipe - Banana Bunch #4/Banana Bunch #4"
+                    },
+                    {
+                        "name": "Demolition Drain-Pipe - Banana Bunch #5 - Banana Bunch #5",
+                        "ref": "Demolition Drain-Pipe/Demolition Drain-Pipe - Banana Bunch #5/Banana Bunch #5"
+                    },
+                    {
+                        "name": "Demolition Drain-Pipe - Banana Bunch #6 - Banana Bunch #6",
+                        "ref": "Demolition Drain-Pipe/Demolition Drain-Pipe - Banana Bunch #6/Banana Bunch #6"
+                    },
+                    {
+                        "name": "Demolition Drain-Pipe - Banana Bunch #7 - Banana Bunch #7",
+                        "ref": "Demolition Drain-Pipe/Demolition Drain-Pipe - Banana Bunch #7/Banana Bunch #7"
+                    },
+                    {
+                        "name": "Demolition Drain-Pipe - Bear Coin #1 - Bear Coin #1",
+                        "ref": "Demolition Drain-Pipe/Demolition Drain-Pipe - Bear Coin #1/Bear Coin #1"
+                    },
+                    {
+                        "name": "Demolition Drain-Pipe - Bear Coin #2 - Bear Coin #2",
+                        "ref": "Demolition Drain-Pipe/Demolition Drain-Pipe - Bear Coin #2/Bear Coin #2"
+                    },
+                    {
+                        "name": "Demolition Drain-Pipe - Bear Coin #3 - Bear Coin #3",
+                        "ref": "Demolition Drain-Pipe/Demolition Drain-Pipe - Bear Coin #3/Bear Coin #3"
+                    },
+                    {
+                        "name": "Demolition Drain-Pipe - Bear Coin #4 - Bear Coin #4",
+                        "ref": "Demolition Drain-Pipe/Demolition Drain-Pipe - Bear Coin #4/Bear Coin #4"
+                    },
+                    {
+                        "name": "Demolition Drain-Pipe - Bear Coin #5 - Bear Coin #5",
+                        "ref": "Demolition Drain-Pipe/Demolition Drain-Pipe - Bear Coin #5/Bear Coin #5"
+                    },
+                    {
+                        "name": "Demolition Drain-Pipe - Bear Coin #6 - Bear Coin #6",
+                        "ref": "Demolition Drain-Pipe/Demolition Drain-Pipe - Bear Coin #6/Bear Coin #6"
+                    },
+                    {
+                        "name": "Demolition Drain-Pipe - Bear Coin #7 - Bear Coin #7",
+                        "ref": "Demolition Drain-Pipe/Demolition Drain-Pipe - Bear Coin #7/Bear Coin #7"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 526,
+                        "y": 176,
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "Doorstop Dash",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Doorstop Dash - Clear - Clear",
+                        "ref": "Doorstop Dash/Doorstop Dash - Clear/Clear"
+                    },
+                    {
+                        "name": "Doorstop Dash - KONG - KONG",
+                        "ref": "Doorstop Dash/Doorstop Dash - KONG/KONG"
+                    },
+                    {
+                        "name": "Doorstop Dash - DK Coin - DK Coin",
+                        "ref": "Doorstop Dash/Doorstop Dash - DK Coin/DK Coin"
+                    },
+                    {
+                        "name": "Doorstop Dash - Balloon #1 - Balloon #1 (Near bonus #1)",
+                        "ref": "Doorstop Dash/Doorstop Dash - Balloon #1/Balloon #1 (Near bonus #1)"
+                    },
+                    {
+                        "name": "Doorstop Dash - Balloon #2 - Balloon #2 (Invisible near rope)",
+                        "ref": "Doorstop Dash/Doorstop Dash - Balloon #2/Balloon #2 (Invisible near rope)"
+                    },
+                    {
+                        "name": "Doorstop Dash - Balloon #3 - Balloon #3 (At the top the big fall)",
+                        "ref": "Doorstop Dash/Doorstop Dash - Balloon #3/Balloon #3 (At the top the big fall)"
+                    },
+                    {
+                        "name": "Doorstop Dash - Balloon #4 - Balloon #4 (Near the end of big fall)",
+                        "ref": "Doorstop Dash/Doorstop Dash - Balloon #4/Balloon #4 (Near the end of big fall)"
+                    },
+                    {
+                        "name": "Doorstop Dash - Bonus #1 - Bonus #1",
+                        "ref": "Doorstop Dash/Doorstop Dash - Bonus #1/Bonus #1"
+                    },
+                    {
+                        "name": "Doorstop Dash - Bonus #2 - Bonus #2",
+                        "ref": "Doorstop Dash/Doorstop Dash - Bonus #2/Bonus #2"
+                    },
+                    {
+                        "name": "Doorstop Dash - Banana Bunch #1 - Banana Bunch #1 (Near start)",
+                        "ref": "Doorstop Dash/Doorstop Dash - Banana Bunch #1/Banana Bunch #1 (Near start)"
+                    },
+                    {
+                        "name": "Doorstop Dash - Banana Bunch #1 - Banana Bunch #1 (Near open trap door)",
+                        "ref": "Doorstop Dash/Doorstop Dash - Banana Bunch #1/Banana Bunch #1 (Near open trap door)"
+                    },
+                    {
+                        "name": "Doorstop Dash - Bear Coin #1 - Bear Coin #1 (Above second door)",
+                        "ref": "Doorstop Dash/Doorstop Dash - Bear Coin #1/Bear Coin #1 (Above second door)"
+                    },
+                    {
+                        "name": "Doorstop Dash - Bear Coin #2 - Bear Coin #2 (Above pile of bags)",
+                        "ref": "Doorstop Dash/Doorstop Dash - Bear Coin #2/Bear Coin #2 (Above pile of bags)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 1520,
+                        "y": 602,
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "Fire-Ball Frenzy",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Fire-Ball Frenzy - Clear - Clear",
+                        "ref": "Fire-Ball Frenzy/Fire-Ball Frenzy - Clear/Clear"
+                    },
+                    {
+                        "name": "Fire-Ball Frenzy - KONG - KONG",
+                        "ref": "Fire-Ball Frenzy/Fire-Ball Frenzy - KONG/KONG"
+                    },
+                    {
+                        "name": "Fire-Ball Frenzy - DK Coin - DK Coin",
+                        "ref": "Fire-Ball Frenzy/Fire-Ball Frenzy - DK Coin/DK Coin"
+                    },
+                    {
+                        "name": "Fire-Ball Frenzy - Bonus #1 - Bonus #1",
+                        "ref": "Fire-Ball Frenzy/Fire-Ball Frenzy - Bonus #1/Bonus #1"
+                    },
+                    {
+                        "name": "Fire-Ball Frenzy - Bonus #2 - Bonus #2",
+                        "ref": "Fire-Ball Frenzy/Fire-Ball Frenzy - Bonus #2/Bonus #2"
+                    },
+                    {
+                        "name": "Fire-Ball Frenzy - Banana Bunch #1 - Banana Bunch #1 (Before checkpoint)",
+                        "ref": "Fire-Ball Frenzy/Fire-Ball Frenzy - Banana Bunch #1/Banana Bunch #1 (Before checkpoint)"
+                    },
+                    {
+                        "name": "Fire-Ball Frenzy - Banana Bunch #2 - Banana Bunch #2 (After checkpoint)",
+                        "ref": "Fire-Ball Frenzy/Fire-Ball Frenzy - Banana Bunch #2/Banana Bunch #2 (After checkpoint)"
+                    },
+                    {
+                        "name": "Fire-Ball Frenzy - Banana Bunch #3 - Banana Bunch #3 (In corner below wooden platform)",
+                        "ref": "Fire-Ball Frenzy/Fire-Ball Frenzy - Banana Bunch #3/Banana Bunch #3 (In corner below wooden platform)"
+                    },
+                    {
+                        "name": "Fire-Ball Frenzy - Bear Coin #1 - Bear Coin #1 (Near start)",
+                        "ref": "Fire-Ball Frenzy/Fire-Ball Frenzy - Bear Coin #1/Bear Coin #1 (Near start)"
+                    },
+                    {
+                        "name": "Fire-Ball Frenzy - Bear Coin #2 - Bear Coin #2 (In a corner above rope)",
+                        "ref": "Fire-Ball Frenzy/Fire-Ball Frenzy - Bear Coin #2/Bear Coin #2 (In a corner above rope)"
+                    },
+                    {
+                        "name": "Fire-Ball Frenzy - Bear Coin #3 - Bear Coin #3 (After checkpoint)",
+                        "ref": "Fire-Ball Frenzy/Fire-Ball Frenzy - Bear Coin #3/Bear Coin #3 (After checkpoint)"
+                    },
+                    {
+                        "name": "Fire-Ball Frenzy - Bear Coin #4 - Bear Coin #4 (No animal sign)",
+                        "ref": "Fire-Ball Frenzy/Fire-Ball Frenzy - Bear Coin #4/Bear Coin #4 (No animal sign)"
+                    },
+                    {
+                        "name": "Fire-Ball Frenzy - Bear Coin #5 - Bear Coin #5 (After no animal sign)",
+                        "ref": "Fire-Ball Frenzy/Fire-Ball Frenzy - Bear Coin #5/Bear Coin #5 (After no animal sign)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 692,
+                        "y": 512,
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "Fish Food Frenzy",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Fish Food Frenzy - Clear - Clear",
+                        "ref": "Fish Food Frenzy/Fish Food Frenzy - Clear/Clear"
+                    },
+                    {
+                        "name": "Fish Food Frenzy - KONG - KONG",
+                        "ref": "Fish Food Frenzy/Fish Food Frenzy - KONG/KONG"
+                    },
+                    {
+                        "name": "Fish Food Frenzy - DK Coin - DK Coin",
+                        "ref": "Fish Food Frenzy/Fish Food Frenzy - DK Coin/DK Coin"
+                    },
+                    {
+                        "name": "Fish Food Frenzy - Bonus #1 - Bonus #1",
+                        "ref": "Fish Food Frenzy/Fish Food Frenzy - Bonus #1/Bonus #1"
+                    },
+                    {
+                        "name": "Fish Food Frenzy - Bonus #2 - Bonus #2",
+                        "ref": "Fish Food Frenzy/Fish Food Frenzy - Bonus #2/Bonus #2"
+                    },
+                    {
+                        "name": "Fish Food Frenzy - Banana Bunch #1 - Banana Bunch #1 (Above Lurchin before O)",
+                        "ref": "Fish Food Frenzy/Fish Food Frenzy - Banana Bunch #1/Banana Bunch #1 (Above Lurchin before O)"
+                    },
+                    {
+                        "name": "Fish Food Frenzy - Bear Coin #1 - Bear Coin #1 (Near start)",
+                        "ref": "Fish Food Frenzy/Fish Food Frenzy - Bear Coin #1/Bear Coin #1 (Near start)"
+                    },
+                    {
+                        "name": "Fish Food Frenzy - Bear Coin #2 - Bear Coin #2 (Below Lurchin)",
+                        "ref": "Fish Food Frenzy/Fish Food Frenzy - Bear Coin #2/Bear Coin #2 (Below Lurchin)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 174,
+                        "y": 1597,
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "Floodlit Fish",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Floodlit Fish - Clear - Clear",
+                        "ref": "Floodlit Fish/Floodlit Fish - Clear/Clear"
+                    },
+                    {
+                        "name": "Floodlit Fish - KONG - KONG",
+                        "ref": "Floodlit Fish/Floodlit Fish - KONG/KONG"
+                    },
+                    {
+                        "name": "Floodlit Fish - DK Coin - DK Coin",
+                        "ref": "Floodlit Fish/Floodlit Fish - DK Coin/DK Coin"
+                    },
+                    {
+                        "name": "Floodlit Fish - Bonus #1 - Bonus #1",
+                        "ref": "Floodlit Fish/Floodlit Fish - Bonus #1/Bonus #1"
+                    },
+                    {
+                        "name": "Floodlit Fish - Bonus #2 - Bonus #2",
+                        "ref": "Floodlit Fish/Floodlit Fish - Bonus #2/Bonus #2"
+                    },
+                    {
+                        "name": "Floodlit Fish - Banana Bunch #1 - Banana Bunch #1 (At start)",
+                        "ref": "Floodlit Fish/Floodlit Fish - Banana Bunch #1/Banana Bunch #1 (At start)"
+                    },
+                    {
+                        "name": "Floodlit Fish - Banana Bunch #2 - Banana Bunch #2 (In Lurchin cluster)",
+                        "ref": "Floodlit Fish/Floodlit Fish - Banana Bunch #2/Banana Bunch #2 (In Lurchin cluster)"
+                    },
+                    {
+                        "name": "Floodlit Fish - Banana Bunch #3 - Banana Bunch #3 (Behind two Red Kocos)",
+                        "ref": "Floodlit Fish/Floodlit Fish - Banana Bunch #3/Banana Bunch #3 (Behind two Red Kocos)"
+                    },
+                    {
+                        "name": "Floodlit Fish - Banana Bunch #4 - Banana Bunch #4 (Below Gleaming Bream)",
+                        "ref": "Floodlit Fish/Floodlit Fish - Banana Bunch #4/Banana Bunch #4 (Below Gleaming Bream)"
+                    },
+                    {
+                        "name": "Floodlit Fish - Banana Bunch #5 - Banana Bunch #5 (In second branching path, left)",
+                        "ref": "Floodlit Fish/Floodlit Fish - Banana Bunch #5/Banana Bunch #5 (In second branching path, left)"
+                    },
+                    {
+                        "name": "Floodlit Fish - Banana Bunch #6 - Banana Bunch #6 (In third branching path, right)",
+                        "ref": "Floodlit Fish/Floodlit Fish - Banana Bunch #6/Banana Bunch #6 (In third branching path, right)"
+                    },
+                    {
+                        "name": "Floodlit Fish - Banana Bunch #7 - Banana Bunch #7 (Near exit)",
+                        "ref": "Floodlit Fish/Floodlit Fish - Banana Bunch #7/Banana Bunch #7 (Near exit)"
+                    },
+                    {
+                        "name": "Floodlit Fish - Banana Bunch #8 - Banana Bunch #8 (No animal sign)",
+                        "ref": "Floodlit Fish/Floodlit Fish - Banana Bunch #8/Banana Bunch #8 (No animal sign)"
+                    },
+                    {
+                        "name": "Floodlit Fish - Bear Coin #1 - Bear Coin #1 (Near checkpoint)",
+                        "ref": "Floodlit Fish/Floodlit Fish - Bear Coin #1/Bear Coin #1 (Near checkpoint)"
+                    },
+                    {
+                        "name": "Floodlit Fish - Bear Coin #2 - Bear Coin #2 (Inside Bounty Bass)",
+                        "ref": "Floodlit Fish/Floodlit Fish - Bear Coin #2/Bear Coin #2 (Inside Bounty Bass)"
+                    },
+                    {
+                        "name": "Floodlit Fish - Bear Coin #3 - Bear Coin #3 (Near exit)",
+                        "ref": "Floodlit Fish/Floodlit Fish - Bear Coin #3/Bear Coin #3 (Near exit)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 991,
+                        "y": 337,
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "KAOS Karnage",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "KAOS Karnage - Clear - Clear",
+                        "ref": "KAOS Karnage/KAOS Karnage - Clear/Clear"
+                    },
+                    {
+                        "name": "KAOS Karnage - Clear - Defeated KAOS",
+                        "ref": "KAOS Karnage/KAOS Karnage - Clear/Defeated KAOS"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 341,
+                        "y": 254,
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "Koindozer Klamber",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Koindozer Klamber - Clear - Clear",
+                        "ref": "Koindozer Klamber/Koindozer Klamber - Clear/Clear"
+                    },
+                    {
+                        "name": "Koindozer Klamber - KONG - KONG",
+                        "ref": "Koindozer Klamber/Koindozer Klamber - KONG/KONG"
+                    },
+                    {
+                        "name": "Koindozer Klamber - DK Coin - DK Coin",
+                        "ref": "Koindozer Klamber/Koindozer Klamber - DK Coin/DK Coin"
+                    },
+                    {
+                        "name": "Koindozer Klamber - Balloon #1 - Balloon #1 (Cache below DK Barrel)",
+                        "ref": "Koindozer Klamber/Koindozer Klamber - Balloon #1/Balloon #1 (Cache below DK Barrel)"
+                    },
+                    {
+                        "name": "Koindozer Klamber - Bonus #1 - Bonus #1",
+                        "ref": "Koindozer Klamber/Koindozer Klamber - Bonus #1/Bonus #1"
+                    },
+                    {
+                        "name": "Koindozer Klamber - Bonus #2 - Bonus #2",
+                        "ref": "Koindozer Klamber/Koindozer Klamber - Bonus #2/Bonus #2"
+                    },
+                    {
+                        "name": "Koindozer Klamber - Banana Bunch #1 - Banana Bunch #1 (Above Koindozer)",
+                        "ref": "Koindozer Klamber/Koindozer Klamber - Banana Bunch #1/Banana Bunch #1 (Above Koindozer)"
+                    },
+                    {
+                        "name": "Koindozer Klamber - Bear Coin #1 - Bear Coin #1 (Below O)",
+                        "ref": "Koindozer Klamber/Koindozer Klamber - Bear Coin #1/Bear Coin #1 (Below O)"
+                    },
+                    {
+                        "name": "Koindozer Klamber - Bear Coin #2 - Bear Coin #2 (Cache before Bazuka)",
+                        "ref": "Koindozer Klamber/Koindozer Klamber - Bear Coin #2/Bear Coin #2 (Cache before Bazuka)"
+                    },
+                    {
+                        "name": "Koindozer Klamber - Bear Coin #3 - Bear Coin #3 (Below checkpoint)",
+                        "ref": "Koindozer Klamber/Koindozer Klamber - Bear Coin #3/Bear Coin #3 (Below checkpoint)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 1232,
+                        "y": 1639,
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "Kong-Fused Cliffs",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Kong-Fused Cliffs - Clear - Clear",
+                        "ref": "Kong-Fused Cliffs/Kong-Fused Cliffs - Clear/Clear"
+                    },
+                    {
+                        "name": "Kong-Fused Cliffs - KONG - KONG",
+                        "ref": "Kong-Fused Cliffs/Kong-Fused Cliffs - KONG/KONG"
+                    },
+                    {
+                        "name": "Kong-Fused Cliffs - DK Coin - DK Coin",
+                        "ref": "Kong-Fused Cliffs/Kong-Fused Cliffs - DK Coin/DK Coin"
+                    },
+                    {
+                        "name": "Kong-Fused Cliffs - Bonus #1 - Bonus #1",
+                        "ref": "Kong-Fused Cliffs/Kong-Fused Cliffs - Bonus #1/Bonus #1"
+                    },
+                    {
+                        "name": "Kong-Fused Cliffs - Bonus #2 - Bonus #2",
+                        "ref": "Kong-Fused Cliffs/Kong-Fused Cliffs - Bonus #2/Bonus #2"
+                    },
+                    {
+                        "name": "Kong-Fused Cliffs - Banana Bunch #2 - Banana Bunch #2 (Near G)",
+                        "ref": "Kong-Fused Cliffs/Kong-Fused Cliffs - Banana Bunch #2/Banana Bunch #2 (Near G)"
+                    },
+                    {
+                        "name": "Kong-Fused Cliffs - Banana Bunch #3 - Banana Bunch #3 (Near G)",
+                        "ref": "Kong-Fused Cliffs/Kong-Fused Cliffs - Banana Bunch #3/Banana Bunch #3 (Near G)"
+                    },
+                    {
+                        "name": "Kong-Fused Cliffs - Bear Coin #1 - Bear Coin #1 (Next to K)",
+                        "ref": "Kong-Fused Cliffs/Kong-Fused Cliffs - Bear Coin #1/Bear Coin #1 (Next to K)"
+                    },
+                    {
+                        "name": "Kong-Fused Cliffs - Bear Coin #2 - Bear Coin #2 (Above Barrel Kannon)",
+                        "ref": "Kong-Fused Cliffs/Kong-Fused Cliffs - Bear Coin #2/Bear Coin #2 (Above Barrel Kannon)"
+                    },
+                    {
+                        "name": "Kong-Fused Cliffs - Bear Coin #3 - Bear Coin #3 (In hidden passage)",
+                        "ref": "Kong-Fused Cliffs/Kong-Fused Cliffs - Bear Coin #3/Bear Coin #3 (In hidden passage)"
+                    },
+                    {
+                        "name": "Kong-Fused Cliffs - Bear Coin #4 - Bear Coin #4 (In a detour before N)",
+                        "ref": "Kong-Fused Cliffs/Kong-Fused Cliffs - Bear Coin #4/Bear Coin #4 (In a detour before N)"
+                    },
+                    {
+                        "name": "Kong-Fused Cliffs - Bear Coin #5 - Bear Coin #5 (In a detour before N)",
+                        "ref": "Kong-Fused Cliffs/Kong-Fused Cliffs - Bear Coin #5/Bear Coin #5 (In a detour before N)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 430,
+                        "y": 953,
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "Konveyor Rope Klash",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Konveyor Rope Klash - Clear - Clear",
+                        "ref": "Konveyor Rope Klash/Konveyor Rope Klash - Clear/Clear"
+                    },
+                    {
+                        "name": "Konveyor Rope Klash - KONG - KONG",
+                        "ref": "Konveyor Rope Klash/Konveyor Rope Klash - KONG/KONG"
+                    },
+                    {
+                        "name": "Konveyor Rope Klash - DK Coin - DK Coin",
+                        "ref": "Konveyor Rope Klash/Konveyor Rope Klash - DK Coin/DK Coin"
+                    },
+                    {
+                        "name": "Konveyor Rope Klash - Balloon #1 - Balloon #1 (In small conveyor)",
+                        "ref": "Konveyor Rope Klash/Konveyor Rope Klash - Balloon #1/Balloon #1 (In small conveyor)"
+                    },
+                    {
+                        "name": "Konveyor Rope Klash - Balloon #2 - Balloon #2 (Cache near Koin)",
+                        "ref": "Konveyor Rope Klash/Konveyor Rope Klash - Balloon #2/Balloon #2 (Cache near Koin)"
+                    },
+                    {
+                        "name": "Konveyor Rope Klash - Bonus #1 - Bonus #1",
+                        "ref": "Konveyor Rope Klash/Konveyor Rope Klash - Bonus #1/Bonus #1"
+                    },
+                    {
+                        "name": "Konveyor Rope Klash - Bonus #2 - Bonus #2",
+                        "ref": "Konveyor Rope Klash/Konveyor Rope Klash - Bonus #2/Bonus #2"
+                    },
+                    {
+                        "name": "Konveyor Rope Klash - Bear Coin #1 - Bear Coin #1 (At start)",
+                        "ref": "Konveyor Rope Klash/Konveyor Rope Klash - Bear Coin #1/Bear Coin #1 (At start)"
+                    },
+                    {
+                        "name": "Konveyor Rope Klash - Bear Coin #2 - Bear Coin #2 (Before checkpoint)",
+                        "ref": "Konveyor Rope Klash/Konveyor Rope Klash - Bear Coin #2/Bear Coin #2 (Before checkpoint)"
+                    },
+                    {
+                        "name": "Konveyor Rope Klash - Bear Coin #3 - Bear Coin #3 (Cache near rolling Bristles)",
+                        "ref": "Konveyor Rope Klash/Konveyor Rope Klash - Bear Coin #3/Bear Coin #3 (Cache near rolling Bristles)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 873,
+                        "y": 99,
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "Krackshot Krock",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Krackshot Krock - Clear - Clear",
+                        "ref": "Krackshot Krock/Krackshot Krock - Clear/Clear"
+                    },
+                    {
+                        "name": "Krackshot Krock - KONG - KONG",
+                        "ref": "Krackshot Krock/Krackshot Krock - KONG/KONG"
+                    },
+                    {
+                        "name": "Krackshot Krock - DK Coin - DK Coin",
+                        "ref": "Krackshot Krock/Krackshot Krock - DK Coin/DK Coin"
+                    },
+                    {
+                        "name": "Krackshot Krock - Balloon #1 - Balloon #1 (In corner)",
+                        "ref": "Krackshot Krock/Krackshot Krock - Balloon #1/Balloon #1 (In corner)"
+                    },
+                    {
+                        "name": "Krackshot Krock - Bonus #1 - Bonus #1",
+                        "ref": "Krackshot Krock/Krackshot Krock - Bonus #1/Bonus #1"
+                    },
+                    {
+                        "name": "Krackshot Krock - Bonus #2 - Bonus #2",
+                        "ref": "Krackshot Krock/Krackshot Krock - Bonus #2/Bonus #2"
+                    },
+                    {
+                        "name": "Krackshot Krock - Banana Bunch #1 - Banana Bunch #1 (Near bonus #1)",
+                        "ref": "Krackshot Krock/Krackshot Krock - Banana Bunch #1/Banana Bunch #1 (Near bonus #1)"
+                    },
+                    {
+                        "name": "Krackshot Krock - Banana Bunch #2 - Banana Bunch #2 (Above cauldron)",
+                        "ref": "Krackshot Krock/Krackshot Krock - Banana Bunch #2/Banana Bunch #2 (Above cauldron)"
+                    },
+                    {
+                        "name": "Krackshot Krock - Banana Bunch #3 - Banana Bunch #3 (Near bonus #2)",
+                        "ref": "Krackshot Krock/Krackshot Krock - Banana Bunch #3/Banana Bunch #3 (Near bonus #2)"
+                    },
+                    {
+                        "name": "Krackshot Krock - Banana Bunch #4 - Banana Bunch #4 (Above triple cauldron)",
+                        "ref": "Krackshot Krock/Krackshot Krock - Banana Bunch #4/Banana Bunch #4 (Above triple cauldron)"
+                    },
+                    {
+                        "name": "Krackshot Krock - Banana Bunch #5 - Banana Bunch #5 (Near circling red Buzz)",
+                        "ref": "Krackshot Krock/Krackshot Krock - Banana Bunch #5/Banana Bunch #5 (Near circling red Buzz)"
+                    },
+                    {
+                        "name": "Krackshot Krock - Bear Coin #1 - Bear Coin #1 (At start)",
+                        "ref": "Krackshot Krock/Krackshot Krock - Bear Coin #1/Bear Coin #1 (At start)"
+                    },
+                    {
+                        "name": "Krackshot Krock - Bear Coin #2 - Bear Coin #2 (At start)",
+                        "ref": "Krackshot Krock/Krackshot Krock - Bear Coin #2/Bear Coin #2 (At start)"
+                    },
+                    {
+                        "name": "Krackshot Krock - Bear Coin #3 - Bear Coin #3 (Above O)",
+                        "ref": "Krackshot Krock/Krackshot Krock - Bear Coin #3/Bear Coin #3 (Above O)"
+                    },
+                    {
+                        "name": "Krackshot Krock - Bear Coin #4 - Bear Coin #4 (Below red Buzz)",
+                        "ref": "Krackshot Krock/Krackshot Krock - Bear Coin #4/Bear Coin #4 (Below red Buzz)"
+                    },
+                    {
+                        "name": "Krackshot Krock - Bear Coin #5 - Bear Coin #5 (Below red Buzz)",
+                        "ref": "Krackshot Krock/Krackshot Krock - Bear Coin #5/Bear Coin #5 (Below red Buzz)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 202,
+                        "y": 722,
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "Kreeping Klasps",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Kreeping Klasps - Clear - Clear",
+                        "ref": "Kreeping Klasps/Kreeping Klasps - Clear/Clear"
+                    },
+                    {
+                        "name": "Kreeping Klasps - KONG - KONG",
+                        "ref": "Kreeping Klasps/Kreeping Klasps - KONG/KONG"
+                    },
+                    {
+                        "name": "Kreeping Klasps - DK Coin - DK Coin",
+                        "ref": "Kreeping Klasps/Kreeping Klasps - DK Coin/DK Coin"
+                    },
+                    {
+                        "name": "Kreeping Klasps - Balloon #1 - Balloon #1 (Near start)",
+                        "ref": "Kreeping Klasps/Kreeping Klasps - Balloon #1/Balloon #1 (Near start)"
+                    },
+                    {
+                        "name": "Kreeping Klasps - Balloon #2 - Balloon #2 (After bonus #1)",
+                        "ref": "Kreeping Klasps/Kreeping Klasps - Balloon #2/Balloon #2 (After bonus #1)"
+                    },
+                    {
+                        "name": "Kreeping Klasps - Bonus #1 - Bonus #1",
+                        "ref": "Kreeping Klasps/Kreeping Klasps - Bonus #1/Bonus #1"
+                    },
+                    {
+                        "name": "Kreeping Klasps - Bonus #2 - Bonus #2",
+                        "ref": "Kreeping Klasps/Kreeping Klasps - Bonus #2/Bonus #2"
+                    },
+                    {
+                        "name": "Kreeping Klasps - Banana Bunch #1 - Banana Bunch #1 (After bonus #1)",
+                        "ref": "Kreeping Klasps/Kreeping Klasps - Banana Bunch #1/Banana Bunch #1 (After bonus #1)"
+                    },
+                    {
+                        "name": "Kreeping Klasps - Banana Bunch #2 - Banana Bunch #2 (Before checkpoint)",
+                        "ref": "Kreeping Klasps/Kreeping Klasps - Banana Bunch #2/Banana Bunch #2 (Before checkpoint)"
+                    },
+                    {
+                        "name": "Kreeping Klasps - Bear Coin #1 - Bear Coin #1 (Near start below cracked ground)",
+                        "ref": "Kreeping Klasps/Kreeping Klasps - Bear Coin #1/Bear Coin #1 (Near start below cracked ground)"
+                    },
+                    {
+                        "name": "Kreeping Klasps - Bear Coin #2 - Bear Coin #2 (After checkpoint)",
+                        "ref": "Kreeping Klasps/Kreeping Klasps - Bear Coin #2/Bear Coin #2 (After checkpoint)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 1777,
+                        "y": 1731,
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "Krevice Kreepers",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Krevice Kreepers - Clear - Clear",
+                        "ref": "Krevice Kreepers/Krevice Kreepers - Clear/Clear"
+                    },
+                    {
+                        "name": "Krevice Kreepers - KONG - KONG",
+                        "ref": "Krevice Kreepers/Krevice Kreepers - KONG/KONG"
+                    },
+                    {
+                        "name": "Krevice Kreepers - DK Coin - DK Coin",
+                        "ref": "Krevice Kreepers/Krevice Kreepers - DK Coin/DK Coin"
+                    },
+                    {
+                        "name": "Krevice Kreepers - Balloon #1 - Balloon #1 (Floating between two rocks)",
+                        "ref": "Krevice Kreepers/Krevice Kreepers - Balloon #1/Balloon #1 (Floating between two rocks)"
+                    },
+                    {
+                        "name": "Krevice Kreepers - Bonus #1 - Bonus #1",
+                        "ref": "Krevice Kreepers/Krevice Kreepers - Bonus #1/Bonus #1"
+                    },
+                    {
+                        "name": "Krevice Kreepers - Bonus #2 - Bonus #2",
+                        "ref": "Krevice Kreepers/Krevice Kreepers - Bonus #2/Bonus #2"
+                    },
+                    {
+                        "name": "Krevice Kreepers - Banana Bunch #1 - Banana Bunch #1 (Above start)",
+                        "ref": "Krevice Kreepers/Krevice Kreepers - Banana Bunch #1/Banana Bunch #1 (Above start)"
+                    },
+                    {
+                        "name": "Krevice Kreepers - Banana Bunch #2 - Banana Bunch #2 (Above start)",
+                        "ref": "Krevice Kreepers/Krevice Kreepers - Banana Bunch #2/Banana Bunch #2 (Above start)"
+                    },
+                    {
+                        "name": "Krevice Kreepers - Banana Bunch #3 - Banana Bunch #3 (Above start)",
+                        "ref": "Krevice Kreepers/Krevice Kreepers - Banana Bunch #3/Banana Bunch #3 (Above start)"
+                    },
+                    {
+                        "name": "Krevice Kreepers - Banana Bunch #4 - Banana Bunch #4 (Near start)",
+                        "ref": "Krevice Kreepers/Krevice Kreepers - Banana Bunch #4/Banana Bunch #4 (Near start)"
+                    },
+                    {
+                        "name": "Krevice Kreepers - Bear Coin #1 - Bear Coin #1 (Near start)",
+                        "ref": "Krevice Kreepers/Krevice Kreepers - Bear Coin #1/Bear Coin #1 (Near start)"
+                    },
+                    {
+                        "name": "Krevice Kreepers - Bear Coin #2 - Bear Coin #2 (Cache near start)",
+                        "ref": "Krevice Kreepers/Krevice Kreepers - Bear Coin #2/Bear Coin #2 (Cache near start)"
+                    },
+                    {
+                        "name": "Krevice Kreepers - Bear Coin #3 - Bear Coin #3 (Near Koin)",
+                        "ref": "Krevice Kreepers/Krevice Kreepers - Bear Coin #3/Bear Coin #3 (Near Koin)"
+                    },
+                    {
+                        "name": "Krevice Kreepers - Bear Coin #4 - Bear Coin #4 (Next to rope with 4 bananas)",
+                        "ref": "Krevice Kreepers/Krevice Kreepers - Bear Coin #4/Bear Coin #4 (Next to rope with 4 bananas)"
+                    },
+                    {
+                        "name": "Krevice Kreepers - Bear Coin #5 - Bear Coin #5 (Cache below last wooden ledge)",
+                        "ref": "Krevice Kreepers/Krevice Kreepers - Bear Coin #5/Bear Coin #5 (Cache below last wooden ledge)"
+                    },
+                    {
+                        "name": "Krevice Kreepers - Bear Coin #6 - Bear Coin #6 (Cache below goal)",
+                        "ref": "Krevice Kreepers/Krevice Kreepers - Bear Coin #6/Bear Coin #6 (Cache below goal)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 435,
+                        "y": 646,
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "Lakeside Limbo",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Lakeside Limbo - Clear - Clear",
+                        "ref": "Lakeside Limbo/Lakeside Limbo - Clear/Clear"
+                    },
+                    {
+                        "name": "Lakeside Limbo - KONG - KONG",
+                        "ref": "Lakeside Limbo/Lakeside Limbo - KONG/KONG"
+                    },
+                    {
+                        "name": "Lakeside Limbo - DK Coin - DK Coin",
+                        "ref": "Lakeside Limbo/Lakeside Limbo - DK Coin/DK Coin"
+                    },
+                    {
+                        "name": "Lakeside Limbo - Balloon #1 - Balloon #1 (On roof at the start)",
+                        "ref": "Lakeside Limbo/Lakeside Limbo - Balloon #1/Balloon #1 (On roof at the start)"
+                    },
+                    {
+                        "name": "Lakeside Limbo - Balloon #2 - Balloon #2 (On roof at the start)",
+                        "ref": "Lakeside Limbo/Lakeside Limbo - Balloon #2/Balloon #2 (On roof at the start)"
+                    },
+                    {
+                        "name": "Lakeside Limbo - Balloon #3 - Balloon #3 (On roof near checkpoint)",
+                        "ref": "Lakeside Limbo/Lakeside Limbo - Balloon #3/Balloon #3 (On roof near checkpoint)"
+                    },
+                    {
+                        "name": "Lakeside Limbo - Balloon #4 - Balloon #4 (Near bonus #2)",
+                        "ref": "Lakeside Limbo/Lakeside Limbo - Balloon #4/Balloon #4 (Near bonus #2)"
+                    },
+                    {
+                        "name": "Lakeside Limbo - Balloon #5 - Balloon #5 (Near no animal sign)",
+                        "ref": "Lakeside Limbo/Lakeside Limbo - Balloon #5/Balloon #5 (Near no animal sign)"
+                    },
+                    {
+                        "name": "Lakeside Limbo - Bonus #1 - Bonus #1",
+                        "ref": "Lakeside Limbo/Lakeside Limbo - Bonus #1/Bonus #1"
+                    },
+                    {
+                        "name": "Lakeside Limbo - Bonus #2 - Bonus #2",
+                        "ref": "Lakeside Limbo/Lakeside Limbo - Bonus #2/Bonus #2"
+                    },
+                    {
+                        "name": "Lakeside Limbo - Banana Bunch #1 - Banana Bunch #1 (At start)",
+                        "ref": "Lakeside Limbo/Lakeside Limbo - Banana Bunch #1/Banana Bunch #1 (At start)"
+                    },
+                    {
+                        "name": "Lakeside Limbo - Banana Bunch #2 - Banana Bunch #2 (Underwater after checkpoint)",
+                        "ref": "Lakeside Limbo/Lakeside Limbo - Banana Bunch #2/Banana Bunch #2 (Underwater after checkpoint)"
+                    },
+                    {
+                        "name": "Lakeside Limbo - Banana Bunch #3 - Banana Bunch #3 (On roof at the end)",
+                        "ref": "Lakeside Limbo/Lakeside Limbo - Banana Bunch #3/Banana Bunch #3 (On roof at the end)"
+                    },
+                    {
+                        "name": "Lakeside Limbo - Banana Bunch #4 - Banana Bunch #4 (At the end)",
+                        "ref": "Lakeside Limbo/Lakeside Limbo - Banana Bunch #4/Banana Bunch #4 (At the end)"
+                    },
+                    {
+                        "name": "Lakeside Limbo - Bear Coin #1 - Bear Coin #1 (On roof near checkpoint)",
+                        "ref": "Lakeside Limbo/Lakeside Limbo - Bear Coin #1/Bear Coin #1 (On roof near checkpoint)"
+                    },
+                    {
+                        "name": "Lakeside Limbo - Bear Coin #2 - Bear Coin #2 (On roof near checkpoint)",
+                        "ref": "Lakeside Limbo/Lakeside Limbo - Bear Coin #2/Bear Coin #2 (On roof near checkpoint)"
+                    },
+                    {
+                        "name": "Lakeside Limbo - Bear Coin #3 - Bear Coin #3 (No animal sign reward)",
+                        "ref": "Lakeside Limbo/Lakeside Limbo - Bear Coin #3/Bear Coin #3 (No animal sign reward)"
+                    },
+                    {
+                        "name": "Lakeside Limbo - Bear Coin #4 - Bear Coin #4 (On roof at the end)",
+                        "ref": "Lakeside Limbo/Lakeside Limbo - Bear Coin #4/Bear Coin #4 (On roof at the end)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 1188,
+                        "y": 1638,
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "Lemguin Lunge",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Lemguin Lunge - Clear - Clear",
+                        "ref": "Lemguin Lunge/Lemguin Lunge - Clear/Clear"
+                    },
+                    {
+                        "name": "Lemguin Lunge - KONG - KONG",
+                        "ref": "Lemguin Lunge/Lemguin Lunge - KONG/KONG"
+                    },
+                    {
+                        "name": "Lemguin Lunge - DK Coin - DK Coin",
+                        "ref": "Lemguin Lunge/Lemguin Lunge - DK Coin/DK Coin"
+                    },
+                    {
+                        "name": "Lemguin Lunge - Bonus #1 - Bonus #1",
+                        "ref": "Lemguin Lunge/Lemguin Lunge - Bonus #1/Bonus #1"
+                    },
+                    {
+                        "name": "Lemguin Lunge - Bonus #2 - Bonus #2",
+                        "ref": "Lemguin Lunge/Lemguin Lunge - Bonus #2/Bonus #2"
+                    },
+                    {
+                        "name": "Lemguin Lunge - Banana Bunch #1 - Banana Bunch #1 (Near a Lemguin exit)",
+                        "ref": "Lemguin Lunge/Lemguin Lunge - Banana Bunch #1/Banana Bunch #1 (Near a Lemguin exit)"
+                    },
+                    {
+                        "name": "Lemguin Lunge - Bear Coin #1 - Bear Coin #1 (Below O)",
+                        "ref": "Lemguin Lunge/Lemguin Lunge - Bear Coin #1/Bear Coin #1 (Below O)"
+                    },
+                    {
+                        "name": "Lemguin Lunge - Bear Coin #2 - Bear Coin #2 (Near N)",
+                        "ref": "Lemguin Lunge/Lemguin Lunge - Bear Coin #2/Bear Coin #2 (Near N)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 959,
+                        "y": 2064,
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "Lightning Look-Out",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Lightning Look-Out - Clear - Clear",
+                        "ref": "Lightning Look-Out/Lightning Look-Out - Clear/Clear"
+                    },
+                    {
+                        "name": "Lightning Look-Out - KONG - KONG",
+                        "ref": "Lightning Look-Out/Lightning Look-Out - KONG/KONG"
+                    },
+                    {
+                        "name": "Lightning Look-Out - DK Coin - DK Coin",
+                        "ref": "Lightning Look-Out/Lightning Look-Out - DK Coin/DK Coin"
+                    },
+                    {
+                        "name": "Lightning Look-Out - Balloon #1 - Balloon #1 (Near start above Buzz trio)",
+                        "ref": "Lightning Look-Out/Lightning Look-Out - Balloon #1/Balloon #1 (Near start above Buzz trio)"
+                    },
+                    {
+                        "name": "Lightning Look-Out - Balloon #2 - Balloon #2 (Cache near end)",
+                        "ref": "Lightning Look-Out/Lightning Look-Out - Balloon #2/Balloon #2 (Cache near end)"
+                    },
+                    {
+                        "name": "Lightning Look-Out - Bonus #1 - Bonus #1",
+                        "ref": "Lightning Look-Out/Lightning Look-Out - Bonus #1/Bonus #1"
+                    },
+                    {
+                        "name": "Lightning Look-Out - Bonus #2 - Bonus #2",
+                        "ref": "Lightning Look-Out/Lightning Look-Out - Bonus #2/Bonus #2"
+                    },
+                    {
+                        "name": "Lightning Look-Out - Banana Bunch #1 - Banana Bunch #1 (Behind Buzz pair)",
+                        "ref": "Lightning Look-Out/Lightning Look-Out - Banana Bunch #1/Banana Bunch #1 (Behind Buzz pair)"
+                    },
+                    {
+                        "name": "Lightning Look-Out - Bear Coin #1 - Bear Coin #1 (Cache near trapped Knik-Knaks)",
+                        "ref": "Lightning Look-Out/Lightning Look-Out - Bear Coin #1/Bear Coin #1 (Cache near trapped Knik-Knaks)"
+                    },
+                    {
+                        "name": "Lightning Look-Out - Bear Coin #2 - Bear Coin #2 (Above Buzz duo)",
+                        "ref": "Lightning Look-Out/Lightning Look-Out - Bear Coin #2/Bear Coin #2 (Above Buzz duo)"
+                    },
+                    {
+                        "name": "Lightning Look-Out - Bear Coin #3 - Bear Coin #3 (Above right buzz next to N)",
+                        "ref": "Lightning Look-Out/Lightning Look-Out - Bear Coin #3/Bear Coin #3 (Above right buzz next to N)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 2445,
+                        "y": 586,
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "Low-G Labyrinth",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Low-G Labyrinth - Clear - Clear",
+                        "ref": "Low-G Labyrinth/Low-G Labyrinth - Clear/Clear"
+                    },
+                    {
+                        "name": "Low-G Labyrinth - KONG - KONG",
+                        "ref": "Low-G Labyrinth/Low-G Labyrinth - KONG/KONG"
+                    },
+                    {
+                        "name": "Low-G Labyrinth - DK Coin - DK Coin",
+                        "ref": "Low-G Labyrinth/Low-G Labyrinth - DK Coin/DK Coin"
+                    },
+                    {
+                        "name": "Low-G Labyrinth - Balloon #1 - Balloon #1 (In a long fall)",
+                        "ref": "Low-G Labyrinth/Low-G Labyrinth - Balloon #1/Balloon #1 (In a long fall)"
+                    },
+                    {
+                        "name": "Low-G Labyrinth - Bonus #1 - Bonus #1",
+                        "ref": "Low-G Labyrinth/Low-G Labyrinth - Bonus #1/Bonus #1"
+                    },
+                    {
+                        "name": "Low-G Labyrinth - Bonus #2 - Bonus #2",
+                        "ref": "Low-G Labyrinth/Low-G Labyrinth - Bonus #2/Bonus #2"
+                    },
+                    {
+                        "name": "Low-G Labyrinth - Banana Bunch #1 - Banana Bunch #1 (Near start)",
+                        "ref": "Low-G Labyrinth/Low-G Labyrinth - Banana Bunch #1/Banana Bunch #1 (Near start)"
+                    },
+                    {
+                        "name": "Low-G Labyrinth - Banana Bunch #2 - Banana Bunch #2 (Below O)",
+                        "ref": "Low-G Labyrinth/Low-G Labyrinth - Banana Bunch #2/Banana Bunch #2 (Below O)"
+                    },
+                    {
+                        "name": "Low-G Labyrinth - Banana Bunch #3 - Banana Bunch #3 (Between two circling Buzzes)",
+                        "ref": "Low-G Labyrinth/Low-G Labyrinth - Banana Bunch #3/Banana Bunch #3 (Between two circling Buzzes)"
+                    },
+                    {
+                        "name": "Low-G Labyrinth - Banana Bunch #4 - Banana Bunch #4 (Behind green Buzz)",
+                        "ref": "Low-G Labyrinth/Low-G Labyrinth - Banana Bunch #4/Banana Bunch #4 (Behind green Buzz)"
+                    },
+                    {
+                        "name": "Low-G Labyrinth - Bear Coin #1 - Bear Coin #1 (In a corner next to a banana arc)",
+                        "ref": "Low-G Labyrinth/Low-G Labyrinth - Bear Coin #1/Bear Coin #1 (In a corner next to a banana arc)"
+                    },
+                    {
+                        "name": "Low-G Labyrinth - Bear Coin #2 - Bear Coin #2 (Above a Buzzes column)",
+                        "ref": "Low-G Labyrinth/Low-G Labyrinth - Bear Coin #2/Bear Coin #2 (Above a Buzzes column)"
+                    },
+                    {
+                        "name": "Low-G Labyrinth - Bear Coin #3 - Bear Coin #3 (In a long fall)",
+                        "ref": "Low-G Labyrinth/Low-G Labyrinth - Bear Coin #3/Bear Coin #3 (In a long fall)"
+                    },
+                    {
+                        "name": "Low-G Labyrinth - Bear Coin #4 - Bear Coin #4 (Near invincibility barrel)",
+                        "ref": "Low-G Labyrinth/Low-G Labyrinth - Bear Coin #4/Bear Coin #4 (Near invincibility barrel)"
+                    },
+                    {
+                        "name": "Low-G Labyrinth - Bear Coin #5 - Bear Coin #5 (Near invincibility barrel)",
+                        "ref": "Low-G Labyrinth/Low-G Labyrinth - Bear Coin #5/Bear Coin #5 (Near invincibility barrel)"
+                    },
+                    {
+                        "name": "Low-G Labyrinth - Bear Coin #6 - Bear Coin #6 (Near invincibility barrel)",
+                        "ref": "Low-G Labyrinth/Low-G Labyrinth - Bear Coin #6/Bear Coin #6 (Near invincibility barrel)"
+                    },
+                    {
+                        "name": "Low-G Labyrinth - Bear Coin #7 - Bear Coin #7 (No animal sign)",
+                        "ref": "Low-G Labyrinth/Low-G Labyrinth - Bear Coin #7/Bear Coin #7 (No animal sign)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 1342,
+                        "y": 2289,
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "Murky Mill",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Murky Mill - Clear - Clear",
+                        "ref": "Murky Mill/Murky Mill - Clear/Clear"
+                    },
+                    {
+                        "name": "Murky Mill - KONG - KONG",
+                        "ref": "Murky Mill/Murky Mill - KONG/KONG"
+                    },
+                    {
+                        "name": "Murky Mill - DK Coin - DK Coin",
+                        "ref": "Murky Mill/Murky Mill - DK Coin/DK Coin"
+                    },
+                    {
+                        "name": "Murky Mill - Balloon #1 - Balloon #1 (Above Sneek)",
+                        "ref": "Murky Mill/Murky Mill - Balloon #1/Balloon #1 (Above Sneek)"
+                    },
+                    {
+                        "name": "Murky Mill - Bonus #1 - Bonus #1",
+                        "ref": "Murky Mill/Murky Mill - Bonus #1/Bonus #1"
+                    },
+                    {
+                        "name": "Murky Mill - Bonus #2 - Bonus #2",
+                        "ref": "Murky Mill/Murky Mill - Bonus #2/Bonus #2"
+                    },
+                    {
+                        "name": "Murky Mill - Banana Bunch #1 - Banana Bunch #1 (After getting Ellie)",
+                        "ref": "Murky Mill/Murky Mill - Banana Bunch #1/Banana Bunch #1 (After getting Ellie)"
+                    },
+                    {
+                        "name": "Murky Mill - Banana Bunch #2 - Banana Bunch #2 (Above second lift)",
+                        "ref": "Murky Mill/Murky Mill - Banana Bunch #2/Banana Bunch #2 (Above second lift)"
+                    },
+                    {
+                        "name": "Murky Mill - Bear Coin #1 - Bear Coin #1 (Above Re-Koil)",
+                        "ref": "Murky Mill/Murky Mill - Bear Coin #1/Bear Coin #1 (Above Re-Koil)"
+                    },
+                    {
+                        "name": "Murky Mill - Bear Coin #2 - Bear Coin #2 (In corner after falling section with red Buzzes)",
+                        "ref": "Murky Mill/Murky Mill - Bear Coin #2/Bear Coin #2 (In corner after falling section with red Buzzes)"
+                    },
+                    {
+                        "name": "Murky Mill - Bear Coin #3 - Bear Coin #3 (No animal sign)",
+                        "ref": "Murky Mill/Murky Mill - Bear Coin #3/Bear Coin #3 (No animal sign)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 494,
+                        "y": 1853,
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "Poisonous Pipeline",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Poisonous Pipeline - Clear - Clear",
+                        "ref": "Poisonous Pipeline/Poisonous Pipeline - Clear/Clear"
+                    },
+                    {
+                        "name": "Poisonous Pipeline - KONG - KONG",
+                        "ref": "Poisonous Pipeline/Poisonous Pipeline - KONG/KONG"
+                    },
+                    {
+                        "name": "Poisonous Pipeline - DK Coin - DK Coin",
+                        "ref": "Poisonous Pipeline/Poisonous Pipeline - DK Coin/DK Coin"
+                    },
+                    {
+                        "name": "Poisonous Pipeline - Balloon #1 - Balloon #1 (No animal sign)",
+                        "ref": "Poisonous Pipeline/Poisonous Pipeline - Balloon #1/Balloon #1 (No animal sign)"
+                    },
+                    {
+                        "name": "Poisonous Pipeline - Bonus #1 - Bonus #1",
+                        "ref": "Poisonous Pipeline/Poisonous Pipeline - Bonus #1/Bonus #1"
+                    },
+                    {
+                        "name": "Poisonous Pipeline - Bonus #2 - Bonus #2",
+                        "ref": "Poisonous Pipeline/Poisonous Pipeline - Bonus #2/Bonus #2"
+                    },
+                    {
+                        "name": "Poisonous Pipeline - Banana Bunch #1 - Banana Bunch #1 (Above Lurchin pair)",
+                        "ref": "Poisonous Pipeline/Poisonous Pipeline - Banana Bunch #1/Banana Bunch #1 (Above Lurchin pair)"
+                    },
+                    {
+                        "name": "Poisonous Pipeline - Banana Bunch #2 - Banana Bunch #2 (Above Lurchin pair)",
+                        "ref": "Poisonous Pipeline/Poisonous Pipeline - Banana Bunch #2/Banana Bunch #2 (Above Lurchin pair)"
+                    },
+                    {
+                        "name": "Poisonous Pipeline - Bear Coin #1 - Bear Coin #1 (Above water near start)",
+                        "ref": "Poisonous Pipeline/Poisonous Pipeline - Bear Coin #1/Bear Coin #1 (Above water near start)"
+                    },
+                    {
+                        "name": "Poisonous Pipeline - Bear Coin #2 - Bear Coin #2 (Near O)",
+                        "ref": "Poisonous Pipeline/Poisonous Pipeline - Bear Coin #2/Bear Coin #2 (Near O)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 2024,
+                        "y": 1451,
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "Pot Hole Panic",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Pot Hole Panic - Clear - Clear",
+                        "ref": "Pot Hole Panic/Pot Hole Panic - Clear/Clear"
+                    },
+                    {
+                        "name": "Pot Hole Panic - KONG - KONG",
+                        "ref": "Pot Hole Panic/Pot Hole Panic - KONG/KONG"
+                    },
+                    {
+                        "name": "Pot Hole Panic - DK Coin - DK Coin",
+                        "ref": "Pot Hole Panic/Pot Hole Panic - DK Coin/DK Coin"
+                    },
+                    {
+                        "name": "Pot Hole Panic - Bonus #1 - Bonus #1",
+                        "ref": "Pot Hole Panic/Pot Hole Panic - Bonus #1/Bonus #1"
+                    },
+                    {
+                        "name": "Pot Hole Panic - Bonus #2 - Bonus #2",
+                        "ref": "Pot Hole Panic/Pot Hole Panic - Bonus #2/Bonus #2"
+                    },
+                    {
+                        "name": "Pot Hole Panic - Banana Bunch #1 - Banana Bunch #1 (In dead end near start)",
+                        "ref": "Pot Hole Panic/Pot Hole Panic - Banana Bunch #1/Banana Bunch #1 (In dead end near start)"
+                    },
+                    {
+                        "name": "Pot Hole Panic - Banana Bunch #2 - Banana Bunch #2 (In dead end near start)",
+                        "ref": "Pot Hole Panic/Pot Hole Panic - Banana Bunch #2/Banana Bunch #2 (In dead end near start)"
+                    },
+                    {
+                        "name": "Pot Hole Panic - Banana Bunch #3 - Banana Bunch #3 (Near Enguarde box)",
+                        "ref": "Pot Hole Panic/Pot Hole Panic - Banana Bunch #3/Banana Bunch #3 (Near Enguarde box)"
+                    },
+                    {
+                        "name": "Pot Hole Panic - Banana Bunch #4 - Banana Bunch #4 (In Bounty Bass near Enguarde box)",
+                        "ref": "Pot Hole Panic/Pot Hole Panic - Banana Bunch #4/Banana Bunch #4 (In Bounty Bass near Enguarde box)"
+                    },
+                    {
+                        "name": "Pot Hole Panic - Banana Bunch #5 - Banana Bunch #5 (Above Bounty Bass)",
+                        "ref": "Pot Hole Panic/Pot Hole Panic - Banana Bunch #5/Banana Bunch #5 (Above Bounty Bass)"
+                    },
+                    {
+                        "name": "Pot Hole Panic - Banana Bunch #6 - Banana Bunch #6 (Near Lurchin cluster)",
+                        "ref": "Pot Hole Panic/Pot Hole Panic - Banana Bunch #6/Banana Bunch #6 (Near Lurchin cluster)"
+                    },
+                    {
+                        "name": "Pot Hole Panic - Banana Bunch #7 - Banana Bunch #7 (Behind Ellie Box)",
+                        "ref": "Pot Hole Panic/Pot Hole Panic - Banana Bunch #7/Banana Bunch #7 (Behind Ellie Box)"
+                    },
+                    {
+                        "name": "Pot Hole Panic - Banana Bunch #8 - Banana Bunch #8 (Behind Ellie Box)",
+                        "ref": "Pot Hole Panic/Pot Hole Panic - Banana Bunch #8/Banana Bunch #8 (Behind Ellie Box)"
+                    },
+                    {
+                        "name": "Pot Hole Panic - Banana Bunch #9 - Banana Bunch #9 (Below N)",
+                        "ref": "Pot Hole Panic/Pot Hole Panic - Banana Bunch #9/Banana Bunch #9 (Below N)"
+                    },
+                    {
+                        "name": "Pot Hole Panic - Banana Bunch #10 - Banana Bunch #10 (In Booty Bird after Squitter box)",
+                        "ref": "Pot Hole Panic/Pot Hole Panic - Banana Bunch #10/Banana Bunch #10 (In Booty Bird after Squitter box)"
+                    },
+                    {
+                        "name": "Pot Hole Panic - Banana Bunch #11 - Banana Bunch #11 (No animal sign)",
+                        "ref": "Pot Hole Panic/Pot Hole Panic - Banana Bunch #11/Banana Bunch #11 (No animal sign)"
+                    },
+                    {
+                        "name": "Pot Hole Panic - Bear Coin #1 - Bear Coin #1 (Near circling Kopters)",
+                        "ref": "Pot Hole Panic/Pot Hole Panic - Bear Coin #1/Bear Coin #1 (Near circling Kopters)"
+                    },
+                    {
+                        "name": "Pot Hole Panic - Bear Coin #2 - Bear Coin #2 (Above Kopter)",
+                        "ref": "Pot Hole Panic/Pot Hole Panic - Bear Coin #2/Bear Coin #2 (Above Kopter)"
+                    },
+                    {
+                        "name": "Pot Hole Panic - Bear Coin #3 - Bear Coin #3 (Below N)",
+                        "ref": "Pot Hole Panic/Pot Hole Panic - Bear Coin #3/Bear Coin #3 (Below N)"
+                    },
+                    {
+                        "name": "Pot Hole Panic - Bear Coin #4 - Bear Coin #4 (Below N)",
+                        "ref": "Pot Hole Panic/Pot Hole Panic - Bear Coin #4/Bear Coin #4 (Below N)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 1066,
+                        "y": 1104,
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "Ripsaw Rage",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Ripsaw Rage - Clear - Clear",
+                        "ref": "Ripsaw Rage/Ripsaw Rage - Clear/Clear"
+                    },
+                    {
+                        "name": "Ripsaw Rage - KONG - KONG",
+                        "ref": "Ripsaw Rage/Ripsaw Rage - KONG/KONG"
+                    },
+                    {
+                        "name": "Ripsaw Rage - DK Coin - DK Coin",
+                        "ref": "Ripsaw Rage/Ripsaw Rage - DK Coin/DK Coin"
+                    },
+                    {
+                        "name": "Ripsaw Rage - Bonus #1 - Bonus #1",
+                        "ref": "Ripsaw Rage/Ripsaw Rage - Bonus #1/Bonus #1"
+                    },
+                    {
+                        "name": "Ripsaw Rage - Bonus #2 - Bonus #2",
+                        "ref": "Ripsaw Rage/Ripsaw Rage - Bonus #2/Bonus #2"
+                    },
+                    {
+                        "name": "Ripsaw Rage - Banana Bunch #1 - Banana Bunch #1 (Below branch)",
+                        "ref": "Ripsaw Rage/Ripsaw Rage - Banana Bunch #1/Banana Bunch #1 (Below branch)"
+                    },
+                    {
+                        "name": "Ripsaw Rage - Banana Bunch #2 - Banana Bunch #2 (Below Sneek)",
+                        "ref": "Ripsaw Rage/Ripsaw Rage - Banana Bunch #2/Banana Bunch #2 (Below Sneek)"
+                    },
+                    {
+                        "name": "Ripsaw Rage - Banana Bunch #3 - Banana Bunch #3 (Between branches before steel keg)",
+                        "ref": "Ripsaw Rage/Ripsaw Rage - Banana Bunch #3/Banana Bunch #3 (Between branches before steel keg)"
+                    },
+                    {
+                        "name": "Ripsaw Rage - Banana Bunch #4 - Banana Bunch #4 (Below branch near Koin)",
+                        "ref": "Ripsaw Rage/Ripsaw Rage - Banana Bunch #4/Banana Bunch #4 (Below branch near Koin)"
+                    },
+                    {
+                        "name": "Ripsaw Rage - Bear Coin #1 - Bear Coin #1 (After exiting second tree at start)",
+                        "ref": "Ripsaw Rage/Ripsaw Rage - Bear Coin #1/Bear Coin #1 (After exiting second tree at start)"
+                    },
+                    {
+                        "name": "Ripsaw Rage - Bear Coin #2 - Bear Coin #2 (Below wooden barrel for bonus 1)",
+                        "ref": "Ripsaw Rage/Ripsaw Rage - Bear Coin #2/Bear Coin #2 (Below wooden barrel for bonus 1)"
+                    },
+                    {
+                        "name": "Ripsaw Rage - Bear Coin #3 - Bear Coin #3 (Between branches)",
+                        "ref": "Ripsaw Rage/Ripsaw Rage - Bear Coin #3/Bear Coin #3 (Between branches)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 464,
+                        "y": 1299,
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "Riverside Race",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Riverside Race - Clear - Clear",
+                        "ref": "Riverside Race/Riverside Race - Clear/Clear"
+                    },
+                    {
+                        "name": "Riverside Race - KONG - KONG",
+                        "ref": "Riverside Race/Riverside Race - KONG/KONG"
+                    },
+                    {
+                        "name": "Riverside Race - DK Coin - DK Coin",
+                        "ref": "Riverside Race/Riverside Race - DK Coin/DK Coin"
+                    },
+                    {
+                        "name": "Riverside Race - Balloon #1 - Balloon #1 (On detour)",
+                        "ref": "Riverside Race/Riverside Race - Balloon #1/Balloon #1 (On detour)"
+                    },
+                    {
+                        "name": "Riverside Race - Bonus #1 - Bonus #1",
+                        "ref": "Riverside Race/Riverside Race - Bonus #1/Bonus #1"
+                    },
+                    {
+                        "name": "Riverside Race - Bonus #2 - Bonus #2",
+                        "ref": "Riverside Race/Riverside Race - Bonus #2/Bonus #2"
+                    },
+                    {
+                        "name": "Riverside Race - Banana Bunch #1 - Banana Bunch #1 (At start)",
+                        "ref": "Riverside Race/Riverside Race - Banana Bunch #1/Banana Bunch #1 (At start)"
+                    },
+                    {
+                        "name": "Riverside Race - Banana Bunch #2 - Banana Bunch #2 (In water below bonus #1)",
+                        "ref": "Riverside Race/Riverside Race - Banana Bunch #2/Banana Bunch #2 (In water below bonus #1)"
+                    },
+                    {
+                        "name": "Riverside Race - Banana Bunch #3 - Banana Bunch #3 (In pond with single Red Koco)",
+                        "ref": "Riverside Race/Riverside Race - Banana Bunch #3/Banana Bunch #3 (In pond with single Red Koco)"
+                    },
+                    {
+                        "name": "Riverside Race - Banana Bunch #4 - Banana Bunch #4 (In pond with single Red Koco)",
+                        "ref": "Riverside Race/Riverside Race - Banana Bunch #4/Banana Bunch #4 (In pond with single Red Koco)"
+                    },
+                    {
+                        "name": "Riverside Race - Banana Bunch #5 - Banana Bunch #5 (In pond with single Red Koco)",
+                        "ref": "Riverside Race/Riverside Race - Banana Bunch #5/Banana Bunch #5 (In pond with single Red Koco)"
+                    },
+                    {
+                        "name": "Riverside Race - Banana Bunch #6 - Banana Bunch #6 (Between two Re-Koils)",
+                        "ref": "Riverside Race/Riverside Race - Banana Bunch #6/Banana Bunch #6 (Between two Re-Koils)"
+                    },
+                    {
+                        "name": "Riverside Race - Bear Coin #1 - Bear Coin #1 (Before second pond)",
+                        "ref": "Riverside Race/Riverside Race - Bear Coin #1/Bear Coin #1 (Before second pond)"
+                    },
+                    {
+                        "name": "Riverside Race - Bear Coin #2 - Bear Coin #2 (In second pond)",
+                        "ref": "Riverside Race/Riverside Race - Bear Coin #2/Bear Coin #2 (In second pond)"
+                    },
+                    {
+                        "name": "Riverside Race - Bear Coin #3 - Bear Coin #3 (In pond after bonus #2)",
+                        "ref": "Riverside Race/Riverside Race - Bear Coin #3/Bear Coin #3 (In pond after bonus #2)"
+                    },
+                    {
+                        "name": "Riverside Race - Bear Coin #4 - Bear Coin #4 (In last pond)",
+                        "ref": "Riverside Race/Riverside Race - Bear Coin #4/Bear Coin #4 (In last pond)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 1826,
+                        "y": 1404,
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "Rocket Barrel Ride",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Rocket Barrel Ride - Clear - Clear",
+                        "ref": "Rocket Barrel Ride/Rocket Barrel Ride - Clear/Clear"
+                    },
+                    {
+                        "name": "Rocket Barrel Ride - KONG - KONG",
+                        "ref": "Rocket Barrel Ride/Rocket Barrel Ride - KONG/KONG"
+                    },
+                    {
+                        "name": "Rocket Barrel Ride - DK Coin - DK Coin",
+                        "ref": "Rocket Barrel Ride/Rocket Barrel Ride - DK Coin/DK Coin"
+                    },
+                    {
+                        "name": "Rocket Barrel Ride - Balloon #1 - Balloon #1 (After Krumple pair)",
+                        "ref": "Rocket Barrel Ride/Rocket Barrel Ride - Balloon #1/Balloon #1 (After Krumple pair)"
+                    },
+                    {
+                        "name": "Rocket Barrel Ride - Balloon #1 - Balloon #1 (No animal sign)",
+                        "ref": "Rocket Barrel Ride/Rocket Barrel Ride - Balloon #1/Balloon #1 (No animal sign)"
+                    },
+                    {
+                        "name": "Rocket Barrel Ride - Bonus #1 - Bonus #1",
+                        "ref": "Rocket Barrel Ride/Rocket Barrel Ride - Bonus #1/Bonus #1"
+                    },
+                    {
+                        "name": "Rocket Barrel Ride - Bonus #2 - Bonus #2",
+                        "ref": "Rocket Barrel Ride/Rocket Barrel Ride - Bonus #2/Bonus #2"
+                    },
+                    {
+                        "name": "Rocket Barrel Ride - Banana Bunch #1 - Banana Bunch #1 (After first rocket)",
+                        "ref": "Rocket Barrel Ride/Rocket Barrel Ride - Banana Bunch #1/Banana Bunch #1 (After first rocket)"
+                    },
+                    {
+                        "name": "Rocket Barrel Ride - Banana Bunch #2 - Banana Bunch #2 (Behind waterfall near start)",
+                        "ref": "Rocket Barrel Ride/Rocket Barrel Ride - Banana Bunch #2/Banana Bunch #2 (Behind waterfall near start)"
+                    },
+                    {
+                        "name": "Rocket Barrel Ride - Banana Bunch #3 - Banana Bunch #3 (Near Barrel Kannons)",
+                        "ref": "Rocket Barrel Ride/Rocket Barrel Ride - Banana Bunch #3/Banana Bunch #3 (Near Barrel Kannons)"
+                    },
+                    {
+                        "name": "Rocket Barrel Ride - Banana Bunch #4 - Banana Bunch #4 (After Barrel Kannons)",
+                        "ref": "Rocket Barrel Ride/Rocket Barrel Ride - Banana Bunch #4/Banana Bunch #4 (After Barrel Kannons)"
+                    },
+                    {
+                        "name": "Rocket Barrel Ride - Banana Bunch #5 - Banana Bunch #5 (Near checkpoint)",
+                        "ref": "Rocket Barrel Ride/Rocket Barrel Ride - Banana Bunch #5/Banana Bunch #5 (Near checkpoint)"
+                    },
+                    {
+                        "name": "Rocket Barrel Ride - Banana Bunch #6 - Banana Bunch #6 (After Krumple pair)",
+                        "ref": "Rocket Barrel Ride/Rocket Barrel Ride - Banana Bunch #6/Banana Bunch #6 (After Krumple pair)"
+                    },
+                    {
+                        "name": "Rocket Barrel Ride - Banana Bunch #7 - Banana Bunch #7 (After Krumple pair)",
+                        "ref": "Rocket Barrel Ride/Rocket Barrel Ride - Banana Bunch #7/Banana Bunch #7 (After Krumple pair)"
+                    },
+                    {
+                        "name": "Rocket Barrel Ride - Bear Coin #1 - Bear Coin #1 (Behind waterfall near start)",
+                        "ref": "Rocket Barrel Ride/Rocket Barrel Ride - Bear Coin #1/Bear Coin #1 (Behind waterfall near start)"
+                    },
+                    {
+                        "name": "Rocket Barrel Ride - Bear Coin #2 - Bear Coin #2 (Before third rocket)",
+                        "ref": "Rocket Barrel Ride/Rocket Barrel Ride - Bear Coin #2/Bear Coin #2 (Before third rocket)"
+                    },
+                    {
+                        "name": "Rocket Barrel Ride - Bear Coin #3 - Bear Coin #3 (Near Barrel Kannons)",
+                        "ref": "Rocket Barrel Ride/Rocket Barrel Ride - Bear Coin #3/Bear Coin #3 (Near Barrel Kannons)"
+                    },
+                    {
+                        "name": "Rocket Barrel Ride - Bear Coin #4 - Bear Coin #4 (Behind waterfall above K)",
+                        "ref": "Rocket Barrel Ride/Rocket Barrel Ride - Bear Coin #4/Bear Coin #4 (Behind waterfall above K)"
+                    },
+                    {
+                        "name": "Rocket Barrel Ride - Bear Coin #5 - Bear Coin #5 (Next to a rotating barrel)",
+                        "ref": "Rocket Barrel Ride/Rocket Barrel Ride - Bear Coin #5/Bear Coin #5 (Next to a rotating barrel)"
+                    },
+                    {
+                        "name": "Rocket Barrel Ride - Bear Coin #6 - Bear Coin #6 (Above Krimp behind waterfall)",
+                        "ref": "Rocket Barrel Ride/Rocket Barrel Ride - Bear Coin #6/Bear Coin #6 (Above Krimp behind waterfall)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 2024,
+                        "y": 1334,
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "Rocket Rush",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Rocket Rush - Clear - Clear",
+                        "ref": "Rocket Rush/Rocket Rush - Clear/Clear"
+                    },
+                    {
+                        "name": "Rocket Rush - DK Coin - DK Coin",
+                        "ref": "Rocket Rush/Rocket Rush - DK Coin/DK Coin"
+                    },
+                    {
+                        "name": "Rocket Rush - Banana Bunch #1 - Banana Bunch #1 (Falling section)",
+                        "ref": "Rocket Rush/Rocket Rush - Banana Bunch #1/Banana Bunch #1 (Falling section)"
+                    },
+                    {
+                        "name": "Rocket Rush - Banana Bunch #2 - Banana Bunch #2 (Rising section in a narrow corridor, left)",
+                        "ref": "Rocket Rush/Rocket Rush - Banana Bunch #2/Banana Bunch #2 (Rising section in a narrow corridor, left)"
+                    },
+                    {
+                        "name": "Rocket Rush - Banana Bunch #3 - Banana Bunch #3 (Rising section in a narrow corridor, right)",
+                        "ref": "Rocket Rush/Rocket Rush - Banana Bunch #3/Banana Bunch #3 (Rising section in a narrow corridor, right)"
+                    },
+                    {
+                        "name": "Rocket Rush - Bear Coin #1 - Bear Coin #1 (Rising section after N, left side)",
+                        "ref": "Rocket Rush/Rocket Rush - Bear Coin #1/Bear Coin #1 (Rising section after N, left side)"
+                    },
+                    {
+                        "name": "Rocket Rush - Bear Coin #2 - Bear Coin #2 (Rising section in branching path, right side)",
+                        "ref": "Rocket Rush/Rocket Rush - Bear Coin #2/Bear Coin #2 (Rising section in branching path, right side)"
+                    },
+                    {
+                        "name": "Rocket Rush - Bear Coin #3 - Bear Coin #3 (Rising section in branching path, right side)",
+                        "ref": "Rocket Rush/Rocket Rush - Bear Coin #3/Bear Coin #3 (Rising section in branching path, right side)"
+                    },
+                    {
+                        "name": "Rocket Rush - Bear Coin #4 - Bear Coin #4 (Rising section in semi-open area)",
+                        "ref": "Rocket Rush/Rocket Rush - Bear Coin #4/Bear Coin #4 (Rising section in semi-open area)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 1377,
+                        "y": 302,
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "Ropey Rumpus",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Ropey Rumpus - Clear - Clear",
+                        "ref": "Ropey Rumpus/Ropey Rumpus - Clear/Clear"
+                    },
+                    {
+                        "name": "Ropey Rumpus - KONG - KONG",
+                        "ref": "Ropey Rumpus/Ropey Rumpus - KONG/KONG"
+                    },
+                    {
+                        "name": "Ropey Rumpus - DK Coin - DK Coin",
+                        "ref": "Ropey Rumpus/Ropey Rumpus - DK Coin/DK Coin"
+                    },
+                    {
+                        "name": "Ropey Rumpus - Balloon #1 - Balloon #1 (In branching path)",
+                        "ref": "Ropey Rumpus/Ropey Rumpus - Balloon #1/Balloon #1 (In branching path)"
+                    },
+                    {
+                        "name": "Ropey Rumpus - Balloon #2 - Balloon #2 (In hidden upper path)",
+                        "ref": "Ropey Rumpus/Ropey Rumpus - Balloon #2/Balloon #2 (In hidden upper path)"
+                    },
+                    {
+                        "name": "Ropey Rumpus - Bonus #1 - Bonus #1",
+                        "ref": "Ropey Rumpus/Ropey Rumpus - Bonus #1/Bonus #1"
+                    },
+                    {
+                        "name": "Ropey Rumpus - Bonus #2 - Bonus #2",
+                        "ref": "Ropey Rumpus/Ropey Rumpus - Bonus #2/Bonus #2"
+                    },
+                    {
+                        "name": "Ropey Rumpus - Banana Bunch #1 - Banana Bunch #1 (At start)",
+                        "ref": "Ropey Rumpus/Ropey Rumpus - Banana Bunch #1/Banana Bunch #1 (At start)"
+                    },
+                    {
+                        "name": "Ropey Rumpus - Banana Bunch #2 - Banana Bunch #2 (Above green Buzz near K)",
+                        "ref": "Ropey Rumpus/Ropey Rumpus - Banana Bunch #2/Banana Bunch #2 (Above green Buzz near K)"
+                    },
+                    {
+                        "name": "Ropey Rumpus - Banana Bunch #3 - Banana Bunch #3 (Next to red & green Buzz pair)",
+                        "ref": "Ropey Rumpus/Ropey Rumpus - Banana Bunch #3/Banana Bunch #3 (Next to red & green Buzz pair)"
+                    },
+                    {
+                        "name": "Ropey Rumpus - Banana Bunch #4 - Banana Bunch #4 (Next to a pair of circling green Buzzes)",
+                        "ref": "Ropey Rumpus/Ropey Rumpus - Banana Bunch #4/Banana Bunch #4 (Next to a pair of circling green Buzzes)"
+                    },
+                    {
+                        "name": "Ropey Rumpus - Banana Bunch #5 - Banana Bunch #5 (Above branching path)",
+                        "ref": "Ropey Rumpus/Ropey Rumpus - Banana Bunch #5/Banana Bunch #5 (Above branching path)"
+                    },
+                    {
+                        "name": "Ropey Rumpus - Banana Bunch #6 - Banana Bunch #6 (Above branching path)",
+                        "ref": "Ropey Rumpus/Ropey Rumpus - Banana Bunch #6/Banana Bunch #6 (Above branching path)"
+                    },
+                    {
+                        "name": "Ropey Rumpus - Banana Bunch #7 - Banana Bunch #7 (Next to circling green Buzzes after N)",
+                        "ref": "Ropey Rumpus/Ropey Rumpus - Banana Bunch #7/Banana Bunch #7 (Next to circling green Buzzes after N)"
+                    },
+                    {
+                        "name": "Ropey Rumpus - Banana Bunch #8 - Banana Bunch #8 (Next to circling green Buzzes after N)",
+                        "ref": "Ropey Rumpus/Ropey Rumpus - Banana Bunch #8/Banana Bunch #8 (Next to circling green Buzzes after N)"
+                    },
+                    {
+                        "name": "Ropey Rumpus - Banana Bunch #9 - Banana Bunch #9 (In hidden upper path)",
+                        "ref": "Ropey Rumpus/Ropey Rumpus - Banana Bunch #9/Banana Bunch #9 (In hidden upper path)"
+                    },
+                    {
+                        "name": "Ropey Rumpus - Banana Bunch #10 - Banana Bunch #10 (Below hidden upper path)",
+                        "ref": "Ropey Rumpus/Ropey Rumpus - Banana Bunch #10/Banana Bunch #10 (Below hidden upper path)"
+                    },
+                    {
+                        "name": "Ropey Rumpus - Bear Coin #1 - Bear Coin #1 (Cache at start)",
+                        "ref": "Ropey Rumpus/Ropey Rumpus - Bear Coin #1/Bear Coin #1 (Cache at start)"
+                    },
+                    {
+                        "name": "Ropey Rumpus - Bear Coin #2 - Bear Coin #2 (At start)",
+                        "ref": "Ropey Rumpus/Ropey Rumpus - Bear Coin #2/Bear Coin #2 (At start)"
+                    },
+                    {
+                        "name": "Ropey Rumpus - Bear Coin #3 - Bear Coin #3 (Next to K)",
+                        "ref": "Ropey Rumpus/Ropey Rumpus - Bear Coin #3/Bear Coin #3 (Next to K)"
+                    },
+                    {
+                        "name": "Ropey Rumpus - Bear Coin #4 - Bear Coin #4 (Next to O)",
+                        "ref": "Ropey Rumpus/Ropey Rumpus - Bear Coin #4/Bear Coin #4 (Next to O)"
+                    },
+                    {
+                        "name": "Ropey Rumpus - Bear Coin #5 - Bear Coin #5 (Next to O)",
+                        "ref": "Ropey Rumpus/Ropey Rumpus - Bear Coin #5/Bear Coin #5 (Next to O)"
+                    },
+                    {
+                        "name": "Ropey Rumpus - Bear Coin #6 - Bear Coin #6 (Next to red & green Buzz pair)",
+                        "ref": "Ropey Rumpus/Ropey Rumpus - Bear Coin #6/Bear Coin #6 (Next to red & green Buzz pair)"
+                    },
+                    {
+                        "name": "Ropey Rumpus - Bear Coin #7 - Bear Coin #7 (Next to red Buzz with a circling green Buzz)",
+                        "ref": "Ropey Rumpus/Ropey Rumpus - Bear Coin #7/Bear Coin #7 (Next to red Buzz with a circling green Buzz)"
+                    },
+                    {
+                        "name": "Ropey Rumpus - Bear Coin #8 - Bear Coin #8 (In hidden upper path)",
+                        "ref": "Ropey Rumpus/Ropey Rumpus - Bear Coin #8/Bear Coin #8 (In hidden upper path)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 995,
+                        "y": 2484,
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "Skiddas Row",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Skiddas Row - Clear - Clear",
+                        "ref": "Skiddas Row/Skiddas Row - Clear/Clear"
+                    },
+                    {
+                        "name": "Skiddas Row - KONG - KONG",
+                        "ref": "Skiddas Row/Skiddas Row - KONG/KONG"
+                    },
+                    {
+                        "name": "Skiddas Row - DK Coin - DK Coin",
+                        "ref": "Skiddas Row/Skiddas Row - DK Coin/DK Coin"
+                    },
+                    {
+                        "name": "Skiddas Row - Balloon #1 - Balloon #1 (Above Knik-Knak)",
+                        "ref": "Skiddas Row/Skiddas Row - Balloon #1/Balloon #1 (Above Knik-Knak)"
+                    },
+                    {
+                        "name": "Skiddas Row - Bonus #1 - Bonus #1",
+                        "ref": "Skiddas Row/Skiddas Row - Bonus #1/Bonus #1"
+                    },
+                    {
+                        "name": "Skiddas Row - Bonus #2 - Bonus #2",
+                        "ref": "Skiddas Row/Skiddas Row - Bonus #2/Bonus #2"
+                    },
+                    {
+                        "name": "Skiddas Row - Banana Bunch #1 - Banana Bunch #1 (After a background Snowman)",
+                        "ref": "Skiddas Row/Skiddas Row - Banana Bunch #1/Banana Bunch #1 (After a background Snowman)"
+                    },
+                    {
+                        "name": "Skiddas Row - Bear Coin #1 - Bear Coin #1 (Inside second house)",
+                        "ref": "Skiddas Row/Skiddas Row - Bear Coin #1/Bear Coin #1 (Inside second house)"
+                    },
+                    {
+                        "name": "Skiddas Row - Bear Coin #2 - Bear Coin #2 (Invisible between two holes)",
+                        "ref": "Skiddas Row/Skiddas Row - Bear Coin #2/Bear Coin #2 (Invisible between two holes)"
+                    },
+                    {
+                        "name": "Skiddas Row - Bear Coin #3 - Bear Coin #3 (Above O)",
+                        "ref": "Skiddas Row/Skiddas Row - Bear Coin #3/Bear Coin #3 (Above O)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 1061,
+                        "y": 1582,
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "Springin Spiders",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Springin Spiders - Clear - Clear",
+                        "ref": "Springin Spiders/Springin Spiders - Clear/Clear"
+                    },
+                    {
+                        "name": "Springin Spiders - KONG - KONG",
+                        "ref": "Springin Spiders/Springin Spiders - KONG/KONG"
+                    },
+                    {
+                        "name": "Springin Spiders - DK Coin - DK Coin",
+                        "ref": "Springin Spiders/Springin Spiders - DK Coin/DK Coin"
+                    },
+                    {
+                        "name": "Springin Spiders - Balloon #1 - Balloon #1 (Above a red Buzz at the start)",
+                        "ref": "Springin Spiders/Springin Spiders - Balloon #1/Balloon #1 (Above a red Buzz at the start)"
+                    },
+                    {
+                        "name": "Springin Spiders - Balloon #2 - Balloon #2 (In hole between Buzzes)",
+                        "ref": "Springin Spiders/Springin Spiders - Balloon #2/Balloon #2 (In hole between Buzzes)"
+                    },
+                    {
+                        "name": "Springin Spiders - Balloon #3 - Balloon #3 (Below N)",
+                        "ref": "Springin Spiders/Springin Spiders - Balloon #3/Balloon #3 (Below N)"
+                    },
+                    {
+                        "name": "Springin Spiders - Bonus #1 - Bonus #1",
+                        "ref": "Springin Spiders/Springin Spiders - Bonus #1/Bonus #1"
+                    },
+                    {
+                        "name": "Springin Spiders - Bonus #2 - Bonus #2",
+                        "ref": "Springin Spiders/Springin Spiders - Bonus #2/Bonus #2"
+                    },
+                    {
+                        "name": "Springin Spiders - Banana Bunch #1 - Banana Bunch #1 (Hidden in top corner)",
+                        "ref": "Springin Spiders/Springin Spiders - Banana Bunch #1/Banana Bunch #1 (Hidden in top corner)"
+                    },
+                    {
+                        "name": "Springin Spiders - Banana Bunch #1 - Banana Bunch #1 (Behind Green Buzz before no animal sign)",
+                        "ref": "Springin Spiders/Springin Spiders - Banana Bunch #1/Banana Bunch #1 (Behind Green Buzz before no animal sign)"
+                    },
+                    {
+                        "name": "Springin Spiders - Banana Bunch #4 - Banana Bunch #4 (Above Red Buzz)",
+                        "ref": "Springin Spiders/Springin Spiders - Banana Bunch #4/Banana Bunch #4 (Above Red Buzz)"
+                    },
+                    {
+                        "name": "Springin Spiders - Banana Bunch #5 - Banana Bunch #5 (Below a wooden barrel)",
+                        "ref": "Springin Spiders/Springin Spiders - Banana Bunch #5/Banana Bunch #5 (Below a wooden barrel)"
+                    },
+                    {
+                        "name": "Springin Spiders - Banana Bunch #6 - Banana Bunch #6 (Above a red Buzz)",
+                        "ref": "Springin Spiders/Springin Spiders - Banana Bunch #6/Banana Bunch #6 (Above a red Buzz)"
+                    },
+                    {
+                        "name": "Springin Spiders - Banana Bunch #7 - Banana Bunch #7 (Next to a hole with a single banana below)",
+                        "ref": "Springin Spiders/Springin Spiders - Banana Bunch #7/Banana Bunch #7 (Next to a hole with a single banana below)"
+                    },
+                    {
+                        "name": "Springin Spiders - Bear Coin #1 - Bear Coin #1 (Above Warp Barrel)",
+                        "ref": "Springin Spiders/Springin Spiders - Bear Coin #1/Bear Coin #1 (Above Warp Barrel)"
+                    },
+                    {
+                        "name": "Springin Spiders - Bear Coin #2 - Bear Coin #2 (Behind a green Buzz)",
+                        "ref": "Springin Spiders/Springin Spiders - Bear Coin #2/Bear Coin #2 (Behind a green Buzz)"
+                    },
+                    {
+                        "name": "Springin Spiders - Bear Coin #3 - Bear Coin #3 (In a ledge below a Buzz)",
+                        "ref": "Springin Spiders/Springin Spiders - Bear Coin #3/Bear Coin #3 (In a ledge below a Buzz)"
+                    },
+                    {
+                        "name": "Springin Spiders - Bear Coin #4 - Bear Coin #4 (In a ledge below a Buzz)",
+                        "ref": "Springin Spiders/Springin Spiders - Bear Coin #4/Bear Coin #4 (In a ledge below a Buzz)"
+                    },
+                    {
+                        "name": "Springin Spiders - Bear Coin #5 - Bear Coin #5 (No animal sign)",
+                        "ref": "Springin Spiders/Springin Spiders - Bear Coin #5/Bear Coin #5 (No animal sign)"
+                    },
+                    {
+                        "name": "Springin Spiders - Bear Coin #6 - Bear Coin #6 (Above Red Buzz)",
+                        "ref": "Springin Spiders/Springin Spiders - Bear Coin #6/Bear Coin #6 (Above Red Buzz)"
+                    },
+                    {
+                        "name": "Springin Spiders - Bear Coin #7 - Bear Coin #7 (Next to Bonus #2)",
+                        "ref": "Springin Spiders/Springin Spiders - Bear Coin #7/Bear Coin #7 (Next to Bonus #2)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 1419,
+                        "y": 2435,
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "Squeals on Wheels",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Squeals on Wheels - Clear - Clear",
+                        "ref": "Squeals on Wheels/Squeals on Wheels - Clear/Clear"
+                    },
+                    {
+                        "name": "Squeals on Wheels - KONG - KONG",
+                        "ref": "Squeals on Wheels/Squeals on Wheels - KONG/KONG"
+                    },
+                    {
+                        "name": "Squeals on Wheels - DK Coin - DK Coin",
+                        "ref": "Squeals on Wheels/Squeals on Wheels - DK Coin/DK Coin"
+                    },
+                    {
+                        "name": "Squeals on Wheels - Balloon #1 - Balloon #1 (No animal sign)",
+                        "ref": "Squeals on Wheels/Squeals on Wheels - Balloon #1/Balloon #1 (No animal sign)"
+                    },
+                    {
+                        "name": "Squeals on Wheels - Bonus #1 - Bonus #1",
+                        "ref": "Squeals on Wheels/Squeals on Wheels - Bonus #1/Bonus #1"
+                    },
+                    {
+                        "name": "Squeals on Wheels - Bonus #2 - Bonus #2",
+                        "ref": "Squeals on Wheels/Squeals on Wheels - Bonus #2/Bonus #2"
+                    },
+                    {
+                        "name": "Squeals on Wheels - Banana Bunch #1 - Banana Bunch #1 (At start)",
+                        "ref": "Squeals on Wheels/Squeals on Wheels - Banana Bunch #1/Banana Bunch #1 (At start)"
+                    },
+                    {
+                        "name": "Squeals on Wheels - Banana Bunch #2 - Banana Bunch #2 (At end of first rope)",
+                        "ref": "Squeals on Wheels/Squeals on Wheels - Banana Bunch #2/Banana Bunch #2 (At end of first rope)"
+                    },
+                    {
+                        "name": "Squeals on Wheels - Banana Bunch #3 - Banana Bunch #3 (At end of first rope)",
+                        "ref": "Squeals on Wheels/Squeals on Wheels - Banana Bunch #3/Banana Bunch #3 (At end of first rope)"
+                    },
+                    {
+                        "name": "Squeals on Wheels - Banana Bunch #4 - Banana Bunch #4 (Above steel keg after N)",
+                        "ref": "Squeals on Wheels/Squeals on Wheels - Banana Bunch #4/Banana Bunch #4 (Above steel keg after N)"
+                    },
+                    {
+                        "name": "Squeals on Wheels - Banana Bunch #5 - Banana Bunch #5 (Above steel keg after N)",
+                        "ref": "Squeals on Wheels/Squeals on Wheels - Banana Bunch #5/Banana Bunch #5 (Above steel keg after N)"
+                    },
+                    {
+                        "name": "Squeals on Wheels - Banana Bunch #6 - Banana Bunch #6 (In corner near Barrel Kannon)",
+                        "ref": "Squeals on Wheels/Squeals on Wheels - Banana Bunch #6/Banana Bunch #6 (In corner near Barrel Kannon)"
+                    },
+                    {
+                        "name": "Squeals on Wheels - Banana Bunch #7 - Banana Bunch #7 (Near top of the level)",
+                        "ref": "Squeals on Wheels/Squeals on Wheels - Banana Bunch #7/Banana Bunch #7 (Near top of the level)"
+                    },
+                    {
+                        "name": "Squeals on Wheels - Bear Coin #1 - Bear Coin #1 (Above Booty Bird)",
+                        "ref": "Squeals on Wheels/Squeals on Wheels - Bear Coin #1/Bear Coin #1 (Above Booty Bird)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 324,
+                        "y": 1685,
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "Squirts Showdown",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Squirts Showdown - Clear - Clear",
+                        "ref": "Squirts Showdown/Squirts Showdown - Clear/Clear"
+                    },
+                    {
+                        "name": "Squirts Showdown - Clear - Defeated Squirt",
+                        "ref": "Squirts Showdown/Squirts Showdown - Clear/Defeated Squirt"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 426,
+                        "y": 742,
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "Stampede Sprint",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Stampede Sprint - Clear - Clear",
+                        "ref": "Stampede Sprint/Stampede Sprint - Clear/Clear"
+                    },
+                    {
+                        "name": "Stampede Sprint - KONG - KONG",
+                        "ref": "Stampede Sprint/Stampede Sprint - KONG/KONG"
+                    },
+                    {
+                        "name": "Stampede Sprint - DK Coin - DK Coin",
+                        "ref": "Stampede Sprint/Stampede Sprint - DK Coin/DK Coin"
+                    },
+                    {
+                        "name": "Stampede Sprint - Bonus #1 - Bonus #1",
+                        "ref": "Stampede Sprint/Stampede Sprint - Bonus #1/Bonus #1"
+                    },
+                    {
+                        "name": "Stampede Sprint - Bonus #2 - Bonus #2",
+                        "ref": "Stampede Sprint/Stampede Sprint - Bonus #2/Bonus #2"
+                    },
+                    {
+                        "name": "Stampede Sprint - Bonus #3 - Bonus #3",
+                        "ref": "Stampede Sprint/Stampede Sprint - Bonus #3/Bonus #3"
+                    },
+                    {
+                        "name": "Stampede Sprint - Bear Coin #1 - Bear Coin #1 (During sprint)",
+                        "ref": "Stampede Sprint/Stampede Sprint - Bear Coin #1/Bear Coin #1 (During sprint)"
+                    },
+                    {
+                        "name": "Stampede Sprint - Bear Coin #2 - Bear Coin #2 (Before no Ellie sign)",
+                        "ref": "Stampede Sprint/Stampede Sprint - Bear Coin #2/Bear Coin #2 (Before no Ellie sign)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 1061,
+                        "y": 56,
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "Swoopy Salvo",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Swoopy Salvo - Clear - Clear",
+                        "ref": "Swoopy Salvo/Swoopy Salvo - Clear/Clear"
+                    },
+                    {
+                        "name": "Swoopy Salvo - KONG - KONG",
+                        "ref": "Swoopy Salvo/Swoopy Salvo - KONG/KONG"
+                    },
+                    {
+                        "name": "Swoopy Salvo - DK Coin - DK Coin",
+                        "ref": "Swoopy Salvo/Swoopy Salvo - DK Coin/DK Coin"
+                    },
+                    {
+                        "name": "Swoopy Salvo - Bonus #1 - Bonus #1",
+                        "ref": "Swoopy Salvo/Swoopy Salvo - Bonus #1/Bonus #1"
+                    },
+                    {
+                        "name": "Swoopy Salvo - Bonus #2 - Bonus #2",
+                        "ref": "Swoopy Salvo/Swoopy Salvo - Bonus #2/Bonus #2"
+                    },
+                    {
+                        "name": "Swoopy Salvo - Bonus #3 - Bonus #3",
+                        "ref": "Swoopy Salvo/Swoopy Salvo - Bonus #3/Bonus #3"
+                    },
+                    {
+                        "name": "Swoopy Salvo - Banana Bunch #1 - Banana Bunch #1 (In Booty Bird)",
+                        "ref": "Swoopy Salvo/Swoopy Salvo - Banana Bunch #1/Banana Bunch #1 (In Booty Bird)"
+                    },
+                    {
+                        "name": "Swoopy Salvo - Banana Bunch #2 - Banana Bunch #2 (Before an entrance blocking Buzz)",
+                        "ref": "Swoopy Salvo/Swoopy Salvo - Banana Bunch #2/Banana Bunch #2 (Before an entrance blocking Buzz)"
+                    },
+                    {
+                        "name": "Swoopy Salvo - Bear Coin #1 - Bear Coin #1 (Inside circling red Buzzes)",
+                        "ref": "Swoopy Salvo/Swoopy Salvo - Bear Coin #1/Bear Coin #1 (Inside circling red Buzzes)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 1988,
+                        "y": 1946,
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "Tearaway Toboggan",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Tearaway Toboggan - Clear - Clear",
+                        "ref": "Tearaway Toboggan/Tearaway Toboggan - Clear/Clear"
+                    },
+                    {
+                        "name": "Tearaway Toboggan - KONG - KONG",
+                        "ref": "Tearaway Toboggan/Tearaway Toboggan - KONG/KONG"
+                    },
+                    {
+                        "name": "Tearaway Toboggan - DK Coin - DK Coin",
+                        "ref": "Tearaway Toboggan/Tearaway Toboggan - DK Coin/DK Coin"
+                    },
+                    {
+                        "name": "Tearaway Toboggan - Balloon #1 - Balloon #1 (Below a Knik-Knak)",
+                        "ref": "Tearaway Toboggan/Tearaway Toboggan - Balloon #1/Balloon #1 (Below a Knik-Knak)"
+                    },
+                    {
+                        "name": "Tearaway Toboggan - Balloon #2 - Balloon #2 (At the end)",
+                        "ref": "Tearaway Toboggan/Tearaway Toboggan - Balloon #2/Balloon #2 (At the end)"
+                    },
+                    {
+                        "name": "Tearaway Toboggan - Bonus #1 - Bonus #1",
+                        "ref": "Tearaway Toboggan/Tearaway Toboggan - Bonus #1/Bonus #1"
+                    },
+                    {
+                        "name": "Tearaway Toboggan - Bonus #2 - Bonus #2",
+                        "ref": "Tearaway Toboggan/Tearaway Toboggan - Bonus #2/Bonus #2"
+                    },
+                    {
+                        "name": "Tearaway Toboggan - Banana Bunch #1 - Banana Bunch #1 (After banana arc)",
+                        "ref": "Tearaway Toboggan/Tearaway Toboggan - Banana Bunch #1/Banana Bunch #1 (After banana arc)"
+                    },
+                    {
+                        "name": "Tearaway Toboggan - Banana Bunch #2 - Banana Bunch #2 (In a hill)",
+                        "ref": "Tearaway Toboggan/Tearaway Toboggan - Banana Bunch #2/Banana Bunch #2 (In a hill)"
+                    },
+                    {
+                        "name": "Tearaway Toboggan - Banana Bunch #3 - Banana Bunch #3 (Above a Knik-Knak)",
+                        "ref": "Tearaway Toboggan/Tearaway Toboggan - Banana Bunch #3/Banana Bunch #3 (Above a Knik-Knak)"
+                    },
+                    {
+                        "name": "Tearaway Toboggan - Banana Bunch #4 - Banana Bunch #4 (Next to a Knik-Knak)",
+                        "ref": "Tearaway Toboggan/Tearaway Toboggan - Banana Bunch #4/Banana Bunch #4 (Next to a Knik-Knak)"
+                    },
+                    {
+                        "name": "Tearaway Toboggan - Banana Bunch #5 - Banana Bunch #5 (At the end of a big hill)",
+                        "ref": "Tearaway Toboggan/Tearaway Toboggan - Banana Bunch #5/Banana Bunch #5 (At the end of a big hill)"
+                    },
+                    {
+                        "name": "Tearaway Toboggan - Banana Bunch #6 - Banana Bunch #6 (After a big hill)",
+                        "ref": "Tearaway Toboggan/Tearaway Toboggan - Banana Bunch #6/Banana Bunch #6 (After a big hill)"
+                    },
+                    {
+                        "name": "Tearaway Toboggan - Banana Bunch #7 - Banana Bunch #7 (Inside Booty Bird)",
+                        "ref": "Tearaway Toboggan/Tearaway Toboggan - Banana Bunch #7/Banana Bunch #7 (Inside Booty Bird)"
+                    },
+                    {
+                        "name": "Tearaway Toboggan - Bear Coin #1 - Bear Coin #1 (Above green Buzz in house)",
+                        "ref": "Tearaway Toboggan/Tearaway Toboggan - Bear Coin #1/Bear Coin #1 (Above green Buzz in house)"
+                    },
+                    {
+                        "name": "Tearaway Toboggan - Bear Coin #2 - Bear Coin #2 (After a Skidda)",
+                        "ref": "Tearaway Toboggan/Tearaway Toboggan - Bear Coin #2/Bear Coin #2 (After a Skidda)"
+                    },
+                    {
+                        "name": "Tearaway Toboggan - Bear Coin #3 - Bear Coin #3 (Inside house)",
+                        "ref": "Tearaway Toboggan/Tearaway Toboggan - Bear Coin #3/Bear Coin #3 (Inside house)"
+                    },
+                    {
+                        "name": "Tearaway Toboggan - Bear Coin #4 - Bear Coin #4 (Above house)",
+                        "ref": "Tearaway Toboggan/Tearaway Toboggan - Bear Coin #4/Bear Coin #4 (Above house)"
+                    },
+                    {
+                        "name": "Tearaway Toboggan - Bear Coin #5 - Bear Coin #5 (Below a Knik-Knak)",
+                        "ref": "Tearaway Toboggan/Tearaway Toboggan - Bear Coin #5/Bear Coin #5 (Below a Knik-Knak)"
+                    },
+                    {
+                        "name": "Tearaway Toboggan - Bear Coin #6 - Bear Coin #6 (Above house)",
+                        "ref": "Tearaway Toboggan/Tearaway Toboggan - Bear Coin #6/Bear Coin #6 (Above house)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 398,
+                        "y": 1643,
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "Tidal Trouble",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Tidal Trouble - Clear - Clear",
+                        "ref": "Tidal Trouble/Tidal Trouble - Clear/Clear"
+                    },
+                    {
+                        "name": "Tidal Trouble - KONG - KONG",
+                        "ref": "Tidal Trouble/Tidal Trouble - KONG/KONG"
+                    },
+                    {
+                        "name": "Tidal Trouble - DK Coin - DK Coin",
+                        "ref": "Tidal Trouble/Tidal Trouble - DK Coin/DK Coin"
+                    },
+                    {
+                        "name": "Tidal Trouble - Balloon #1 - Balloon #1 (Below cracked floor at the end)",
+                        "ref": "Tidal Trouble/Tidal Trouble - Balloon #1/Balloon #1 (Below cracked floor at the end)"
+                    },
+                    {
+                        "name": "Tidal Trouble - Bonus #1 - Bonus #1",
+                        "ref": "Tidal Trouble/Tidal Trouble - Bonus #1/Bonus #1"
+                    },
+                    {
+                        "name": "Tidal Trouble - Bonus #2 - Bonus #2",
+                        "ref": "Tidal Trouble/Tidal Trouble - Bonus #2/Bonus #2"
+                    },
+                    {
+                        "name": "Tidal Trouble - Banana Bunch #1 - Banana Bunch #1 (Above green Koco)",
+                        "ref": "Tidal Trouble/Tidal Trouble - Banana Bunch #1/Banana Bunch #1 (Above green Koco)"
+                    },
+                    {
+                        "name": "Tidal Trouble - Banana Bunch #2 - Banana Bunch #2 (No animal sign reward)",
+                        "ref": "Tidal Trouble/Tidal Trouble - Banana Bunch #2/Banana Bunch #2 (No animal sign reward)"
+                    },
+                    {
+                        "name": "Tidal Trouble - Bear Coin #1 - Bear Coin #1 (Above green Buzz)",
+                        "ref": "Tidal Trouble/Tidal Trouble - Bear Coin #1/Bear Coin #1 (Above green Buzz)"
+                    },
+                    {
+                        "name": "Tidal Trouble - Bear Coin #2 - Bear Coin #2 (Above green Buzz between two wooden pillars)",
+                        "ref": "Tidal Trouble/Tidal Trouble - Bear Coin #2/Bear Coin #2 (Above green Buzz between two wooden pillars)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 255,
+                        "y": 127,
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "Tracker Barrel Trek",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Tracker Barrel Trek - Clear - Clear",
+                        "ref": "Tracker Barrel Trek/Tracker Barrel Trek - Clear/Clear"
+                    },
+                    {
+                        "name": "Tracker Barrel Trek - KONG - KONG",
+                        "ref": "Tracker Barrel Trek/Tracker Barrel Trek - KONG/KONG"
+                    },
+                    {
+                        "name": "Tracker Barrel Trek - DK Coin - DK Coin",
+                        "ref": "Tracker Barrel Trek/Tracker Barrel Trek - DK Coin/DK Coin"
+                    },
+                    {
+                        "name": "Tracker Barrel Trek - Balloon #1 - Balloon #1 (Near checkpoint)",
+                        "ref": "Tracker Barrel Trek/Tracker Barrel Trek - Balloon #1/Balloon #1 (Near checkpoint)"
+                    },
+                    {
+                        "name": "Tracker Barrel Trek - Bonus #1 - Bonus #1",
+                        "ref": "Tracker Barrel Trek/Tracker Barrel Trek - Bonus #1/Bonus #1"
+                    },
+                    {
+                        "name": "Tracker Barrel Trek - Bonus #2 - Bonus #2",
+                        "ref": "Tracker Barrel Trek/Tracker Barrel Trek - Bonus #2/Bonus #2"
+                    },
+                    {
+                        "name": "Tracker Barrel Trek - Banana Bunch #1 - Banana Bunch #1 (Above Tracker Barrel)",
+                        "ref": "Tracker Barrel Trek/Tracker Barrel Trek - Banana Bunch #1/Banana Bunch #1 (Above Tracker Barrel)"
+                    },
+                    {
+                        "name": "Tracker Barrel Trek - Bear Coin #1 - Bear Coin #1 (Near start above DK Barrel)",
+                        "ref": "Tracker Barrel Trek/Tracker Barrel Trek - Bear Coin #1/Bear Coin #1 (Near start above DK Barrel)"
+                    },
+                    {
+                        "name": "Tracker Barrel Trek - Bear Coin #2 - Bear Coin #2 (Between Krumples)",
+                        "ref": "Tracker Barrel Trek/Tracker Barrel Trek - Bear Coin #2/Bear Coin #2 (Between Krumples)"
+                    },
+                    {
+                        "name": "Tracker Barrel Trek - Bear Coin #3 - Bear Coin #3 (Behind waterffal above two Re-Koils)",
+                        "ref": "Tracker Barrel Trek/Tracker Barrel Trek - Bear Coin #3/Bear Coin #3 (Behind waterffal above two Re-Koils)"
+                    },
+                    {
+                        "name": "Tracker Barrel Trek - Bear Coin #4 - Bear Coin #4 (Before Koin)",
+                        "ref": "Tracker Barrel Trek/Tracker Barrel Trek - Bear Coin #4/Bear Coin #4 (Before Koin)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 533,
+                        "y": 394,
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "Tyrant Twin Tussle",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Tyrant Twin Tussle - Clear - Clear",
+                        "ref": "Tyrant Twin Tussle/Tyrant Twin Tussle - Clear/Clear"
+                    },
+                    {
+                        "name": "Tyrant Twin Tussle - KONG - KONG",
+                        "ref": "Tyrant Twin Tussle/Tyrant Twin Tussle - KONG/KONG"
+                    },
+                    {
+                        "name": "Tyrant Twin Tussle - DK Coin - DK Coin",
+                        "ref": "Tyrant Twin Tussle/Tyrant Twin Tussle - DK Coin/DK Coin"
+                    },
+                    {
+                        "name": "Tyrant Twin Tussle - Balloon #1 - Balloon #1 (Near K)",
+                        "ref": "Tyrant Twin Tussle/Tyrant Twin Tussle - Balloon #1/Balloon #1 (Near K)"
+                    },
+                    {
+                        "name": "Tyrant Twin Tussle - Balloon #2 - Balloon #2 (Cache in bottom path)",
+                        "ref": "Tyrant Twin Tussle/Tyrant Twin Tussle - Balloon #2/Balloon #2 (Cache in bottom path)"
+                    },
+                    {
+                        "name": "Tyrant Twin Tussle - Bonus #1 - Bonus #1",
+                        "ref": "Tyrant Twin Tussle/Tyrant Twin Tussle - Bonus #1/Bonus #1"
+                    },
+                    {
+                        "name": "Tyrant Twin Tussle - Bonus #2 - Bonus #2",
+                        "ref": "Tyrant Twin Tussle/Tyrant Twin Tussle - Bonus #2/Bonus #2"
+                    },
+                    {
+                        "name": "Tyrant Twin Tussle - Bonus #3 - Bonus #3",
+                        "ref": "Tyrant Twin Tussle/Tyrant Twin Tussle - Bonus #3/Bonus #3"
+                    },
+                    {
+                        "name": "Tyrant Twin Tussle - Banana Bunch #1 - Banana Bunch #1 (In top path)",
+                        "ref": "Tyrant Twin Tussle/Tyrant Twin Tussle - Banana Bunch #1/Banana Bunch #1 (In top path)"
+                    },
+                    {
+                        "name": "Tyrant Twin Tussle - Banana Bunch #2 - Banana Bunch #2 (Left to DK Barrel after checkpoint)",
+                        "ref": "Tyrant Twin Tussle/Tyrant Twin Tussle - Banana Bunch #2/Banana Bunch #2 (Left to DK Barrel after checkpoint)"
+                    },
+                    {
+                        "name": "Tyrant Twin Tussle - Banana Bunch #3 - Banana Bunch #3 (In top path near end)",
+                        "ref": "Tyrant Twin Tussle/Tyrant Twin Tussle - Banana Bunch #3/Banana Bunch #3 (In top path near end)"
+                    },
+                    {
+                        "name": "Tyrant Twin Tussle - Bear Coin #1 - Bear Coin #1 (In Booty Bird near Squitter barrel)",
+                        "ref": "Tyrant Twin Tussle/Tyrant Twin Tussle - Bear Coin #1/Bear Coin #1 (In Booty Bird near Squitter barrel)"
+                    },
+                    {
+                        "name": "Tyrant Twin Tussle - Bear Coin #2 - Bear Coin #2 (In top path)",
+                        "ref": "Tyrant Twin Tussle/Tyrant Twin Tussle - Bear Coin #2/Bear Coin #2 (In top path)"
+                    },
+                    {
+                        "name": "Tyrant Twin Tussle - Bear Coin #3 - Bear Coin #3 (In top path)",
+                        "ref": "Tyrant Twin Tussle/Tyrant Twin Tussle - Bear Coin #3/Bear Coin #3 (In top path)"
+                    },
+                    {
+                        "name": "Tyrant Twin Tussle - Bear Coin #4 - Bear Coin #4 (No animal sign)",
+                        "ref": "Tyrant Twin Tussle/Tyrant Twin Tussle - Bear Coin #4/Bear Coin #4 (No animal sign)"
+                    },
+                    {
+                        "name": "Tyrant Twin Tussle - Bear Coin #5 - Bear Coin #5 (In top path near end)",
+                        "ref": "Tyrant Twin Tussle/Tyrant Twin Tussle - Bear Coin #5/Bear Coin #5 (In top path near end)"
+                    },
+                    {
+                        "name": "Tyrant Twin Tussle - Bear Coin #6 - Bear Coin #6 (In top path near end)",
+                        "ref": "Tyrant Twin Tussle/Tyrant Twin Tussle - Bear Coin #6/Bear Coin #6 (In top path near end)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 2469,
+                        "y": 1426,
+                        "size": 6
+                    }
+                ]
+            }
+        ]
+    }
+]

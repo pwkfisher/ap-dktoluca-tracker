@@ -1,0 +1,260 @@
+[
+    {
+        "name": "Swoopy Salvo",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+            " "
+        ],
+        "children": [
+            {
+                "name": "Swoopy Salvo - Clear",
+                "chest_opened_img": "/images/checks/LevelClear.png",
+                "chest_unopened_img": "/images/checks/LevelClear_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Clear",
+                        "access_rules": ["EASY, $HasBarrelCannon, $CanClimb, $HasSquawks", "NORMAL, $HasBarrelCannon, $CanClimb, $HasSquawks", "HARD, $CanClimb, $CanTeamAttack, $HasSquawks", "HARD, $HasBarrelCannon, $CanClimb, $HasSquawks"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Swoopy Salvo",
+                        "x": 3754,
+                        "y": 70,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Swoopy Salvo - KONG",
+                "chest_opened_img": "/images/checks/kong.png",
+                "chest_unopened_img": "/images/checks/kong_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "KONG",
+                        "access_rules": ["EASY, $HasBarrelCannon, $CanClimb, $HasSquawks", "NORMAL, $HasBarrelCannon, $CanClimb, $HasSquawks", "HARD, $CanClimb, $CanTeamAttack, $HasSquawks", "HARD, $HasBarrelCannon, $CanClimb, $HasSquawks"],
+                        "visibility_rules": ["kongchecks"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Swoopy Salvo",
+                        "shape": "diamond",
+                        "x": 431,
+                        "y": 185,
+                        "size": 30
+                    },
+                    {
+                        "map": "Swoopy Salvo",
+                        "shape": "diamond",
+                        "x": 2040,
+                        "y": 746,
+                        "size": 30
+                    },
+                    {
+                        "map": "Swoopy Salvo",
+                        "shape": "diamond",
+                        "x": 2999,
+                        "y": 82,
+                        "size": 30
+                    },
+                    {
+                        "map": "Swoopy Salvo",
+                        "shape": "diamond",
+                        "x": 3296,
+                        "y": 247,
+                        "size": 30
+                    }                                                            
+                ]
+            },
+            {
+                "name": "Swoopy Salvo - DK Coin",
+                "chest_opened_img": "/images/checks/dkcoin.png",
+                "chest_unopened_img": "/images/checks/dkcoin_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "DK Coin",
+                        "access_rules": ["EASY, $CanCarry, $HasSquawks", "NORMAL, $CanCarry, $HasSquawks", "HARD, $CanCarry, $HasSquawks"],
+                        "visibility_rules": ["dkcoinchecks"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Swoopy Salvo",
+                        "x": 1809,
+                        "y": 577,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Swoopy Salvo - Bonus #1",
+                "chest_opened_img": "/images/checks/Bonus.png",
+                "chest_unopened_img": "/images/checks/Bonus_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Bonus #1",
+                        "access_rules": ["EASY, $HasBarrelCannon, $CanHover, $HasSquawks", "EASY, $CanSpin, $HasBarrelCannon, $HasSquawks", "NORMAL, $CanSpin, $HasBarrelCannon, $HasSquawks", "HARD, $CanTeamAttack, $HasSquawks", "HARD, $HasBarrelCannon, $CanHover, $HasSquawks", "HARD, $CanSpin, $HasBarrelCannon, $HasSquawks"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Swoopy Salvo",
+                        "x": 637,
+                        "y": 447,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Swoopy Salvo - Bonus #2",
+                "chest_opened_img": "/images/checks/Bonus.png",
+                "chest_unopened_img": "/images/checks/Bonus_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Bonus #2",
+                        "access_rules": ["EASY, $HasSquawks", "NORMAL, $HasSquawks", "HARD, $HasSquawks"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Swoopy Salvo",
+                        "x": 1792,
+                        "y": 853,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Swoopy Salvo - Bonus #3",
+                "chest_opened_img": "/images/checks/Bonus.png",
+                "chest_unopened_img": "/images/checks/Bonus_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Bonus #3",
+                        "access_rules": ["EASY, $HasBarrelCannon, $CanClimb, $CanTeamAttack, $HasSquawks", "NORMAL, $HasBarrelCannon, $CanClimb, $CanTeamAttack, $HasSquawks", "HARD, $CanClimb, $CanTeamAttack, $HasSquawks", "HARD, $HasBarrelCannon, $CanClimb, $HasSquawks"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Swoopy Salvo",
+                        "x": 2694,
+                        "y": 560,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Swoopy Salvo - Banana Bunch #1",
+                "chest_opened_img": "/images/checks/bananabunch.png",
+                "chest_unopened_img": "/images/checks/bananabunch_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Banana Bunch #1 (In Booty Bird)",
+                        "access_rules": ["EASY, $HasSquawks", "NORMAL, $HasSquawks", "HARD, $HasSquawks"],
+                        "visibility_rules": ["bananasanity"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Swoopy Salvo",
+                        "x": 363,
+                        "y": 775,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Swoopy Salvo - Banana Bunch #2",
+                "chest_opened_img": "/images/checks/bananabunch.png",
+                "chest_unopened_img": "/images/checks/bananabunch_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Banana Bunch #2 (Before an entrance blocking Buzz)",
+                        "access_rules": ["EASY, $HasSquawks", "NORMAL, $HasSquawks", "HARD, $HasSquawks"],
+                        "visibility_rules": ["bananasanity"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Swoopy Salvo",
+                        "x": 1978,
+                        "y": 1387,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Swoopy Salvo - Bear Coin #1",
+                "chest_opened_img": "/images/checks/bearcoin.png",
+                "chest_unopened_img": "/images/checks/bearcoin_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Bear Coin #1 (Inside circling red Buzzes)",
+                        "access_rules": ["EASY, $HasSquawks", "NORMAL, $HasSquawks", "HARD, $HasSquawks"],
+                        "visibility_rules": ["coinsanity"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Swoopy Salvo",
+                        "x": 1223,
+                        "y": 824,
+                        "size": 30
+                    }
+                ]
+            }
+        ]
+    }
+]

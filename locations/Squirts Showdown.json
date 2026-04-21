@@ -1,0 +1,44 @@
+[
+    {
+        "name": "Squirt's Showdown",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+            " "
+        ],
+        "children": [
+            {
+                "name": "Squirt's Showdown - Clear",
+                "chest_opened_img": "/images/checks/LevelClear.png",
+                "chest_unopened_img": "/images/checks/LevelClear_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Clear",
+                        "access_rules": ["EASY, $HasEllie", "NORMAL, $HasEllie", "HARD, $HasEllie"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Defeated Squirt",
+                        "access_rules": ["EASY, $HasEllie", "NORMAL, $HasEllie", "HARD, $HasEllie"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Squirt's Showdown",
+                        "x": 161,
+                        "y": 90,
+                        "size": 30
+                    }
+                ]
+            }
+        ]
+    }
+]

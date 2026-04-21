@@ -1,0 +1,485 @@
+[
+    {
+        "name": "Lakeside Limbo",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+            " "
+        ],
+        "children": [
+            {
+                "name": "Lakeside Limbo - Clear",
+                "chest_opened_img": "/images/checks/LevelClear.png",
+                "chest_unopened_img": "/images/checks/LevelClear_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Clear",
+                        "access_rules": ["EASY, $CanSwim", "NORMAL, $CanSwim", "HARD, $CanSwim", "HARD, $CanWaterBounce", "HARD, $CanHover", "HARD, $CanCarry, $HasDixie", "HARD, $CanCarry, $HasKiddy, $CanSpin"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Lakeside Limbo",
+                        "x": 1949,
+                        "y": 906,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Lakeside Limbo - KONG",
+                "chest_opened_img": "/images/checks/kong.png",
+                "chest_unopened_img": "/images/checks/kong_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "KONG",
+                        "access_rules": ["EASY, $CanSwim", "NORMAL, $CanSwim", "HARD, $CanSwim", "HARD, $CanWaterBounce", "HARD, $CanHover", "HARD, $CanCarry, $HasDixie", "HARD, $CanCarry, $HasKiddy, $CanSpin"],
+                        "visibility_rules": ["kongchecks"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Lakeside Limbo",
+                        "shape": "diamond",
+                        "x": 655,
+                        "y": 119,
+                        "size": 30
+                    },
+                    {
+                        "map": "Lakeside Limbo",
+                        "shape": "diamond",
+                        "x": 48,
+                        "y": 559,
+                        "size": 30
+                    },
+                    {
+                        "map": "Lakeside Limbo",
+                        "shape": "diamond",
+                        "x": 1857,
+                        "y": 552,
+                        "size": 30
+                    },
+                    {
+                        "map": "Lakeside Limbo",
+                        "shape": "diamond",
+                        "x": 755,
+                        "y": 883,
+                        "size": 30
+                    }                                                       
+                ]
+            },
+            {
+                "name": "Lakeside Limbo - DK Coin",
+                "chest_opened_img": "/images/checks/dkcoin.png",
+                "chest_unopened_img": "/images/checks/dkcoin_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "DK Coin",
+                        "access_rules": ["EASY, $CanCarry", "NORMAL, $CanCarry", "HARD, $CanCarry", "HARD, $CanSwim, $CanTeamAttack, $HasEllie", "HARD, $CanWaterBounce, $CanTeamAttack, $HasEllie", "HARD, $CanHover, $CanTeamAttack, $HasEllie", "HARD, $CanCarry, $CanTeamAttack, $HasEllie"],
+                        "visibility_rules": ["dkcoinchecks"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Lakeside Limbo",
+                        "x": 2027,
+                        "y": 230,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Lakeside Limbo - Balloon #1",
+                "chest_opened_img": "/images/checks/balloon1.png",
+                "chest_unopened_img": "/images/checks/balloon1_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Balloon #1 (On roof at the start)",
+                        "access_rules": ["EASY, $CanTeamAttack", "NORMAL, $CanTeamAttack", "HARD, $CanTeamAttack"],
+                        "visibility_rules": ["balloonsanity"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Lakeside Limbo",
+                        "x": 23,
+                        "y": 3,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Lakeside Limbo - Balloon #2",
+                "chest_opened_img": "/images/checks/balloon1.png",
+                "chest_unopened_img": "/images/checks/balloon1_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Balloon #2 (On roof at the start)",
+                        "access_rules": ["EASY, $CanTeamAttack", "NORMAL, $CanTeamAttack", "HARD, $CanTeamAttack"],
+                        "visibility_rules": ["balloonsanity"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Lakeside Limbo",
+                        "x": 239,
+                        "y": 31,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Lakeside Limbo - Balloon #3",
+                "chest_opened_img": "/images/checks/balloon1.png",
+                "chest_unopened_img": "/images/checks/balloon1_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Balloon #3 (On roof near checkpoint)",
+                        "access_rules": ["EASY, $CanClimb, $CanHover", "EASY, $CanTeamAttack", "NORMAL, $CanClimb, $CanHover", "NORMAL, $CanTeamAttack", "HARD, $CanTeamAttack"],
+                        "visibility_rules": ["balloonsanity"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Lakeside Limbo",
+                        "x": 811,
+                        "y": 422,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Lakeside Limbo - Balloon #4",
+                "chest_opened_img": "/images/checks/balloon2.png",
+                "chest_unopened_img": "/images/checks/balloon2_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Balloon #4 (Near bonus #2)",
+                        "access_rules": ["EASY, $CanSwim", "NORMAL, $CanSwim", "HARD, $CanSwim", "HARD, $CanTeamAttack, $HasEllie"],
+                        "visibility_rules": ["balloonsanity"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Lakeside Limbo",
+                        "x": 255,
+                        "y": 1020,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Lakeside Limbo - Balloon #5",
+                "chest_opened_img": "/images/checks/balloon3.png",
+                "chest_unopened_img": "/images/checks/balloon3_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Balloon #5 (Near no animal sign)",
+                        "access_rules": ["EASY, $CanSwim, $CanTeamAttack", "EASY, $CanSwim, $HasEllie", "NORMAL, $CanSwim, $CanTeamAttack", "NORMAL, $CanSwim, $HasEllie", "NORMAL, $CanHover, $CanTeamAttack", "NORMAL, $CanHover, $HasEllie", "HARD, $CanSwim, $HasEllie", "HARD, $CanSwim, $CanSpin", "HARD, $CanSwim, $CanTeamAttack",  "HARD, $CanWaterBounce, $HasEllie", "HARD, $CanWaterBounce, $CanSpin", "HARD, $CanWaterBounce, $CanTeamAttack",  "HARD, $CanHover, $HasEllie", "HARD, $CanHover, $CanSpin", "HARD, $CanHover, $CanTeamAttack",  "HARD, $CanCarry, $HasDixie, $HasEllie", "HARD, $CanCarry, $HasDixie, $CanSpin", "HARD, $CanCarry, $HasDixie, $CanTeamAttack", "HARD, $CanCarry, $HasKiddy, $CanSpin, $HasEllie", "HARD, $CanCarry, $HasKiddy, $CanSpin, $CanSpin", "HARD, $CanCarry, $HasKiddy, $CanSpin, $CanTeamAttack"],
+                        "visibility_rules": ["balloonsanity"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Lakeside Limbo",
+                        "x": 1471,
+                        "y": 853,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Lakeside Limbo - Bonus #1",
+                "chest_opened_img": "/images/checks/Bonus.png",
+                "chest_unopened_img": "/images/checks/Bonus_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Bonus #1",
+                        "access_rules": ["EASY, $CanClimb, $CanTeamAttack", "NORMAL, $CanClimb, $CanTeamAttack", "HARD, $CanTeamAttack"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Lakeside Limbo",
+                        "x": 1679,
+                        "y": 197,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Lakeside Limbo - Bonus #2",
+                "chest_opened_img": "/images/checks/Bonus.png",
+                "chest_unopened_img": "/images/checks/Bonus_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Bonus #2",
+                        "access_rules": ["EASY, $CanClimb, $CanSwim", "NORMAL, $CanClimb, $CanSwim", "HARD, $CanSwim, $CanTeamAttack", "HARD, $CanSwim, $CanClimb", "HARD, $CanWaterBounce, $CanTeamAttack, $HasEllie", "HARD, $CanHover, $CanTeamAttack, $HasEllie", "HARD, $CanCarry, $CanTeamAttack, $HasEllie"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Lakeside Limbo",
+                        "x": 135,
+                        "y": 1020,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Lakeside Limbo - Banana Bunch #1",
+                "chest_opened_img": "/images/checks/bananabunch.png",
+                "chest_unopened_img": "/images/checks/bananabunch_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Banana Bunch #1 (At start)",
+                        "access_rules": ["EASY", "NORMAL", "HARD"],
+                        "visibility_rules": ["bananasanity"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Lakeside Limbo",
+                        "x": 243,
+                        "y": 147,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Lakeside Limbo - Banana Bunch #2",
+                "chest_opened_img": "/images/checks/bananabunch.png",
+                "chest_unopened_img": "/images/checks/bananabunch_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Banana Bunch #2 (Underwater after checkpoint)",
+                        "access_rules": ["EASY, $CanSwim", "NORMAL, $CanSwim", "HARD"],
+                        "visibility_rules": ["bananasanity"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Lakeside Limbo",
+                        "x": 1425,
+                        "y": 754,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Lakeside Limbo - Banana Bunch #3",
+                "chest_opened_img": "/images/checks/bananabunch.png",
+                "chest_unopened_img": "/images/checks/bananabunch_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Banana Bunch #3 (On roof at the end)",
+                        "access_rules": ["EASY, $CanSwim, $CanTeamAttack", "NORMAL, $CanSwim, $CanTeamAttack", "NORMAL, $CanHover, $CanTeamAttack", "HARD, $CanTeamAttack, $CanSwim", "HARD, $CanTeamAttack, $CanWaterBounce", "HARD, $CanTeamAttack, $CanHover", "HARD, $CanTeamAttack, $CanCarry, $HasDixie", "HARD, $CanTeamAttack, $CanCarry, $HasKiddy, $CanSpin"],
+                        "visibility_rules": ["bananasanity"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Lakeside Limbo",
+                        "x": 2067,
+                        "y": 865,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Lakeside Limbo - Banana Bunch #4",
+                "chest_opened_img": "/images/checks/bananabunch.png",
+                "chest_unopened_img": "/images/checks/bananabunch_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Banana Bunch #4 (At the end)",
+                        "access_rules": ["EASY, $CanSwim", "NORMAL, $CanSwim", "NORMAL, $CanHover", "HARD, $CanSwim", "HARD, $CanWaterBounce", "HARD, $CanHover", "HARD, $CanCarry, $HasDixie", "HARD, $CanCarry, $HasKiddy, $CanSpin"],
+                        "visibility_rules": ["bananasanity"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Lakeside Limbo",
+                        "x": 2056,
+                        "y": 978,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Lakeside Limbo - Bear Coin #1",
+                "chest_opened_img": "/images/checks/bearcoin.png",
+                "chest_unopened_img": "/images/checks/bearcoin_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Bear Coin #1 (On roof near checkpoint)",
+                        "access_rules": ["EASY, $CanClimb, $CanHover", "EASY, $CanTeamAttack", "NORMAL, $CanClimb, $CanHover", "NORMAL, $CanTeamAttack", "HARD, $CanTeamAttack", "HARD, $CanClimb, $CanHover"],
+                        "visibility_rules": ["coinsanity"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Lakeside Limbo",
+                        "x": 759,
+                        "y": 471,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Lakeside Limbo - Bear Coin #2",
+                "chest_opened_img": "/images/checks/bearcoin.png",
+                "chest_unopened_img": "/images/checks/bearcoin_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Bear Coin #2 (On roof near checkpoint)",
+                        "access_rules": ["EASY, $CanClimb, $CanHover", "EASY, $CanTeamAttack", "NORMAL, $CanClimb, $CanHover", "NORMAL, $CanTeamAttack", "HARD, $CanTeamAttack"],
+                        "visibility_rules": ["coinsanity"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Lakeside Limbo",
+                        "x": 872,
+                        "y": 472,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Lakeside Limbo - Bear Coin #3",
+                "chest_opened_img": "/images/checks/bearcoin.png",
+                "chest_unopened_img": "/images/checks/bearcoin_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Bear Coin #3 (No animal sign reward)",
+                        "access_rules": ["EASY, $CanSwim, $HasEllie", "NORMAL, $CanSwim, $HasEllie", "NORMAL, $CanHover, $HasEllie", "HARD, $HasEllie, $CanSwim", "HARD, $HasEllie, $CanWaterBounce", "HARD, $HasEllie, $CanHover", "HARD, $HasEllie, $CanCarry, $HasDixie", "HARD, $HasEllie, $CanCarry, $HasKiddy, $CanSpin"],
+                        "visibility_rules": ["coinsanity"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Lakeside Limbo",
+                        "x": 1677,
+                        "y": 935,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Lakeside Limbo - Bear Coin #4",
+                "chest_opened_img": "/images/checks/bearcoin.png",
+                "chest_unopened_img": "/images/checks/bearcoin_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Bear Coin #4 (On roof at the end)",
+                        "access_rules": ["EASY, $CanSwim, $CanTeamAttack", "NORMAL, $CanSwim, $CanTeamAttack", "NORMAL, $CanHover, $CanTeamAttack", "HARD, $CanTeamAttack, $CanSwim", "HARD, $CanTeamAttack, $CanWaterBounce", "HARD, $CanTeamAttack, $CanHover", "HARD, $CanTeamAttack, $CanCarry, $HasDixie", "HARD, $CanTeamAttack, $CanCarry, $HasKiddy, $CanSpin"],
+                        "visibility_rules": ["coinsanity"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Lakeside Limbo",
+                        "x": 2032,
+                        "y": 855,
+                        "size": 30
+                    }
+                ]
+            }
+        ]
+    }
+]

@@ -1,0 +1,460 @@
+[
+    {
+        "name": "Low-G Labyrinth",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+            " "
+        ],
+        "children": [
+            {
+                "name": "Low-G Labyrinth - Clear",
+                "chest_opened_img": "/images/checks/LevelClear.png",
+                "chest_unopened_img": "/images/checks/LevelClear_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Clear",
+                        "access_rules": ["EASY, $HasSquawks", "NORMAL, $HasSquawks", "HARD, $HasSquawks"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Low-G Labyrinth",
+                        "x": 2488,
+                        "y": 130,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Low-G Labyrinth - KONG",
+                "chest_opened_img": "/images/checks/kong.png",
+                "chest_unopened_img": "/images/checks/kong_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "KONG",
+                        "access_rules": ["EASY, $HasSquawks", "NORMAL, $HasSquawks", "HARD, $HasSquawks"],
+                        "visibility_rules": ["kongchecks"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Low-G Labyrinth",
+                        "shape": "diamond",
+                        "x": 378,
+                        "y": 2048,
+                        "size": 30
+                    },
+                    {
+                        "map": "Low-G Labyrinth",
+                        "shape": "diamond",
+                        "x": 1144,
+                        "y": 2080,
+                        "size": 30
+                    },
+                    {
+                        "map": "Low-G Labyrinth",
+                        "shape": "diamond",
+                        "x": 2393,
+                        "y": 1937,
+                        "size": 30
+                    },
+                    {
+                        "map": "Low-G Labyrinth",
+                        "shape": "diamond",
+                        "x": 1193,
+                        "y": 81,
+                        "size": 30
+                    }                                                            
+                ]
+            },
+            {
+                "name": "Low-G Labyrinth - DK Coin",
+                "chest_opened_img": "/images/checks/dkcoin.png",
+                "chest_unopened_img": "/images/checks/dkcoin_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "DK Coin",
+                        "access_rules": ["EASY, $CanCarry, $HasSquawks", "NORMAL, $CanCarry, $HasSquawks", "HARD, $CanCarry, $HasSquawks"],
+                        "visibility_rules": ["dkcoinchecks"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Low-G Labyrinth",
+                        "x": 1158,
+                        "y": 545,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Low-G Labyrinth - Balloon #1",
+                "chest_opened_img": "/images/checks/balloon1.png",
+                "chest_unopened_img": "/images/checks/balloon1_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Balloon #1 (In a long fall)",
+                        "access_rules": ["EASY, $HasSquawks", "NORMAL, $HasSquawks", "HARD, $HasSquawks"],
+                        "visibility_rules": ["balloonsanity"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Low-G Labyrinth",
+                        "x": 1537,
+                        "y": 1349,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Low-G Labyrinth - Bonus #1",
+                "chest_opened_img": "/images/checks/Bonus.png",
+                "chest_unopened_img": "/images/checks/Bonus_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Bonus #1",
+                        "access_rules": ["EASY, $CanTeamAttack", "EASY, $HasSquawks", "NORMAL, $CanTeamAttack", "NORMAL, $HasSquawks", "HARD, $CanTeamAttack", "HARD, $HasBothKongs", "HARD, $HasSquawks"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Low-G Labyrinth",
+                        "x": 1320,
+                        "y": 2487,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Low-G Labyrinth - Bonus #2",
+                "chest_opened_img": "/images/checks/Bonus.png",
+                "chest_unopened_img": "/images/checks/Bonus_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Bonus #2",
+                        "access_rules": ["EASY, $HasSquawks", "NORMAL, $HasSquawks", "HARD, $HasSquawks"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Low-G Labyrinth",
+                        "x": 1961,
+                        "y": 1830,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Low-G Labyrinth - Banana Bunch #1",
+                "chest_opened_img": "/images/checks/bananabunch.png",
+                "chest_unopened_img": "/images/checks/bananabunch_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Banana Bunch #1 (Near start)",
+                        "access_rules": ["EASY", "NORMAL", "HARD"],
+                        "visibility_rules": ["bananasanity"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Low-G Labyrinth",
+                        "x": 252,
+                        "y": 1543,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Low-G Labyrinth - Banana Bunch #2",
+                "chest_opened_img": "/images/checks/bananabunch.png",
+                "chest_unopened_img": "/images/checks/bananabunch_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Banana Bunch #2 (Below O)",
+                        "access_rules": ["EASY", "NORMAL", "HARD"],
+                        "visibility_rules": ["bananasanity"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Low-G Labyrinth",
+                        "x": 986,
+                        "y": 2437,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Low-G Labyrinth - Banana Bunch #3",
+                "chest_opened_img": "/images/checks/bananabunch.png",
+                "chest_unopened_img": "/images/checks/bananabunch_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Banana Bunch #3 (Between two circling Buzzes)",
+                        "access_rules": ["EASY, $HasSquawks", "NORMAL, $HasSquawks", "HARD, $HasSquawks"],
+                        "visibility_rules": ["bananasanity"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Low-G Labyrinth",
+                        "x": 1909,
+                        "y": 868,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Low-G Labyrinth - Banana Bunch #4",
+                "chest_opened_img": "/images/checks/bananabunch.png",
+                "chest_unopened_img": "/images/checks/bananabunch_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Banana Bunch #4 (Behind green Buzz)",
+                        "access_rules": ["EASY, $HasSquawks", "NORMAL, $HasSquawks", "HARD, $HasSquawks"],
+                        "visibility_rules": ["bananasanity"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Low-G Labyrinth",
+                        "x": 1724,
+                        "y": 708,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Low-G Labyrinth - Bear Coin #1",
+                "chest_opened_img": "/images/checks/bearcoin.png",
+                "chest_unopened_img": "/images/checks/bearcoin_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Bear Coin #1 (In a corner next to a banana arc)",
+                        "access_rules": ["EASY", "NORMAL", "HARD"],
+                        "visibility_rules": ["coinsanity"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Low-G Labyrinth",
+                        "x": 408,
+                        "y": 1457,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Low-G Labyrinth - Bear Coin #2",
+                "chest_opened_img": "/images/checks/bearcoin.png",
+                "chest_unopened_img": "/images/checks/bearcoin_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Bear Coin #2 (Above a Buzzes column)",
+                        "access_rules": ["EASY, $HasSquawks", "NORMAL, $HasSquawks", "HARD, $HasBothKongs", "HARD, $HasSquawks"],
+                        "visibility_rules": ["coinsanity"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Low-G Labyrinth",
+                        "x": 2216,
+                        "y": 2654,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Low-G Labyrinth - Bear Coin #3",
+                "chest_opened_img": "/images/checks/bearcoin.png",
+                "chest_unopened_img": "/images/checks/bearcoin_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Bear Coin #3 (In a long fall)",
+                        "access_rules": ["EASY, $HasSquawks", "NORMAL, $HasSquawks", "HARD, $HasSquawks"],
+                        "visibility_rules": ["coinsanity"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Low-G Labyrinth",
+                        "x": 1538,
+                        "y": 1419,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Low-G Labyrinth - Bear Coin #4",
+                "chest_opened_img": "/images/checks/bearcoin.png",
+                "chest_unopened_img": "/images/checks/bearcoin_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Bear Coin #4 (Near invincibility barrel)",
+                        "access_rules": ["EASY, $HasSquawks", "NORMAL, $HasSquawks", "HARD, $HasSquawks"],
+                        "visibility_rules": ["coinsanity"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Low-G Labyrinth",
+                        "x": 203,
+                        "y": 432,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Low-G Labyrinth - Bear Coin #5",
+                "chest_opened_img": "/images/checks/bearcoin.png",
+                "chest_unopened_img": "/images/checks/bearcoin_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Bear Coin #5 (Near invincibility barrel)",
+                        "access_rules": ["EASY, $HasSquawks", "NORMAL, $HasSquawks", "HARD, $HasSquawks"],
+                        "visibility_rules": ["coinsanity"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Low-G Labyrinth",
+                        "x": 173,
+                        "y": 475,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Low-G Labyrinth - Bear Coin #6",
+                "chest_opened_img": "/images/checks/bearcoin.png",
+                "chest_unopened_img": "/images/checks/bearcoin_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Bear Coin #6 (Near invincibility barrel)",
+                        "access_rules": ["EASY, $HasSquawks", "NORMAL, $HasSquawks", "HARD, $HasSquawks"],
+                        "visibility_rules": ["coinsanity"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Low-G Labyrinth",
+                        "x": 139,
+                        "y": 432,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Low-G Labyrinth - Bear Coin #7",
+                "chest_opened_img": "/images/checks/bearcoin.png",
+                "chest_unopened_img": "/images/checks/bearcoin_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Bear Coin #7 (No animal sign)",
+                        "access_rules": ["EASY, $HasSquawks", "NORMAL, $HasSquawks", "HARD, $HasSquawks"],
+                        "visibility_rules": ["coinsanity"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Low-G Labyrinth",
+                        "x": 1544,
+                        "y": 767,
+                        "size": 30
+                    }
+                ]
+            }
+        ]
+    }
+]

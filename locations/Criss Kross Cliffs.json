@@ -1,0 +1,385 @@
+[
+    {
+        "name": "Criss Kross Cliffs",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+            " "
+        ],
+        "children": [
+            {
+                "name": "Criss Kross Cliffs - Clear",
+                "chest_opened_img": "/images/checks/LevelClear.png",
+                "chest_unopened_img": "/images/checks/LevelClear_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Clear",
+                        "access_rules": ["EASY, $HasBarrelSwitch, $HasBarrelCannon, $CanClimb", "NORMAL, $HasBarrelSwitch, $HasBarrelCannon, $CanClimb", "HARD, $HasBarrelSwitch, $HasBarrelCannon, $CanClimb"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Criss Kross Cliffs",
+                        "x": 3454,
+                        "y": 169,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Criss Kross Cliffs - KONG",
+                "chest_opened_img": "/images/checks/kong.png",
+                "chest_unopened_img": "/images/checks/kong_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "KONG",
+                        "access_rules": ["EASY, $HasBarrelSwitch, $HasBarrelCannon, $CanClimb, $CanTeamAttack", "NORMAL, $HasBarrelSwitch, $HasBarrelCannon, $CanClimb, $CanTeamAttack", "HARD, $CanTeamAttack, $HasBarrelSwitch, $HasBarrelCannon", "HARD, $CanTeamAttack, $HasBarrelSwitch, $CanClimb"],
+                        "visibility_rules": ["kongchecks"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Criss Kross Cliffs",
+                        "shape": "diamond",
+                        "x": 66,
+                        "y": 1145,
+                        "size": 30
+                    },
+                    {
+                        "map": "Criss Kross Cliffs",
+                        "shape": "diamond",
+                        "x": 1211,
+                        "y": 196,
+                        "size": 30
+                    },
+                    {
+                        "map": "Criss Kross Cliffs",
+                        "shape": "diamond",
+                        "x": 1356,
+                        "y": 118,
+                        "size": 30
+                    },
+                    {
+                        "map": "Criss Kross Cliffs",
+                        "shape": "diamond",
+                        "x": 2483,
+                        "y": 1182,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Criss Kross Cliffs - DK Coin",
+                "chest_opened_img": "/images/checks/dkcoin.png",
+                "chest_unopened_img": "/images/checks/dkcoin_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "DK Coin",
+                        "access_rules": ["EASY, $HasBarrelSwitch, $HasBarrelCannon, $CanClimb, $CanCarry", "NORMAL, $HasBarrelSwitch, $HasBarrelCannon, $CanClimb, $CanCarry", "HARD, $HasBarrelSwitch, $HasBarrelCannon", "HARD, $HasBarrelSwitch, $CanTeamAttack, $CanClimb"],
+                        "visibility_rules": ["dkcoinchecks"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Criss Kross Cliffs",
+                        "x": 2682,
+                        "y": 733,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Criss Kross Cliffs - Balloon #1",
+                "chest_opened_img": "/images/checks/balloon2.png",
+                "chest_unopened_img": "/images/checks/balloon2_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Balloon #1 (Near end)",
+                        "access_rules": ["EASY, $HasBarrelSwitch, $HasBarrelCannon, $CanClimb", "NORMAL, $HasBarrelSwitch, $HasBarrelCannon, $CanClimb", "HARD, $HasBarrelSwitch, $HasBarrelCannon, $CanClimb"],
+                        "visibility_rules": ["balloonsanity"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Criss Kross Cliffs",
+                        "x": 3064,
+                        "y": 194,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Criss Kross Cliffs - Balloon #2",
+                "chest_opened_img": "/images/checks/balloon1.png",
+                "chest_unopened_img": "/images/checks/balloon1_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Balloon #2 (Cache below goal)",
+                        "access_rules": ["EASY, $HasBarrelSwitch, $HasBarrelCannon, $CanClimb, $CanTeamAttack", "NORMAL, $HasBarrelSwitch, $HasBarrelCannon, $CanClimb, $CanTeamAttack", "HARD, $HasBarrelSwitch, $HasBarrelCannon, $CanClimb, $CanTeamAttack"],
+                        "visibility_rules": ["balloonsanity"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Criss Kross Cliffs",
+                        "x": 3458,
+                        "y": 276,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Criss Kross Cliffs - Bonus #1",
+                "chest_opened_img": "/images/checks/Bonus.png",
+                "chest_unopened_img": "/images/checks/Bonus_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Bonus #1",
+                        "access_rules": ["EASY", "NORMAL", "HARD"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Criss Kross Cliffs",
+                        "x": 403,
+                        "y": 765,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Criss Kross Cliffs - Bonus #2",
+                "chest_opened_img": "/images/checks/Bonus.png",
+                "chest_unopened_img": "/images/checks/Bonus_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Bonus #2",
+                        "access_rules": ["EASY, $HasBarrelSwitch, $HasBarrelCannon, $CanClimb, $CanTeamAttack", "NORMAL, $HasBarrelSwitch, $HasBarrelCannon, $CanClimb, $CanTeamAttack", "HARD, $HasBarrelSwitch, $CanTeamAttack, $HasBarrelCannon", "HARD, $HasBarrelSwitch, $CanTeamAttack, $CanClimb"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Criss Kross Cliffs",
+                        "x": 2732,
+                        "y": 76,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Criss Kross Cliffs - Banana Bunch #1",
+                "chest_opened_img": "/images/checks/bananabunch.png",
+                "chest_unopened_img": "/images/checks/bananabunch_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Banana Bunch #1 (At start)",
+                        "access_rules": ["EASY", "NORMAL", "HARD"],
+                        "visibility_rules": ["bananasanity"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Criss Kross Cliffs",
+                        "x": 196,
+                        "y": 1239,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Criss Kross Cliffs - Banana Bunch #2",
+                "chest_opened_img": "/images/checks/bananabunch.png",
+                "chest_unopened_img": "/images/checks/bananabunch_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Banana Bunch #2 (In open area after O)",
+                        "access_rules": ["EASY, $HasBarrelSwitch, $HasBarrelCannon", "NORMAL, $HasBarrelSwitch, $HasBarrelCannon", "HARD, $HasBarrelSwitch, $HasBarrelCannon", "HARD, $HasBarrelSwitch, $CanTeamAttack"],
+                        "visibility_rules": ["bananasanity"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Criss Kross Cliffs",
+                        "x": 1517,
+                        "y": 1340,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Criss Kross Cliffs - Banana Bunch #3",
+                "chest_opened_img": "/images/checks/bananabunch.png",
+                "chest_unopened_img": "/images/checks/bananabunch_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Banana Bunch #3 (Upper left after Bonus #2 exit)",
+                        "access_rules": ["EASY, $HasBarrelSwitch, $HasBarrelCannon, $CanClimb", "NORMAL, $HasBarrelSwitch, $HasBarrelCannon, $CanClimb", "HARD, $HasBarrelSwitch, $HasBarrelCannon, $CanClimb"],
+                        "visibility_rules": ["bananasanity"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Criss Kross Cliffs",
+                        "x": 2875,
+                        "y": 1081,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Criss Kross Cliffs - Bear Coin #1",
+                "chest_opened_img": "/images/checks/bearcoin.png",
+                "chest_unopened_img": "/images/checks/bearcoin_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Bear Coin #1 (In open area after O)",
+                        "access_rules": ["EASY, $HasBarrelSwitch, $HasBarrelCannon", "NORMAL, $HasBarrelSwitch, $HasBarrelCannon", "HARD, $HasBarrelSwitch, $HasBarrelCannon", "HARD, $HasBarrelSwitch, $CanTeamAttack"],
+                        "visibility_rules": ["coinsanity"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Criss Kross Cliffs",
+                        "x": 1853,
+                        "y": 1329,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Criss Kross Cliffs - Bear Coin #2",
+                "chest_opened_img": "/images/checks/bearcoin.png",
+                "chest_unopened_img": "/images/checks/bearcoin_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Bear Coin #2 (Below N)",
+                        "access_rules": ["EASY, $HasBarrelSwitch, $HasBarrelCannon, $CanClimb", "NORMAL, $HasBarrelSwitch, $HasBarrelCannon, $CanClimb", "HARD, $HasBarrelSwitch, $HasBarrelCannon", "HARD, $HasBarrelSwitch, $CanTeamAttack, $CanClimb"],
+                        "visibility_rules": ["coinsanity"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Criss Kross Cliffs",
+                        "x": 1354,
+                        "y": 162,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Criss Kross Cliffs - Bear Coin #3",
+                "chest_opened_img": "/images/checks/bearcoin.png",
+                "chest_unopened_img": "/images/checks/bearcoin_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Bear Coin #3 (Cache near bonus #2)",
+                        "access_rules": ["EASY, $HasBarrelSwitch, $HasBarrelCannon, $CanClimb, $CanTeamAttack", "NORMAL, $HasBarrelSwitch, $HasBarrelCannon, $CanClimb, $CanTeamAttack", "HARD, $HasBarrelSwitch, $CanTeamAttack, $HasBarrelCannon", "HARD, $HasBarrelSwitch, $CanTeamAttack, $CanClimb"],
+                        "visibility_rules": ["coinsanity"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Criss Kross Cliffs",
+                        "x": 2667,
+                        "y": 267,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Criss Kross Cliffs - Bear Coin #4",
+                "chest_opened_img": "/images/checks/bearcoin.png",
+                "chest_unopened_img": "/images/checks/bearcoin_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Bear Coin #4 (Cache near bonus #2)",
+                        "access_rules": ["EASY, $HasBarrelSwitch, $HasBarrelCannon, $CanClimb, $CanTeamAttack", "NORMAL, $HasBarrelSwitch, $HasBarrelCannon, $CanClimb, $CanTeamAttack", "HARD, $HasBarrelSwitch, $CanTeamAttack, $HasBarrelCannon", "HARD, $HasBarrelSwitch, $CanTeamAttack, $CanClimb"],
+                        "visibility_rules": ["coinsanity"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Criss Kross Cliffs",
+                        "x": 2684,
+                        "y": 267,
+                        "size": 30
+                    }
+                ]
+            }
+        ]
+    }
+]

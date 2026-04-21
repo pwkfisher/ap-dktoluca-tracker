@@ -1,0 +1,435 @@
+[
+    {
+        "name": "Krackshot Krock",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+            " "
+        ],
+        "children": [
+            {
+                "name": "Krackshot Krock - Clear",
+                "chest_opened_img": "/images/checks/LevelClear.png",
+                "chest_unopened_img": "/images/checks/LevelClear_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Clear",
+                        "access_rules": ["EASY, $HasSquitter", "NORMAL, $HasSquitter", "HARD, $HasSquitter"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Krac-Shot Krock",
+                        "x": 2523,
+                        "y": 490,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Krackshot Krock - KONG",
+                "chest_opened_img": "/images/checks/kong.png",
+                "chest_unopened_img": "/images/checks/kong_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "KONG",
+                        "access_rules": ["EASY, $HasSquitter", "NORMAL, $HasSquitter", "HARD, $HasSquitter"],
+                        "visibility_rules": ["kongsanity"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Krac-Shot Krock",
+                        "shape": "diamond",
+                        "x": 257,
+                        "y": 2011,
+                        "size": 30
+                    },
+                    {
+                        "map": "Krac-Shot Krock",
+                        "shape": "diamond",
+                        "x": 1022,
+                        "y": 1202,
+                        "size": 30
+                    },
+                    {
+                        "map": "Krac-Shot Krock",
+                        "shape": "diamond",
+                        "x": 1534,
+                        "y": 876,
+                        "size": 30
+                    },
+                    {
+                        "map": "Krac-Shot Krock",
+                        "shape": "diamond",
+                        "x": 575,
+                        "y": 136,
+                        "size": 30
+                    }                                                            
+                ]
+            },
+            {
+                "name": "Krackshot Krock - DK Coin",
+                "chest_opened_img": "/images/checks/dkcoin.png",
+                "chest_unopened_img": "/images/checks/dkcoin_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "DK Coin",
+                        "access_rules": ["EASY, $HasSquitter, $CanCarry", "NORMAL, $HasSquitter, $CanCarry", "HARD, $HasSquitter, $CanCarry"],
+                        "visibility_rules": ["dkcoinchecks"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Krac-Shot Krock",
+                        "x": 1962,
+                        "y": 583,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Krackshot Krock - Balloon #1",
+                "chest_opened_img": "/images/checks/balloon1.png",
+                "chest_unopened_img": "/images/checks/balloon1_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Balloon #1 (In corner)",
+                        "access_rules": ["EASY, $HasSquitter", "NORMAL, $HasSquitter", "HARD, $HasSquitter", "HARD, $CanTeamAttack, $CanHover", "HARD, $CanTeamAttack, $CanSpin"],
+                        "visibility_rules": ["balloonsanity"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Krac-Shot Krock",
+                        "x": 2253,
+                        "y": 1648,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Krackshot Krock - Bonus #1",
+                "chest_opened_img": "/images/checks/Bonus.png",
+                "chest_unopened_img": "/images/checks/Bonus_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Bonus #1",
+                        "access_rules": ["EASY, $HasSquitter", "NORMAL, $HasSquitter", "HARD, $HasSquitter"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Krac-Shot Krock",
+                        "x": 1087,
+                        "y": 1441,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Krackshot Krock - Bonus #2",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Bonus #2",
+                        "access_rules": ["EASY, $HasSquitter", "NORMAL, $HasSquitter", "HARD, $HasSquitter"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Krac-Shot Krock",
+                        "x": 327,
+                        "y": 106,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Krackshot Krock - Banana Bunch #1",
+                "chest_opened_img": "/images/checks/bananabunch.png",
+                "chest_unopened_img": "/images/checks/bananabunch_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Banana Bunch #1 (Near bonus #1)",
+                        "access_rules": ["EASY, $HasSquitter", "NORMAL, $HasSquitter", "HARD, $HasSquitter"],
+                        "visibility_rules": ["bananasanity"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Krac-Shot Krock",
+                        "x": 881,
+                        "y": 1422,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Krackshot Krock - Banana Bunch #2",
+                "chest_opened_img": "/images/checks/bananabunch.png",
+                "chest_unopened_img": "/images/checks/bananabunch_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Banana Bunch #2 (Above cauldron)",
+                        "access_rules": ["EASY, $HasSquitter", "NORMAL, $HasSquitter", "HARD, $HasSquitter"],
+                        "visibility_rules": ["bananasanity"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Krac-Shot Krock",
+                        "x": 480,
+                        "y": 1137,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Krackshot Krock - Banana Bunch #3",
+                "chest_opened_img": "/images/checks/bananabunch.png",
+                "chest_unopened_img": "/images/checks/bananabunch_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Banana Bunch #3 (Near bonus #2)",
+                        "access_rules": ["EASY, $HasSquitter", "NORMAL, $HasSquitter", "HARD, $HasSquitter"],
+                        "visibility_rules": ["bananasanity"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Krac-Shot Krock",
+                        "x": 207,
+                        "y": 559,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Krackshot Krock - Banana Bunch #4",
+                "chest_opened_img": "/images/checks/bananabunch.png",
+                "chest_unopened_img": "/images/checks/bananabunch_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Banana Bunch #4 (Above triple cauldron)",
+                        "access_rules": ["EASY, $HasSquitter", "NORMAL, $HasSquitter", "HARD, $HasSquitter"],
+                        "visibility_rules": ["bananasanity"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Krac-Shot Krock",
+                        "x": 1344,
+                        "y": 163,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Krackshot Krock - Banana Bunch #5",
+                "chest_opened_img": "/images/checks/bananabunch.png",
+                "chest_unopened_img": "/images/checks/bananabunch_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Banana Bunch #5 (Near circling red Buzz)",
+                        "access_rules": ["EASY, $HasSquitter", "NORMAL, $HasSquitter", "HARD, $HasSquitter"],
+                        "visibility_rules": ["bananasanity"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Krac-Shot Krock",
+                        "x": 1729,
+                        "y": 165,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Krackshot Krock - Bear Coin #1",
+                "chest_opened_img": "/images/checks/bearcoin.png",
+                "chest_unopened_img": "/images/checks/bearcoin_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Bear Coin #1 (At start)",
+                        "access_rules": ["EASY, $CanTeamAttack", "NORMAL, $CanTeamAttack", "HARD, $CanTeamAttack", "HARD, $HasSquitter"],
+                        "visibility_rules": ["coinsanity"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Krac-Shot Krock",
+                        "x": 406,
+                        "y": 1684,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Krackshot Krock - Bear Coin #2",
+                "chest_opened_img": "/images/checks/bearcoin.png",
+                "chest_unopened_img": "/images/checks/bearcoin_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Bear Coin #2 (At start)",
+                        "access_rules": ["EASY, $CanTeamAttack", "NORMAL, $CanTeamAttack", "HARD, $CanTeamAttack", "HARD, $HasSquitter"],
+                        "visibility_rules": ["coinsanity"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Krac-Shot Krock",
+                        "x": 406,
+                        "y": 1718,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Krackshot Krock - Bear Coin #3",
+                "chest_opened_img": "/images/checks/bearcoin.png",
+                "chest_unopened_img": "/images/checks/bearcoin_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Bear Coin #3 (Above O)",
+                        "access_rules": ["EASY, $HasSquitter", "NORMAL, $HasSquitter", "HARD, $HasSquitter"],
+                        "visibility_rules": ["coinsanity"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Krac-Shot Krock",
+                        "x": 1021,
+                        "y": 1011,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Krackshot Krock - Bear Coin #4",
+                "chest_opened_img": "/images/checks/bearcoin.png",
+                "chest_unopened_img": "/images/checks/bearcoin_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Bear Coin #4 (Below red Buzz)",
+                        "access_rules": ["EASY, $HasSquitter", "NORMAL, $HasSquitter", "HARD, $HasSquitter"],
+                        "visibility_rules": ["coinsanity"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Krac-Shot Krock",
+                        "x": 606,
+                        "y": 921,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Krackshot Krock - Bear Coin #5",
+                "chest_opened_img": "/images/checks/bearcoin.png",
+                "chest_unopened_img": "/images/checks/bearcoin_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Bear Coin #5 (Below red Buzz)",
+                        "access_rules": ["EASY, $HasSquitter", "NORMAL, $HasSquitter", "HARD, $HasSquitter"],
+                        "visibility_rules": ["coinsanity"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Krac-Shot Krock",
+                        "x": 541,
+                        "y": 924,
+                        "size": 30
+                    }
+                ]
+            }
+        ]
+    }
+]

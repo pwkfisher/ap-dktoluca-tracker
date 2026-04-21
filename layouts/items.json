@@ -1,0 +1,66 @@
+{
+    "shared_item_grid_horizontal": {
+        "type": "array",
+        "orientation": "vertical",
+        "margin": "0,0",
+        "content": [
+            {
+                "type": "array",
+                "orientation": "horizontal",
+                "margin": "0,0",
+                "content": [
+                    {
+                        "type": "itemgrid",
+                        "item_margin": "2, 2",
+                        "h_alignment": "left",
+                        "item_h_alignment": "center",
+                        "item_v_alignment": "center",
+                        "item_height": 44,
+                        "item_width": 44,
+                        "rows": [
+                            [
+                                "dixie",
+                                "kiddy",
+                                "ellie",
+                                "squitter",
+                                "enguarde",
+                                "squawks",
+                                "parry"
+                            ],
+                            [
+                                "spin",
+                                "teamattack",
+                                "helicopterspin",
+                                "swim",
+                                "climb",
+                                "waterbounce",
+                                "carry",
+                                "barrelshield"
+                            ],
+                            [
+                                "barrelcannon",
+                                "invincibilitybarrel",
+                                "ghostbarrel",
+                                "waterfallbarrel",
+                                "rocketbarrel",
+                                "trackerbarrel",
+                                "warpbarrel",
+                                "barrelswitch"                          
+                            ],
+                            [
+                                "lakeorangatangaaccess",
+                                "kremwoodforestaccess",
+                                "cotton-topcoveaccess",
+                                "mekanosaccess",
+                                "k3access",
+                                "razorridgeaccess",
+                                "kaoskoreaccess",
+                                "krematoaaccess"    
+                            ]
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

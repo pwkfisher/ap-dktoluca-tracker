@@ -1,0 +1,310 @@
+[
+    {
+        "name": "Lightning Look-Out",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+            " "
+        ],
+        "children": [
+            {
+                "name": "Lightning Look-Out - Clear",
+                "chest_opened_img": "/images/checks/LevelClear.png",
+                "chest_unopened_img": "/images/checks/LevelClear_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Clear",
+                        "access_rules": ["EASY, $CanSwim, $CanCarry", "NORMAL, $CanSwim, $CanCarry", "HARD, $CanSwim", "HARD, $HasBothKongs, $CanCarry"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Lightning Look-Out",
+                        "x": 3645,
+                        "y": 922,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Lightning Look-Out - KONG",
+                "chest_opened_img": "/images/checks/kong.png",
+                "chest_unopened_img": "/images/checks/kong_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "KONG",
+                        "access_rules": ["EASY, $CanSwim, $CanCarry", "NORMAL, $CanSwim, $CanCarry", "HARD, $CanSwim", "HARD, $HasBothKongs, $CanCarry"],
+                        "visibility_rules": ["kongchecks"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Lightning Look-Out",
+                        "shape": "diamond",
+                        "x": 1936,
+                        "y": 214,
+                        "size": 30
+                    },
+                    {
+                        "map": "Lightning Look-Out",
+                        "shape": "diamond",
+                        "x": 3262,
+                        "y": 134,
+                        "size": 30
+                    },
+                    {
+                        "map": "Lightning Look-Out",
+                        "shape": "diamond",
+                        "x": 2333,
+                        "y": 525,
+                        "size": 30
+                    },
+                    {
+                        "map": "Lightning Look-Out",
+                        "shape": "diamond",
+                        "x": 1295,
+                        "y": 897,
+                        "size": 30
+                    }                                                            
+                ]
+            },
+            {
+                "name": "Lightning Look-Out - DK Coin",
+                "chest_opened_img": "/images/checks/dkcoin.png",
+                "chest_unopened_img": "/images/checks/dkcoin_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "DK Coin",
+                        "access_rules": ["EASY, $CanHover, $CanCarry", "EASY, $CanSwim, $CanCarry", "NORMAL, $CanHover, $CanCarry", "NORMAL, $CanSwim, $CanCarry", "HARD, $CanHover, $CanCarry", "HARD, $CanSwim, $CanCarry", "HARD, $CanWaterBounce, $CanCarry"],
+                        "visibility_rules": ["dkcoinchecks"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Lightning Look-Out",
+                        "x": 1101,
+                        "y": 585,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Lightning Look-Out - Balloon #1",
+                "chest_opened_img": "/images/checks/balloon2.png",
+                "chest_unopened_img": "/images/checks/balloon2_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Balloon #1 (Near start above Buzz trio)",
+                        "access_rules": ["EASY, $CanTeamAttack", "NORMAL, $CanTeamAttack", "HARD, $CanTeamAttack", "HARD, $HasBothKongs"],
+                        "visibility_rules": ["balloonsanity"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Lightning Look-Out",
+                        "x": 639,
+                        "y": 3,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Lightning Look-Out - Balloon #2",
+                "chest_opened_img": "/images/checks/balloon1.png",
+                "chest_unopened_img": "/images/checks/balloon1_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Balloon #2 (Cache near end)",
+                        "access_rules": ["EASY, $CanSwim, $CanCarry, $CanTeamAttack", "NORMAL, $CanSwim, $CanCarry, $CanTeamAttack", "HARD, $CanSwim", "HARD, $HasBothKongs, $CanCarry, $CanTeamAttack"],
+                        "visibility_rules": ["balloonsanity"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Lightning Look-Out",
+                        "x": 3183,
+                        "y": 1032,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Lightning Look-Out - Bonus #1",
+                "chest_opened_img": "/images/checks/Bonus.png",
+                "chest_unopened_img": "/images/checks/Bonus_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Bonus #1",
+                        "access_rules": ["EASY, $CanSwim, $CanCarry", "NORMAL, $CanSwim, $CanCarry", "HARD, $CanSwim"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Lightning Look-Out",
+                        "x": 3262,
+                        "y": 377,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Lightning Look-Out - Bonus #2",
+                "chest_opened_img": "/images/checks/Bonus.png",
+                "chest_unopened_img": "/images/checks/Bonus_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Bonus #2",
+                        "access_rules": ["EASY, $CanSwim, $CanCarry, $CanTeamAttack", "NORMAL, $CanSwim, $CanCarry, $CanTeamAttack", "HARD, $CanSwim, $CanCarry", "HARD, $HasBothKongs, $CanCarry"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Lightning Look-Out",
+                        "x": 895,
+                        "y": 972,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Lightning Look-Out - Banana Bunch #1",
+                "chest_opened_img": "/images/checks/bananabunch.png",
+                "chest_unopened_img": "/images/checks/bananabunch_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Banana Bunch #1 (Behind Buzz pair)",
+                        "access_rules": ["EASY, $CanCarry", "NORMAL, $CanCarry", "HARD"],
+                        "visibility_rules": ["bananasanity"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Lightning Look-Out",
+                        "x": 2740,
+                        "y": 79,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Lightning Look-Out - Bear Coin #1",
+                "chest_opened_img": "/images/checks/bearcoin.png",
+                "chest_unopened_img": "/images/checks/bearcoin_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Bear Coin #1 (Cache near trapped Knik-Knaks)",
+                        "access_rules": ["EASY, $CanTeamAttack", "NORMAL, $CanTeamAttack", "HARD, $CanTeamAttack"],
+                        "visibility_rules": ["coinsanity"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Lightning Look-Out",
+                        "x": 1585,
+                        "y": 125,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Lightning Look-Out - Bear Coin #2",
+                "chest_opened_img": "/images/checks/bearcoin.png",
+                "chest_unopened_img": "/images/checks/bearcoin_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Bear Coin #2 (Above Buzz duo)",
+                        "access_rules": ["EASY, $CanTeamAttack", "NORMAL, $CanTeamAttack", "HARD, $CanTeamAttack", "HARD, $HasBothKongs"],
+                        "visibility_rules": ["coinsanity"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Lightning Look-Out",
+                        "x": 2367,
+                        "y": 51,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Lightning Look-Out - Bear Coin #3",
+                "chest_opened_img": "/images/checks/bearcoin.png",
+                "chest_unopened_img": "/images/checks/bearcoin_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Bear Coin #3 (Above right buzz next to N)",
+                        "access_rules": ["EASY, $CanCarry, $CanHover, $CanTeamAttack", "EASY, $CanSwim, $CanCarry, $CanTeamAttack", "NORMAL, $CanCarry, $CanHover, $CanTeamAttack", "NORMAL, $CanSwim, $CanCarry, $CanTeamAttack", "HARD, $CanHover, $CanTeamAttack", "HARD, $HasBothKongs, $CanHover", "HARD, $CanSwim, $CanTeamAttack", "HARD, $HasBothKongs, $CanSwim", "HARD, $CanWaterBounce, $CanTeamAttack", "HARD, $HasBothKongs, $CanWaterBounce"],
+                        "visibility_rules": ["coinsanity"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Lightning Look-Out",
+                        "x": 2401,
+                        "y": 468,
+                        "size": 30
+                    }
+                ]
+            }
+        ]
+    }
+]

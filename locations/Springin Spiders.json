@@ -1,0 +1,567 @@
+[
+    {
+        "name": "Springin' Spiders",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+            " "
+        ],
+        "children": [
+            {
+                "name": "Springin' Spiders - Clear",
+                "chest_opened_img": "/images/checks/LevelClear.png",
+                "chest_unopened_img": "/images/checks/LevelClear_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Clear",
+                        "access_rules": ["EASY", "NORMAL", "HARD"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Springin' Spiders",
+                        "x": 3668,
+                        "y": 66,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Springin' Spiders - KONG",
+                "chest_opened_img": "/images/checks/kong.png",
+                "chest_unopened_img": "/images/checks/kong_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "KONG",
+                        "access_rules": ["EASY, $CanTeamAttack", "EASY, $HasSquawks", "NORMAL, $CanTeamAttack", "NORMAL, $HasSquawks", "HARD, $CanTeamAttack", "HARD, $HasBothKongs", "HARD, $HasSquawks"],
+                        "visibility_rules": ["kongchecks"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Springin' Spiders",
+                        "shape": "diamond",
+                        "x": 627,
+                        "y": 99,
+                        "size": 30
+                    },
+                    {
+                        "map": "Springin' Spiders",
+                        "shape": "diamond",
+                        "x": 1216,
+                        "y": 755,
+                        "size": 30
+                    },
+                    {
+                        "map": "Springin' Spiders",
+                        "shape": "diamond",
+                        "x": 2704,
+                        "y": 1139,
+                        "size": 30
+                    },
+                    {
+                        "map": "Springin' Spiders",
+                        "shape": "diamond",
+                        "x": 2737,
+                        "y": 848,
+                        "size": 30
+                    },
+                    {
+                        "map": "Springin' Spiders",
+                        "shape": "diamond",
+                        "x": 3472,
+                        "y": 761,
+                        "size": 30
+                    }                                                                                
+                ]
+            },
+            {
+                "name": "Springin' Spiders - DK Coin",
+                "chest_opened_img": "/images/checks/dkcoin.png",
+                "chest_unopened_img": "/images/checks/dkcoin_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "DK Coin",
+                        "access_rules": ["EASY, $CanCarry, $CanTeamAttack", "NORMAL, $CanCarry, $CanTeamAttack", "HARD, $CanCarry, $CanTeamAttack"],
+                        "visibility_rules": ["dkcoinchecks"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Springin' Spiders",
+                        "x": 2756,
+                        "y": 1624,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Springin' Spiders - Balloon #1",
+                "chest_opened_img": "/images/checks/balloon1.png",
+                "chest_unopened_img": "/images/checks/balloon1_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Balloon #1 (Above a red Buzz at the start)",
+                        "access_rules": ["EASY, $CanTeamAttack", "NORMAL, $CanTeamAttack", "HARD, $CanTeamAttack", "HARD, $HasBothKongs"],
+                        "visibility_rules": ["balloonsanity"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Springin' Spiders",
+                        "x": 623,
+                        "y": 1033,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Springin' Spiders - Balloon #2",
+                "chest_opened_img": "/images/checks/balloon2.png",
+                "chest_unopened_img": "/images/checks/balloon2_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Balloon #2 (In hole between Buzzes)",
+                        "access_rules": ["EASY", "NORMAL", "HARD"],
+                        "visibility_rules": ["balloonsanity"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Springin' Spiders",
+                        "x": 1994,
+                        "y": 418,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Springin' Spiders - Balloon #3",
+                "chest_opened_img": "/images/checks/balloon1.png",
+                "chest_unopened_img": "/images/checks/balloon1_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Balloon #3 (Below N)",
+                        "access_rules": ["EASY", "NORMAL", "HARD"],
+                        "visibility_rules": ["balloonsanity"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Springin' Spiders",
+                        "x": 2655,
+                        "y": 998,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Springin' Spiders - Bonus #1",
+                "chest_opened_img": "/images/checks/Bonus.png",
+                "chest_unopened_img": "/images/checks/Bonus_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Bonus #1",
+                        "access_rules": ["EASY, $HasSquawks", "NORMAL, $HasSquawks", "HARD, $HasSquawks"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Springin' Spiders",
+                        "x": 1222,
+                        "y": 1000,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Springin' Spiders - Bonus #2",
+                "chest_opened_img": "/images/checks/Bonus.png",
+                "chest_unopened_img": "/images/checks/Bonus_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Bonus #2",
+                        "access_rules": ["EASY, $CanHover", "NORMAL", "HARD"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Springin' Spiders",
+                        "x": 3718,
+                        "y": 1182,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Springin' Spiders - Banana Bunch #1",
+                "chest_opened_img": "/images/checks/bananabunch.png",
+                "chest_unopened_img": "/images/checks/bananabunch_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Banana Bunch #1 (Hidden in top corner)",
+                        "access_rules": ["EASY, $CanTeamAttack", "NORMAL, $CanTeamAttack", "HARD"],
+                        "visibility_rules": ["bananasanity"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Springin' Spiders",
+                        "x": 324,
+                        "y": 848,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Springin' Spiders - Banana Bunch #2",
+                "chest_opened_img": "/images/checks/bananabunch.png",
+                "chest_unopened_img": "/images/checks/bananabunch_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Banana Bunch #2 (Behind Green Buzz before no animal sign)",
+                        "access_rules": ["EASY, $HasSquawks", "NORMAL, $HasSquawks", "HARD, $CanCarry", "HARD, $HasBothKongs", "HARD, $HasSquawks"],
+                        "visibility_rules": ["bananasanity"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Springin' Spiders",
+                        "x": 1288,
+                        "y": 497,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Springin' Spiders - Banana Bunch #3",
+                "chest_opened_img": "/images/checks/bananabunch.png",
+                "chest_unopened_img": "/images/checks/bananabunch_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Banana Bunch #3 (Above Red Buzz)",
+                        "access_rules": ["EASY", "NORMAL", "HARD"],
+                        "visibility_rules": ["bananasanity"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Springin' Spiders",
+                        "x": 1996,
+                        "y": 928,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Springin' Spiders - Banana Bunch #4",
+                "chest_opened_img": "/images/checks/bananabunch.png",
+                "chest_unopened_img": "/images/checks/bananabunch_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Banana Bunch #4 (Below a wooden barrel)",
+                        "access_rules": ["EASY", "NORMAL", "HARD"],
+                        "visibility_rules": ["bananasanity"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Springin' Spiders",
+                        "x": 2172,
+                        "y": 1048,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Springin' Spiders - Banana Bunch #5",
+                "chest_opened_img": "/images/checks/bananabunch.png",
+                "chest_unopened_img": "/images/checks/bananabunch_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Banana Bunch #5 (Above a red Buzz)",
+                        "access_rules": ["EASY", "NORMAL", "HARD"],
+                        "visibility_rules": ["bananasanity"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Springin' Spiders",
+                        "x": 2946,
+                        "y": 633,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Springin' Spiders - Banana Bunch #6",
+                "chest_opened_img": "/images/checks/bananabunch.png",
+                "chest_unopened_img": "/images/checks/bananabunch_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Banana Bunch #6 (Next to a hole with a single banana below)",
+                        "access_rules": ["EASY", "NORMAL", "HARD"],
+                        "visibility_rules": ["bananasanity"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Springin' Spiders",
+                        "x": 2952,
+                        "y": 249,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Springin' Spiders - Bear Coin #1",
+                "chest_opened_img": "/images/checks/bearcoin.png",
+                "chest_unopened_img": "/images/checks/bearcoin_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Bear Coin #1 (Above Warp Barrel)",
+                        "access_rules": ["EASY, $CanSpin", "NORMAL, $CanSpin", "HARD"],
+                        "visibility_rules": ["coinsanity"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Springin' Spiders",
+                        "x": 514,
+                        "y": 1285,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Springin' Spiders - Bear Coin #2",
+                "chest_opened_img": "/images/checks/bearcoin.png",
+                "chest_unopened_img": "/images/checks/bearcoin_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Bear Coin #2 (Behind a green Buzz)",
+                        "access_rules": ["EASY, $CanCarry", "NORMAL, $CanCarry", "HARD, $CanCarry", "HARD, $CanTeamAttack", "HARD, $HasBothKongs"],
+                        "visibility_rules": ["coinsanity"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Springin' Spiders",
+                        "x": 526,
+                        "y": 524,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Springin' Spiders - Bear Coin #3",
+                "chest_opened_img": "/images/checks/bearcoin.png",
+                "chest_unopened_img": "/images/checks/bearcoin_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Bear Coin #3 (In a ledge below a Buzz)",
+                        "access_rules": ["EASY, $HasSquawks", "NORMAL, $HasSquawks", "HARD, $CanCarry", "HARD, $HasBothKongs", "HARD, $HasSquawks"],
+                        "visibility_rules": ["coinsanity"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Springin' Spiders",
+                        "x": 1289,
+                        "y": 1130,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Springin' Spiders - Bear Coin #4",
+                "chest_opened_img": "/images/checks/bearcoin.png",
+                "chest_unopened_img": "/images/checks/bearcoin_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Bear Coin #4 (In a ledge below a Buzz)",
+                        "access_rules": ["EASY, $HasSquawks", "NORMAL, $HasSquawks", "HARD, $CanCarry", "HARD, $HasBothKongs", "HARD, $HasSquawks"],
+                        "visibility_rules": ["coinsanity"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Springin' Spiders",
+                        "x": 1331,
+                        "y": 1130,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Springin' Spiders - Bear Coin #5",
+                "chest_opened_img": "/images/checks/bearcoin.png",
+                "chest_unopened_img": "/images/checks/bearcoin_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Bear Coin #5 (No animal sign)",
+                        "access_rules": ["EASY, $HasSquawks", "NORMAL, $HasSquawks", "HARD, $HasSquawks"],
+                        "visibility_rules": ["coinsanity"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Springin' Spiders",
+                        "x": 1344,
+                        "y": 410,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Springin' Spiders - Bear Coin #6",
+                "chest_opened_img": "/images/checks/bearcoin.png",
+                "chest_unopened_img": "/images/checks/bearcoin_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Bear Coin #6 (Above Red Buzz)",
+                        "access_rules": ["EASY", "NORMAL", "HARD"],
+                        "visibility_rules": ["coinsanity"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Springin' Spiders",
+                        "x": 1868,
+                        "y": 918,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Springin' Spiders - Bear Coin #7",
+                "chest_opened_img": "/images/checks/bearcoin.png",
+                "chest_unopened_img": "/images/checks/bearcoin_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Bear Coin #7 (Next to Bonus #2)",
+                        "access_rules": ["EASY", "NORMAL", "HARD"],
+                        "visibility_rules": ["coinsanity"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Springin' Spiders",
+                        "x": 3623,
+                        "y": 1170,
+                        "size": 30
+                    }
+                ]
+            }
+        ]
+    }
+]

@@ -1,0 +1,463 @@
+[
+    {
+        "name": "Tracker Barrel",
+        "type": "toggle",
+        "img": "images/items/trackerbarrel.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "trackerbarrel"
+    },
+    {
+        "name": "Mekanos Access",
+        "type": "toggle",
+        "img": "images/items/mekanosaccess.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "mekanosaccess"
+    },
+    {
+        "name": "k3access",
+        "type": "toggle",
+        "img": "images/items/k3access.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "k3access"
+    },
+    {
+        "name": "bananaextractinator",
+        "type": "toggle",
+        "img": "images/items/bananaextractinator.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "bananaextractinator"
+    },
+    {
+        "name": "carry",
+        "type": "toggle",
+        "img": "images/items/carry.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "carry"
+    },
+    {
+        "name": "ellie",
+        "type": "toggle",
+        "img": "images/items/ellie.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "ellie"
+    },
+    {
+        "name": "kremwoodforestaccess",
+        "type": "toggle",
+        "img": "images/items/kremwoodforestaccess.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "kremwoodforestaccess"
+    },
+    {
+        "name": "squawks",
+        "type": "toggle",
+        "img": "images/items/squawks.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "squawks"
+    },
+    {
+        "name": "backupdkbarrel",
+        "type": "consumable",
+        "img": "images/items/backupdkbarrel.png",
+        "min_quantity": 0,
+        "max_quantity": 10,
+        "increment": 1,
+        "decrement": 1,
+        "initial_quantity": 1,
+        "overlay_align": "right",
+        "overlay_font_size": 14,
+        "overlay_background": "#000000",
+        "codes": "backupdkbarrel"
+    },
+    {
+        "name": "enguarde",
+        "type": "toggle",
+        "img": "images/items/enguarde.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "enguarde"
+    },
+    {
+        "name": "waterbounce",
+        "type": "toggle",
+        "img": "images/items/waterbounce.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "waterbounce"
+    },
+    {
+        "name": "krematoaaccess",
+        "type": "toggle",
+        "img": "images/items/krematoaaccess.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "krematoaaccess"
+    },
+    {
+        "name": "invincibilitybarrel",
+        "type": "toggle",
+        "img": "images/items/invincibilitybarrel.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "invincibilitybarrel"
+    },
+    {
+        "name": "dkcoin",
+        "type": "consumable",
+        "img": "images/items/dkcoin.png",
+        "min_quantity": 0,
+        "max_quantity": 10,
+        "increment": 1,
+        "decrement": 1,
+        "initial_quantity": 1,
+        "overlay_align": "right",
+        "overlay_font_size": 14,
+        "overlay_background": "#000000",
+        "codes": "dkcoin"
+    },
+    {
+        "name": "lakeorangatangaaccess",
+        "type": "toggle",
+        "img": "images/items/lakeorangatangaaccess.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "lakeorangatangaaccess"
+    },
+    {
+        "name": "rocketbarrel",
+        "type": "toggle",
+        "img": "images/items/rocketbarrel.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "rocketbarrel"
+    },
+    {
+        "name": "bananabird",
+        "type": "consumable",
+        "img": "images/items/bananabird.png",
+        "min_quantity": 0,
+        "max_quantity": 10,
+        "increment": 1,
+        "decrement": 1,
+        "initial_quantity": 1,
+        "overlay_align": "right",
+        "overlay_font_size": 14,
+        "overlay_background": "#000000",
+        "codes": "bananabird"
+    },
+    {
+        "name": "climb",
+        "type": "toggle",
+        "img": "images/items/climb.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "climb"
+    },
+    {
+        "name": "barrelcannon",
+        "type": "toggle",
+        "img": "images/items/barrelcannon.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "barrelcannon"
+    },
+    {
+        "name": "kiddy",
+        "type": "toggle",
+        "img": "images/items/kiddy.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "kiddy"
+    },
+    {
+        "name": "razorridgeaccess",
+        "type": "toggle",
+        "img": "images/items/razorridgeaccess.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "razorridgeaccess"
+    },
+    {
+        "name": "parry",
+        "type": "toggle",
+        "img": "images/items/parry.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "parry"
+    },
+    {
+        "name": "cotton-topcoveaccess",
+        "type": "toggle",
+        "img": "images/items/cotton-topcoveaccess.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "cotton-topcoveaccess"
+    },
+    {
+        "name": "cog",
+        "type": "consumable",
+        "img": "images/items/cog.png",
+        "min_quantity": 0,
+        "max_quantity": 10,
+        "increment": 1,
+        "decrement": 1,
+        "initial_quantity": 1,
+        "overlay_align": "right",
+        "overlay_font_size": 14,
+        "overlay_background": "#000000",
+        "codes": "cog"
+    },
+    {
+        "name": "waterfallbarrel",
+        "type": "toggle",
+        "img": "images/items/waterfallbarrel.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "waterfallbarrel"
+    },
+    {
+        "name": "barrelswitch",
+        "type": "toggle",
+        "img": "images/items/barrelswitch.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "barrelswitch"
+    },
+    {
+        "name": "bonuscoin",
+        "type": "consumable",
+        "img": "images/items/bonuscoin.png",
+        "min_quantity": 0,
+        "max_quantity": 10,
+        "increment": 1,
+        "decrement": 1,
+        "initial_quantity": 1,
+        "overlay_align": "right",
+        "overlay_font_size": 14,
+        "overlay_background": "#000000",
+        "codes": "bonuscoin"
+    },
+    {
+        "name": "dixie",
+        "type": "toggle",
+        "img": "images/items/dixie.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "dixie"
+    },
+    {
+        "name": "kaoskoreaccess",
+        "type": "toggle",
+        "img": "images/items/kaoskoreaccess.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "kaoskoreaccess"
+    },
+    {
+        "name": "teamattack",
+        "type": "toggle",
+        "img": "images/items/teamattack.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "teamattack"
+    },
+    {
+        "name": "warpbarrel",
+        "type": "toggle",
+        "img": "images/items/warpbarrel.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "warpbarrel"
+    },
+    {
+        "name": "swim",
+        "type": "toggle",
+        "img": "images/items/swim.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "swim"
+    },
+    {
+        "name": "bearcoin",
+        "type": "consumable",
+        "img": "images/items/bearcoin.png",
+        "min_quantity": 0,
+        "max_quantity": 10,
+        "increment": 1,
+        "decrement": 1,
+        "initial_quantity": 1,
+        "overlay_align": "right",
+        "overlay_font_size": 14,
+        "overlay_background": "#000000",
+        "codes": "bearcoin"
+    },
+    {
+        "name": "ghostbarrel",
+        "type": "toggle",
+        "img": "images/items/ghostbarrel.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "ghostbarrel"
+    },
+    {
+        "name": "spin",
+        "type": "toggle",
+        "img": "images/items/spin.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "spin"
+    },
+    {
+        "name": "bananaradar",
+        "type": "toggle",
+        "img": "images/items/bananaradar.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "bananaradar"
+    },
+    {
+        "name": "barrelshield",
+        "type": "toggle",
+        "img": "images/items/barrelshield.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "barrelshield"
+    },
+    {
+        "name": "squitter",
+        "type": "toggle",
+        "img": "images/items/squitter.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "squitter"
+    },
+    {
+        "name": "progressivevehicle",
+        "type": "progressive",
+        "loop": false,
+        "allow_disabled": true,
+        "initial_stage_idx": 0,
+        "overlay_align": "right",
+        "stages": [
+            {
+                "name": "progressivevehicle stage1",
+                "inherit_codes": true,
+                "img": "/images/items/progressivevehicle.png",
+                "codes": "progressivevehicle, progressivevehicle_stage1"
+            },
+            {
+                "name": "progressivevehicle stage2",
+                "inherit_codes": true,
+                "img": "/images/items/progressivevehicle.png",
+                "codes": "progressivevehicle_stage2"
+            },
+            {
+                "name": "progressivevehicle stage3",
+                "inherit_codes": true,
+                "img": "/images/items/progressivevehicle.png",
+                "codes": "progressivevehicle_stage3"
+            }
+        ]
+    },
+    {
+        "name": "helicopterspin",
+        "type": "toggle",
+        "img": "images/items/helicopterspin.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "helicopterspin"
+    },
+    {
+        "name": "update",
+        "type": "toggle",
+        "img": "images/items/update.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "update"
+    },
+    {
+        "name": "Difficulty",
+        "codes": "Logic",
+        "initial_stage_idx": 0,
+        "allow_disabled": "false",
+        "type": "progressive",
+        "stages": [
+          {
+            "img": "images/settings/easy.png",
+            "inherit_codes": "false",
+            "codes": "EASY"
+          },
+          {
+            "img": "images/settings/normal.png",
+            "inherit_codes": "false",
+            "codes": "NORMAL"
+          },
+          {
+            "img": "images/settings/hard.png",
+            "inherit_codes": "false",
+            "codes": "HARD"
+          }
+        ]
+      },
+      {
+        "name": "KONG Checks On",
+        "type": "toggle",
+        "img": "images/settings/kongcheck.png",
+        "codes": "kongchecks"
+      },
+      {
+        "name": "DK Coin Checks On",
+        "type": "toggle",
+        "img": "images/settings/dkcoincheck.png",
+        "codes": "dkcoinchecks"
+      },
+      {
+        "name": "Goal",
+        "codes": "goal",
+        "allow_disabled": "false",
+        "type": "progressive",
+        "stages": [
+          {
+            "img": "images/settings/kore.png",
+            "inherit_codes": "false",
+            "codes": "kaoscoregoal"
+          },
+          {
+            "img": "images/settings/krematoa.png",
+            "inherit_codes": "false",
+            "codes": "krematoagoal"
+          },
+          {
+            "img": "images/settings/kompletionist.png",
+            "inherit_codes": "false",
+            "codes": "kompletionist"
+          }
+        ]
+      },
+      {
+        "name": "Banana Coin Checks On",
+        "type": "toggle",
+        "img": "images/settings/coinsanity.png",
+        "codes": "coinsanity"
+      },
+      {
+        "name": "Balloon Checks On",
+        "type": "toggle",
+        "img": "images/settings/balloonsanity.png",
+        "codes": "balloonsanity"
+      },
+      {
+        "name": "Banana Bunch Checks On",
+        "type": "toggle",
+        "img": "images/settings/bananasanity.png",
+        "codes": "bananasanity"
+      }
+]

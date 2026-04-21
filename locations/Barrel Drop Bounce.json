@@ -1,0 +1,224 @@
+[
+    {
+        "name": "Barrel Drop Bounce",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+            " "
+        ],
+        "children": [
+            {
+                "name": "Barrel Drop Bounce - Clear",
+                "chest_opened_img": "/images/checks/LevelClear.png",
+                "chest_unopened_img": "/images/checks/LevelClear_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Clear",
+                        "access_rules": ["EASY, $HasBarrelWaterfall, $HasBarrelCannon, $CanHover", "NORMAL, $HasBarrelWaterfall, $HasBarrelCannon, $CanHover", "HARD, $HasBarrelWaterfall, $HasBarrelCannon"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Barrel Drop Bounce",
+                        "x": 2327,
+                        "y": 92
+                    }
+                ]
+            },
+            {
+                "name": "Barrel Drop Bounce - KONG",
+                "chest_opened_img": "/images/checks/kong.png",
+                "chest_unopened_img": "/images/checks/kong_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "KONG",
+                        "access_rules": ["EASY, $HasBarrelWaterfall, $HasBarrelCannon, $CanHover, $CanCarry", "EASY, $HasBarrelWaterfall, $HasBarrelCannon, $CanHover, $CanTeamAttack", "NORMAL, $HasBarrelWaterfall, $HasBarrelCannon, $CanHover, $CanCarry", "NORMAL, $HasBarrelWaterfall, $HasBarrelCannon, $CanHover, $CanTeamAttack", "HARD, $HasBarrelWaterfall, $HasBarrelCannon, $CanCarry", "HARD, $HasBarrelWaterfall, $HasBarrelCannon, $CanTeamAttack"],
+                        "visibility_rules": ["kongchecks"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Barrel Drop Bounce",
+                        "shape": "diamond",
+                        "x": 1248,
+                        "y": 2113
+                    },
+                    {
+                        "map": "Barrel Drop Bounce",
+                        "shape": "diamond",
+                        "x": 679,
+                        "y": 1768
+                    },
+                    {
+                        "map": "Barrel Drop Bounce",
+                        "shape": "diamond",
+                        "x": 1872,
+                        "y": 810
+                    },
+                    {
+                        "map": "Barrel Drop Bounce",
+                        "shape": "diamond",
+                        "x": 2500,
+                        "y": 92
+                    }
+                ]
+            },
+            {
+                "name": "Barrel Drop Bounce - DK Coin",
+                "chest_opened_img": "/images/checks/dkcoin.png",
+                "chest_unopened_img": "/images/checks/dkcoin_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "DK Coin",
+                        "access_rules": ["EASY, $HasBarrelWaterfall, $HasBarrelCannon, $CanHover, $CanCarry", "NORMAL, $HasBarrelWaterfall, $HasBarrelCannon, $CanHover, $CanCarry", "HARD, $CanCarry, $CanHover", "HARD, $CanCarry, $HasBarrelCannon, $CanSpin", "HARD, $CanCarry, $HasBarrelCannon, $HasBarrelWaterfall", "HARD, $CanCarry, $HasBarrelCannon, $CanTeamAttack"],
+                        "visibility_rules": ["dkcoinchecks"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Barrel Drop Bounce",
+                        "x": 1756,
+                        "y": 2490
+                    }
+                ]
+            },
+            {
+                "name": "Barrel Drop Bounce - Balloon #1",
+                "chest_opened_img": "/images/checks/balloon1.png",
+                "chest_unopened_img": "/images/checks/balloon1_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Balloon #1 (No animal sign)",
+                        "access_rules": ["EASY, $HasBarrelWaterfall, $HasBarrelCannon, $CanHover, $HasParry", "NORMAL, $HasBarrelWaterfall, $HasBarrelCannon, $CanHover, $HasParry", "HARD, $HasBarrelWaterfall, $HasBarrelCannon, $HasParry"],
+                        "visibility_rules": ["balloonsanity"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Barrel Drop Bounce",
+                        "x": 1627,
+                        "y": 175
+                    }
+                ]
+            },
+            {
+                "name": "Barrel Drop Bounce - Bonus #1",
+                "chest_opened_img": "/images/checks/Bonus.png",
+                "chest_unopened_img": "/images/checks/Bonus_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Bonus #1",
+                        "access_rules": ["EASY, $HasBarrelWaterfall, $HasBarrelCannon", "NORMAL, $HasBarrelWaterfall, $HasBarrelCannon", "HARD, $HasBarrelWaterfall, $HasBarrelCannon"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Barrel Drop Bounce",
+                        "x": 1181,
+                        "y": 1977
+                    }
+                ]
+            },
+            {
+                "name": "Barrel Drop Bounce - Bonus #2",
+                "chest_opened_img": "/images/checks/Bonus.png",
+                "chest_unopened_img": "/images/checks/Bonus_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Bonus #2",
+                        "access_rules": ["EASY, $HasBarrelWaterfall, $HasBarrelCannon, $CanHover", "NORMAL, $HasBarrelWaterfall, $HasBarrelCannon, $CanHover", "HARD, $HasBarrelWaterfall, $HasBarrelCannon, $CanHover"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Barrel Drop Bounce",
+                        "x": 2207,
+                        "y": 830
+                    }
+                ]
+            },
+            {
+                "name": "Barrel Drop Bounce - Bear Coin #1",
+                "chest_opened_img": "/images/checks/bearcoin.png",
+                "chest_unopened_img": "/images/checks/bearcoin_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Bear Coin #1 (At start)",
+                        "access_rules": ["EASY, $HasBarrelWaterfall", "EASY, $CanTeamAttack", "NORMAL, $HasBarrelWaterfall", "NORMAL, $CanTeamAttack", "HARD, $HasBarrelWaterfall", "HARD, $CanTeamAttack"],
+                        "visibility_rules": ["coinsanity"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Barrel Drop Bounce",
+                        "x": 382,
+                        "y": 2478
+                    }
+                ]
+            },
+            {
+                "name": "Barrel Drop Bounce - Bear Coin #2",
+                "chest_opened_img": "/images/checks/bearcoin.png",
+                "chest_unopened_img": "/images/checks/bearcoin_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Bear Coin #2 (In Hidden Booty Bird above 10 banana set)",
+                        "access_rules": ["EASY, $HasBarrelWaterfall, $HasBarrelCannon, $CanHover, $HasParry", "NORMAL, $HasBarrelWaterfall, $HasBarrelCannon, $CanHover, $HasParry", "HARD, $HasBarrelWaterfall, $HasBarrelCannon, $CanHover", "HARD, $HasBarrelWaterfall, $HasBarrelCannon, $CanSpin"],
+                        "visibility_rules": ["coinsanity"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Barrel Drop Bounce",
+                        "x": 174,
+                        "y": 388
+                    }
+                ]
+            }
+        ]
+    }
+]

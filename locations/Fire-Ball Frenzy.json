@@ -1,0 +1,357 @@
+[
+    {
+        "name": "Fire-Ball Frenzy",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+            " "
+        ],
+        "children": [
+            {
+                "name": "Fire-Ball Frenzy - Clear",
+                "chest_opened_img": "/images/checks/LevelClear.png",
+                "chest_unopened_img": "/images/checks/LevelClear_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Clear",
+                        "access_rules": ["EASY, $CanClimb", "NORMAL, $CanClimb", "HARD, $CanClimb"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Fire-Ball Frenzy",
+                        "x": 2463,
+                        "y": 302,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Fire-Ball Frenzy - KONG",
+                "chest_opened_img": "/images/checks/kong.png",
+                "chest_unopened_img": "/images/checks/kong_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "KONG",
+                        "access_rules": ["EASY, $CanClimb", "NORMAL, $CanClimb", "HARD, $CanClimb"],
+                        "visibility_rules": ["kongchecks"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Fire-Ball Frenzy",
+                        "shape": "diamond",
+                        "x": 206,
+                        "y": 1360,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Fire-Ball Frenzy - DK Coin",
+                "chest_opened_img": "/images/checks/dkcoin.png",
+                "chest_unopened_img": "/images/checks/dkcoin_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "DK Coin",
+                        "access_rules": ["EASY, $CanClimb, $CanCarry", "NORMAL, $CanClimb, $CanCarry", "HARD, $CanClimb, $CanCarry"],
+                        "visibility_rules": ["dkcoinchecks"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Fire-Ball Frenzy",
+                        "x": 1598,
+                        "y": 2558,
+                        "size": 30
+                    },
+                    {
+                        "map": "Fire-Ball Frenzy",
+                        "x": 817,
+                        "y": 2170,
+                        "size": 30
+                    },
+                    {
+                        "map": "Fire-Ball Frenzy",
+                        "x": 1792,
+                        "y": 1034,
+                        "size": 30
+                    },
+                    {
+                        "map": "Fire-Ball Frenzy",
+                        "x": 1553,
+                        "y": 252,
+                        "size": 30
+                    }                    
+                ]
+            },
+            {
+                "name": "Fire-Ball Frenzy - Bonus #1",
+                "chest_opened_img": "/images/checks/Bonus.png",
+                "chest_unopened_img": "/images/checks/Bonus_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Bonus #1",
+                        "access_rules": ["EASY, $CanClimb, $HasSquitter, $CanHover", "EASY, $CanClimb, $HasSquitter, $CanSpin", "NORMAL, $CanClimb, $HasSquitter, $CanHover", "NORMAL, $CanClimb, $HasSquitter, $CanSpin", "HARD, $CanClimb, $HasSquitter"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Fire-Ball Frenzy",
+                        "x": 624,
+                        "y": 1904,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Fire-Ball Frenzy - Bonus #2",
+                "chest_opened_img": "/images/checks/Bonus.png",
+                "chest_unopened_img": "/images/checks/Bonus_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Bonus #2",
+                        "access_rules": ["EASY, $CanClimb, $CanTeamAttack", "NORMAL, $CanClimb, $CanTeamAttack", "HARD, $CanClimb, $CanTeamAttack", "HARD, $CanClimb, $HasBothKongs"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Fire-Ball Frenzy",
+                        "x": 2400,
+                        "y": 720,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Fire-Ball Frenzy - Banana Bunch #1",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Banana Bunch #1 (Before checkpoint)",
+                        "access_rules": ["EASY, $CanClimb", "NORMAL, $CanClimb", "HARD, $CanClimb"],
+                        "visibility_rules": ["bananasanity"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Fire-Ball Frenzy",
+                        "x": 553,
+                        "y": 1182,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Fire-Ball Frenzy - Banana Bunch #2",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Banana Bunch #2 (After checkpoint)",
+                        "access_rules": ["EASY, $CanClimb", "NORMAL, $CanClimb", "HARD, $CanClimb"],
+                        "visibility_rules": ["bananasanity"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Fire-Ball Frenzy",
+                        "x": 1236,
+                        "y": 1454,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Fire-Ball Frenzy - Banana Bunch #3",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Banana Bunch #3 (In corner below wooden platform)",
+                        "access_rules": ["EASY, $CanClimb", "NORMAL, $CanClimb", "HARD, $CanClimb"],
+                        "visibility_rules": ["bananasanity"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Fire-Ball Frenzy",
+                        "x": 48,
+                        "y": 462,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Fire-Ball Frenzy - Bear Coin #1",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Bear Coin #1 (Near start)",
+                        "access_rules": ["EASY", "NORMAL", "HARD"],
+                        "visibility_rules": ["coinsanity"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Fire-Ball Frenzy",
+                        "x": 864,
+                        "y": 2610,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Fire-Ball Frenzy - Bear Coin #2",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Bear Coin #2 (In a corner above rope)",
+                        "access_rules": ["EASY, $CanTeamAttack", "NORMAL, $CanTeamAttack", "HARD, $CanTeamAttack", "HARD, $HasSquitter"],
+                        "visibility_rules": ["coinsanity"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Fire-Ball Frenzy",
+                        "x": 2414,
+                        "y": 2246,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Fire-Ball Frenzy - Bear Coin #3",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Bear Coin #3 (After checkpoint)",
+                        "access_rules": ["EASY, $CanClimb", "NORMAL, $CanClimb", "HARD, $CanClimb"],
+                        "visibility_rules": ["coinsanity"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Fire-Ball Frenzy",
+                        "x": 1360,
+                        "y": 1173,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Fire-Ball Frenzy - Bear Coin #4",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Bear Coin #4 (No animal sign)",
+                        "access_rules": ["EASY, $CanClimb, $HasSquitter", "NORMAL, $CanClimb, $HasSquitter", "HARD, $CanClimb, $HasSquitter"],
+                        "visibility_rules": ["coinsanity"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Fire-Ball Frenzy",
+                        "x": 1641,
+                        "y": 1962,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Fire-Ball Frenzy - Bear Coin #5",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Bear Coin #5 (After no animal sign)",
+                        "access_rules": ["EASY, $CanClimb", "NORMAL, $CanClimb", "HARD, $CanClimb"],
+                        "visibility_rules": ["coinsanity"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Fire-Ball Frenzy",
+                        "x": 1730,
+                        "y": 1717,
+                        "size": 30
+                    }
+                ]
+            }
+        ]
+    }
+]

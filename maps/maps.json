@@ -1,0 +1,278 @@
+[
+    {
+        "name": "Arich's Ambush",
+        "location_size": 30,
+        "location_border_thickness": 1,
+        "img": "images/maps/kf/arichsambush.png"
+    },
+    {
+        "name": "Barbos' Barrier",
+        "location_size": 30,
+        "location_border_thickness": 1,
+        "img": "images/maps/rr/barbosbarrier.png"
+    },
+    {
+        "name": "Barrel Drop Bounce",
+        "location_size": 30,
+        "location_border_thickness": 1,
+        "img": "images/maps/k3/barreldropbounce.png"
+    },
+    {
+        "name": "Barrel Shield Bust-Up",
+        "location_size": 30,
+        "location_border_thickness": 1,
+        "img": "images/maps/kf/barrelshieldbustup.png"
+    },
+    {
+        "name": "Bazza's Blockade",
+        "location_size": 30,
+        "location_border_thickness": 1,
+        "img": "images/maps/ctc/bazzasblockade.png"
+    },
+    {
+        "name": "Belcha's Barn",
+        "location_size": 30,
+        "location_border_thickness": 1,
+        "img": "images/maps/lo/belchasbarn.png"
+    },
+    {
+        "name": "Blazing Bazukas",
+        "location_size": 30,
+        "location_border_thickness": 1,
+        "img": "images/maps/mk/blazingbazukas.png"
+    },
+    {
+        "name": "Bleak's House",
+        "location_size": 30,
+        "location_border_thickness": 1,
+        "img": "images/maps/k3/bleakshouse.png"
+    },
+    {
+        "name": "Bobbing Barrel Brawl",
+        "location_size": 30,
+        "location_border_thickness": 1,
+        "img": "images/maps/kf/bobbingbarrelbrawl.png"
+    },
+    {
+        "name": "Buzzer Barrage",
+        "location_size": 30,
+        "location_border_thickness": 1,
+        "img": "images/maps/rr/buzzerbarrage.png"
+    },
+    {
+        "name": "Creepy Caverns",
+        "location_size": 30,
+        "location_border_thickness": 1,
+        "img": "images/maps/kk/creepycaverns.png"
+    },
+    {
+        "name": "Criss Kross Cliffs",
+        "location_size": 30,
+        "location_border_thickness": 1,
+        "img": "images/maps/km/crisskrosscliffs.png"
+    },
+    {
+        "name": "Demolition Drain-Pipe",
+        "location_size": 30,
+        "location_border_thickness": 1,
+        "img": "images/maps/mk/demolitiondrainpipe.png"
+    },
+    {
+        "name": "Doorstop Dash",
+        "location_size": 30,
+        "location_border_thickness": 1,
+        "img": "images/maps/lo/doorstopdash.png"
+    },
+    {
+        "name": "Fire-Ball Frenzy",
+        "location_size": 30,
+        "location_border_thickness": 1,
+        "img": "images/maps/mk/fireballfrenzy.png"
+    },
+    {
+        "name": "Fish Food Frenzy",
+        "location_size": 30,
+        "location_border_thickness": 1,
+        "img": "images/maps/ctc/fishfoodfrenzy.png"
+    },
+    {
+        "name": "Floodlit Fish",
+        "location_size": 30,
+        "location_border_thickness": 1,
+        "img": "images/maps/rr/floodlitfish.png"
+    },
+    {
+        "name": "KAOS Karnage",
+        "location_size": 30,
+        "location_border_thickness": 1,
+        "img": "images/maps/mk/kaoskarnage.png"
+    },
+    {
+        "name": "Koindozer Klamber",
+        "location_size": 30,
+        "location_border_thickness": 1,
+        "img": "images/maps/kk/koindozerklamber.png"
+    },
+    {
+        "name": "Kong-Fused Cliffs",
+        "location_size": 30,
+        "location_border_thickness": 1,
+        "img": "images/maps/rr/kongfusedkliffs.png"
+    },
+    {
+        "name": "Konveyor Rope Klash",
+        "location_size": 30,
+        "location_border_thickness": 1,
+        "img": "images/maps/kk/konveyorropeklash.png"
+    },
+    {
+        "name": "Krac-Shot Krock",
+        "location_size": 30,
+        "location_border_thickness": 1,
+        "img": "images/maps/k3/krackshotkroc.png"
+    },
+    {
+        "name": "Kreeping Klasps",
+        "location_size": 30,
+        "location_border_thickness": 1,
+        "img": "images/maps/ctc/kreepingklasps.png"
+    },
+    {
+        "name": "Krevice Kreepers",
+        "location_size": 30,
+        "location_border_thickness": 1,
+        "img": "images/maps/k3/krevicekreepers.png"
+    },
+    {
+        "name": "Lakeside Limbo",
+        "location_size": 30,
+        "location_border_thickness": 1,
+        "img": "images/maps/lo/lakesidelimbo.png"
+    },
+    {
+        "name": "Lemguin Lunge",
+        "location_size": 30,
+        "location_border_thickness": 1,
+        "img": "images/maps/k3/lemguinlunge.png"
+    },
+    {
+        "name": "Lightning Look-Out",
+        "location_size": 30,
+        "location_border_thickness": 1,
+        "img": "images/maps/kk/lightninglookout.png"
+    },
+    {
+        "name": "Low-G Labyrinth",
+        "location_size": 30,
+        "location_border_thickness": 1,
+        "img": "images/maps/mk/lowglabrynth.png"
+    },
+    {
+        "name": "Murky Mill",
+        "location_size": 30,
+        "location_border_thickness": 1,
+        "img": "images/maps/lo/murkymill.png"
+    },
+    {
+        "name": "Poisonous Pipeline",
+        "location_size": 30,
+        "location_border_thickness": 1,
+        "img": "images/maps/kk/poisonouspipeline.png"
+    },
+    {
+        "name": "Pot Hole Panic",
+        "location_size": 30,
+        "location_border_thickness": 1,
+        "img": "images/maps/rr/potholepanic.png"
+    },
+    {
+        "name": "Ripsaw Rage",
+        "location_size": 30,
+        "location_border_thickness": 1,
+        "img": "images/maps/mk/ripsawrage.png"
+    },
+    {
+        "name": "Riverside Race",
+        "location_size": 30,
+        "location_border_thickness": 1,
+        "img": "images/maps/kf/riversiderace.png"
+    },
+    {
+        "name": "Rocket Barrel Ride",
+        "location_size": 30,
+        "location_border_thickness": 1,
+        "img": "images/maps/ctc/rocketbarrelride.png"
+    },
+    {
+        "name": "Rocket Rush",
+        "location_size": 30,
+        "location_border_thickness": 1,
+        "img": "images/maps/km/rocketrush.png"
+    },
+    {
+        "name": "Ropey Rumpus",
+        "location_size": 30,
+        "location_border_thickness": 1,
+        "img": "images/maps/rr/ropeyrumpus.png"
+    },
+    {
+        "name": "Skidda's Row",
+        "location_size": 30,
+        "location_border_thickness": 1,
+        "img": "images/maps/lo/skiddasrow.png"
+    },
+    {
+        "name": "Springin' Spiders",
+        "location_size": 30,
+        "location_border_thickness": 1,
+        "img": "images/maps/kf/springinspiders.png"
+    },
+    {
+        "name": "Squeals on Wheels",
+        "location_size": 30,
+        "location_border_thickness": 1,
+        "img": "images/maps/kf/squealsonwheels.png"
+    },
+    {
+        "name": "Squirt's Showdown",
+        "location_size": 30,
+        "location_border_thickness": 1,
+        "img": "images/maps/ctc/squirtsshowdown.png"
+    },
+    {
+        "name": "Stampede Sprint",
+        "location_size": 30,
+        "location_border_thickness": 1,
+        "img": "images/maps/km/stampedesprint.png"
+    },
+    {
+        "name": "Swoopy Salvo",
+        "location_size": 30,
+        "location_border_thickness": 1,
+        "img": "images/maps/km/swoopysalvo.png"
+    },
+    {
+        "name": "Tearaway Toboggan",
+        "location_size": 30,
+        "location_border_thickness": 1,
+        "img": "images/maps/k3/tearawaytobaggan.png"
+    },
+    {
+        "name": "Tidal Trouble",
+        "location_size": 30,
+        "location_border_thickness": 1,
+        "img": "images/maps/lo/tidaltrouble.png"
+    },
+    {
+        "name": "Tracker Barrel Trek",
+        "location_size": 30,
+        "location_border_thickness": 1,
+        "img": "images/maps/ctc/trackerbarreltrek.png"
+    },
+    {
+        "name": "Tyrant Twin Tussle",
+        "location_size": 30,
+        "location_border_thickness": 1,
+        "img": "images/maps/km/tyranttwintussle.png"
+    }
+]

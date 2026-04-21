@@ -1,0 +1,420 @@
+[
+    {
+        "name": "Floodlit Fish",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+            " "
+        ],
+        "children": [
+            {
+                "name": "Floodlit Fish - Clear",
+                "chest_opened_img": "/images/checks/LevelClear.png",
+                "chest_unopened_img": "/images/checks/LevelClear_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Clear",
+                        "chest_opened_img": "/images/checks/LevelClear.png",
+                        "chest_unopened_img": "/images/checks/LevelClear_disabled.png",
+                        "access_rules": ["EASY, $CanSwim, $HasEnguarde, $HasBarrelCannon", "NORMAL, $CanSwim, $HasEnguarde, $HasBarrelCannon", "HARD, $CanSwim, $HasBarrelCannon", "HARD, $HasEnguarde, $HasBarrelCannon"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "DK Coin",
+                        "chest_opened_img": "/images/checks/dkcoin.png",
+                        "chest_unopened_img": "/images/checks/dkcoin_disabled.png",
+                        "access_rules": ["EASY, $CanSwim, $HasEnguarde, $HasBarrelCannon, $CanCarry", "NORMAL, $CanSwim, $HasEnguarde, $HasBarrelCannon, $CanCarry", "HARD, $CanSwim, $HasBarrelCannon, $CanCarry", "HARD, $HasEnguarde, $HasBarrelCannon, $CanCarry"],
+                        "visibility_rules": ["dkcoinchecks"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Floodlit Fish",
+                        "x": 3618,
+                        "y": 1502,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Floodlit Fish - KONG",
+                "chest_opened_img": "/images/checks/kong.png",
+                "chest_unopened_img": "/images/checks/kong_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "KONG",
+                        "access_rules": ["EASY, $CanSwim, $HasEnguarde", "NORMAL, $CanSwim, $HasEnguarde", "HARD, $HasEnguarde"],
+                        "visibility_rules": ["kongchecks"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Floodlit Fish",
+                        "shape": "diamond",
+                        "x": 94,
+                        "y": 737,
+                        "size": 30
+                    },
+                    {
+                        "map": "Floodlit Fish",
+                        "shape": "diamond",
+                        "x": 859,
+                        "y": 370,
+                        "size": 30
+                    },
+                    {
+                        "map": "Floodlit Fish",
+                        "shape": "diamond",
+                        "x": 3027,
+                        "y": 28,
+                        "size": 30
+                    },
+                    {
+                        "map": "Floodlit Fish",
+                        "shape": "diamond",
+                        "x": 3187,
+                        "y": 840,
+                        "size": 30
+                    }                    
+                ]
+            },
+            {
+                "name": "Floodlit Fish - Bonus #1",
+                "chest_opened_img": "/images/checks/Bonus.png",
+                "chest_unopened_img": "/images/checks/Bonus_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Bonus #1",
+                        "access_rules": ["EASY, $CanSwim, $HasEnguarde", "NORMAL, $CanSwim, $HasEnguarde", "HARD, $CanSwim", "HARD, $HasEnguarde"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Floodlit Fish",
+                        "x": 1319,
+                        "y": 1279,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Floodlit Fish - Bonus #2",
+                "chest_opened_img": "/images/checks/Bonus.png",
+                "chest_unopened_img": "/images/checks/Bonus_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Bonus #2",
+                        "access_rules": ["EASY, $CanSwim, $HasEnguarde", "NORMAL, $CanSwim, $HasEnguarde", "HARD, $CanSwim, $HasBothKongs", "HARD, $HasEnguarde"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Floodlit Fish",
+                        "x": 3511,
+                        "y": 877,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Floodlit Fish - Banana Bunch #1",
+                "chest_opened_img": "/images/checks/bananabunch.png",
+                "chest_unopened_img": "/images/checks/bananabunch_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Banana Bunch #1 (At start)",
+                        "access_rules": ["EASY, $CanSwim", "NORMAL, $CanSwim", "HARD, $CanSwim", "HARD, $HasEnguarde"],
+                        "visibility_rules": ["bananasanity"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Floodlit Fish",
+                        "x": 513,
+                        "y": 125,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Floodlit Fish - Banana Bunch #2",
+                "chest_opened_img": "/images/checks/bananabunch.png",
+                "chest_unopened_img": "/images/checks/bananabunch_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Banana Bunch #2 (In Lurchin cluster)",
+                        "access_rules": ["EASY, $CanSwim, $HasEnguarde", "NORMAL, $CanSwim, $HasEnguarde", "HARD, $CanSwim", "HARD, $HasEnguarde"],
+                        "visibility_rules": ["bananasanity"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Floodlit Fish",
+                        "x": 1932,
+                        "y": 30,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Floodlit Fish - Banana Bunch #3",
+                "chest_opened_img": "/images/checks/bananabunch.png",
+                "chest_unopened_img": "/images/checks/bananabunch_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Banana Bunch #3 (Behind two Red Kocos)",
+                        "access_rules": ["EASY, $CanSwim, $HasEnguarde", "NORMAL, $CanSwim, $HasEnguarde", "HARD, $CanSwim", "HARD, $HasEnguarde"],
+                        "visibility_rules": ["bananasanity"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Floodlit Fish",
+                        "x": 3037,
+                        "y": 267,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Floodlit Fish - Banana Bunch #4",
+                "chest_opened_img": "/images/checks/bananabunch.png",
+                "chest_unopened_img": "/images/checks/bananabunch_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Banana Bunch #4 (Below Gleaming Bream)",
+                        "access_rules": ["EASY, $CanSwim, $HasEnguarde", "NORMAL, $CanSwim, $HasEnguarde", "HARD, $CanSwim", "HARD, $HasEnguarde"],
+                        "visibility_rules": ["bananasanity"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Floodlit Fish",
+                        "x": 2509,
+                        "y": 812,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Floodlit Fish - Banana Bunch #5",
+                "chest_opened_img": "/images/checks/bananabunch.png",
+                "chest_unopened_img": "/images/checks/bananabunch_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Banana Bunch #5 (In second branching path, left)",
+                        "access_rules": ["EASY, $CanSwim, $HasEnguarde", "NORMAL, $CanSwim, $HasEnguarde", "HARD, $CanSwim, $HasEnguarde"],
+                        "visibility_rules": ["bananasanity"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Floodlit Fish",
+                        "x": 2511,
+                        "y": 1273,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Floodlit Fish - Banana Bunch #6",
+                "chest_opened_img": "/images/checks/bananabunch.png",
+                "chest_unopened_img": "/images/checks/bananabunch_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Banana Bunch #6 (In third branching path, right)",
+                        "access_rules": ["EASY, $CanSwim, $HasEnguarde", "NORMAL, $CanSwim, $HasEnguarde", "HARD, $CanSwim, $HasEnguarde"],
+                        "visibility_rules": ["bananasanity"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Floodlit Fish",
+                        "x": 3721,
+                        "y": 898,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Floodlit Fish - Banana Bunch #7",
+                "chest_opened_img": "/images/checks/bananabunch.png",
+                "chest_unopened_img": "/images/checks/bananabunch_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Banana Bunch #7 (Near exit)",
+                        "access_rules": ["EASY, $CanSwim, $HasEnguarde", "NORMAL, $CanSwim, $HasEnguarde", "HARD, $CanSwim, $HasEnguarde"],
+                        "visibility_rules": ["bananasanity"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Floodlit Fish",
+                        "x": 3334,
+                        "y": 1601,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Floodlit Fish - Banana Bunch #8",
+                "chest_opened_img": "/images/checks/bananabunch.png",
+                "chest_unopened_img": "/images/checks/bananabunch_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Banana Bunch #8 (No animal sign)",
+                        "access_rules": ["EASY, $CanSwim, $HasEnguarde", "NORMAL, $CanSwim, $HasEnguarde", "HARD, $HasEnguarde"],
+                        "visibility_rules": ["bananasanity"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Floodlit Fish",
+                        "x": 3470,
+                        "y": 1512,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Floodlit Fish - Bear Coin #1",
+                "chest_opened_img": "/images/checks/bearcoin.png",
+                "chest_unopened_img": "/images/checks/bearcoin_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Bear Coin #1 (Near checkpoint)",
+                        "access_rules": ["EASY, $CanSwim, $HasEnguarde", "NORMAL, $CanSwim, $HasEnguarde", "HARD, $CanSwim", "HARD, $HasEnguarde"],
+                        "visibility_rules": ["coinsanity"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Floodlit Fish",
+                        "x": 2041,
+                        "y": 566,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Floodlit Fish - Bear Coin #2",
+                "chest_opened_img": "/images/checks/bearcoin.png",
+                "chest_unopened_img": "/images/checks/bearcoin_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Bear Coin #2 (Inside Bounty Bass)",
+                        "access_rules": ["EASY, $CanSwim, $HasEnguarde", "NORMAL, $CanSwim, $HasEnguarde", "HARD, $HasEnguarde"],
+                        "visibility_rules": ["coinsanity"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Floodlit Fish",
+                        "x": 1721,
+                        "y": 1277,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Floodlit Fish - Bear Coin #3",
+                "chest_opened_img": "/images/checks/bearcoin.png",
+                "chest_unopened_img": "/images/checks/bearcoin_disabled.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Bear Coin #3 (Near exit)",
+                        "access_rules": ["EASY, $CanSwim, $HasEnguarde", "NORMAL, $CanSwim, $HasEnguarde", "HARD, $CanSwim, $HasEnguarde"],
+                        "visibility_rules": ["coinsanity"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Floodlit Fish",
+                        "x": 3237,
+                        "y": 1178,
+                        "size": 30
+                    }
+                ]
+            }
+        ]
+    }
+]
