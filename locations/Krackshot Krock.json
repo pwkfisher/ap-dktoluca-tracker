@@ -45,7 +45,7 @@
                     {
                         "name": "KONG",
                         "access_rules": ["EASY, $HasSquitter", "NORMAL, $HasSquitter", "HARD, $HasSquitter"],
-                        "visibility_rules": ["kongsanity"],
+                        "visibility_rules": ["kongchecks"],
                         "item_count": 1
                     }
                 ],

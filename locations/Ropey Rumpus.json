@@ -99,8 +99,8 @@
                 "map_locations": [
                     {
                         "map": "Ropey Rumpus",
-                        "x": 2193,
-                        "y": 688,
+                        "x": 3974,
+                        "y": 1465,
                         "size": 30
                     }             
                 ]
@@ -124,8 +124,8 @@
                 "map_locations": [
                     {
                         "map": "Ropey Rumpus",
-                        "x": 3974,
-                        "y": 1463,
+                        "x": 4841,
+                        "y": 1596,
                         "size": 30
                     }
                 ]

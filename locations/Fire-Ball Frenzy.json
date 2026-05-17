@@ -53,10 +53,31 @@
                     {
                         "map": "Fire-Ball Frenzy",
                         "shape": "diamond",
-                        "x": 206,
-                        "y": 1360,
+                        "x": 1598,
+                        "y": 2558,
                         "size": 30
-                    }
+                    },
+                    {
+                        "map": "Fire-Ball Frenzy",
+                        "shape": "diamond",
+                        "x": 817,
+                        "y": 2170,
+                        "size": 30
+                    },
+                    {
+                        "map": "Fire-Ball Frenzy",
+                        "shape": "diamond",
+                        "x": 1792,
+                        "y": 1034,
+                        "size": 30
+                    },
+                    {
+                        "map": "Fire-Ball Frenzy",
+                        "shape": "diamond",
+                        "x": 1553,
+                        "y": 252,
+                        "size": 30
+                    }  
                 ]
             },
             {
@@ -78,28 +99,10 @@
                 "map_locations": [
                     {
                         "map": "Fire-Ball Frenzy",
-                        "x": 1598,
-                        "y": 2558,
+                        "x": 1694,
+                        "y": 651,
                         "size": 30
-                    },
-                    {
-                        "map": "Fire-Ball Frenzy",
-                        "x": 817,
-                        "y": 2170,
-                        "size": 30
-                    },
-                    {
-                        "map": "Fire-Ball Frenzy",
-                        "x": 1792,
-                        "y": 1034,
-                        "size": 30
-                    },
-                    {
-                        "map": "Fire-Ball Frenzy",
-                        "x": 1553,
-                        "y": 252,
-                        "size": 30
-                    }                    
+                    }
                 ]
             },
             {
@@ -154,8 +157,8 @@
             },
             {
                 "name": "Fire-Ball Frenzy - Banana Bunch #1",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
+                "chest_opened_img": "/images/checks/bananabunch.png",
+                "chest_unopened_img": "/images/checks/bananabunch_disabled.png",
                 "overlay_background": "#000000",
                 "access_rules": [
                     " "
@@ -179,8 +182,8 @@
             },
             {
                 "name": "Fire-Ball Frenzy - Banana Bunch #2",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
+                "chest_opened_img": "/images/checks/bananabunch.png",
+                "chest_unopened_img": "/images/checks/bananabunch_disabled.png",
                 "overlay_background": "#000000",
                 "access_rules": [
                     " "
@@ -204,8 +207,8 @@
             },
             {
                 "name": "Fire-Ball Frenzy - Banana Bunch #3",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
+                "chest_opened_img": "/images/checks/bananabunch.png",
+                "chest_unopened_img": "/images/checks/bananabunch_disabled.png",
                 "overlay_background": "#000000",
                 "access_rules": [
                     " "
@@ -229,8 +232,8 @@
             },
             {
                 "name": "Fire-Ball Frenzy - Bear Coin #1",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
+                "chest_opened_img": "/images/checks/bearcoin.png",
+                "chest_unopened_img": "/images/checks/bearcoin_disabled.png",
                 "overlay_background": "#000000",
                 "access_rules": [
                     " "
@@ -254,8 +257,8 @@
             },
             {
                 "name": "Fire-Ball Frenzy - Bear Coin #2",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
+                "chest_opened_img": "/images/checks/bearcoin.png",
+                "chest_unopened_img": "/images/checks/bearcoin_disabled.png",
                 "overlay_background": "#000000",
                 "access_rules": [
                     " "
@@ -279,8 +282,8 @@
             },
             {
                 "name": "Fire-Ball Frenzy - Bear Coin #3",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
+                "chest_opened_img": "/images/checks/bearcoin.png",
+                "chest_unopened_img": "/images/checks/bearcoin_disabled.png",
                 "overlay_background": "#000000",
                 "access_rules": [
                     " "
@@ -304,8 +307,8 @@
             },
             {
                 "name": "Fire-Ball Frenzy - Bear Coin #4",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
+                "chest_opened_img": "/images/checks/bearcoin.png",
+                "chest_unopened_img": "/images/checks/bearcoin_disabled.png",
                 "overlay_background": "#000000",
                 "access_rules": [
                     " "
@@ -329,8 +332,8 @@
             },
             {
                 "name": "Fire-Ball Frenzy - Bear Coin #5",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
+                "chest_opened_img": "/images/checks/bearcoin.png",
+                "chest_unopened_img": "/images/checks/bearcoin_disabled.png",
                 "overlay_background": "#000000",
                 "access_rules": [
                     " "
