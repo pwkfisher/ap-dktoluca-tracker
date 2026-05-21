@@ -17,5 +17,236 @@
         "name": "Current Level",
         "type": "progressive",
         "codes": "cur_level_id"
+      },
+      {
+        "name": "Bobbing Barrel Brawl Visibility",
+        "type": "progressive",
+        "codes": "BobbingBarrelBrawlMap"
+      },
+      {
+        "name": "Buzzer Barrage Visibility",
+        "type": "progressive",
+        "codes": "BuzzerBarrageMap"
+      },
+      {
+        "name": "Skidda's Row Visibility",
+        "type": "progressive",
+        "codes": "SkiddasRowMap"
+      },
+      {
+        "name": "Riverside Race Visibility",
+        "type": "progressive",
+        "codes": "RiversideRaceMap"
+      },
+      {
+        "name": "Creepy Caverns Visibility",
+        "type": "progressive",
+        "codes": "CreepyCavernsMap"
+      },
+      {
+        "name": "Krackshot Krock Visibility",
+        "type": "progressive",
+        "codes": "KrackshotKrockMap"
+      },
+      {
+        "name": "Swoopy Salvo Visibility",
+        "type": "progressive",
+        "codes": "SwoopySalvoMap"
+      },
+      {
+        "name": "Krevice Kreepers Visibility",
+        "type": "progressive",
+        "codes": "KreviceKreepersMap"
+      },
+      {
+        "name": "Ropey Rumpus Visibility",
+        "type": "progressive",
+        "codes": "RopeyRumpusMap"
+      },
+      {
+        "name": "Murky Mill Visibility",
+        "type": "progressive",
+        "codes": "MurkyMillMap"
+      },
+      {
+        "name": "Koindozer Klamber Visibility",
+        "type": "progressive",
+        "codes": "KoindozerKlamberMap"
+      },
+      {
+        "name": "Lakeside Limbo Visibility",
+        "type": "progressive",
+        "codes": "LakesideLimboMap"
+      },
+      {
+        "name": "Lightning Look-Out Visibility",
+        "type": "progressive",
+        "codes": "LightningLookOutMap"
+      },
+      {
+        "name": "Squeals on Wheels Visibility",
+        "type": "progressive",
+        "codes": "SquealsonWheelsMap"
+      },
+      {
+        "name": "Lemguin Lunge Visibility",
+        "type": "progressive",
+        "codes": "LemguinLungeMap"
+      },
+      {
+        "name": "Tyrant Twin Tussle Visibility",
+        "type": "progressive",
+        "codes": "TyrantTwinTussleMap"
+      },
+      {
+        "name": "Fire-Ball Frenzy Visibility",
+        "type": "progressive",
+        "codes": "FireBallFrenzyMap"
+      },
+      {
+        "name": "Barrel Drop Bounce Visibility",
+        "type": "progressive",
+        "codes": "BarrelDropBounceMap"
+      },
+      {
+        "name": "Tracker Barrel Trek Visibility",
+        "type": "progressive",
+        "codes": "TrackerBarrelTrekMap"
+      },
+      {
+        "name": "Tidal Trouble Visibility",
+        "type": "progressive",
+        "codes": "TidalTroubleMap"
+      },
+      {
+        "name": "Poisonous Pipeline Visibility",
+        "type": "progressive",
+        "codes": "PoisonousPipelineMap"
+      },
+      {
+        "name": "Stampede Sprint Visibility",
+        "type": "progressive",
+        "codes": "StampedeSprintMap"
+      },
+      {
+        "name": "Doorstop Dash Visibility",
+        "type": "progressive",
+        "codes": "DoorstopDashMap"
+      },
+      {
+        "name": "Fish Food Frenzy Visibility",
+        "type": "progressive",
+        "codes": "FishFoodFrenzyMap"
+      },
+      {
+        "name": "Bazza's Blockade Visibility",
+        "type": "progressive",
+        "codes": "BazzasBlockadeMap"
+      },
+      {
+        "name": "Kong-Fused Cliffs Visibility",
+        "type": "progressive",
+        "codes": "KongFusedCliffsMap"
+      },
+      {
+        "name": "Rocket Rush Visibility",
+        "type": "progressive",
+        "codes": "RocketRushMap"
+      },
+      {
+        "name": "Rocket Barrel Ride Visibility",
+        "type": "progressive",
+        "codes": "RocketBarrelRideMap"
+      },
+      {
+        "name": "Pot Hole Panic Visibility",
+        "type": "progressive",
+        "codes": "PotHolePanicMap"
+      },
+      {
+        "name": "Demolition Drain-Pipe Visibility",
+        "type": "progressive",
+        "codes": "DemolitionDrainPipeMap"
+      },
+      {
+        "name": "Barrel Shield Bust-Up Visibility",
+        "type": "progressive",
+        "codes": "BarrelShieldBustUpMap"
+      },
+      {
+        "name": "Blazing Bazukas Visibility",
+        "type": "progressive",
+        "codes": "BlazingBazukasMap"
+      },
+      {
+        "name": "Springin' Spiders Visibility",
+        "type": "progressive",
+        "codes": "SpringinSpidersMap"
+      },
+      {
+        "name": "Criss Kross Cliffs Visibility",
+        "type": "progressive",
+        "codes": "CrissKrossCliffsMap"
+      },
+      {
+        "name": "Konveyor Rope Klash Visibility",
+        "type": "progressive",
+        "codes": "KonveyorRopeKlashMap"
+      },
+      {
+        "name": "Kreeping Klasps Visibility",
+        "type": "progressive",
+        "codes": "KreepingKlaspsMap"
+      },
+      {
+        "name": "Floodlit Fish Visibility",
+        "type": "progressive",
+        "codes": "FloodlitFishMap"
+      },
+      {
+        "name": "Ripsaw Rage Visibility",
+        "type": "progressive",
+        "codes": "RipsawRageMap"
+      },
+      {
+        "name": "Tearaway Toboggan Visibility",
+        "type": "progressive",
+        "codes": "TearawayTobogganMap"
+      },
+      {
+        "name": "Low-G Labyrinth Visibility",
+        "type": "progressive",
+        "codes": "LowGLabyrinthMap"
+      },
+      {
+        "name": "Belcha's Barn Visibility",
+        "type": "progressive",
+        "codes": "BelchasBarnMap"
+      },
+      {
+        "name": "KAOS Karnage Visibility",
+        "type": "progressive",
+        "codes": "KAOSKarnageMap"
+      },
+      {
+        "name": "Arich's Ambush Visibility",
+        "type": "progressive",
+        "codes": "ArichsAmbushMap"
+      },
+      {
+        "name": "Bleak's House Visibility",
+        "type": "progressive",
+        "codes": "BleaksHouseMap"
+      },
+      {
+        "name": "Squirt's Showdown Visibility",
+        "type": "progressive",
+        "codes": "SquirtsShowdownMap"
+      },
+      {
+        "name": "Barbos' Barrier Visibility",
+        "type": "progressive",
+        "codes": "BarbosBarrierMap"
       }
+
 ]

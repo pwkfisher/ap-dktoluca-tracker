@@ -3,6 +3,23 @@
         "type": "tabbed",
         "tabs": [
             {
+                "title": "World Map",
+                "content": {
+                    "type": "tabbed",
+                    "tabs": [
+                        {
+                        "title": "World Map",
+                        "content": {
+                        "type": "map",
+                        "maps": [
+                            "World Map"
+                                ]
+                        }
+                        }
+                    ]
+                }
+            },
+            {
                 "title": "Lake Orangutanga",
                 "content": {
                     "type": "tabbed",

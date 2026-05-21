@@ -277,23 +277,23 @@ function onClear(slot_data)
         end
     end
 
-	if slot_data["level_connections_old"] then
+	if slot_data["level_connections"] then
 		local level_connection_data = slot_data["level_connections"]
 		for LevelArea, LevelCode in pairs(BOSS_MAPPING) do
 			for LevelMap, Area in pairs(level_connection_data) do
 				if Area == LevelArea then
 					-- Perform actions based on LevelMap and LevelCode
-					if LevelMap == "Stronghold Showdown: Map" then
+					if LevelMap == "Barbos' Barrier: Map" then
 						Tracker:FindObjectForCode(LevelCode).CurrentStage = 6
-					elseif LevelMap == "Kreepy Krow: Map" then
+					elseif LevelMap == "Bleak's House: Map" then
 						Tracker:FindObjectForCode(LevelCode).CurrentStage = 5
-					elseif LevelMap == "King Zing Sting: Map" then
+					elseif LevelMap == "KAOS Karnage: Map" then
 						Tracker:FindObjectForCode(LevelCode).CurrentStage = 4
-					elseif LevelMap == "Kudgel's Kontest: Map" then
+					elseif LevelMap == "Squirt's Showdown: Map" then
 						Tracker:FindObjectForCode(LevelCode).CurrentStage = 3
-					elseif LevelMap == "Kleever's Kiln: Map" then
+					elseif LevelMap == "Arich's Ambush: Map" then
 						Tracker:FindObjectForCode(LevelCode).CurrentStage = 2
-					elseif LevelMap == "Krow's Nest: Map" then
+					elseif LevelMap == "Belcha's Barn: Map" then
 						Tracker:FindObjectForCode(LevelCode).CurrentStage = 1
 					else
 						print(LevelMap .. " -> No matching LevelCode found")
@@ -305,30 +305,22 @@ function onClear(slot_data)
 			for LevelMap, Area in pairs(level_connection_data) do
 				if Area == LevelArea then
 					-- Perform actions based on LevelMap and LevelCode
-					if LevelMap == "Pirate Panic: Map" or LevelMap == "Mainbrace Mayhem: Map" or LevelMap == "Gangplank Galley: Map" or LevelMap == "Lockjaw's Locker: Map" or LevelMap == "Topsail Trouble: Map" then
+					if LevelMap == "Lakeside Limbo: Map" or LevelMap == "Doorstop Dash: Map" or LevelMap == "Tidal Trouble: Map" or LevelMap == "Skidda's Row: Map" or LevelMap == "Murky Mill: Map" then
 						Tracker:FindObjectForCode(LevelCode).CurrentStage = 1
-					elseif LevelMap == "Ghostly Grove: Map" or LevelMap == "Haunted Hall: Map" or LevelMap == "Gusty Glade: Map" or LevelMap == "Parrot Chute Panic: Map" or LevelMap == "Web Woods: Map" then
-						Tracker:FindObjectForCode(LevelCode).CurrentStage = 5
-					elseif LevelMap == "Hornet Hole: Map" or LevelMap == "Target Terror: Map" or LevelMap == "Bramble Scramble: Map" or LevelMap == "Rickety Race: Map" or LevelMap == "Mudhole Marsh: Map" or LevelMap == "Rambi Rumble: Map" then
-						Tracker:FindObjectForCode(LevelCode).CurrentStage = 4
-					elseif LevelMap == "Barrel Bayou: Map" or LevelMap == "Glimmer's Galleon: Map" or LevelMap == "Krockhead Klamber: Map" or LevelMap == "Rattle Battle: Map" or LevelMap == "Slime Climb: Map" or LevelMap == "Bramble Blast: Map" then
-						Tracker:FindObjectForCode(LevelCode).CurrentStage = 3
-					elseif LevelMap == "Hot-Head Hop: Map" or LevelMap == "Kannon's Klaim: Map" or LevelMap == "Lava Lagoon: Map" or LevelMap == "Red-Hot Ride: Map" or LevelMap == "Squawks's Shaft: Map" then
+					elseif LevelMap == "Barrel Shield Bust-Up: Map" or LevelMap == "Riverside Race: Map" or LevelMap == "Squeals on Wheels: Map" or LevelMap == "Springin' Spiders: Map" or LevelMap == "Bobbing Barrel Brawl: Map" then
 						Tracker:FindObjectForCode(LevelCode).CurrentStage = 2
-					elseif LevelMap == "Arctic Abyss: Map" or LevelMap == "Windy Well: Map" or LevelMap == "Castle Crush: Map" or LevelMap == "Clapper's Cavern: Map" or LevelMap == "Chain Link Chamber: Map" or LevelMap == "Toxic Tower: Map" then
+					elseif LevelMap == "Bazza's Blockade: Map" or LevelMap == "Rocket Barrel Ride: Map" or LevelMap == "Kreeping Klasps: Map" or LevelMap == "Tracker Barrel Trek: Map" or LevelMap == "Fish Food Frenzy: Map" then
+						Tracker:FindObjectForCode(LevelCode).CurrentStage = 3
+					elseif LevelMap == "Fire-Ball Frenzy: Map" or LevelMap == "Demolition Drain-Pipe: Map" or LevelMap == "Ripsaw Rage: Map" or LevelMap == "Blazing Bazukas: Map" or LevelMap == "Low-G Labyrinth: Map" then
+						Tracker:FindObjectForCode(LevelCode).CurrentStage = 4
+					elseif LevelMap == "Krevice Kreepers: Map" or LevelMap == "Tearaway Toboggan: Map" or LevelMap == "Barrel Drop Bounce: Map" or LevelMap == "Krac-Shot Krock: Map" or LevelMap == "Lemguin Lunge: Map" then
+						Tracker:FindObjectForCode(LevelCode).CurrentStage = 5
+					elseif LevelMap == "Buzzer Barrage: Map" or LevelMap == "Kong-Fused Cliffs: Map" or LevelMap == "Floodlit Fish: Map" or LevelMap == "Pot Hole Panic: Map" or LevelMap == "Ropey Rumpus: Map" then
 						Tracker:FindObjectForCode(LevelCode).CurrentStage = 6
-					elseif LevelMap == "Screech's Sprint: Map" then
-						Tracker:FindObjectForCode(LevelCode).CurrentStage = 7
-					elseif LevelMap == "Jungle Jinx: Map" then
+					elseif LevelMap == "Konveyor Rope Klash: Map" or LevelMap == "Creepy Caverns: Map" or LevelMap == "Lightning Look-Out: Map" or LevelMap == "Koindozer Klamber: Map" or LevelMap == "Poisonous Pipeline: Map" then
+						Tracker:FindObjectForCode(LevelCode).CurrentStage = 7						
+					elseif LevelMap == "Stampede Sprint: Map" or LevelMap == "Criss Kross Cliffs: Map" or LevelMap == "Tyrant Twin Tussle: Map" or LevelMap == "Swoopy Salvo: Map" or LevelMap == "Rocket Rush: Map" then
 						Tracker:FindObjectForCode(LevelCode).CurrentStage = 8
-					elseif LevelMap == "Black Ice Battle: Map" then
-						Tracker:FindObjectForCode(LevelCode).CurrentStage = 9
-					elseif LevelMap == "Klobber Karnage: Map" then
-						Tracker:FindObjectForCode(LevelCode).CurrentStage = 10
-					elseif LevelMap == "Fiery Furnace: Map" then
-						Tracker:FindObjectForCode(LevelCode).CurrentStage = 11
-					elseif LevelMap == "Animal Antics: Map" then
-						Tracker:FindObjectForCode(LevelCode).CurrentStage = 12
 					else
 					print(LevelMap .. " -> No matching LevelCode found")
 					end

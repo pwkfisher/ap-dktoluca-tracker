@@ -250,7 +250,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "Banana Bunch #5 (In second branching path, left)",
+                        "name": "Banana Bunch #5 (In second branching path on left)",
                         "access_rules": ["EASY, $CanSwim, $HasEnguarde", "NORMAL, $CanSwim, $HasEnguarde", "HARD, $CanSwim, $HasEnguarde"],
                         "visibility_rules": ["bananasanity"],
                         "item_count": 1
@@ -275,7 +275,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "Banana Bunch #6 (In third branching path, right)",
+                        "name": "Banana Bunch #6 (In third branching path on right)",
                         "access_rules": ["EASY, $CanSwim, $HasEnguarde", "NORMAL, $CanSwim, $HasEnguarde", "HARD, $CanSwim, $HasEnguarde"],
                         "visibility_rules": ["bananasanity"],
                         "item_count": 1
