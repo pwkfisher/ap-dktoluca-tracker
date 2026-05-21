@@ -1,1 +1,10 @@
-
+{
+	"versions": [
+		{
+			"package_version": "0.5.1",
+			"download_url": "https://github.com/pwkfisher/ap-dktoluca-tracker/releases/download/0.5.1/ap-dktoluca-tracker-0.5.1.zip",
+			"sha256": "d758e33f0c6c8b904ea387f1d19f181984a355a364a003355c297564de0bebcf",
+			"changelog": ["Reduced file size, assorted map fixes."]
+		}
+	]
+}
